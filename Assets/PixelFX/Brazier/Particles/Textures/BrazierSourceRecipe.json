@@ -1,0 +1,291 @@
+{
+  "source": "pixelfx/src/fx/fire/brazier.js + fire/_lib.js",
+  "sourceHashes": {
+    "brazier": "8f2fc814817b27506f72bbd714edbf08297e409e9253fcb08e886b6e3c0878b4",
+    "library": "ffa1d5e92b65c7bbac94baa63a0f1dff9feb249c084552ed149876bcf42191da"
+  },
+  "duration": 3,
+  "fps": 30,
+  "seed": 8,
+  "pixelsPerUnit": 32,
+  "coordinateConversion": "Unity x = JS x / 32, Unity y = -JS y / 32; time remains seconds; drag remains 1/s",
+  "palette": [
+    "#4a1712",
+    "#8a1f17",
+    "#c9281f",
+    "#f2561d",
+    "#ff8a2a",
+    "#ffc23d",
+    "#ffe26b",
+    "#fff3a6",
+    "#ffffff"
+  ],
+  "tongues": [
+    {
+      "x": -0.21875,
+      "y": 0.046875,
+      "height": 0.5625,
+      "halfWidth": 0.0625,
+      "back": true
+    },
+    {
+      "x": 0.225,
+      "y": 0.046875,
+      "height": 0.6125,
+      "halfWidth": 0.0625,
+      "back": true
+    },
+    {
+      "x": -0.09375,
+      "y": 0.078125,
+      "height": 0.9025,
+      "halfWidth": 0.06875,
+      "back": true
+    },
+    {
+      "x": 0.103125,
+      "y": 0.078125,
+      "height": 0.9225,
+      "halfWidth": 0.06875,
+      "back": true
+    },
+    {
+      "x": -0.359375,
+      "y": -0.015625,
+      "height": 0.2625,
+      "halfWidth": 0.046875,
+      "back": false
+    },
+    {
+      "x": 0.359375,
+      "y": -0.015625,
+      "height": 0.2825,
+      "halfWidth": 0.046875,
+      "back": false
+    },
+    {
+      "x": -0.259375,
+      "y": 0,
+      "height": 0.4025,
+      "halfWidth": 0.0625,
+      "back": false
+    },
+    {
+      "x": 0.265625,
+      "y": 0,
+      "height": 0.4425,
+      "halfWidth": 0.0625,
+      "back": false
+    },
+    {
+      "x": -0.146875,
+      "y": 0.015625,
+      "height": 0.6625,
+      "halfWidth": 0.0875,
+      "back": false
+    },
+    {
+      "x": 0.153125,
+      "y": 0.015625,
+      "height": 0.7025,
+      "halfWidth": 0.0875,
+      "back": false
+    },
+    {
+      "x": 0,
+      "y": 0.03125,
+      "height": 1.0625,
+      "halfWidth": 0.1125,
+      "back": false
+    }
+  ],
+  "sparks": {
+    "rate": 20,
+    "lifetime": [
+      0.7,
+      1.7
+    ],
+    "startX": [
+      -0.25,
+      0.25
+    ],
+    "startY": [
+      0.125,
+      0.5625
+    ],
+    "velocityX": [
+      -1.25,
+      1.25
+    ],
+    "velocityY": [
+      2.1875,
+      4.6875
+    ],
+    "accelerationX": 0,
+    "accelerationY": 0.6875,
+    "dragX": 1.9,
+    "dragY": 1.9,
+    "sourceMotion": "vx = side * range(10,40); same side also sets x. Lateral wobble amplitude 3..8 px, frequency 1.8..3.2 rad/s."
+  },
+  "embers": {
+    "rate": 10,
+    "lifetime": [
+      1.1,
+      2.4
+    ],
+    "startX": [
+      -0.21875,
+      0.21875
+    ],
+    "startY": [
+      0.3,
+      0.8
+    ],
+    "velocityX": [
+      -0.46875,
+      0.46875
+    ],
+    "velocityY": [
+      0.78125,
+      1.875
+    ],
+    "accelerationX": 0,
+    "accelerationY": 0.9375,
+    "dragX": 1.6,
+    "dragY": 1.6,
+    "sourceMotion": "Additional x sine drift 7 px at 2.3 rad/s, y sine drift 2 px at 3 rad/s; 15 percent cross-shaped embers."
+  },
+  "smoke": {
+    "rate": 14,
+    "lifetime": [
+      1.6,
+      2.4
+    ],
+    "startX": [
+      -0.15312499999999998,
+      0.15312499999999998
+    ],
+    "startY": [
+      0.8,
+      0.9875
+    ],
+    "velocityX": [
+      -0.0625,
+      0.0625
+    ],
+    "velocityY": [
+      0.3125,
+      0.53125
+    ],
+    "accelerationX": 0.09375,
+    "accelerationY": 0.625,
+    "dragX": 1.6,
+    "dragY": 1,
+    "radius": [
+      0.06562499999999999,
+      0.10312500000000001
+    ],
+    "sourceMotion": "Puff radius multiplier 0.65 + min(1,age*2.5)*0.45 + age*0.4; opacity envelope min(1,age*12)*min(1,remaining*2.4)*0.58."
+  },
+  "flamePuffs": {
+    "rate": 88,
+    "lifetime": [
+      0.14,
+      0.3
+    ],
+    "startX": [
+      -0.25,
+      0.25
+    ],
+    "startY": [
+      0.2,
+      1
+    ],
+    "spawnPositionIsNativeApproximation": true,
+    "velocityX": [
+      -0.125,
+      0.125
+    ],
+    "velocityY": [
+      0.46875,
+      0.9375
+    ],
+    "accelerationX": 0,
+    "accelerationY": 2.96875,
+    "dragX": 5,
+    "dragY": 3.2,
+    "smokeProbability": 0.45,
+    "sourceMotion": "Born at an individual animated tongue tip; 45 percent continue as smoke for 0.8..1.4 seconds."
+  },
+  "detachedLicks": {
+    "rate": 44,
+    "lifetime": [
+      0.26,
+      0.26
+    ],
+    "startX": [
+      -0.2,
+      0.2
+    ],
+    "startY": [
+      0.2,
+      1
+    ],
+    "velocityX": [
+      -0.09375,
+      0.09375
+    ],
+    "velocityY": [
+      0.375,
+      0.6875
+    ],
+    "accelerationX": 0,
+    "accelerationY": 0,
+    "dragX": 0,
+    "dragY": 0,
+    "spawnPositionIsNativeApproximation": true,
+    "sourceMotion": "Born at an animated tongue tip; shrinks over 0.26 seconds."
+  },
+  "smokeFromPuffs": {
+    "rate": 39.6,
+    "lifetime": [
+      0.8,
+      1.4
+    ],
+    "startX": [
+      -0.25,
+      0.25
+    ],
+    "startY": [
+      0.35,
+      1.15
+    ],
+    "spawnPositionIsNativeApproximation": true,
+    "velocityX": [
+      -0.02496533127735596,
+      0.02496533127735596
+    ],
+    "velocityY": [
+      0.607931614989541,
+      0.7470386890427757
+    ],
+    "accelerationX": 0.09375,
+    "accelerationY": 0.5,
+    "dragX": 1.6,
+    "dragY": 1.2,
+    "sourceMotion": "Original type conversion is approximated as an independent smoke layer emitter. Initial velocity evaluated at mean fire lifetime, inherited at 60 percent plus upward 6 px/s."
+  },
+  "glow": {
+    "radiusPx": 58,
+    "strength": 1.4,
+    "flameHeightPx": 32,
+    "implementation": "Soft additive particles; no Unity Light component or ParticleSystem Lights module"
+  },
+  "nativeMappingLimits": [
+    "Core flame tongues are procedural row-by-row shapes, not source particle emitters. Static tongue variants plus native size/noise/emission approximate their deformation.",
+    "Shuriken normalized velocity curves use the source analytic drag equation at mean lifetime. Random per-particle lifetimes and source sinusoidal lateral wobble are approximated.",
+    "Shape modules approximate the source correlations and moving tongue-tip spawn positions. Noise is not the same as source seeded loopNoise.",
+    "Source flame-to-smoke transitions are represented by an independent smoke emitter, not an exact shared-particle type conversion.",
+    "Static prop coals and glow shapes are visual adaptations; original pixel-buffer glow radius/strength are retained as reference, not mislabeled as Unity Light settings."
+  ]
+}

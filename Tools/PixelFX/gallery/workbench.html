@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VFXDemo · 特效制作工作台</title>
+<style>
+:root{color-scheme:dark;font:15px/1.65 system-ui,sans-serif;color:#e7edf3;background:#0d1218}
+*{box-sizing:border-box}body{margin:0}main{max-width:1120px;margin:auto;padding:42px 26px}
+header{margin-bottom:28px}.eyebrow{font-size:12px;letter-spacing:.15em;color:#71c9d7}h1{font-size:30px;line-height:1.3;margin:12px 0}h2{font-size:19px;margin:0 0 10px}p{color:#a8b6c3;margin:8px 0}
+.gate{padding:18px 22px;border:1px solid #42646e;border-radius:12px;background:#15252d;margin:24px 0}.gate strong{color:#b1edf2}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+article{background:#151d26;border:1px solid #293848;padding:22px;border-radius:12px}a{color:#95e5f0;text-decoration:none}a:hover{text-decoration:underline}.button{display:inline-block;border:1px solid #527581;border-radius:7px;padding:7px 13px;margin-top:14px}
+code{font:13px ui-monospace,monospace;color:#b8d5db}pre{padding:16px;background:#0b1015;border:1px solid #243241;border-radius:8px;overflow:auto}.baseline{margin-top:24px}img{display:block;width:100%;border-radius:8px;margin-top:14px}.note{font-size:12px;color:#879aaa}footer{margin-top:28px;color:#7e91a3;font-size:12px}@media(max-width:720px){.grid{grid-template-columns:1fr}main{padding:26px 18px}h1{font-size:24px}}
+</style>
+<main>
+<header><span class="eyebrow">VFXDEMO / AUTHORING WORKBENCH</span><h1>从要求到效果，再由你决定导入 Unity</h1><p>在同一个工程内制作、预览和迭代。pixelfx 负责创作，Unity 负责原生粒子组装与展示。</p></header>
+<section class="gate"><strong>创作 → 预览迭代 → 作者验收 → 等待明确导入指令</strong><p>你说“效果通过”不会触发 Unity 导入。只有明确下达指令，AI 才开始：分析原效果 → 分层导出 → 原生粒子组装 → Unity 预览验证。</p></section>
+<section class="grid">
+<article><h2>pixelfx 创作画廊</h2><p>搜索已有特效、动态预览和检查细节。向 Codex 描述新效果，或基于现有效果继续修改。</p><p><code>node Tools/vfx.mjs list fire</code><br><code>node Tools/vfx.mjs render fire/brazier --no-actor</code></p><a class="button" href="/gallery/">打开全部特效</a> <a class="button" href="/gallery/#fire">查看火焰系列</a></article>
+<article><h2>高清手绘试作</h2><p>已保留青蓝挥砍的高清 Canvas 创作与独立预览，可暂停、慢放、逐帧拖动及切换背景。</p><p class="note">这是独立试作，不是所有像素效果的一键高清转换，也未自动导入 Unity。</p><a class="button" href="/gallery/hd-cleave.html">预览高清挥砍</a></article>
+</section>
+<section class="baseline"><h2>已验收案例 · Brazier 原生粒子</h2><p>左：普通火盆 + 特效；右：用于 3D 火盆的独立特效。火焰、火星、烟雾、光晕分层，效果预制体不挂运行时脚本。</p><img src="/output/unity-preview/brazier-inspector.gif" alt="已验收的 Unity Brazier 原生粒子动画，左侧带火盆，右侧独立火焰"><p class="note">2026-11-05 的保存预览，不是当前 Unity 窗口直播。轨迹与线性空间光晕是近似还原，53 个系统尚未做移动端性能优化。</p></section>
+<section class="baseline"><h2>在 Codex 中开始</h2><pre><code>使用 $vfxdemo-pixelfx 制作一个蓝白色冰霜爆发，独立特效，不带人物，先预览。
+
+验收后由你另行下令：
+将刚才通过的效果导入 Unity，使用原生 Particle System，预制体不挂脚本。</code></pre><p><a href="/records/fire/brazier/contact.png">Brazier 源效果逐帧预览</a> · <a href="/VENDOR.md">源码与许可说明</a></p></section>
+<footer>工作副本：VFXDemo / Tools / PixelFX · 本机预览，不自动调用模型、不自动导入 Unity · 完整使用说明见工程根目录 VFX_WORKBENCH.md</footer>
+</main>
+</html>

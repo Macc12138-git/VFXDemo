@@ -1,0 +1,21 @@
+{
+  "flame": {
+    "columns": 1,
+    "rows": 8,
+    "frameSize": [
+      32,
+      48
+    ],
+    "animation": false,
+    "selection": "random fixed row at birth"
+  },
+  "simulation": "Unity Shuriken: independent particles, not whole-effect flipbook",
+  "layers": [
+    "Flames",
+    "Sparks",
+    "Smoke",
+    "Glow"
+  ],
+  "lightComponents": 0,
+  "source": "pixelfx fire/brazier + fire/_lib.js; Patch / Hugo Duprez; MIT"
+}

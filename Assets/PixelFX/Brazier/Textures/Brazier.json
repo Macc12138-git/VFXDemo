@@ -1,0 +1,29 @@
+{
+  "source": "pixelfx/fire/brazier",
+  "frameSize": [
+    112,
+    148
+  ],
+  "pivotTopLeft": [
+    56,
+    136
+  ],
+  "pixelsPerUnit": 32,
+  "fps": 30,
+  "duration": 3,
+  "frames": 90,
+  "cols": 10,
+  "rows": 9,
+  "gutter": 2,
+  "cellSize": [
+    116,
+    152
+  ],
+  "atlasSize": [
+    1160,
+    1368
+  ],
+  "rowOrder": "top-to-bottom",
+  "color": "straight alpha, sRGB",
+  "light": "additive RGB, linear import"
+}

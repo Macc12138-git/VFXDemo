@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>第一段 · 高清青蓝挥砍</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#0b1016;color:#e5edf3;font:14px system-ui,sans-serif}
+main{max-width:1120px;margin:auto;padding:22px}header{display:flex;justify-content:space-between;align-items:center;gap:16px}
+h1{font-size:18px;font-weight:550;margin:0 0 7px}p{margin:0;color:#92a3b3;font-size:12px}a{color:#85e5f5;text-decoration:none}
+.stage{position:relative;margin-top:20px;background:#101820;border:1px solid #23313e;border-radius:14px;overflow:hidden}
+canvas{display:block;width:100%;max-height:72vh;aspect-ratio:1;object-fit:contain}
+.stage.checker{background-color:#28313b;background-image:linear-gradient(45deg,#323d48 25%,transparent 25%),linear-gradient(-45deg,#323d48 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#323d48 75%),linear-gradient(-45deg,transparent 75%,#323d48 75%);background-size:32px 32px;background-position:0 0,0 16px,16px -16px,-16px 0}
+.stage.light{background:#c8cfd3}.badge{position:absolute;top:14px;left:16px;color:#adc1cf;font-size:11px;letter-spacing:.08em;pointer-events:none}
+.controls{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:16px}button,select{border:1px solid #30414f;background:#16222c;color:#dce9f1;border-radius:7px;padding:8px 12px;cursor:pointer;font:inherit}
+button.active{border-color:#6edff0;color:#9ff2ff}label{color:#9fb2bf;font-size:12px}.timeline{display:flex;align-items:center;gap:12px;margin-top:14px}input[type=range]{flex:1;accent-color:#5fdfef}output{font-size:12px;font-variant-numeric:tabular-nums;color:#98afbe;min-width:105px}
+.footer{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:16px;font-size:12px;color:#879ba9}
+@media(max-width:600px){main{padding:16px}header{align-items:flex-start}canvas{max-height:60vh}.controls{gap:6px}button,select{padding:7px 9px}}
+</style>
+<main>
+<header><div><h1>第一段 · 青蓝挥砍</h1><p>高清手绘风 / 1024 × 1024 / 60 fps / 0.4 s / 独立透明特效</p></div><a href="/gallery/">返回像素画廊 ↗</a></header>
+<div class="stage" id="stage"><span class="badge">STANDALONE VFX · NO CHARACTER</span><canvas id="effect" width="1024" height="1024" aria-label="青蓝剑光挥砍动态预览"></canvas></div>
+<div class="controls">
+<button id="play">暂停</button><button id="again">重播</button>
+<button class="speed" data-speed="0.25">0.25×</button><button class="speed" data-speed="0.5">0.5×</button><button class="speed active" data-speed="1">1×</button>
+<label for="bg">背景</label><select id="bg"><option value="dark">深色</option><option value="checker">透明棋盘</option><option value="light">浅色</option></select>
+<label><input type="checkbox" id="repeat" checked> 循环预览</label>
+</div>
+<div class="timeline"><input id="time" type="range" min="0" max="0.4" step="0.001" value="0" aria-label="逐帧时间"><output id="clock">0.000 / 0.400 s</output></div>
+<div class="footer"><span>无人物 · 无武器 · 无场景。可暂停拖动时间轴逐帧检查。</span><span><a href="/output/hd/cyan-cleave/peak.png" target="_blank">透明峰值 PNG</a> · <a href="/output/hd/cyan-cleave/contact.png" target="_blank">逐帧预览</a> · <a href="/output/hd/cyan-cleave/cleave.json" target="_blank">帧数据</a></span></div>
+</main>
+<script type="module">
+import { draw, meta } from '../src/hd/cyan-cleave.js';
+const $=s=>document.querySelector(s), ctx=$('#effect').getContext('2d');
+let playing=true, speed=1, elapsed=0, previous=performance.now();
+function show(t){draw(ctx,t);$('#time').value=t;$('#clock').value=`${t.toFixed(3)} / ${meta.duration.toFixed(3)} s`;}
+function setPlaying(v){playing=v;$('#play').textContent=v?'暂停':'播放';}
+$('#play').onclick=()=>setPlaying(!playing);
+$('#again').onclick=()=>{elapsed=0;setPlaying(true);};
+document.querySelectorAll('.speed').forEach(b=>b.onclick=()=>{speed=+b.dataset.speed;document.querySelectorAll('.speed').forEach(x=>x.classList.toggle('active',x===b));});
+$('#bg').onchange=e=>$('#stage').className=`stage ${e.target.value}`;
+$('#time').oninput=e=>{elapsed=+e.target.value;setPlaying(false);show(elapsed);};
+function tick(now){const dt=Math.min((now-previous)/1000,0.05);previous=now;if(playing){elapsed+=dt*speed;const total=meta.duration+0.55;if(elapsed>total){if($('#repeat').checked)elapsed%=total;else{elapsed=meta.duration;setPlaying(false);}}show(Math.min(meta.duration,elapsed));}requestAnimationFrame(tick);}
+show(0);requestAnimationFrame(tick);
+</script>
+</html>

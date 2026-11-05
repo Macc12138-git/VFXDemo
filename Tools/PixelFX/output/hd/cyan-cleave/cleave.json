@@ -1,0 +1,344 @@
+{
+  "id": "hd/cyan-cleave",
+  "name": "青蓝挥砍 · 第一段",
+  "size": [
+    1024,
+    1024
+  ],
+  "pivot": [
+    512,
+    512
+  ],
+  "fps": 60,
+  "duration": 0.4,
+  "loop": false,
+  "actor": false,
+  "description": "白热外刃、青蓝弯月、内侧分叉笔触与少量碎光；无人物、无武器、无场景。",
+  "pivotNormalized": [
+    0.5,
+    0.5
+  ],
+  "format": "RGBA8 straight alpha",
+  "filtering": "bilinear",
+  "frameCount": 25,
+  "textures": [
+    {
+      "image": "cleave-atlas-1.png",
+      "width": 4096,
+      "height": 4096
+    },
+    {
+      "image": "cleave-atlas-2.png",
+      "width": 4096,
+      "height": 3072
+    }
+  ],
+  "frames": [
+    {
+      "filename": "frames/cleave-000.png",
+      "page": 0,
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-001.png",
+      "page": 0,
+      "frame": {
+        "x": 1024,
+        "y": 0,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.016666666666666666,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-002.png",
+      "page": 0,
+      "frame": {
+        "x": 2048,
+        "y": 0,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.03333333333333333,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-003.png",
+      "page": 0,
+      "frame": {
+        "x": 3072,
+        "y": 0,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.05,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-004.png",
+      "page": 0,
+      "frame": {
+        "x": 0,
+        "y": 1024,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.06666666666666667,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-005.png",
+      "page": 0,
+      "frame": {
+        "x": 1024,
+        "y": 1024,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.08333333333333333,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-006.png",
+      "page": 0,
+      "frame": {
+        "x": 2048,
+        "y": 1024,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.1,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-007.png",
+      "page": 0,
+      "frame": {
+        "x": 3072,
+        "y": 1024,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.11666666666666667,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-008.png",
+      "page": 0,
+      "frame": {
+        "x": 0,
+        "y": 2048,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.13333333333333333,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-009.png",
+      "page": 0,
+      "frame": {
+        "x": 1024,
+        "y": 2048,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.15,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-010.png",
+      "page": 0,
+      "frame": {
+        "x": 2048,
+        "y": 2048,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.16666666666666666,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-011.png",
+      "page": 0,
+      "frame": {
+        "x": 3072,
+        "y": 2048,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.18333333333333332,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-012.png",
+      "page": 0,
+      "frame": {
+        "x": 0,
+        "y": 3072,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.2,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-013.png",
+      "page": 0,
+      "frame": {
+        "x": 1024,
+        "y": 3072,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.21666666666666667,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-014.png",
+      "page": 0,
+      "frame": {
+        "x": 2048,
+        "y": 3072,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.23333333333333334,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-015.png",
+      "page": 0,
+      "frame": {
+        "x": 3072,
+        "y": 3072,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.25,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-016.png",
+      "page": 1,
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.26666666666666666,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-017.png",
+      "page": 1,
+      "frame": {
+        "x": 1024,
+        "y": 0,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.2833333333333333,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-018.png",
+      "page": 1,
+      "frame": {
+        "x": 2048,
+        "y": 0,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.3,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-019.png",
+      "page": 1,
+      "frame": {
+        "x": 3072,
+        "y": 0,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.31666666666666665,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-020.png",
+      "page": 1,
+      "frame": {
+        "x": 0,
+        "y": 1024,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.3333333333333333,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-021.png",
+      "page": 1,
+      "frame": {
+        "x": 1024,
+        "y": 1024,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.35,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-022.png",
+      "page": 1,
+      "frame": {
+        "x": 2048,
+        "y": 1024,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.36666666666666664,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-023.png",
+      "page": 1,
+      "frame": {
+        "x": 3072,
+        "y": 1024,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.38333333333333336,
+      "duration": 16.666666666666668
+    },
+    {
+      "filename": "frames/cleave-024.png",
+      "page": 1,
+      "frame": {
+        "x": 0,
+        "y": 2048,
+        "w": 1024,
+        "h": 1024
+      },
+      "time": 0.4,
+      "duration": 16.666666666666668
+    }
+  ],
+  "notes": [
+    "Standalone VFX only; no actor, weapon, environment, or background.",
+    "Intended as a transparent flipbook on an oriented quad in a 3D scene, not a volumetric 3D asset.",
+    "Time is in seconds. t=0 and t=0.4 are empty. Last empty frame terminates the one-shot.",
+    "Use the same normalized center pivot for all frames. Atlas rows are top-to-bottom."
+  ]
+}

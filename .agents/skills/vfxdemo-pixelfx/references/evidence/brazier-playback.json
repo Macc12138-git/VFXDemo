@@ -1,0 +1,13 @@
+{
+    "passed": true,
+    "isPlaying": true,
+    "motionObserved": true,
+    "emissionZeroStops": true,
+    "emissionRestores": true,
+    "deathSmokeParticles": 49,
+    "coreParticles": 11,
+    "embersBefore": 16,
+    "embersOff": 0,
+    "embersRestored": 18,
+    "scene": "Assets/PixelFX/Brazier/InspectorParticles/Scenes/BrazierInspectorShowcase.unity"
+}

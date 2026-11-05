@@ -1,0 +1,4 @@
+node_modules/
+dist/
+# Keep rendered effect previews and sprite-sheet exports in this project.
+.DS_Store
