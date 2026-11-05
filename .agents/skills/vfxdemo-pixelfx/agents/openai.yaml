@@ -1,4 +1,4 @@
 interface:
-  display_name: "VFXDemo 特效制作与 Unity 迁移"
-  short_description: "按提示制作并预览 pixelfx 特效，作者明确授权后迁移为 Unity 原生粒子"
-  default_prompt: "使用 $vfxdemo-pixelfx 按我的需求制作和预览特效，验收后等待我明确下令再导入 Unity。"
+  display_name: "VFXDemo 高清手绘特效工作流"
+  short_description: "基于 pixelfx 制作高清手绘特效，授权后以 Shader 与原生粒子导入 Unity 并验证性能"
+  default_prompt: "使用 $vfxdemo-pixelfx 制作高清手绘特效并迭代预览；收到我明确导入指令后，完成 Unity Shader、材质与原生组件组装，以及播放、批次、合批和性能验证。"

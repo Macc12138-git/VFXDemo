@@ -1,0 +1,65 @@
+{
+  "id": "hd/noise-brazier",
+  "name": "Brazier · 噪声火焰与烟火",
+  "version": 4,
+  "size": [
+    1024,
+    1280
+  ],
+  "pivot": [
+    512,
+    855
+  ],
+  "duration": 8,
+  "fps": 30,
+  "loop": true,
+  "actor": false,
+  "options": {
+    "seed": 8,
+    "flow": 1,
+    "scale": 1.35,
+    "stretch": 2.8,
+    "distortion": 0.9,
+    "dissolve": 0.22,
+    "softness": 0.055,
+    "core": 0.55,
+    "glow": 0.5,
+    "steps": 0.15,
+    "prop": true,
+    "layer": "combined",
+    "sparkDensity": 1,
+    "smokeDensity": 1,
+    "smokeOpacity": 0.18,
+    "wind": 0.12
+  },
+  "source": "Tools/PixelFX/src/hd/noise-brazier.js",
+  "shader": "Tools/PixelFX/src/hd/noise-brazier.frag",
+  "sourceSha256": "801bc9cab66129f18942b4ceb0a461d7232c741a36a1b9ad9f1681ffd7c09f8e",
+  "shaderSha256": "a36f84f4acd50234ffecd5dab89eaf3528172920e33f74bc81024808b168127f",
+  "noise": "Tools/PixelFX/src/hd/noise-brazier-art/FlowNoise.png",
+  "noiseSha256": "325b9dffbe60f65fbade5c83c4239a5e3bf6a09da0113e53a7f3508810b6e50d",
+  "additionalStaticTextures": [
+    {
+      "file": "SmokePuff.png",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "file": "SparkStreak.png",
+      "size": [
+        64,
+        64
+      ]
+    }
+  ],
+  "approvedFlameUnchanged": true,
+  "secondarySource": "Tools/PixelFX/src/hd/noise-brazier-secondary.js",
+  "authorizedStage": "authoring-and-preview-only",
+  "unityModified": false,
+  "textureFrames": 1,
+  "atlas": false,
+  "previewFramesOnly": true,
+  "method": "User static grayscale image sampled at multiple scroll speeds; vertical UV stretch, domain warp, tapered plume mask, threshold erosion, temperature color ramp. Browser executes WebGL fragment shader. Offline CPU reference is for QA media, not runtime flipbook."
+}

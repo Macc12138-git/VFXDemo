@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Brazier · Unity 实时手绘火焰</title>
+<style>
+:root{color-scheme:dark;font:14px/1.75 system-ui,sans-serif;color:#e9dfd2;background:#0e1116}*{box-sizing:border-box}body{margin:0}main{max-width:1100px;margin:auto;padding:30px}a{color:#e7b77e;text-decoration:none}header{display:flex;justify-content:space-between;align-items:center;gap:20px}h1{font-size:24px;font-weight:550;margin:6px 0}h2{font-size:17px;font-weight:550;margin:26px 0 10px}p{color:#a6a0a1}small{color:#c79462;letter-spacing:.12em}.grid{display:grid;grid-template-columns:1fr 1fr;gap:25px;margin:25px 0}img{display:block;width:100%;border:1px solid #2b3039;border-radius:10px}.live{max-width:512px}.card{padding:22px;background:#151820;border:1px solid #2b3039;border-radius:10px}code{font:12px ui-monospace,monospace;color:#d5b58d;overflow-wrap:anywhere}.note{font-size:12px;color:#99949a}@media(max-width:700px){main{padding:18px}.grid{grid-template-columns:1fr}}
+</style>
+<main>
+<header><div><small>UNITY / REALTIME / NO FLIPBOOK</small><h1>高清手绘 Brazier · Unity 实时版</h1></div><a href="/gallery/hd-brazier.html">返回原稿 ↗</a></header>
+<div class="grid"><img class="live" src="/output/unity-preview/brazier-handpainted-realtime/BrazierHandPaintedRealtime-Live.gif" alt="Unity 真实 Play Mode 录制：手绘火舌实时弯曲、扭曲溶解，火星持续上升"><section class="card"><h2>静态手绘贴图 + 实时 Shader + 原生粒子</h2><p>11 根独立火舌实时改变轮廓，再做 UV 扭曲、噪声溶解与干笔边缘。火星、脱落火舌、薄烟、呼吸光晕由原生 Particle System 驱动。</p><p>19 张静态 PNG，无图集；所有 Texture Sheet Animation 关闭。预制体无运行时脚本、Animator、Timeline 或视频。</p><p>真实播放通过：11 个核心粒子、Custom Data 时钟推进、火星运动；原生 Emission 关闭并耗尽后 14 → 0，恢复后 11。</p><p><code>Assets/PixelFX/Brazier/HandPaintedRealtime/</code></p><p class="note">左侧 GIF 是 Unity Play Mode 的观察录制，只作验收媒体，未放入 Assets，不参与效果播放。不是 Unity 窗口直播。</p><a href="/output/unity-preview/brazier-handpainted-realtime/Structure.json">结构检查报告</a> · <a href="/output/unity-preview/brazier-handpainted-realtime/LivePlayback.json">真实播放报告</a></section></div>
+<h2>同尺度原稿对比</h2><img src="/output/unity-preview/brazier-handpainted-realtime/Comparison.png" alt="左侧 pixelfx 手绘原稿，右侧 Unity 实时重建，同尺度对比"><p class="note">外轮廓解析形变来自原稿；内层颜料随实时映射，原生随机轨迹、静态煤炭与 Linear 混合不逐像素相同。</p>
+<h2>分层与斜视角检查</h2><img src="/output/unity-preview/brazier-handpainted-realtime/LayersAndOblique.png" alt="Unity 的核心火舌、次级粒子、薄烟、光晕、火盆和 35 度斜视角"><p class="note">这是 2D 手绘 Billboard，不是体积火焰；斜视角会改变层间重叠。Unity 6000.3.19f1 / URP 17.3.0 / Linear，未做真机性能保证。旧版本保留。</p>
+</main>
+</html>

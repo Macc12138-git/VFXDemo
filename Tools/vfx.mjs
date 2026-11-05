@@ -10,6 +10,8 @@ const library = join(project, 'Tools', 'PixelFX');
 const [command = 'help', ...args] = process.argv.slice(2);
 const commands = { list:'list.mjs', new:'new.mjs', render:'render.mjs', check:'check.mjs',
   index:'index.mjs', act:'act.mjs', serve:'serve.mjs', 'render-hd':'render-hd.mjs', 'check-hd':'check-hd.mjs',
+  'render-hd-brazier':'render-hd-brazier.mjs', 'check-hd-brazier':'check-hd-brazier.mjs',
+  'render-mortar-assembly':'render-mortar-assembly.mjs', 'check-mortar-assembly':'check-mortar-assembly.mjs',
   'export-brazier':'export-brazier-inspector.mjs' };
 
 function outsideAssets(path) {
@@ -32,10 +34,14 @@ node Tools/vfx.mjs check fire/my-effect
 node Tools/vfx.mjs serve 8086
 node Tools/vfx.mjs render-hd [--canvas-module /path/to/module]
 node Tools/vfx.mjs check-hd [--canvas-module /path/to/module]
+node Tools/vfx.mjs render-hd-brazier [--canvas-module /path/to/module] [--frames true]
+node Tools/vfx.mjs check-hd-brazier [--canvas-module /path/to/module]
+node Tools/vfx.mjs render-mortar-assembly [--canvas-module /path/to/module] [--frames true]
+node Tools/vfx.mjs check-mortar-assembly [--canvas-module /path/to/module]
 node Tools/vfx.mjs export-brazier [--out /path/to/staging]
 
 serve 默认端口 8086，入口 /gallery/workbench.html。
-export-brazier 仅为已验证案例的分层中间导出，默认 VFXWork/Exports/brazier-inspector。
+export-brazier 仅为已验证案例的分层中间导出，默认 VFXWork/Exports/Brazier/InspectorParticles。
 它不是任意效果的一键转换器，只在作者明确要求导出/迁移时使用。
 像素预览默认 Tools/PixelFX/records；高清预览 Tools/PixelFX/output/hd。
 新增效果或改名后运行 index 更新画廊目录，再刷新浏览器。
@@ -56,7 +62,7 @@ export-brazier 仅为已验证案例的分层中间导出，默认 VFXWork/Expor
   const forwarded = [...args];
   if (command === 'serve' && !forwarded.length) forwarded.push('8086');
   if (command === 'export-brazier' && !forwarded.includes('--out'))
-    forwarded.push('--out',join(project,'VFXWork','Exports','brazier-inspector'));
+    forwarded.push('--out',join(project,'VFXWork','Exports','Brazier','InspectorParticles'));
   const outputIndex = forwarded.indexOf('--out');
   if (outputIndex >= 0) {
     if (!forwarded[outputIndex+1]) throw new Error('--out 缺少输出目录。');

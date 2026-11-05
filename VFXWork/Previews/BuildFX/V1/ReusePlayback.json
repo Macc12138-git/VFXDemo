@@ -1,0 +1,72 @@
+{
+  "success": true,
+  "error": null,
+  "actualPlayMode": true,
+  "observations": [
+    {
+      "operation": "Initial clear",
+      "frame": 24161,
+      "time": 0.278937846,
+      "particles": 0,
+      "position": "(-7.00, -1.30, 0.00)",
+      "scale": "(1.00, 1.00, 1.00)"
+    },
+    {
+      "operation": "Play after cleared Stop",
+      "frame": 24211,
+      "time": 0.444130063,
+      "particles": 15,
+      "position": "(-7.00, -1.30, 0.00)",
+      "scale": "(1.00, 1.00, 1.00)"
+    },
+    {
+      "operation": "Pause held across advancing game frames",
+      "frame": 24329,
+      "time": 0.444130063,
+      "particles": 15,
+      "position": "(-7.00, -1.30, 0.00)",
+      "scale": "(1.00, 1.00, 1.00)"
+    },
+    {
+      "operation": "Resume",
+      "frame": 24425,
+      "time": 0.696269035,
+      "particles": 26,
+      "position": "(-7.00, -1.30, 0.00)",
+      "scale": "(1.00, 1.00, 1.00)"
+    },
+    {
+      "operation": "Clear Stop",
+      "frame": 24425,
+      "time": 0.696269035,
+      "particles": 0,
+      "position": "(-7.00, -1.30, 0.00)",
+      "scale": "(1.00, 1.00, 1.00)"
+    },
+    {
+      "operation": "Disable / enable PlayOnAwake",
+      "frame": 24515,
+      "time": 0.318311781,
+      "particles": 24,
+      "position": "(-7.00, -1.30, 0.00)",
+      "scale": "(1.00, 1.00, 1.00)"
+    },
+    {
+      "operation": "Offscreen at half scale; native clock progresses",
+      "frame": 24578,
+      "time": 0.671952248,
+      "particles": 29,
+      "position": "(993.00, -1.30, 0.00)",
+      "scale": "(0.50, 0.50, 0.50)"
+    },
+    {
+      "operation": "Return and restart",
+      "frame": 24598,
+      "time": 0.357629448,
+      "particles": 21,
+      "position": "(-7.00, -1.30, 0.00)",
+      "scale": "(1.00, 1.00, 1.00)"
+    }
+  ],
+  "restored": true
+}

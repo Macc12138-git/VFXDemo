@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Glow
+  m_Shader: {fileID: 4800000, guid: ebac8947dfaa54ba494193735492190f, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2995
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Dissolve:
+        m_Texture: {fileID: 2800000, guid: f034b080c57d94ff592ba27196b6d2f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortTex:
+        m_Texture: {fileID: 2800000, guid: 6b4ea985108c34d7483e80d46ac99155, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f53be1e88f7a441dc86a93a0d02696dd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BaseDissolve: 0.14
+    - _DissolveAmount: 0
+    - _DistortStrength: 33
+    - _DstBlend: 1
+    - _EnableDissolve: 0
+    - _EnableDistortion: 0
+    - _HandDrawnEdge: 0
+    - _InkRoughness: 0.65
+    - _InkWidth: 1.9
+    - _Intensity: 1
+    - _LoopDuration: 4
+    - _MorphEnabled: 0
+    - _PigmentGrain: 0
+    - _Soft_Dissolve: 0.28
+    - _TipDissolve: 0.4
+    - _UseParticleData: 0
+    m_Colors:
+    - _InkColor: {r: 0.35640025, g: 0.034339808, b: 0.009721218, a: 0.75}
+    - _SourceOrigin: {r: 512, g: 860, b: 0, a: 0}
+    - _TextureRect: {r: 256, g: 512, b: 128, a: 480}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TongueShape: {r: 445, g: 74, b: 26, a: 11.04}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

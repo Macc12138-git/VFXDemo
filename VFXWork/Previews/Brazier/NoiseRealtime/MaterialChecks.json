@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "materialDissolveOneClears": true,
+  "noiseDataLayerVisible": true,
+  "dissolvedPixels": 0,
+  "noisePixels": 167076,
+  "scope": "Unity Edit Mode camera captures from cloned QA material; actual Play Mode results recorded separately in LivePlayback.json. Source/Unity random secondary particles are not pixel-identical."
+}

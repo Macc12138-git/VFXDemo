@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Brazier · 高清手绘火焰</title>
+<style>
+:root{color-scheme:dark;font:14px/1.6 system-ui,sans-serif;color:#e9dfd2;background:#0e1116}*{box-sizing:border-box}body{margin:0}main{max-width:1180px;margin:auto;padding:28px}
+header{display:flex;align-items:center;justify-content:space-between;gap:20px}.eyebrow{font-size:11px;letter-spacing:.19em;color:#c79462}h1{font-size:24px;font-weight:550;margin:6px 0}p{color:#9c9999;font-size:12px;margin:0}a{color:#e7b77e;text-decoration:none}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:22px;margin-top:22px}.stage{position:relative;border:1px solid #2b3039;background:#151820;border-radius:12px;overflow:hidden;min-height:520px;display:flex;align-items:center;justify-content:center}.stage.light{background:#d0cbc5}.stage.checker{background-color:#616064;background-image:conic-gradient(#777477 25%,transparent 0 50%,#777477 0 75%,transparent 0);background-size:32px 32px}
+canvas{display:block;max-height:76vh;max-width:100%;width:auto;height:auto;aspect-ratio:4/5}.badge{position:absolute;top:16px;left:18px;font-size:10px;letter-spacing:.12em;color:#928982;pointer-events:none}.stage.light .badge{color:#625954}aside{padding:16px 0}h2{font-size:13px;font-weight:550;letter-spacing:.05em;margin:0 0 15px}.group{border-top:1px solid #2b3039;padding-top:18px;margin-top:20px}label{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:#b8aaa0;margin-bottom:12px}input[type=range]{width:100%;accent-color:#eeaa62;margin:0 0 18px}input[type=checkbox]{accent-color:#eeaa62}button,select{border:1px solid #3c3a3b;background:#1a1d24;color:#dfd2c5;padding:8px 11px;border-radius:6px;font:inherit;cursor:pointer}button.active{border-color:#d89b5b;color:#ffc77f}.row{display:flex;gap:7px;flex-wrap:wrap}.colors{display:flex;gap:5px;margin-top:15px}.colors span{height:24px;flex:1;border-radius:3px}output{color:#d7b38c;font-variant-numeric:tabular-nums}.note{font-size:11px;line-height:1.8;color:#8e8c91}.timeline{display:flex;align-items:center;gap:16px;margin-top:16px}.timeline input{margin:0;flex:1}.timeline output{font-size:12px;min-width:105px}footer{margin-top:17px;display:flex;gap:18px;justify-content:space-between;color:#8f8c90;font-size:11px}@media(max-width:760px){main{padding:18px}.layout{grid-template-columns:1fr}.stage{min-height:0}canvas{max-height:65vh}aside{display:grid;grid-template-columns:1fr 1fr;gap:18px;padding:0}.group{margin:0;padding:0;border:0}footer{flex-direction:column;gap:6px}h1{font-size:20px}}
+</style>
+<main>
+<header><div><div class="eyebrow">VFX STUDY  /  BRAZIER 01</div><h1>高清手绘 · 燃烧火盆</h1><p>橙红外焰 · 金黄笔触 · 扭曲溶解火舌 · 1024 × 1280 · 4 秒循环</p></div><a href="/gallery/workbench.html">返回工作台 ↗</a></header>
+<div class="layout"><div class="stage" id="stage"><span class="badge">PIXELFX AUTHORING PREVIEW · 原稿制作侧预览</span><canvas id="effect" width="1024" height="1280" aria-label="高清手绘 Brazier 动态预览"></canvas></div>
+<aside><section><h2>播放 / 检查</h2><div class="row"><button id="play">暂停</button><button id="reset">重置</button><select id="speed" aria-label="播放速度"><option value="0.25">0.25×</option><option value="0.5">0.5×</option><option value="1" selected>1×</option></select></div><div class="group"><label>背景<select id="bg" aria-label="背景"><option value="dark">深色</option><option value="light">浅色</option><option value="checker">透明棋盘</option></select></label><label>显示火盆<input id="prop" type="checkbox" checked></label><label>分层<select id="layer" aria-label="分层"><option value="combined">完整效果</option><option value="color">颜色层</option><option value="glow">光晕层</option></select></label></div></section>
+<section class="group"><h2>火舌 / 效果控制</h2><label for="distortion">扭曲幅度<output id="distortionValue">1.00</output></label><input id="distortion" type="range" min="0" max="2" step="0.05" value="1"><label for="dissolve">额外溶解进度<output id="dissolveValue">0.00</output></label><input id="dissolve" type="range" min="0" max="1" step="0.01" value="0"><label for="roughness">边缘干笔感<output id="roughnessValue">0.65</output></label><input id="roughness" type="range" min="0" max="1" step="0.05" value="0.65"><label for="glow">光晕强度<output id="glowValue">0.65</output></label><input id="glow" type="range" min="0" max="1.5" step="0.05" value="0.65"><div class="colors"><span style="background:#b43725"></span><span style="background:#ff7428"></span><span style="background:#ffb83e"></span><span style="background:#ffe276"></span><span style="background:#fff1b0"></span></div><p class="note" style="margin-top:16px">制作侧模拟 UV 扭曲、噪声溶解和粗糙边缘，未直接运行 Unity Shader。火根约束、方向性侵蚀为本版创作设计，后续接入需另行验证。</p></section></aside></div>
+<div class="timeline"><input id="time" type="range" min="0" max="4" step="0.001" value="0" aria-label="预览时间轴"><output id="clock">0.000 / 4.000 s</output></div>
+<footer><span>保留原版 Brazier · seed 8 · 无人物 · <a href="/gallery/hd-brazier-unity.html">已授权导入的 Unity 实时版 ↗</a></span><span><a href="/output/hd/brazier-handpainted/preview.png" target="_blank">透明 PNG</a> · <a href="/output/hd/brazier-handpainted/contact.png" target="_blank">多时刻对照</a> · <a href="/src/hd/brazier-handpainted.js" target="_blank">创作源码</a></span></footer>
+</main>
+<script type="module">
+import {draw,meta} from '../src/hd/brazier-handpainted.js';
+const $=s=>document.querySelector(s),ctx=$('#effect').getContext('2d'),options={...meta.options};
+let playing=true,elapsed=0,previous=performance.now(),speed=1;
+function show(){draw(ctx,elapsed,options);$('#time').value=elapsed;$('#clock').value=`${elapsed.toFixed(3)} / 4.000 s`;}
+function play(v){playing=v;$('#play').textContent=v?'暂停':'播放';}
+$('#play').onclick=()=>play(!playing);$('#reset').onclick=()=>{elapsed=0;show();play(true);};
+$('#speed').onchange=e=>{speed=+e.target.value;};$('#bg').onchange=e=>{$('#stage').className=`stage ${e.target.value}`;};
+$('#time').oninput=e=>{elapsed=+e.target.value;play(false);show();};
+$('#prop').onchange=e=>{options.prop=e.target.checked;show();};$('#layer').onchange=e=>{options.layer=e.target.value;show();};
+for(const key of ['distortion','dissolve','roughness','glow'])$('#'+key).oninput=e=>{options[key]=+e.target.value;$('#'+key+'Value').value=options[key].toFixed(2);show();};
+function tick(now){const dt=Math.min((now-previous)/1000,0.1);previous=now;if(playing){elapsed=(elapsed+dt*speed)%meta.duration;show();}requestAnimationFrame(tick);}
+show();requestAnimationFrame(tick);
+</script>
+</html>

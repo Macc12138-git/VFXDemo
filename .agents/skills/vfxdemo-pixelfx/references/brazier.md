@@ -1,6 +1,12 @@
 # 已验收案例：Brazier InspectorParticles
 
 作者于本次对话认可的原生版本，用于说明方法，不把其参数强加给其他特效。
+这是早期像素/单粒子图集路线；当前高清特效默认采用非序列帧，不因本案例存在而获准使用图集动画。
+后续高清手绘与噪声火焰的静态贴图/Shader 路线见 [brazier-hd.md](brazier-hd.md)。
+
+当前使用唯一工作场景 `Assets/Scenes/VFXWorkbench.unity`；各版历史场景及 Editor 组装/QA
+脚本已按作者指令清除。以下保留历史映射与验证依据，不再提供 Build 菜单。
+使用与调参见 `Assets/PixelFX/Brazier/InspectorParticles/Docs/README.md`。
 
 ## 工程内的真源文件
 
@@ -10,13 +16,13 @@
   其中事件表只作为编辑器采样分析输入，最终原生版不能运行它的 source scheduler。
 - `Tools/PixelFX/tools/export-brazier-inspector.mjs`：本工作台的原生版 staging 包装器，
   修正火星长度轴并补充 Inspector-only manifest。不是其他特效的一键导出器。
-- `Assets/PixelFX/Brazier/InspectorParticles/Editor/BrazierInspectorSetup.cs`：已验证的 Editor 组装与 QA。
-- 同目录 `Shaders/BrazierInspectorParticle.shader`：无时间动画和朝向控制的 URP 采样混合材质。
+- `Assets/PixelFX/Brazier/InspectorParticles/`：当前资源根目录。
+- `Shaders/BrazierInspectorParticle.shader`：无时间动画和朝向控制的 URP 采样混合材质。
 - `Prefabs/BrazierInspectorFlameParticles.prefab`：给已有 3D 火盆使用。
 - `Prefabs/BrazierInspectorParticles.prefab`：带普通 SpriteRenderer 火盆。
-- `Scenes/BrazierInspectorShowcase.unity`：展示场景；`README.md` 提供逐模块编辑位置。
+- `Docs/README.md`：Prefab 用法和 Inspector 参数位置。
 
-最后四项均位于 `Assets/PixelFX/Brazier/InspectorParticles/` 下。
+上述相对资源路径均位于 `Assets/PixelFX/Brazier/InspectorParticles/` 下。
 
 ## 制作原理和 native 映射
 
@@ -60,16 +66,12 @@
 node Tools/vfx.mjs export-brazier
 ```
 
-输出 `VFXWork/Exports/brazier-inspector/`，不写 Assets、不触发 Unity Build。
+输出 `VFXWork/Exports/Brazier/InspectorParticles/`，不写 Assets、不触发 Unity Build。
 本次集成的测试导出只验证工具，不是作者对将来所有效果的导入许可。
 
-现有组装工具的 Art 指向工程内旧的 `AnimatedParticles/Textures`，且 Verify 包含
-原机器的绝对路径校验。现有已验收 prefab 不依赖该旧目录或脚本即可运行，
-本次打包没有重建它们。需要采用新 staging 或移动工程后重建时，先确认实际 Editor
-身份，再在新版本工具中改为读取 staging 并导入必要 PNG；不要直接覆盖旧素材或移除校验。
-
-菜单：Tools > PixelFX > Brazier Inspector Only。Build 会覆盖本版本生成配置；
-已有人工调整时先保存/创建新版本。Validate、Capture 和 Verify Live Playback 是 QA。
+现有 prefab 不依赖已移除的历史组装/QA 脚本即可运行。不要为调参恢复它们或重新生成资产；
+直接在 Inspector 调整原生模块和材质，按需创建 Variant 保留作者参数。
+导出合同和历史测试记录留在 Assets 外，不放入特效使用说明。
 
 ## 已保存的验证证据
 
@@ -79,7 +81,8 @@ node Tools/vfx.mjs export-brazier
   无 Animator、无运行 recipe/旧版依赖，11 组 Death 子发射器。
 - [真实播放报告](evidence/brazier-playback.json)：核心 11 粒，Death smoke 49 粒，
   慢余烬 16 → Emission=0 后 0 → 恢复后 18，运动及发射测试通过。
-- `BrazierInspectorPreviews/BrazierInspector.gif` 为原生系统采样动画；
+- `VFXWork/Previews/Brazier/InspectorParticles/BrazierInspector.gif` 为原生系统采样动画；
   工具画廊 `/output/unity-preview/brazier-inspector.gif` 留有这次结果的浏览器副本。
 
 这些历史证据不能替代修改后的重新编译、Play Mode 与视觉验证。
+没有渲染批次、合批收益或真机预算证据；后续交付按 [performance.md](performance.md)补测。

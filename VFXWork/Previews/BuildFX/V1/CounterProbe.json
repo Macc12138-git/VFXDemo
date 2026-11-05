@@ -1,0 +1,1314 @@
+{
+  "menu": true,
+  "metrics": [
+    {
+      "Name": "ParticleSystem.TrailGeometryJob",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.InstancedMeshJob",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.GeometryJob",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.ScheduleGeometryJobs",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.WaitForPreMapping",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.VelocityOverLifetimeModule",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.TextureSheetModule",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.ShapeModule",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.NoisePreviewJob",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.NoiseJob",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.NoiseModule",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.ExternalForcesModule",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUProfiler.EndQueries",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUProfiler.BeginQueries",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "RadeonRaysJobCompositeLightmap.CompositeLightmapGPU",
+      "category": "Lighting",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPULightmapper.Lightmaps.CopyCurrentBakedTileResultFromGPUToCPU",
+      "category": "Lighting",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPULightmapper.Lightmaps.IncrementTilingPassNumAndUpdateBuffersIfNeeded",
+      "category": "Lighting",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPULightmapper.Lightmaps.Render",
+      "category": "Lighting",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPULightmapper.RadeonRaysMeshManager.AddInstance",
+      "category": "Lighting",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPULightmapper.UpdateGPUTimings",
+      "category": "Lighting",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPULightmapper.Lightprobes.IntegrateFromAsyncReadBack",
+      "category": "Lighting",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPULightmapper.Lightprobes.UpdateFromAsyncReadBack",
+      "category": "Lighting",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPULightmapper.Lightprobes.ApplyLatestProbeData",
+      "category": "Lighting",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPULightmapper.Lightprobes.ApplyUpdateFromAsyncReadBacks",
+      "category": "Lighting",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPULightmapper.Lightprobes.TryUpdateFromAsyncReadBacks",
+      "category": "Lighting",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPULightmapper.Lightmap.UpdateFromAsyncReadBack",
+      "category": "Lighting",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPULightmapper.EnqueueReadBuffer",
+      "category": "Lighting",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPULightmapper.EnqueueWriteBuffer",
+      "category": "Lighting",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPULightmapper.IsCLEventCompleted",
+      "category": "Lighting",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "XR.WaitForGPU",
+      "category": "VSync",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "VFX.ParticleSystem.BuildPrefixSum",
+      "category": "VFX",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "VFX.ParticleSystem.BatchUpdateStrip",
+      "category": "VFX",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "VFX.ParticleSystem.BatchReadbackCount",
+      "category": "VFX",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "VFX.ParticleSystem.BatchReadbackBounds",
+      "category": "VFX",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "VFX.ParticleSystem.BatchUpdate",
+      "category": "VFX",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "VFX.ParticleSystem.BatchInit",
+      "category": "VFX",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "VFX.ParticleSystem.BatchCopyDeadListCount",
+      "category": "VFX",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "VFX.ParticleSystem.BatchUploadVisibleIndirectionBuffer",
+      "category": "VFX",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "VFX.ParticleSystem.BatchUploadStepData",
+      "category": "VFX",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "VFX.ParticleSystem.RenderMeshIndirect",
+      "category": "VFX",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "VFX.ParticleSystem.RenderMesh",
+      "category": "VFX",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "VFX.ParticleSystem.RenderHexahedronIndirect",
+      "category": "VFX",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "VFX.ParticleSystem.RenderHexahedron",
+      "category": "VFX",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "VFX.ParticleSystem.RenderOctagonIndirect",
+      "category": "VFX",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "VFX.ParticleSystem.RenderOctagon",
+      "category": "VFX",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "VFX.ParticleSystem.RenderQuadIndirect",
+      "category": "VFX",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "VFX.ParticleSystem.RenderQuad",
+      "category": "VFX",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "VFX.ParticleSystem.RenderTriangleIndirect",
+      "category": "VFX",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "VFX.ParticleSystem.RenderTriangle",
+      "category": "VFX",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "VFX.ParticleSystem.RenderLineIndirect",
+      "category": "VFX",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "VFX.ParticleSystem.RenderLine",
+      "category": "VFX",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "VFX.ParticleSystem.RenderPointIndirect",
+      "category": "VFX",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "VFX.ParticleSystem.RenderPoint",
+      "category": "VFX",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Physics2D.ApplyParticleForces",
+      "category": "Physics2D",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Physics2D.FindParticleOverlaps",
+      "category": "Physics2D",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Physics2D.FindParticleIntersections",
+      "category": "Physics2D",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GraphineGfxDevice.UploadGPURectangles",
+      "category": "Virtual Texturing",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "TranslationTableGenerator.UpsampleGPUSubmission.ConstantBufferUpdate",
+      "category": "Virtual Texturing",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "TranslationTableGenerator.UpsampleGPUSubmissionDispatch",
+      "category": "Virtual Texturing",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "TranslationTableGenerator.UpsampleGPUSubmission",
+      "category": "Virtual Texturing",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.WaitForPreviousRenderingToFinish",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.UpdateJob",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.EndUpdateAll",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.Update2",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.Simulate",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.Update",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.Draw",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.DrawSystem",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.Sort",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.LightsModule",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.ColorByVelocityModule",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.TriggerModule",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.TrailModule",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.InheritVelocityModule",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.SizeOverLifetimeModule",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.LifetimeByEmitterSpeedModule",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.CustomDataModule",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.RotationOverLifetimeModule",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.CollisionModule",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.ClampVelocityModule",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.SizeOverVelocityModule",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.ForceModule",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.ColorOverLifetimeModule",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.RotationByVelocityModule",
+      "category": "Particles",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "FrameTime.GPU",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Shader.DynamicLoadGPUProgram",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Shader.CompileGPUProgram",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Shader.CreateGPUProgram",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "CollectGPUSamples",
+      "category": "Overhead",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Main Thread",
+      "category": "Internal",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "MeshSkinning.GPUBatchedSkinInPlace",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "MeshSkinning.GPUBatchedSkin",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "MeshSkinning.GPUBatchedBlendShape",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "MeshSkinning.GPUBatchedCopy",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "MeshSkinning.SkinOnGPUNonBatched",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "MeshSkinning.SkinOnGPU",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Async.DirectTextureRequestGPU",
+      "category": "Loading",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUDrivenProcessor.CollectSpeedTreeWindData",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUDrivenProcessor.FillScriptingListFromUnityObjects",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUDrivenProcessor.CollectMaterialDataJob",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUDrivenProcessor.CollectMeshDataJob",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUDrivenProcessor.CollectRendererDataJob",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUDrivenProcessor.FilterRenderersByMaterial",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUDrivenProcessor.FilterValidMaterials",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUDrivenProcessor.FilterRenderersAndCollectMaterials",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUDrivenProcessor.CollectLODGroupDataJob",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUDrivenProcessor.CollectLODGroupData",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUDrivenProcessor.CollectRendererData",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUDrivenProcessor.FilterOutInvalidLODGroups",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUDrivenProcessor.DispatchSpeedTreeWindData",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUDrivenProcessor.DispatchMaterialData",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUDrivenProcessor.DispatchLODGroupData",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUDrivenProcessor.EnableGPUDrivenRenderingAndDispatchRendererData",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GC Allocated In Frame",
+      "category": "Memory",
+      "unit": "Bytes"
+    },
+    {
+      "Name": "Total GPU Cache Size",
+      "category": "Virtual Texturing",
+      "unit": "Bytes"
+    },
+    {
+      "Name": "Particle Queries",
+      "category": "Physics2D",
+      "unit": "Count"
+    },
+    {
+      "Name": "CPU Main Thread Frame Time",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "CPU Render Thread Frame Time",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPU Frame Time",
+      "category": "Render",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "ParticleSystem.OnGfxInitialized",
+      "category": "PlayerLoop",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "AssemblyDataFrom Unity.RenderPipelines.GPUDriven.Runtime.dll",
+      "category": "Scripts",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUResidentDrawer:FindRenderersFromMaterialOrMeshJob",
+      "category": "Managed Jobs",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUResidentDrawer:FindRenderersFromMaterialOrMeshJob (Burst)",
+      "category": "Burst Jobs",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUResidentDrawer:FindRenderersFromMaterialOrMeshJob (Cleanup)",
+      "category": "Managed Jobs",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUInstanceDataBuffer:ConvertCPUInstancesToGPUInstancesJob",
+      "category": "Managed Jobs",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUInstanceDataBuffer:ConvertCPUInstancesToGPUInstancesJob (Burst)",
+      "category": "Burst Jobs",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUInstanceDataBuffer:ConvertCPUInstancesToGPUInstancesJob (Cleanup)",
+      "category": "Managed Jobs",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUInstanceDataBufferUploader:WriteInstanceDataParameterJob",
+      "category": "Managed Jobs",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUInstanceDataBufferUploader:WriteInstanceDataParameterJob (Burst)",
+      "category": "Burst Jobs",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "GPUInstanceDataBufferUploader:WriteInstanceDataParameterJob (Cleanup)",
+      "category": "Managed Jobs",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "EditorApplication.update: PixelFX.Brazier.Particles.ParticleMaterialFacing.EditorTick",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "PreLateUpdate.ParticleSystemBeginUpdateAll",
+      "category": "PlayerLoop",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "PostLateUpdate.ParticleSystemEndUpdateAll",
+      "category": "PlayerLoop",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-7702.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "EditorApplication.hierarchyChanged: UnityEditor.ParticleSystemInspector.HierarchyOrProjectWindowWasChanged",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "EditorApplication.projectChanged: UnityEditor.ParticleSystemInspector.HierarchyOrProjectWindowWasChanged",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-12978.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "PrefabUtility.prefabInstanceUpdated: UnityEditor.ParticleSystemInspector.PrefabInstanceUpdated",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-18008.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "EditorApplication.update: callback in PixelFX.Brazier.InspectorParticles.Editor.BrazierInspectorSetup",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-17546.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-18024.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-18032.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-18040.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-18056.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-18064.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-18248.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-18264.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-18272.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-18280.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-18080.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-25182.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-27498.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-27676.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-27518.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-27510.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-31896.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-35542.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-35554.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-35470.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_53480.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_53308.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-45930.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-45962.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-45970.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-45978.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-45986.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-45994.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-46002.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-46010.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-46018.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-46034.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-46026.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-46058.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-46066.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-46074.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-46082.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-46090.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-46050.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-46098.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-46114.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-46130.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-46106.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-46122.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-46138.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-46146.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-46154.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-46162.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    },
+    {
+      "Name": "Editor.ParticleSystemInspector_ParticleSystem_-46042.OnInspectorGUI",
+      "category": "Other",
+      "unit": "TimeNanoseconds"
+    }
+  ],
+  "types": [
+    {
+      "type": "UnityEngine.FrameDebugger",
+      "assembly": "UnityEngine.CoreModule",
+      "methods": [
+        "Boolean get_enabled()",
+        "Boolean IsLocalEnabled()",
+        "Boolean IsRemoteEnabled()"
+      ],
+      "properties": [
+        "Boolean enabled"
+      ]
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerUtility",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [
+        "Void SetEnabled(Boolean, Int32)",
+        "Int32 GetRemotePlayerGUID()",
+        "Boolean get_receivingRemoteFrameEventData()",
+        "Boolean get_locallySupported()",
+        "Int32 get_count()",
+        "Int32 get_limit()",
+        "Void set_limit(Int32)",
+        "Int32 get_eventsHash()",
+        "UInt32 get_eventDataHash()",
+        "Void SetRenderTargetDisplayOptions(Int32, UnityEngine.Vector4, Single, Single)",
+        "System.String GetFrameEventInfoName(Int32)",
+        "UnityEngine.Object GetFrameEventObject(Int32)",
+        "System.String[] GetBatchBreakCauseStrings()",
+        "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerEvent[] GetFrameEvents()",
+        "System.Array GetFrameEventsImpl()",
+        "Boolean GetFrameEventData(Int32, UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerEventData)",
+        "Void GetFrameEventDataImpl(IntPtr)",
+        "Void SetRenderTargetDisplayOptions_Injected(Int32, UnityEngine.Vector4 ByRef, Single, Single)",
+        "Void GetFrameEventInfoName_Injected(Int32, UnityEngine.Bindings.ManagedSpanWrapper ByRef)",
+        "IntPtr GetFrameEventObject_Injected(Int32)"
+      ],
+      "properties": [
+        "Boolean receivingRemoteFrameEventData",
+        "Boolean locallySupported",
+        "Int32 count",
+        "Int32 limit",
+        "Int32 eventsHash",
+        "UInt32 eventDataHash"
+      ]
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameEventType",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.ShaderKeywordInfo",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.ShaderFloatInfo",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.ShaderIntInfo",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.ShaderVectorInfo",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.ShaderMatrixInfo",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.ShaderTextureInfo",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.ShaderBufferInfo",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.ShaderConstantBufferInfo",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.ShaderInfo",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerEventData",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerEvent",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerBlendState",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerRasterState",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerDepthState",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerStencilState",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerEventDetailsView",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerEventDetailsView+SelectedColorChannel",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerEventDetailsView+<>c",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerEventDetailsView+<>c__DisplayClass43_0",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerEventDetailsView+<>c__DisplayClass43_1",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerEventDetailsView+<>c__DisplayClass46_0",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.ShaderPropertyCollection",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.ShaderPropertyDisplayInfo",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.ShaderPropertyType",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.CachedEventDisplayData",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.CachedEventDisplayData+ShaderPropertySortingInfo",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerHelper",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [
+        "Boolean get_isOnLinuxOpenGL()",
+        "UnityEngine.Material get_frameDebuggerMaterial()",
+        "UnityEngine.Material get_shadingRateImageMaterial()",
+        "Boolean IsAValidFrame(Int32, Int32)",
+        "Boolean IsAClearEvent(UnityEditorInternal.FrameDebuggerInternal.FrameEventType)",
+        "Boolean IsAResolveEvent(UnityEditorInternal.FrameDebuggerInternal.FrameEventType)",
+        "Boolean IsAComputeEvent(UnityEditorInternal.FrameDebuggerInternal.FrameEventType)",
+        "Boolean IsARayTracingEvent(UnityEditorInternal.FrameDebuggerInternal.FrameEventType)",
+        "Boolean IsAConfigureFoveatedRenderingEvent(UnityEditorInternal.FrameDebuggerInternal.FrameEventType)",
+        "Boolean IsAHiddenEvent(UnityEditorInternal.FrameDebuggerInternal.FrameEventType)",
+        "Boolean IsAHierarchyLevelBreakEvent(UnityEditorInternal.FrameDebuggerInternal.FrameEventType)",
+        "Boolean IsCurrentEventMouseDown()",
+        "Boolean IsClickingRect(UnityEngine.Rect)",
+        "Boolean IsHoveringRect(UnityEngine.Rect)",
+        "Boolean IsARenderTexture(UnityEngine.Texture ByRef)",
+        "Boolean IsADepthTexture(UnityEngine.Texture ByRef)",
+        "Boolean IsVRSSupported()",
+        "Void BlitToRenderTexture(UnityEngine.Texture ByRef, UnityEngine.RenderTexture ByRef, Int32, Int32, Int32, UnityEngine.Vector4, UnityEngine.Vector4, Boolean, Boolean)",
+        "Void BlitToRenderTexture(UnityEngine.RenderTexture ByRef, UnityEngine.RenderTexture ByRef, Int32, Int32, UnityEngine.Vector4, UnityEngine.Vector4, Boolean, Boolean)",
+        "Void SetMaterialProperties(Int32, Int32, Int32, UnityEngine.Rendering.TextureDimension, Int32, UnityEngine.Vector4, UnityEngine.Vector4, Boolean, Boolean)",
+        "Void Blit(UnityEngine.RenderTexture ByRef, UnityEngine.Material)",
+        "Void ConvertShadingRateImage(UnityEngine.Texture ByRef, UnityEngine.RenderTexture ByRef, Int32, Int32, UnityEngine.GraphicsBuffer)",
+        "Int32 GetVolumeDepth(UnityEngine.Texture ByRef)",
+        "Int32 GetVolumeDepth(UnityEngine.RenderTexture ByRef)",
+        "Int32 GetMSAAValue(UnityEngine.Texture ByRef)",
+        "Int32 GetMSAAValue(UnityEngine.RenderTexture ByRef)",
+        "System.String GetFoveatedRenderingModeString(Int32)",
+        "System.String GetStencilString(Int32)",
+        "System.String GetColorMask(UInt32)",
+        "System.String GetColorFormat(UnityEngine.Texture ByRef)",
+        "System.String GetSize(UnityEngine.Texture ByRef)",
+        "System.String GetDepthStencilFormat(UnityEngine.Texture ByRef)",
+        "Int32 GetNumberOfValuesFromFlags(Int32)",
+        "System.String GetShaderStageString(Int32)",
+        "Void DestroyTexture(UnityEngine.Texture ByRef)",
+        "Void DestroyTexture(UnityEngine.RenderTexture ByRef)",
+        "Void ReleaseTemporaryTexture(UnityEngine.RenderTexture ByRef)",
+        "Int32 CountDigits(Int32)",
+        "Void SpliceText(System.String ByRef, Int32)"
+      ],
+      "properties": [
+        "Boolean isOnLinuxOpenGL",
+        "UnityEngine.Material frameDebuggerMaterial",
+        "UnityEngine.Material shadingRateImageMaterial"
+      ]
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerHelper+ShaderPropertyIDs",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerStyles",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [
+        "UnityEngine.Texture2D MakeTex(Int32, Int32, UnityEngine.Color)",
+        "Void OnDisable()"
+      ],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerStyles+Window",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerStyles+Tree",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerStyles+TopToolbar",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerStyles+EventToolbar",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerStyles+EventDetails",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerToolbarView",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerTreeView",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerTreeView+FrameDebuggerTreeViewItem",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerTreeView+FrameDebuggerTreeViewGUI",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerTreeView+FrameDebuggerTreeViewDataSource",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [
+        "Void CloseLastHierarchyLevel(System.Collections.Generic.List`1[UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerTreeView+FrameDebuggerTreeViewDataSource+FrameDebuggerTreeHierarchyLevel], Int32)"
+      ],
+      "properties": []
+    },
+    {
+      "type": "UnityEditorInternal.FrameDebuggerInternal.FrameDebuggerTreeView+FrameDebuggerTreeViewDataSource+FrameDebuggerTreeHierarchyLevel",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    },
+    {
+      "type": "UnityEditor.FrameDebuggerWindow",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [
+        "UnityEngine.GraphicsBuffer get_shadingRateLut()",
+        "UnityEngine.GraphicsBuffer CreateShadingRateLutGraphicsBuffer()",
+        "Void ReleaseGraphicsBuffers()",
+        "Void OpenWindowAndToggleEnabled()",
+        "UnityEditor.FrameDebuggerWindow OpenWindow()",
+        "Void RepaintAll()"
+      ],
+      "properties": [
+        "UnityEngine.GraphicsBuffer shadingRateLut"
+      ]
+    },
+    {
+      "type": "UnityEditor.FrameDebuggerWindow+<>c",
+      "assembly": "UnityEditor.CoreModule",
+      "methods": [],
+      "properties": []
+    }
+  ]
+}

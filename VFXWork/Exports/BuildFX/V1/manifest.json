@@ -1,0 +1,62 @@
+{
+  "effectName": "BuildFX",
+  "version": "V1",
+  "source": "Tools/PixelFX/src/hd/mortar-assembly.js",
+  "sourceHash": "c8d6914c4d583d5481b7e9d927f2d3c6acb7bcf4d0ae54ce693446d97fe032aa",
+  "sourceUnmodified": true,
+  "helper": "Tools/PixelFX/src/core/math.js",
+  "helperHash": "da45e1ed43f7d119dd80fbe97c7de2b35b4ea95dea8781671c296ee5942ac0bc",
+  "authorInstruction": "以后不需要生成 GIF；接下来导入到 Unity，文件夹命名为 BuildFX。",
+  "pixelsPerUnit": 128,
+  "sourceSize": [
+    1024,
+    768
+  ],
+  "pivot": [
+    512,
+    594
+  ],
+  "options": {
+    "seed": 22,
+    "scale": 1,
+    "flash": 1,
+    "smoke": 1,
+    "glow": 0.35,
+    "layer": "combined"
+  },
+  "texture": {
+    "name": "BuildFX_StaticAtlas.png",
+    "size": [
+      1024,
+      512
+    ],
+    "frames": 1,
+    "animation": false,
+    "sha256": "a91b1a6cd1d69802fc12eafb378ce63dfa734dac120ee58c401f9d0ff811a07e",
+    "format": "RGBA8 straight alpha; sRGB color; three static smoke stamps, one glow stamp, solid-color palette; not a flipbook",
+    "wrap": "Clamp",
+    "filter": "Bilinear",
+    "mipmaps": false,
+    "compression": "Uncompressed baseline; device budget not set"
+  },
+  "nativeMapping": {
+    "smoke": "17 one-burst native particles: original lifetimes, analytic position derivatives sampled into native velocity curves, original static puff painter; size/alpha/rotation modules.",
+    "flash": "Source front/back polygon painters captured into triangulated Mesh particles, native size and alpha curves; three timed pulses. No flash animation atlas.",
+    "arcs": "Original thin sweep geometry, fixed local XY mesh rather than View billboard; native expansion/fade approximates the analytic sweep.",
+    "sparks": "Original star mesh, native burst/box spawn/velocity/force, size and alpha envelope.",
+    "debris": "Original two gray chip meshes, native burst/box/drag-approximation curves/gravity/rotation/fade.",
+    "glow": "Actual original radial glow, separate additive native particle; no Light components."
+  },
+  "differences": [
+    "Fixed-plane 2.5D effect: root XY is the reference view; not a volumetric cannon or world-XZ ring.",
+    "Flash decay is approximated with native nonuniform scale; its main contours/colors use the approved painter.",
+    "Arc expansion scales the approved static sweep rather than recomputing each ribbon vertex over time.",
+    "Stars/chips use native seeded spawn ranges; their individual original random identities/birth jitter are not reproduced.",
+    "Unity linear-space alpha/additive mixing differs from Canvas; visual calibration is validated separately."
+  ],
+  "unityAssetRoot": "Assets/PixelFX/BuildFX",
+  "scene": "Assets/Scenes/VFXWorkbench.unity",
+  "authorization": "explicit-unity-import",
+  "status": "staged-for-native-assembly",
+  "gifGenerated": false
+}

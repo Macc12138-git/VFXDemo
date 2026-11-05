@@ -14,8 +14,10 @@ code{font:13px ui-monospace,monospace;color:#b8d5db}pre{padding:16px;background:
 <header><span class="eyebrow">VFXDEMO / AUTHORING WORKBENCH</span><h1>从要求到效果，再由你决定导入 Unity</h1><p>在同一个工程内制作、预览和迭代。pixelfx 负责创作，Unity 负责原生粒子组装与展示。</p></header>
 <section class="gate"><strong>创作 → 预览迭代 → 作者验收 → 等待明确导入指令</strong><p>你说“效果通过”不会触发 Unity 导入。只有明确下达指令，AI 才开始：分析原效果 → 分层导出 → 原生粒子组装 → Unity 预览验证。</p></section>
 <section class="grid">
+<article><h2>迫击炮制造 · 独立装配闪爆</h2><p>依据参考 GIF 重建灰紫烟团、三次黄白尖角爆闪、贴地白弧与少量星点碎屑。无角色、工具、炮体或场景。</p><p class="note">已按指令导入 Assets/PixelFX/BuildFX，原生粒子版在公共 VFXWorkbench 场景查看。本入口为可分层、逐帧与慢放的制作侧预览；不再默认生成 GIF。</p><a class="button" href="/gallery/hd-mortar-assembly.html">打开独立动态预览</a></article>
+<article><h2>噪声火焰 · 飞散火星与轻烟</h2><p>保留作者认可的单张噪声燃烧效果，只新增火星、烟团两张静态贴图。火星飞散冷却，轻烟上升扩张；已按明确指令导入独立 Unity 原生版本。</p><p class="note">实时 Shader + 原生粒子，无序列帧、无挂载脚本；原稿和旧版均保留。</p><a class="button" href="/gallery/noise-brazier.html">pixelfx 实时原稿</a> <a class="button" href="/gallery/noise-brazier-unity.html">Unity 实时版与对照</a></article>
 <article><h2>pixelfx 创作画廊</h2><p>搜索已有特效、动态预览和检查细节。向 Codex 描述新效果，或基于现有效果继续修改。</p><p><code>node Tools/vfx.mjs list fire</code><br><code>node Tools/vfx.mjs render fire/brazier --no-actor</code></p><a class="button" href="/gallery/">打开全部特效</a> <a class="button" href="/gallery/#fire">查看火焰系列</a></article>
-<article><h2>高清手绘试作</h2><p>已保留青蓝挥砍的高清 Canvas 创作与独立预览，可暂停、慢放、逐帧拖动及切换背景。</p><p class="note">这是独立试作，不是所有像素效果的一键高清转换，也未自动导入 Unity。</p><a class="button" href="/gallery/hd-cleave.html">预览高清挥砍</a></article>
+<article><h2>高清手绘特效</h2><p>Brazier 高清手绘火焰：卷曲火舌、噪声溶解和干笔边缘。已按作者明确指令导入独立 Unity 实时版，不使用帧动画；原稿仍可检查。青蓝挥砍试作保留。</p><p class="note">Unity 版本通过结构及真实 Play Mode 检查，未做设备性能保证。</p><a class="button" href="/gallery/hd-brazier.html">手绘 Brazier 原稿</a> <a class="button" href="/gallery/hd-brazier-unity.html">Unity 非序列帧版</a> <a class="button" href="/gallery/hd-cleave.html">高清挥砍试作</a></article>
 </section>
 <section class="baseline"><h2>已验收案例 · Brazier 原生粒子</h2><p>左：普通火盆 + 特效；右：用于 3D 火盆的独立特效。火焰、火星、烟雾、光晕分层，效果预制体不挂运行时脚本。</p><img src="/output/unity-preview/brazier-inspector.gif" alt="已验收的 Unity Brazier 原生粒子动画，左侧带火盆，右侧独立火焰"><p class="note">2026-11-05 的保存预览，不是当前 Unity 窗口直播。轨迹与线性空间光晕是近似还原，53 个系统尚未做移动端性能优化。</p></section>
 <section class="baseline"><h2>在 Codex 中开始</h2><pre><code>使用 $vfxdemo-pixelfx 制作一个蓝白色冰霜爆发，独立特效，不带人物，先预览。

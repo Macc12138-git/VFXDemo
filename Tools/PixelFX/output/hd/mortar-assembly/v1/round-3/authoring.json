@@ -1,0 +1,49 @@
+{
+  "id": "hd/mortar-assembly",
+  "name": "迫击炮制造 · 独立装配闪爆",
+  "version": "v1",
+  "size": [
+    1024,
+    768
+  ],
+  "pivot": [
+    512,
+    594
+  ],
+  "duration": 1.2,
+  "referenceDuration": 1.03,
+  "fps": 60,
+  "loop": false,
+  "actor": false,
+  "prop": false,
+  "pulses": [
+    0.16,
+    0.5,
+    0.71
+  ],
+  "options": {
+    "seed": 22,
+    "scale": 1,
+    "flash": 1,
+    "smoke": 1,
+    "glow": 0.35,
+    "layer": "combined"
+  },
+  "source": "src/hd/mortar-assembly.js",
+  "sourceSha256": "c8d6914c4d583d5481b7e9d927f2d3c6acb7bcf4d0ae54ce693446d97fe032aa",
+  "authorRequest": "制作该特效；仅 GIF 中制造迫击炮的独立特效，不含角色、工具、炮体或场景。",
+  "reference": "User-supplied 400x200 GIF, 25 frames / 1.03s; reconstructed, not extracted pixels.",
+  "authorizedStage": "authoring-and-preview-only",
+  "status": "awaiting-author-review",
+  "unityImported": false,
+  "outputSize": [
+    1024,
+    768
+  ],
+  "previewFramesOnly": true,
+  "differences": [
+    "Occluded shapes are newly drawn; no claim of pixel-identical extraction.",
+    "The reference cuts off with residual smoke; this one-shot adds a short fade to end empty at 1.2s.",
+    "Canvas CPU authoring preview, not a compiled Unity Shader, imported prefab, or device-performance test."
+  ]
+}

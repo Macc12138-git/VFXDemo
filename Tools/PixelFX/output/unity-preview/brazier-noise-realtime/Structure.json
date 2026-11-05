@@ -1,0 +1,39 @@
+{
+    "passed": true,
+    "noAttachedScripts": true,
+    "noFlipbook": true,
+    "noAnimator": true,
+    "noVfxLights": true,
+    "staticTexturesOnly": true,
+    "dataPath": "/Users/user/Desktop/VFXDemo/VFXDemo/Assets",
+    "scene": "Assets/PixelFX/Brazier/NoiseRealtime/Scenes/BrazierNoiseShowcase.unity",
+    "timestamp": "2026-11-05T14:20:35.4386300+08:00",
+    "fullSystems": 8,
+    "flameSystems": 7,
+    "coreSystems": 1,
+    "staticTextureCount": 6,
+    "componentTypes": [
+        "ParticleSystem",
+        "ParticleSystemRenderer",
+        "SpriteRenderer",
+        "Transform"
+    ],
+    "dependencies": [
+        "Assets/PixelFX/Brazier/NoiseRealtime/Materials/Flame.mat",
+        "Assets/PixelFX/Brazier/NoiseRealtime/Materials/Glow.mat",
+        "Assets/PixelFX/Brazier/NoiseRealtime/Materials/PropBack.mat",
+        "Assets/PixelFX/Brazier/NoiseRealtime/Materials/PropFront.mat",
+        "Assets/PixelFX/Brazier/NoiseRealtime/Materials/Smoke.mat",
+        "Assets/PixelFX/Brazier/NoiseRealtime/Materials/Sparks.mat",
+        "Assets/PixelFX/Brazier/NoiseRealtime/Prefabs/BrazierNoiseFlameRealtime.prefab",
+        "Assets/PixelFX/Brazier/NoiseRealtime/Prefabs/BrazierNoiseRealtime.prefab",
+        "Assets/PixelFX/Brazier/NoiseRealtime/Shaders/BrazierNoiseFlame.shader",
+        "Assets/PixelFX/Brazier/NoiseRealtime/Shaders/BrazierNoiseParticle.shader",
+        "Assets/PixelFX/Brazier/NoiseRealtime/Textures/FlowNoise.png",
+        "Assets/PixelFX/Brazier/NoiseRealtime/Textures/PropBack.png",
+        "Assets/PixelFX/Brazier/NoiseRealtime/Textures/PropFront.png",
+        "Assets/PixelFX/Brazier/NoiseRealtime/Textures/SmokePuff.png",
+        "Assets/PixelFX/Brazier/NoiseRealtime/Textures/SoftGlow.png",
+        "Assets/PixelFX/Brazier/NoiseRealtime/Textures/SparkStreak.png"
+    ]
+}

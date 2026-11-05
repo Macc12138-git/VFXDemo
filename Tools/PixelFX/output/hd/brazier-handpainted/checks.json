@@ -1,0 +1,22 @@
+{
+  "pass": true,
+  "frames": 120,
+  "size": [
+    1024,
+    1280
+  ],
+  "seed": 8,
+  "noEdgeClipping": true,
+  "deterministic": true,
+  "exactLoopEndpoints": true,
+  "seamAlphaDelta": 0.002651513791551777,
+  "ordinaryStepAlphaDelta": 0.0029428429697074144,
+  "coreVisiblePixels": 45300,
+  "corePixelsAtDissolveOne": 13,
+  "distortionChangesPixels": true,
+  "roughnessChangesPixels": true,
+  "seedChangesPixels": true,
+  "medianMs": 18.35145799999998,
+  "maxMs": 62.32299999999999,
+  "scope": "Desktop Node Canvas authoring checks only; not Unity playback or device performance."
+}

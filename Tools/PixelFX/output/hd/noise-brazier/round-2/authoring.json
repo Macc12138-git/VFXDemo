@@ -1,0 +1,43 @@
+{
+  "id": "hd/noise-brazier",
+  "name": "Brazier · 噪声材质火焰",
+  "version": 2,
+  "size": [
+    1024,
+    1280
+  ],
+  "pivot": [
+    512,
+    855
+  ],
+  "duration": 8,
+  "fps": 30,
+  "loop": true,
+  "actor": false,
+  "options": {
+    "seed": 8,
+    "flow": 1,
+    "scale": 1.35,
+    "stretch": 2.8,
+    "distortion": 0.9,
+    "dissolve": 0.22,
+    "softness": 0.055,
+    "core": 0.6,
+    "glow": 0.5,
+    "steps": 0.15,
+    "prop": true,
+    "layer": "combined"
+  },
+  "source": "Tools/PixelFX/src/hd/noise-brazier.js",
+  "shader": "Tools/PixelFX/src/hd/noise-brazier.frag",
+  "sourceSha256": "3ff4dd89dcce53bbea6b286435a8f6ff89ec0bb079ab4bb63f375ec2b0624a93",
+  "shaderSha256": "47e6dc330d75e7ce94fc13d6dfbe87b6e854175423eca5a9046b32114b67b241",
+  "noise": "Tools/PixelFX/src/hd/noise-brazier-art/FlowNoise.png",
+  "noiseSha256": "325b9dffbe60f65fbade5c83c4239a5e3bf6a09da0113e53a7f3508810b6e50d",
+  "authorizedStage": "authoring-and-preview-only",
+  "unityModified": false,
+  "textureFrames": 1,
+  "atlas": false,
+  "previewFramesOnly": false,
+  "method": "User static grayscale image sampled at multiple scroll speeds; vertical UV stretch, domain warp, tapered plume mask, threshold erosion, temperature color ramp. Browser executes WebGL fragment shader. Offline CPU reference is for QA media, not runtime flipbook."
+}

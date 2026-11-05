@@ -9,6 +9,14 @@
 Application.dataPath、productName、activeScene；多项目时不使用未验证的默认 MCP。
 对脏场景先保护或征询，不默认清空。只访问作者指定工程。
 
+复用唯一工作场景 `Assets/Scenes/VFXWorkbench.unity`，不创建、复制或另存新场景。
+只按需添加本次 prefab 实例，不重置相机/灯光/背景或清除其他作品。
+各特效和版本目录不放 Scenes 或 Editor；历史 Brazier 组装/QA 脚本已被清除，不恢复其菜单。
+
+同时读取 [Shader/材质](shader-material.md) 和 [性能验证](performance.md)。导入前记录
+预计并发、游戏屏幕尺寸、目标平台/预算；未知项如实标注。决定独立效果 prefab 与带展示道具
+prefab 是否均需要，不能把展示相机、测试驱动和 profiler 组件混入可复用运行资产。
+
 ## 1. 从实际绘制组成推导粒子，不是把图分成几张
 
 读目标模块及其 helper。区分纯时间函数 `draw(p,t,o)` 与 `create/update/draw` 模拟；
@@ -23,8 +31,9 @@ Application.dataPath、productName、activeScene；多项目时不使用未验�
 | 持续出生、爆发、延迟 | Emission Rate/Burst、Duration/Loop/Start Delay |
 | 出生范围 | Shape、子节点 Transform；移动解析出生点可近似成可编辑出生域 |
 | 速度、加速度、阻力 | Start Speed、Velocity/Force/Limit Velocity over Lifetime、Drag |
-| 尺寸、冷却、透明度 | Main 随机范围、Size/Color over Lifetime，或已烘焙的单粒子包络 |
-| 单粒子轮廓复杂形变 | 透明单粒子图集 + Texture Sheet Animation |
+| 尺寸、冷却、透明度 | Main 随机范围、Size/Color over Lifetime；避免与素材内包络重复 |
+| 单粒子轮廓复杂形变 | 静态手绘/噪声 + 解析 Shader 形变、遮罩/侵蚀；必要时粒子 Mesh |
+| 几何弧面、地面环、方向性拖尾 | Mesh/Trail 等原生渲染组件与材质，检查坐标/UV/深度 |
 | 随机摆动/风 | Noise、速度曲线；与源正弦/RNG 的差异需说明 |
 | 生命周期结束变为另一种粒子 | Death Sub Emitter、概率、继承速度/属性 |
 | 发光 | 低强度加法粒子，与普通 Alpha 粒子分材质 |
@@ -33,6 +42,8 @@ Application.dataPath、productName、activeScene；多项目时不使用未验�
 涉及源坐标 x 右/y 下时，位置和速度均换为 Unity y 上；定义 pixelsPerUnit，
 尺寸、速度和加速度都按比例换算。对曲线，明确其横轴是粒子归一化年龄还是系统时间。
 随机寿命 + 固定参考寿命曲线属于近似，不能称为解析原样重现。
+当前默认为非序列帧；单粒子图集只有在说明无法满足的表现并取得明确许可后才使用。
+旧案例的图集、11 根火舌或子发射器不是通用结构；按本次实际组成和预算选择。
 
 ## 2. 导出合同
 
@@ -40,28 +51,37 @@ Application.dataPath、productName、activeScene；多项目时不使用未验�
 已被作者认可的核心形状。每张图表达单粒子/独立元素，不烘焙道具+火焰+烟+光为整段电影。
 普通整效果预览图允许用于比较，不能冒充最终核心粒子资源。
 
-输出 PNG 与仅供制作的 manifest/recipe。至少明确：来源 hash、options/seed、
-单位比例、锚点、帧宽高、列行数、有效帧数、帧顺序、fps/生命周期映射、循环模式、
-Alpha/Additive、过滤、透明 padding、已烘焙的尺寸/透明度包络及未能还原的部分。
+输出必要静态资源与仅供制作的 manifest/recipe。至少明确：来源及 Shader/helper/素材 hash、
+options/seed、单位比例、锚点/裁切、纹理尺寸/通道/颜色空间、静态帧数=1/无帧动画、
+时钟和生命周期映射、循环模式、Blend/排序、Wrap/Filter、透明 padding、实现分工及近似差异。
+若获准使用单粒子图集，另记录帧宽高、列行数、有效帧数/顺序和 fps/生命周期映射。
 
-像素资源通常 Point，无压缩/无 mip；高清通常 Bilinear，依用途决定。图集单元尺寸
-一致，边缘留透明区，检查锚点和 Unity UV 行序。不要再叠加同一组已烘焙的衰减包络。
+像素资源通常 Point，高清通常 Bilinear；压缩/mip/尺寸由画质和目标平台实测决定，不能把
+当前无压缩基线变成所有资源的硬规则。图集单元留边并检查锚点/UV 行序；数据噪声特别核验
+线性采样和 Wrap。不要再叠加同一组已烘焙的衰减包络。
 不重写未变文件时间戳，避免 Unity 无谓重导入；不要在 Unity 截图时重新导出整批贴图。
 
-## 3. 编辑器组装，原生运行
+## 3. 一次性组装，Inspector 使用
 
-只在授权的新版本目录导入所需资源。用 Editor-only 工具把参数写入序列化模块，
-运行时不读 JSON/源事件表、不播放 JS、不逐帧修正粒子。工具可重用，但不是挂载组件。
+只在授权的 `Assets/PixelFX/<EffectName>/` 根目录（或其新版本子目录）导入所需资源，
+按需分为 Textures、Materials、Shaders、Prefabs、Meshes、Docs，不建 Scenes 或 Editor。
+专属资源不写进其他特效目录；真正公共依赖保留公共位置并记录。目录示例见 `VFX_WORKBENCH.md`。
+用一次性编辑器 API 调用把参数写入序列化模块，不交付持久的 Editor 脚本、Build 菜单、
+自定义窗口或自定义 Inspector。后续使用和调参依靠 Unity 原生 Inspector；
+运行时不读 JSON/源事件表、不播放 JS、不逐帧修正粒子。
 
 示例组件白名单为 Transform、ParticleSystem、ParticleSystemRenderer、普通道具渲染器；
-按实际必要性审查额外原生组件，不能放入自定义脚本、缺失脚本或隐藏外部驱动。
-本工程光晕不使用 Light、Particle System Lights。材质只承担必要渲染。
+按实际必要性记录额外 Mesh/Trail 等原生组件，不能放入自定义脚本、缺失脚本或隐藏外部驱动。
+本工程光晕不使用 Light、Particle System Lights。Shader 可承担轮廓/UV/侵蚀等内部图案变化，
+但不借渲染逻辑伪装为脚本粒子调度器；材质配置必须能被 Inspector 调整和验证。
 
 朝向在 Renderer 配置。Billboard/View + Allow Roll Off 可用于摄像机正向效果；
 Stretched Billboard 的纹理长度轴必须实测，Brazier 用 texture X。不能为了修朝向
 再挂 facing helper 或每帧旋转整个布局。锚点固定在模型火口/技能出生点。
 
-不要覆盖旧版或作者调参；明确“重新 Build 会覆盖该版本生成的参数”，需要时先做 Variant。
+不要覆盖旧版或作者调参；重新组装会改动序列化参数，需要时先做新版本或 Variant。
+已有 prefab 不重新生成，除非用户明确授权该目标重建；不要求作者运行 Build 菜单。
+资源和材质复用应从分层设计时考虑，但没有实测前不得声称已合批。
 
 ## 4. 验证与交付
 
@@ -71,8 +91,26 @@ Stretched Billboard 的纹理长度轴必须实测，Brazier 用 texture X。不
   无旧版本控制器依赖；导入过滤/压缩、材质混合、排序和朝向正确。
 - 真正进入 Play Mode，观察运动、出生和循环；临时改变原生 Emission，等待旧粒子耗尽，
   再恢复并观察新粒子，证明 Inspector 参数有效。只在 Play Mode 测试，不保存临时改动。
-- 子发射器必须实际产粒，而不只是序列化链接存在。检查概率、位置、速度继承与模拟空间。
-- 输出本地动态预览、对比图、目标 prefab/scene 路径、差异与测试结果。
-  性能需另测，不把 Editor 粒子数或桌面截图当移动端性能保证。
+- 若设计包含子发射器，必须实际产粒，而不只是序列化链接存在。检查概率、位置、速度继承与模拟空间。
+- 检查主时钟与实际粒子年龄推进，暂停/重播、一次性收尾和循环。Editor 回调可先于游戏帧运行，
+  应连续观察实际引擎帧；不要用 `Simulate/Emit/SetParticles`“修好”所谓真实播放测试。
+  后台暂停时可在测试期间临时允许后台运行，结束后恢复；不得无说明修改 PlayerSettings。
+- 通过同尺度分层/背景对照校准颜色空间、光晕与噪声图案；用克隆材质测端点，不改坏原材质。
+- 输出可播放预览入口、必要静态对比图、目标 prefab/scene 路径、差异与测试结果；
+  按作者偏好不再默认生成 GIF。
+  截图/GIF 和 Edit Mode 确定性采样只作审稿，不能替代上述真实播放。
+
+## 5. 性能检查、优化复测与交付分级
+
+视觉和播放通过后，执行 [performance.md](performance.md)：在复用的测试场景内隔离采样、无特效基线、
+单体/正常/压力并发，观察真实渲染事件、批次和 SetPass、实际合批边界；采样 CPU/GPU、
+透明覆盖、峰值粒子与资源内存。基于瓶颈改动，再用相同条件复测，最后回归画面/播放。
+这不是保证“所有层合成一批”，合理的透明排序和不同 Blend 允许拆分，但必须解释和测量。
+
+交付资源包含可复用 prefab、必要 Shader/材质/静态资源，以及仅说明特效用法和 Inspector
+调参的 Docs。版本/来源 manifest、制作过程、视觉/结构/播放证据和性能表存放在 Assets 外，
+不塞进使用说明；完整与独立效果各自的成本分开记录。
+无法取得目标设备或计数器时交付已验证的层级和缺口，不伪造数据，也不无限等待外部条件。
+新增模板完成后按 [迭代规则](iteration.md)补充案例记录；仅把有证据的经验提升为通用规则。
 
 无法原生表达的行为先说明取舍；不把工作变成脚本控制版本后仍称“原生可编辑”。

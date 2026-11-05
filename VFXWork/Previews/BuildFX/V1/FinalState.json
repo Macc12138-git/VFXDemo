@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "identity": {
+    "path": "/Users/user/Desktop/VFXDemo/VFXDemo/Assets",
+    "product": "VFXDemo",
+    "scene": "Assets/Scenes/VFXWorkbench.unity",
+    "unity": "6000.3.19f1"
+  },
+  "isPlaying": false,
+  "sceneDirty": false,
+  "temporaryObjects": [],
+  "applicationRunInBackground": false,
+  "frameDebugger": false,
+  "roots": [
+    {
+      "name": "BrazierNoiseRealtime",
+      "position": "(-2.30, 0.00, 0.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "active": true
+    },
+    {
+      "name": "BrazierNoiseFlameRealtime",
+      "position": "(2.30, 0.00, 0.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "active": true
+    },
+    {
+      "name": "Main Camera",
+      "position": "(0.00, 1.68, -12.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "active": true
+    },
+    {
+      "name": "BuildFX",
+      "position": "(-7.00, -1.30, 0.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "active": true
+    }
+  ],
+  "camera": {
+    "orthographic": true,
+    "orthographicSize": 4.9,
+    "background": "RGBA(0.082, 0.094, 0.125, 1.000)",
+    "hdr": false,
+    "msaa": false,
+    "targetTexture": null
+  },
+  "prefab": {
+    "path": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab",
+    "duration": 1.2,
+    "loop": false,
+    "scripts": 0,
+    "particleSystems": 28
+  },
+  "sceneInstance": {
+    "duration": 1.6,
+    "loop": true,
+    "prefabConnected": true
+  },
+  "shaderSupported": true,
+  "shaderHasErrors": false,
+  "additiveTint": "RGBA(1.000, 1.000, 1.000, 0.100)"
+}

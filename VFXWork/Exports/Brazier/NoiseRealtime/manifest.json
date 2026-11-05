@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "sourceVersion": 4,
+  "source": "Tools/PixelFX/src/hd/noise-brazier.js",
+  "sourceSha256": "801bc9cab66129f18942b4ceb0a461d7232c741a36a1b9ad9f1681ffd7c09f8e",
+  "shader": "Tools/PixelFX/src/hd/noise-brazier.frag",
+  "shaderSha256": "a36f84f4acd50234ffecd5dab89eaf3528172920e33f74bc81024808b168127f",
+  "secondary": "Tools/PixelFX/src/hd/noise-brazier-secondary.js",
+  "secondarySha256": "71e4225dfc6e5aa94346c03cb56b3091aecf1eb85a497d4d589744a1966f0671",
+  "authorInstruction": "接下来导入到unity中",
+  "preset": "fierce",
+  "seed": 8,
+  "options": {
+    "name": "旺盛翻卷",
+    "seed": 8,
+    "flow": 1.45,
+    "scale": 1.7,
+    "stretch": 2.7,
+    "distortion": 1.15,
+    "dissolve": 0.13,
+    "softness": 0.065,
+    "core": 0.8,
+    "glow": 0.65,
+    "steps": 0.15,
+    "prop": true,
+    "layer": "combined",
+    "sparkDensity": 1,
+    "smokeDensity": 1,
+    "smokeOpacity": 0.18,
+    "wind": 0.12
+  },
+  "pixelsPerUnit": 128,
+  "sourceSize": [
+    1024,
+    1280
+  ],
+  "pivot": [
+    512,
+    855
+  ],
+  "baseDuration": 8,
+  "duration": 5.517241379310345,
+  "textureAnimation": false,
+  "framesPerTexture": 1,
+  "atlas": false,
+  "frames": 1,
+  "textures": [
+    {
+      "file": "FlowNoise.png",
+      "sha256": "325b9dffbe60f65fbade5c83c4239a5e3bf6a09da0113e53a7f3508810b6e50d"
+    },
+    {
+      "file": "SmokePuff.png",
+      "sha256": "33d253ef129e6f102d5ce04d1573d78372f58b4170697397d4f9d51092269f99"
+    },
+    {
+      "file": "SparkStreak.png",
+      "sha256": "2ff7b2a7b450f6f84a3a324772969f868163e6faed3bea534c6e10239e5a9eb7"
+    },
+    {
+      "file": "PropBack.png",
+      "sha256": "8eed5d0fe94ebf5e16e81b2da09cb03738e5ab5b4bc5e729ba8295580c17c3cd"
+    },
+    {
+      "file": "PropFront.png",
+      "sha256": "3088d5754ae9b9fe9021eb82770464e8f57fedbcfdfeffb3c953ad9f816ab35d"
+    },
+    {
+      "file": "SoftGlow.png",
+      "sha256": "4b232d19e290655a974b15beee9914dd78b47093600bda4949f243f79982886c"
+    }
+  ],
+  "coreRect": {
+    "x": 270,
+    "y": 238,
+    "width": 485,
+    "height": 624,
+    "anchorX": 512,
+    "anchorY": 855
+  },
+  "mapping": {
+    "core": "One native burst particle, source grayscale sampled in ported URP shader. Native Custom1.x clock; SAME source flow/stretch/warp/mask/erosion/ramp. No baked flame texture.",
+    "sparks": "Native continuous Emission, Box birth domain, decaying velocity curves, Noise, lifetime cooling/fade, Stretched Billboard using the original static X-oriented streak.",
+    "embers": "Same one static streak, rectangular Billboard, slow velocity and noise, cooling and size variation.",
+    "smoke": "Original one static puff, continuous native Emission, Box, upward velocity/force, Noise, random rotation, separate-axis growth, gray color/alpha envelope.",
+    "glow": "Three additive native static particles. No Light component.",
+    "prop": "Two ordinary static SpriteRenderers; mouth anchor (512,855)."
+  },
+  "differences": [
+    "Native random births and Noise approximate analytic seeded particle identities, sinusoidal wander, and trajectories.",
+    "Random lifetime velocity curves use reference lifetimes; not every source exponential path is identical.",
+    "Streak hot head is approximated by native color/brightness; not a second scheduled particle.",
+    "Linear-space Unity alpha/additive composition can differ slightly from browser Canvas.",
+    "Changing core material Flow also requires matching Core Main duration/lifetime to 8/Flow for seamless native clock restart."
+  ],
+  "import": {
+    "noise": "Linear data, Mirror, Bilinear, no mipmaps, uncompressed",
+    "stamps": "Static RGBA, Clamp, Bilinear, no mipmaps, uncompressed",
+    "props": "Single Sprite, PPU 128, mouth pivot x .5 / y 1-87/512"
+  },
+  "status": "authorized-for-unity-import"
+}

@@ -1,0 +1,20 @@
+{
+    "passed": true,
+    "actualPlayMode": true,
+    "motionObserved": true,
+    "customClockAdvances": true,
+    "emissionZeroStops": true,
+    "emissionRestores": true,
+    "scene": "Assets/PixelFX/Brazier/HandPaintedRealtime/Scenes/BrazierHandPaintedShowcase.unity",
+    "timestamp": "2026-11-05T12:10:19.1028100+08:00",
+    "note": "Actual engine playback. Editor callback only observes/captures, temporarily toggles Emission, then restores it. No Simulate, SetParticles, Emit, or material-time writes.",
+    "sparksBefore": 14,
+    "sparksOff": 0,
+    "sparksRestored": 11,
+    "coreParticles": 11,
+    "capturedFrames": 64,
+    "clockBefore": 0.019999992102384568,
+    "clockAfter": 0.3455555737018585,
+    "motionDistance": 0.6888880133628845,
+    "elapsedSeconds": 8.920774208000694
+}

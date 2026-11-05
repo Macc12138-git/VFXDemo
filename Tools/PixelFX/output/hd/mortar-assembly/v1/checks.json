@@ -1,0 +1,24 @@
+{
+  "pass": true,
+  "version": "v1",
+  "seed": 22,
+  "size": [
+    1024,
+    768
+  ],
+  "checkedFrames": 73,
+  "emptyFirstAndLast": true,
+  "paddingClear": true,
+  "deterministicScrub": true,
+  "seedAndControlsWork": true,
+  "layers": 6,
+  "threeSeparatePulses": [
+    33689,
+    33651,
+    34058
+  ],
+  "maxVisiblePixels": 170524,
+  "canvasDrawMedianMs": 0.29154099999999517,
+  "canvasDrawMaxMs": 1.2495409999999652,
+  "scope": "Desktop Node Canvas drawing only; excludes readback/encoding. Not Unity CPU/GPU, batches, memory, or device performance."
+}

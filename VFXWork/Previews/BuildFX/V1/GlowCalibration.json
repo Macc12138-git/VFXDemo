@@ -1,0 +1,7 @@
+{
+  "success": true,
+  "change": "Additive tint alpha 0.1, compensate Canvas sRGB-vs-linear additive brightness; retain native strength .35.",
+  "before": "RGBA(1.000, 1.000, 1.000, 1.000)",
+  "after": "RGBA(1.000, 1.000, 1.000, 0.100)",
+  "sceneDirty": false
+}

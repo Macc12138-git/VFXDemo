@@ -1,0 +1,206 @@
+{
+  "effect": "BuildFX",
+  "version": "V1",
+  "date": "2026-11-05",
+  "status": "native-playback-verified-local-editor-baseline-measured",
+  "authorInstruction": "以后不再自动生成 GIF，直接预览界面查看；导入到 Unity，文件夹命名 BuildFX。",
+  "gifGenerated": false,
+  "final": {
+    "success": true,
+    "identity": {
+      "path": "/Users/user/Desktop/VFXDemo/VFXDemo/Assets",
+      "product": "VFXDemo",
+      "scene": "Assets/Scenes/VFXWorkbench.unity",
+      "unity": "6000.3.19f1"
+    },
+    "isPlaying": false,
+    "sceneDirty": false,
+    "temporaryObjects": [],
+    "applicationRunInBackground": false,
+    "frameDebugger": false,
+    "roots": [
+      {
+        "name": "BrazierNoiseRealtime",
+        "position": "(-2.30, 0.00, 0.00)",
+        "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+        "scale": "(1.00, 1.00, 1.00)",
+        "active": true
+      },
+      {
+        "name": "BrazierNoiseFlameRealtime",
+        "position": "(2.30, 0.00, 0.00)",
+        "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+        "scale": "(1.00, 1.00, 1.00)",
+        "active": true
+      },
+      {
+        "name": "Main Camera",
+        "position": "(0.00, 1.68, -12.00)",
+        "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+        "scale": "(1.00, 1.00, 1.00)",
+        "active": true
+      },
+      {
+        "name": "BuildFX",
+        "position": "(-7.00, -1.30, 0.00)",
+        "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+        "scale": "(1.00, 1.00, 1.00)",
+        "active": true
+      }
+    ],
+    "camera": {
+      "orthographic": true,
+      "orthographicSize": 4.9,
+      "background": "RGBA(0.082, 0.094, 0.125, 1.000)",
+      "hdr": false,
+      "msaa": false,
+      "targetTexture": null
+    },
+    "prefab": {
+      "path": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab",
+      "duration": 1.2,
+      "loop": false,
+      "scripts": 0,
+      "particleSystems": 28
+    },
+    "sceneInstance": {
+      "duration": 1.6,
+      "loop": true,
+      "prefabConnected": true
+    },
+    "shaderSupported": true,
+    "shaderHasErrors": false,
+    "additiveTint": "RGBA(1.000, 1.000, 1.000, 0.100)"
+  },
+  "live": {
+    "success": true,
+    "firstFrame": 36623,
+    "lastFrame": 38194,
+    "offAfterDrain": 0,
+    "restoredPeak": 42,
+    "oneShotAfter1_35": 0,
+    "errors": []
+  },
+  "reuse": {
+    "success": true,
+    "operations": [
+      "Initial clear",
+      "Play after cleared Stop",
+      "Pause held across advancing game frames",
+      "Resume",
+      "Clear Stop",
+      "Disable / enable PlayOnAwake",
+      "Offscreen at half scale; native clock progresses",
+      "Return and restart"
+    ]
+  },
+  "assetHashes": [
+    {
+      "path": "Assets/PixelFX/BuildFX/Docs/README.md",
+      "bytes": 2145,
+      "sha256": "603ad3f742e8a2af975d4fb1e77dd8450b221a021b0dcf1c68b9fbaf9bcc101a"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Materials/BuildFX_Additive.mat",
+      "bytes": 979,
+      "sha256": "4f060d838000d6da57ef85c07d4b1348c7098226fdf880be5d150d44f926c314"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Materials/BuildFX_Alpha.mat",
+      "bytes": 975,
+      "sha256": "12df6c9edd57656f2a1304d434df49ed5abd2f424e03568dffbd0554a561f7b8"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/BackFlash0.asset",
+      "bytes": 5446,
+      "sha256": "f21b0f853e333c9c6e7910c669a284242576aec7ddd873f6076a0046fb91f13f"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/BackFlash1.asset",
+      "bytes": 5448,
+      "sha256": "6b4ec4ea29e13dc196af2f41606ff07de428d3f9a7431364b41075ae0d9b5a4b"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/BackFlash2.asset",
+      "bytes": 5446,
+      "sha256": "f8645c95e29d0b949f3cccc9cca662f2610fd0f7b27f376559a206016daaf8db"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/ChipDark.asset",
+      "bytes": 3717,
+      "sha256": "1a496ec76c2bc12d858c69fe749b8fff0187d8ab849c3aeef0002604deee4b28"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/ChipLight.asset",
+      "bytes": 3718,
+      "sha256": "c08f1de5366a6d6d00e4826b8184ad5dd5da30b48cc0a2269ba40958f6923983"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/FrontFlash0.asset",
+      "bytes": 9247,
+      "sha256": "1405b1898be7b6cdfd3631004f31943341373b2d04fd9e479c0835019189e7cd"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/FrontFlash1.asset",
+      "bytes": 9255,
+      "sha256": "60d9ea5c0ec2fbee400b4ffe56ead2801d6de420c62fafe3c7361a7434b7b978"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/FrontFlash2.asset",
+      "bytes": 9247,
+      "sha256": "d4c4a07a16c78eeb6fccea2a1d9c1e4879fd1434f5d35839a1179e013d213825"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/Smoke0.asset",
+      "bytes": 3679,
+      "sha256": "a4a2e9f5caba4ecca50a3b8d6274b7428c204f637954a798601c44159a0cd4fa"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/Smoke1.asset",
+      "bytes": 3679,
+      "sha256": "3374b0ffe23783d994198f8e1bce7591b597728f0101af7ab8cddc70a3aab170"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/Smoke2.asset",
+      "bytes": 3679,
+      "sha256": "642899e6a64d0bca4f567a692f764de5175665ea30042e7c8a33598e755e0d00"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/SoftGlow.asset",
+      "bytes": 3719,
+      "sha256": "6c476051b486b42cc749abb941459c560afe7eafdaa814c1551cf3acebdb17a4"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/Star.asset",
+      "bytes": 3986,
+      "sha256": "14db0ee0270d3a811c7888c09a68e58febd93ef4f1418305a59614e72748d175"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/SweepArcs.asset",
+      "bytes": 46493,
+      "sha256": "d1b522563cd9a185f528a647595aafc75db920e1906b64bec09200c611018d90"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab",
+      "bytes": 4065758,
+      "sha256": "f686962d97d00cb9d4e2d4e173b5c6f9e0370d355fa1903c2f3ed99ecda8eaec"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Shaders/BuildFXStaticParticle.shader",
+      "bytes": 1598,
+      "sha256": "89095b790026746114bdc64b8391b806d6a1d1b39677d09dd7673cca66f0c417"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Textures/BuildFX_StaticAtlas.png",
+      "bytes": 69603,
+      "sha256": "a91b1a6cd1d69802fc12eafb378ce63dfa734dac120ee58c401f9d0ff811a07e"
+    }
+  ],
+  "pending": [
+    "Unity-native visual acceptance by author",
+    "Exact draw-event/batch-merge evidence",
+    "Target-device Player variants, GPU/overdraw and performance budget",
+    "Long-run reuse memory trend"
+  ],
+  "summary": "One-shot prefab plus native-loop scene override; no runtime scripts or animation atlas, no project-level batching change. Original scene roots preserved; temporary tests cleaned."
+}

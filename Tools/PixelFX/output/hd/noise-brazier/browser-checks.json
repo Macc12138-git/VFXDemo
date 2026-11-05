@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "scope": "Observed local browser WebGL authoring preview; not Unity or device validation.",
+  "url": "http://127.0.0.1:8086/gallery/noise-brazier.html",
+  "version": 4,
+  "actualWebGLShaderCompiled": true,
+  "browserWarningsOrErrors": [],
+  "controlsObserved": {
+    "smokeLayerVisiblyContainsSoftClouds": true,
+    "smokeDensityZeroVisiblyClearsSmokeLayer": true,
+    "sparksLayerVisiblyContainsDirectionalStreaks": true,
+    "sparkDensityZeroVisiblyClearsSparksLayer": true,
+    "lightBackgroundChecked": true,
+    "combinedLayerRestored": true,
+    "darkBackgroundRestored": true,
+    "fiercePresetLeftPlaying": true,
+    "particleDefaultsRestored": true
+  },
+  "unityModified": false,
+  "runtimeTextureFrames": 1,
+  "additionalStaticParticleTextures": 2,
+  "reviewGifIsNotRuntimeInput": true,
+  "status": "awaiting-author-review"
+}

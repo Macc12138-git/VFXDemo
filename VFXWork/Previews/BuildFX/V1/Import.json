@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "root": "Assets/PixelFX/BuildFX",
+  "prefab": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab",
+  "scene": "Assets/Scenes/VFXWorkbench.unity",
+  "systems": 28,
+  "meshes": 14,
+  "materials": 2,
+  "staticTextures": 1,
+  "sourceHash": "c8d6914c4d583d5481b7e9d927f2d3c6acb7bcf4d0ae54ce693446d97fe032aa",
+  "sceneInstanceLoopOverride": 1.6,
+  "prefabDuration": 1.2,
+  "before": [
+    {
+      "name": "BrazierNoiseRealtime",
+      "id": -35538,
+      "position": "(-2.30, 0.00, 0.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "active": true
+    },
+    {
+      "name": "BrazierNoiseFlameRealtime",
+      "id": -35466,
+      "position": "(2.30, 0.00, 0.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "active": true
+    },
+    {
+      "name": "Main Camera",
+      "id": 53988,
+      "position": "(0.00, 1.68, -12.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "active": true
+    }
+  ],
+  "preserved": true
+}
