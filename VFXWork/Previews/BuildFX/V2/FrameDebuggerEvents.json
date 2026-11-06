@@ -1,0 +1,267 @@
+{
+  "success": true,
+  "fail": null,
+  "captures": [
+    {
+      "instances": 1,
+      "phase": 0.249775589,
+      "count": 9,
+      "rows": [
+        {
+          "index": 0,
+          "name": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph",
+          "objectName": null,
+          "eventFields": {
+            "m_Type": 1,
+            "m_Obj": null
+          },
+          "available": false,
+          "data": null
+        },
+        {
+          "index": 1,
+          "name": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "objectName": null,
+          "eventFields": {
+            "m_Type": 18,
+            "m_Obj": null
+          },
+          "available": false,
+          "data": null
+        },
+        {
+          "index": 2,
+          "name": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "objectName": null,
+          "eventFields": {
+            "m_Type": 18,
+            "m_Obj": null
+          },
+          "available": false,
+          "data": null
+        },
+        {
+          "index": 3,
+          "name": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "objectName": null,
+          "eventFields": {
+            "m_Type": 18,
+            "m_Obj": null
+          },
+          "available": false,
+          "data": null
+        },
+        {
+          "index": 4,
+          "name": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "objectName": null,
+          "eventFields": {
+            "m_Type": 18,
+            "m_Obj": null
+          },
+          "available": false,
+          "data": null
+        },
+        {
+          "index": 5,
+          "name": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 2:0) CopyColor/CopyColor",
+          "objectName": null,
+          "eventFields": {
+            "m_Type": 18,
+            "m_Obj": null
+          },
+          "available": false,
+          "data": null
+        },
+        {
+          "index": 6,
+          "name": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "objectName": "SoftGlow",
+          "eventFields": {
+            "m_Type": 15,
+            "m_Obj": "SoftGlow @ "
+          },
+          "available": false,
+          "data": null
+        },
+        {
+          "index": 7,
+          "name": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "objectName": "Stars",
+          "eventFields": {
+            "m_Type": 15,
+            "m_Obj": "Stars @ "
+          },
+          "available": false,
+          "data": null
+        },
+        {
+          "index": 8,
+          "name": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 4:0) BlitFinalToBackBuffer",
+          "objectName": null,
+          "eventFields": {
+            "m_Type": 18,
+            "m_Obj": null
+          },
+          "available": false,
+          "data": null
+        }
+      ]
+    },
+    {
+      "instances": 8,
+      "phase": 0.2296771,
+      "count": 9,
+      "rows": [
+        {
+          "index": 0,
+          "name": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph",
+          "objectName": null,
+          "eventFields": {
+            "m_Type": 1,
+            "m_Obj": null
+          },
+          "available": false,
+          "data": null
+        },
+        {
+          "index": 1,
+          "name": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "objectName": null,
+          "eventFields": {
+            "m_Type": 18,
+            "m_Obj": null
+          },
+          "available": false,
+          "data": null
+        },
+        {
+          "index": 2,
+          "name": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "objectName": null,
+          "eventFields": {
+            "m_Type": 18,
+            "m_Obj": null
+          },
+          "available": false,
+          "data": null
+        },
+        {
+          "index": 3,
+          "name": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "objectName": null,
+          "eventFields": {
+            "m_Type": 18,
+            "m_Obj": null
+          },
+          "available": false,
+          "data": null
+        },
+        {
+          "index": 4,
+          "name": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "objectName": null,
+          "eventFields": {
+            "m_Type": 18,
+            "m_Obj": null
+          },
+          "available": false,
+          "data": null
+        },
+        {
+          "index": 5,
+          "name": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 2:0) CopyColor/CopyColor",
+          "objectName": null,
+          "eventFields": {
+            "m_Type": 18,
+            "m_Obj": null
+          },
+          "available": false,
+          "data": null
+        },
+        {
+          "index": 6,
+          "name": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "objectName": "SoftGlow",
+          "eventFields": {
+            "m_Type": 15,
+            "m_Obj": "SoftGlow @ "
+          },
+          "available": false,
+          "data": null
+        },
+        {
+          "index": 7,
+          "name": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "objectName": "Stars",
+          "eventFields": {
+            "m_Type": 15,
+            "m_Obj": "Stars @ "
+          },
+          "available": false,
+          "data": null
+        },
+        {
+          "index": 8,
+          "name": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 4:0) BlitFinalToBackBuffer",
+          "objectName": null,
+          "eventFields": {
+            "m_Type": 18,
+            "m_Obj": null
+          },
+          "available": false,
+          "data": null
+        }
+      ]
+    }
+  ],
+  "breakCauses": [
+    "",
+    "Unknown reason.",
+    "An object is affected by multiple forward lights.",
+    "Objects have different materials.",
+    "An object is using a multi-pass shader.",
+    "An object has odd negative scaling.",
+    "Either objects have different \"Receive Shadows\" settings, or some objects are within the shadow distance, while some other objects are not.",
+    "Objects are affected by different forward lights.",
+    "Objects are on different lighting layers.",
+    "Objects have different \"Cast Shadows\" settings.",
+    "Objects either have different shadow caster shaders, or have different shader properties / keywords that affect the output of the shadow caster pass.",
+    "The shader explicitly disables batching with the \"DisableBatching\" tag.",
+    "Objects have different MaterialPropertyBlock set.",
+    "Non-instanced properties set for instanced shader.",
+    "Objects are affected by different lightmap configurations.",
+    "Objects are affected by different light probes.",
+    "Objects are shadowed by baked occlusions and have different occlusion factors.",
+    "Objects are affected by different reflection probes.",
+    "Rendering different meshes or submeshes with GPU instancing.",
+    "Objects have different batching-static settings.",
+    "Objects belong to different static batches.",
+    "Dynamic Batching is turned off in the Player Settings or is disabled temporarily in the current context to avoid z-fighting.",
+    "There are too many indices (more than 32k) in a dynamic batch.",
+    "A mesh renderer has additional vertex streams. Dynamic batching doesn't support such mesh renderers.",
+    "A submesh we are trying to dynamic-batch has more than 300 vertices.",
+    "A submesh we are trying to dynamic-batch has more than 900 vertex attributes.",
+    "This is the first draw call of a new shadow cascade.",
+    "The material doesn't have GPU instancing enabled.",
+    "Objects are rendered using different rendering functions. This can happen if the type of renderer is different (eg Mesh/Skinned Mesh) or when using different settings within the same renderer, such as Sprite Masking.",
+    "Objects have different batching keys. This can be caused by using different vertex streams on Particle Systems, or by mixing Lines and Trails, or by mixing lit and unlit geometry, or when particle Sprites belong to different atlases.",
+    "Mesh uses 32 bit index buffer.",
+    "Submesh has non-zero base vertex.",
+    "The previous instanced draw call has reached its maximum instance count.",
+    "Motion Vector rendering doesn't support batching.",
+    "When using late latching, children of an XR late latched GameObject do not use batching.",
+    "Objects have different bounds and bounds instancing is disabled.",
+    "Nodes have different LOD cross-fade mode",
+    "SRP: Node have different shaders.",
+    "SRP: Node use multi-pass shader",
+    "SRP: Node use different shader keywords",
+    "SRP: End of the batch flush",
+    "SRP: Node is not compatible with SRP batcher",
+    "SRP: Node material requires device state change",
+    "SRP: First call from ScriptableRenderLoopJob",
+    "SRP: This material has custom buffer override",
+    "SRP: GPU Instancing shader variant flip"
+  ],
+  "restored": true
+}

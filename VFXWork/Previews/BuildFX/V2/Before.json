@@ -1,0 +1,963 @@
+{
+  "identity": {
+    "data": "/Users/user/Desktop/VFXDemo/VFXDemo/Assets",
+    "product": "VFXDemo",
+    "scene": "Assets/Scenes/VFXWorkbench.unity",
+    "dirty": false,
+    "playing": false
+  },
+  "roots": [
+    {
+      "name": "Main Camera",
+      "position": "(0.00, 1.68, -12.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "active": true
+    },
+    {
+      "name": "BuildFX",
+      "position": "(0.00, -1.30, 0.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "active": true
+    }
+  ],
+  "modifications": [
+    {
+      "target": "Puff_00",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Puff_00",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Puff_00",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Puff_16",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Puff_16",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Puff_16",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Chips",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Chips",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Chips",
+      "propertyPath": "InitialModule.startSizeY.minMaxState",
+      "value": "3",
+      "reference": null
+    },
+    {
+      "target": "Chips",
+      "propertyPath": "InitialModule.startSizeZ.minMaxState",
+      "value": "3",
+      "reference": null
+    },
+    {
+      "target": "Chips",
+      "propertyPath": "InitialModule.startRotationX.minMaxState",
+      "value": "3",
+      "reference": null
+    },
+    {
+      "target": "Chips",
+      "propertyPath": "InitialModule.startRotationY.minMaxState",
+      "value": "3",
+      "reference": null
+    },
+    {
+      "target": "Chips",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Chips",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[1].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Chips",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[2].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Front_2",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Front_2",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Front_2",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "BuildFX",
+      "propertyPath": "m_Name",
+      "value": "BuildFX",
+      "reference": null
+    },
+    {
+      "target": "Puff_03",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Puff_03",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Puff_03",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Puff_13",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Puff_13",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Puff_13",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Back_0",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Back_0",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Back_0",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Puff_09",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Puff_09",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Puff_09",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Puff_04",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Puff_04",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Puff_04",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "BuildFX",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "BuildFX",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Puff_05",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Puff_05",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Puff_05",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Front_0",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Front_0",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Front_0",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Back_2",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Back_2",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Back_2",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "GroundAndSideArcs",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "GroundAndSideArcs",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "GroundAndSideArcs",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "GroundAndSideArcs",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[1].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "GroundAndSideArcs",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[2].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Puff_14",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Puff_14",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Puff_14",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Puff_06",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Puff_06",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Puff_06",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Puff_12",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Puff_12",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Puff_12",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Puff_07",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Puff_07",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Puff_07",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Puff_08",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Puff_08",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Puff_08",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Puff_02",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Puff_02",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Puff_02",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Puff_11",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Puff_11",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Puff_11",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Front_1",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Front_1",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Front_1",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Puff_15",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Puff_15",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Puff_15",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "SoftGlow",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "SoftGlow",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "SoftGlow",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "SoftGlow",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[1].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "SoftGlow",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[2].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Puff_10",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Puff_10",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Puff_10",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Back_1",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Back_1",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Back_1",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "BuildFX",
+      "propertyPath": "m_LocalPosition.x",
+      "value": "0",
+      "reference": null
+    },
+    {
+      "target": "BuildFX",
+      "propertyPath": "m_LocalPosition.y",
+      "value": "-1.3",
+      "reference": null
+    },
+    {
+      "target": "BuildFX",
+      "propertyPath": "m_LocalPosition.z",
+      "value": "0",
+      "reference": null
+    },
+    {
+      "target": "BuildFX",
+      "propertyPath": "m_LocalRotation.w",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "BuildFX",
+      "propertyPath": "m_LocalRotation.x",
+      "value": "0",
+      "reference": null
+    },
+    {
+      "target": "BuildFX",
+      "propertyPath": "m_LocalRotation.y",
+      "value": "0",
+      "reference": null
+    },
+    {
+      "target": "BuildFX",
+      "propertyPath": "m_LocalRotation.z",
+      "value": "0",
+      "reference": null
+    },
+    {
+      "target": "BuildFX",
+      "propertyPath": "m_LocalEulerAnglesHint.x",
+      "value": "0",
+      "reference": null
+    },
+    {
+      "target": "BuildFX",
+      "propertyPath": "m_LocalEulerAnglesHint.y",
+      "value": "0",
+      "reference": null
+    },
+    {
+      "target": "BuildFX",
+      "propertyPath": "m_LocalEulerAnglesHint.z",
+      "value": "0",
+      "reference": null
+    },
+    {
+      "target": "Puff_01",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Puff_01",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Puff_01",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Stars",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": null
+    },
+    {
+      "target": "Stars",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": null
+    },
+    {
+      "target": "Stars",
+      "propertyPath": "InitialModule.startSizeY.minMaxState",
+      "value": "3",
+      "reference": null
+    },
+    {
+      "target": "Stars",
+      "propertyPath": "InitialModule.startSizeZ.minMaxState",
+      "value": "3",
+      "reference": null
+    },
+    {
+      "target": "Stars",
+      "propertyPath": "InitialModule.startRotationX.minMaxState",
+      "value": "3",
+      "reference": null
+    },
+    {
+      "target": "Stars",
+      "propertyPath": "InitialModule.startRotationY.minMaxState",
+      "value": "3",
+      "reference": null
+    },
+    {
+      "target": "Stars",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Stars",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[1].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    },
+    {
+      "target": "Stars",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[2].repeatInterval",
+      "value": "0.01",
+      "reference": null
+    }
+  ],
+  "systems": [
+    {
+      "name": "BuildFX",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 0,
+      "autoSeed": true,
+      "maxParticles": 1
+    },
+    {
+      "name": "Puff_00",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 92,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "Puff_01",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 99,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "Puff_02",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 106,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "Puff_03",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 113,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "Puff_04",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 120,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "Puff_05",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 127,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "Puff_06",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 134,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "Puff_07",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 141,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "Puff_08",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 148,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "Puff_09",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 155,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "Puff_10",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 162,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "Puff_11",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 169,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "Puff_12",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 176,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "Puff_13",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 183,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "Puff_14",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 190,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "Puff_15",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 197,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "Puff_16",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 204,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "Back_0",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 57,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "Back_1",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 57,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "Back_2",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 57,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "Front_0",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 302,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "Front_1",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 302,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "Front_2",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 302,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "GroundAndSideArcs",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 337,
+      "autoSeed": false,
+      "maxParticles": 2
+    },
+    {
+      "name": "Stars",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 442,
+      "autoSeed": false,
+      "maxParticles": 32
+    },
+    {
+      "name": "Chips",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 407,
+      "autoSeed": false,
+      "maxParticles": 18
+    },
+    {
+      "name": "SoftGlow",
+      "duration": 1.2,
+      "loop": false,
+      "seed": 22,
+      "autoSeed": false,
+      "maxParticles": 2
+    }
+  ],
+  "rendering": {
+    "width": 2340,
+    "height": 1080,
+    "orthographic": true,
+    "orthographicSize": 4.9,
+    "allowHDR": false,
+    "allowMSAA": false,
+    "background": "RGBA(0.082, 0.094, 0.125, 1.000)",
+    "pipeline": "PC_RPAsset",
+    "runInBackground": false,
+    "device": "Apple M5",
+    "api": "Metal"
+  },
+  "prefab": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab",
+  "sceneChildren": [
+    "BuildFX",
+    "01_Smoke",
+    "Puff_00",
+    "Puff_01",
+    "Puff_02",
+    "Puff_03",
+    "Puff_04",
+    "Puff_05",
+    "Puff_06",
+    "Puff_07",
+    "Puff_08",
+    "Puff_09",
+    "Puff_10",
+    "Puff_11",
+    "Puff_12",
+    "Puff_13",
+    "Puff_14",
+    "Puff_15",
+    "Puff_16",
+    "02_BackFlashes",
+    "Back_0",
+    "Back_1",
+    "Back_2",
+    "03_FrontFlashes",
+    "Front_0",
+    "Front_1",
+    "Front_2",
+    "04_Sweeps",
+    "GroundAndSideArcs",
+    "05_SparksAndChips",
+    "Stars",
+    "Chips",
+    "00_Glow",
+    "SoftGlow"
+  ]
+}

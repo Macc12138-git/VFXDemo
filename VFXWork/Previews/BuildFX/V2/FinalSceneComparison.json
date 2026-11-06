@@ -1,0 +1,1694 @@
+{
+  "scene": "Assets/Scenes/VFXWorkbench.unity",
+  "isDirty": true,
+  "roots": [
+    {
+      "name": "Main Camera",
+      "position": "(0.00, 1.68, -12.00)"
+    },
+    {
+      "name": "BuildFX",
+      "position": "(0.00, -1.30, 0.00)"
+    }
+  ],
+  "frameDebugger": false,
+  "background": false,
+  "properties": 63887,
+  "differences": [
+    {
+      "key": "Main Camera:GameObject|m_Component.Array.data[0].component.m_FileID",
+      "current": "53994",
+      "disk": "57400"
+    },
+    {
+      "key": "Main Camera:GameObject|m_Component.Array.data[1].component.m_FileID",
+      "current": "53992",
+      "disk": "57398"
+    },
+    {
+      "key": "Main Camera:GameObject|m_Component.Array.data[2].component.m_FileID",
+      "current": "53990",
+      "disk": "57396"
+    },
+    {
+      "key": "Main Camera:Transform|m_GameObject.m_FileID",
+      "current": "53988",
+      "disk": "57394"
+    },
+    {
+      "key": "Main Camera:Camera|m_GameObject.m_FileID",
+      "current": "53988",
+      "disk": "57394"
+    },
+    {
+      "key": "Main Camera:UniversalAdditionalCameraData|m_GameObject.m_FileID",
+      "current": "53988",
+      "disk": "57394"
+    },
+    {
+      "key": "BuildFX:GameObject|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX:GameObject|m_Component.Array.data[0].component.m_FileID",
+      "current": "-45924",
+      "disk": "-109000"
+    },
+    {
+      "key": "BuildFX:GameObject|m_Component.Array.data[1].component.m_FileID",
+      "current": "-45930",
+      "disk": "-109002"
+    },
+    {
+      "key": "BuildFX:GameObject|m_Component.Array.data[2].component.m_FileID",
+      "current": "-45932",
+      "disk": "-109004"
+    },
+    {
+      "key": "BuildFX:Transform|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX:Transform|m_GameObject.m_FileID",
+      "current": "-45922",
+      "disk": "-108998"
+    },
+    {
+      "key": "BuildFX:Transform|m_Children.Array.data[0].m_FileID",
+      "current": "-45936",
+      "disk": "-109008"
+    },
+    {
+      "key": "BuildFX:Transform|m_Children.Array.data[1].m_FileID",
+      "current": "-45940",
+      "disk": "-109020"
+    },
+    {
+      "key": "BuildFX:Transform|m_Children.Array.data[2].m_FileID",
+      "current": "-45944",
+      "disk": "-109048"
+    },
+    {
+      "key": "BuildFX:Transform|m_Children.Array.data[3].m_FileID",
+      "current": "-45948",
+      "disk": "-109076"
+    },
+    {
+      "key": "BuildFX:Transform|m_Children.Array.data[4].m_FileID",
+      "current": "-45952",
+      "disk": "-109088"
+    },
+    {
+      "key": "BuildFX:Transform|m_Children.Array.data[5].m_FileID",
+      "current": "-45956",
+      "disk": "-109108"
+    },
+    {
+      "key": "BuildFX:ParticleSystem|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX:ParticleSystem|m_GameObject.m_FileID",
+      "current": "-45922",
+      "disk": "-108998"
+    },
+    {
+      "key": "BuildFX:ParticleSystemRenderer|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX:ParticleSystemRenderer|m_GameObject.m_FileID",
+      "current": "-45922",
+      "disk": "-108998"
+    },
+    {
+      "key": "BuildFX/01_Smoke:GameObject|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/01_Smoke:GameObject|m_Component.Array.data[0].component.m_FileID",
+      "current": "-45936",
+      "disk": "-109008"
+    },
+    {
+      "key": "BuildFX/01_Smoke:Transform|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/01_Smoke:Transform|m_GameObject.m_FileID",
+      "current": "-45934",
+      "disk": "-109006"
+    },
+    {
+      "key": "BuildFX/01_Smoke:Transform|m_Children.Array.data[0].m_FileID",
+      "current": "-75088",
+      "disk": "-109012"
+    },
+    {
+      "key": "BuildFX/01_Smoke:Transform|m_Father.m_FileID",
+      "current": "-45924",
+      "disk": "-109000"
+    },
+    {
+      "key": "BuildFX/01_Smoke/SmokeRandom:GameObject|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/01_Smoke/SmokeRandom:GameObject|m_Component.Array.data[0].component.m_FileID",
+      "current": "-75088",
+      "disk": "-109012"
+    },
+    {
+      "key": "BuildFX/01_Smoke/SmokeRandom:GameObject|m_Component.Array.data[1].component.m_FileID",
+      "current": "-75090",
+      "disk": "-109014"
+    },
+    {
+      "key": "BuildFX/01_Smoke/SmokeRandom:GameObject|m_Component.Array.data[2].component.m_FileID",
+      "current": "-75092",
+      "disk": "-109016"
+    },
+    {
+      "key": "BuildFX/01_Smoke/SmokeRandom:Transform|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/01_Smoke/SmokeRandom:Transform|m_GameObject.m_FileID",
+      "current": "-75086",
+      "disk": "-109010"
+    },
+    {
+      "key": "BuildFX/01_Smoke/SmokeRandom:Transform|m_Father.m_FileID",
+      "current": "-45936",
+      "disk": "-109008"
+    },
+    {
+      "key": "BuildFX/01_Smoke/SmokeRandom:ParticleSystem|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/01_Smoke/SmokeRandom:ParticleSystem|m_GameObject.m_FileID",
+      "current": "-75086",
+      "disk": "-109010"
+    },
+    {
+      "key": "BuildFX/01_Smoke/SmokeRandom:ParticleSystem|InitialModule.startSizeY.minMaxState",
+      "current": "3",
+      "disk": "0"
+    },
+    {
+      "key": "BuildFX/01_Smoke/SmokeRandom:ParticleSystem|InitialModule.startSizeZ.minMaxState",
+      "current": "3",
+      "disk": "0"
+    },
+    {
+      "key": "BuildFX/01_Smoke/SmokeRandom:ParticleSystem|InitialModule.startRotationX.minMaxState",
+      "current": "3",
+      "disk": "0"
+    },
+    {
+      "key": "BuildFX/01_Smoke/SmokeRandom:ParticleSystem|InitialModule.startRotationY.minMaxState",
+      "current": "3",
+      "disk": "0"
+    },
+    {
+      "key": "BuildFX/01_Smoke/SmokeRandom:ParticleSystemRenderer|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/01_Smoke/SmokeRandom:ParticleSystemRenderer|m_GameObject.m_FileID",
+      "current": "-75086",
+      "disk": "-109010"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes:GameObject|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes:GameObject|m_Component.Array.data[0].component.m_FileID",
+      "current": "-45940",
+      "disk": "-109020"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes:Transform|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes:Transform|m_GameObject.m_FileID",
+      "current": "-45938",
+      "disk": "-109018"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes:Transform|m_Children.Array.data[0].m_FileID",
+      "current": "-46096",
+      "disk": "-109024"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes:Transform|m_Children.Array.data[1].m_FileID",
+      "current": "-46112",
+      "disk": "-109032"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes:Transform|m_Children.Array.data[2].m_FileID",
+      "current": "-46128",
+      "disk": "-109040"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes:Transform|m_Father.m_FileID",
+      "current": "-45924",
+      "disk": "-109000"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_0:GameObject|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_0:GameObject|m_Component.Array.data[0].component.m_FileID",
+      "current": "-46096",
+      "disk": "-109024"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_0:GameObject|m_Component.Array.data[1].component.m_FileID",
+      "current": "-46098",
+      "disk": "-109026"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_0:GameObject|m_Component.Array.data[2].component.m_FileID",
+      "current": "-46100",
+      "disk": "-109028"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_0:Transform|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_0:Transform|m_GameObject.m_FileID",
+      "current": "-46094",
+      "disk": "-109022"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_0:Transform|m_Father.m_FileID",
+      "current": "-45940",
+      "disk": "-109020"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_0:ParticleSystem|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_0:ParticleSystem|m_GameObject.m_FileID",
+      "current": "-46094",
+      "disk": "-109022"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_0:ParticleSystemRenderer|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_0:ParticleSystemRenderer|m_GameObject.m_FileID",
+      "current": "-46094",
+      "disk": "-109022"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_1:GameObject|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_1:GameObject|m_Component.Array.data[0].component.m_FileID",
+      "current": "-46112",
+      "disk": "-109032"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_1:GameObject|m_Component.Array.data[1].component.m_FileID",
+      "current": "-46114",
+      "disk": "-109034"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_1:GameObject|m_Component.Array.data[2].component.m_FileID",
+      "current": "-46116",
+      "disk": "-109036"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_1:Transform|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_1:Transform|m_GameObject.m_FileID",
+      "current": "-46110",
+      "disk": "-109030"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_1:Transform|m_Father.m_FileID",
+      "current": "-45940",
+      "disk": "-109020"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_1:ParticleSystem|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_1:ParticleSystem|m_GameObject.m_FileID",
+      "current": "-46110",
+      "disk": "-109030"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_1:ParticleSystemRenderer|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_1:ParticleSystemRenderer|m_GameObject.m_FileID",
+      "current": "-46110",
+      "disk": "-109030"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_2:GameObject|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_2:GameObject|m_Component.Array.data[0].component.m_FileID",
+      "current": "-46128",
+      "disk": "-109040"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_2:GameObject|m_Component.Array.data[1].component.m_FileID",
+      "current": "-46130",
+      "disk": "-109042"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_2:GameObject|m_Component.Array.data[2].component.m_FileID",
+      "current": "-46132",
+      "disk": "-109044"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_2:Transform|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_2:Transform|m_GameObject.m_FileID",
+      "current": "-46126",
+      "disk": "-109038"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_2:Transform|m_Father.m_FileID",
+      "current": "-45940",
+      "disk": "-109020"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_2:ParticleSystem|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_2:ParticleSystem|m_GameObject.m_FileID",
+      "current": "-46126",
+      "disk": "-109038"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_2:ParticleSystemRenderer|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/02_BackFlashes/Back_2:ParticleSystemRenderer|m_GameObject.m_FileID",
+      "current": "-46126",
+      "disk": "-109038"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes:GameObject|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes:GameObject|m_Component.Array.data[0].component.m_FileID",
+      "current": "-45944",
+      "disk": "-109048"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes:Transform|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes:Transform|m_GameObject.m_FileID",
+      "current": "-45942",
+      "disk": "-109046"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes:Transform|m_Children.Array.data[0].m_FileID",
+      "current": "-46104",
+      "disk": "-109052"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes:Transform|m_Children.Array.data[1].m_FileID",
+      "current": "-46120",
+      "disk": "-109060"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes:Transform|m_Children.Array.data[2].m_FileID",
+      "current": "-46136",
+      "disk": "-109068"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes:Transform|m_Father.m_FileID",
+      "current": "-45924",
+      "disk": "-109000"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_0:GameObject|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_0:GameObject|m_Component.Array.data[0].component.m_FileID",
+      "current": "-46104",
+      "disk": "-109052"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_0:GameObject|m_Component.Array.data[1].component.m_FileID",
+      "current": "-46106",
+      "disk": "-109054"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_0:GameObject|m_Component.Array.data[2].component.m_FileID",
+      "current": "-46108",
+      "disk": "-109056"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_0:Transform|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_0:Transform|m_GameObject.m_FileID",
+      "current": "-46102",
+      "disk": "-109050"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_0:Transform|m_Father.m_FileID",
+      "current": "-45944",
+      "disk": "-109048"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_0:ParticleSystem|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_0:ParticleSystem|m_GameObject.m_FileID",
+      "current": "-46102",
+      "disk": "-109050"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_0:ParticleSystemRenderer|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_0:ParticleSystemRenderer|m_GameObject.m_FileID",
+      "current": "-46102",
+      "disk": "-109050"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_1:GameObject|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_1:GameObject|m_Component.Array.data[0].component.m_FileID",
+      "current": "-46120",
+      "disk": "-109060"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_1:GameObject|m_Component.Array.data[1].component.m_FileID",
+      "current": "-46122",
+      "disk": "-109062"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_1:GameObject|m_Component.Array.data[2].component.m_FileID",
+      "current": "-46124",
+      "disk": "-109064"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_1:Transform|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_1:Transform|m_GameObject.m_FileID",
+      "current": "-46118",
+      "disk": "-109058"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_1:Transform|m_Father.m_FileID",
+      "current": "-45944",
+      "disk": "-109048"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_1:ParticleSystem|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_1:ParticleSystem|m_GameObject.m_FileID",
+      "current": "-46118",
+      "disk": "-109058"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_1:ParticleSystemRenderer|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_1:ParticleSystemRenderer|m_GameObject.m_FileID",
+      "current": "-46118",
+      "disk": "-109058"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_2:GameObject|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_2:GameObject|m_Component.Array.data[0].component.m_FileID",
+      "current": "-46136",
+      "disk": "-109068"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_2:GameObject|m_Component.Array.data[1].component.m_FileID",
+      "current": "-46138",
+      "disk": "-109070"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_2:GameObject|m_Component.Array.data[2].component.m_FileID",
+      "current": "-46140",
+      "disk": "-109072"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_2:Transform|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_2:Transform|m_GameObject.m_FileID",
+      "current": "-46134",
+      "disk": "-109066"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_2:Transform|m_Father.m_FileID",
+      "current": "-45944",
+      "disk": "-109048"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_2:ParticleSystem|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_2:ParticleSystem|m_GameObject.m_FileID",
+      "current": "-46134",
+      "disk": "-109066"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_2:ParticleSystemRenderer|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/03_FrontFlashes/Front_2:ParticleSystemRenderer|m_GameObject.m_FileID",
+      "current": "-46134",
+      "disk": "-109066"
+    },
+    {
+      "key": "BuildFX/04_Sweeps:GameObject|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/04_Sweeps:GameObject|m_Component.Array.data[0].component.m_FileID",
+      "current": "-45948",
+      "disk": "-109076"
+    },
+    {
+      "key": "BuildFX/04_Sweeps:Transform|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/04_Sweeps:Transform|m_GameObject.m_FileID",
+      "current": "-45946",
+      "disk": "-109074"
+    },
+    {
+      "key": "BuildFX/04_Sweeps:Transform|m_Children.Array.data[0].m_FileID",
+      "current": "-46144",
+      "disk": "-109080"
+    },
+    {
+      "key": "BuildFX/04_Sweeps:Transform|m_Father.m_FileID",
+      "current": "-45924",
+      "disk": "-109000"
+    },
+    {
+      "key": "BuildFX/04_Sweeps/GroundAndSideArcs:GameObject|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/04_Sweeps/GroundAndSideArcs:GameObject|m_Component.Array.data[0].component.m_FileID",
+      "current": "-46144",
+      "disk": "-109080"
+    },
+    {
+      "key": "BuildFX/04_Sweeps/GroundAndSideArcs:GameObject|m_Component.Array.data[1].component.m_FileID",
+      "current": "-46146",
+      "disk": "-109082"
+    },
+    {
+      "key": "BuildFX/04_Sweeps/GroundAndSideArcs:GameObject|m_Component.Array.data[2].component.m_FileID",
+      "current": "-46148",
+      "disk": "-109084"
+    },
+    {
+      "key": "BuildFX/04_Sweeps/GroundAndSideArcs:Transform|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/04_Sweeps/GroundAndSideArcs:Transform|m_GameObject.m_FileID",
+      "current": "-46142",
+      "disk": "-109078"
+    },
+    {
+      "key": "BuildFX/04_Sweeps/GroundAndSideArcs:Transform|m_Father.m_FileID",
+      "current": "-45948",
+      "disk": "-109076"
+    },
+    {
+      "key": "BuildFX/04_Sweeps/GroundAndSideArcs:ParticleSystem|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/04_Sweeps/GroundAndSideArcs:ParticleSystem|m_GameObject.m_FileID",
+      "current": "-46142",
+      "disk": "-109078"
+    },
+    {
+      "key": "BuildFX/04_Sweeps/GroundAndSideArcs:ParticleSystemRenderer|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/04_Sweeps/GroundAndSideArcs:ParticleSystemRenderer|m_GameObject.m_FileID",
+      "current": "-46142",
+      "disk": "-109078"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips:GameObject|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips:GameObject|m_Component.Array.data[0].component.m_FileID",
+      "current": "-45952",
+      "disk": "-109088"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips:Transform|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips:Transform|m_GameObject.m_FileID",
+      "current": "-45950",
+      "disk": "-109086"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips:Transform|m_Children.Array.data[0].m_FileID",
+      "current": "-46152",
+      "disk": "-109092"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips:Transform|m_Children.Array.data[1].m_FileID",
+      "current": "-46160",
+      "disk": "-109100"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips:Transform|m_Father.m_FileID",
+      "current": "-45924",
+      "disk": "-109000"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips/Stars:GameObject|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips/Stars:GameObject|m_Component.Array.data[0].component.m_FileID",
+      "current": "-46152",
+      "disk": "-109092"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips/Stars:GameObject|m_Component.Array.data[1].component.m_FileID",
+      "current": "-46154",
+      "disk": "-109094"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips/Stars:GameObject|m_Component.Array.data[2].component.m_FileID",
+      "current": "-46156",
+      "disk": "-109096"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips/Stars:Transform|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips/Stars:Transform|m_GameObject.m_FileID",
+      "current": "-46150",
+      "disk": "-109090"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips/Stars:Transform|m_Father.m_FileID",
+      "current": "-45952",
+      "disk": "-109088"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips/Stars:ParticleSystem|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips/Stars:ParticleSystem|m_GameObject.m_FileID",
+      "current": "-46150",
+      "disk": "-109090"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips/Stars:ParticleSystemRenderer|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips/Stars:ParticleSystemRenderer|m_GameObject.m_FileID",
+      "current": "-46150",
+      "disk": "-109090"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips/Chips:GameObject|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips/Chips:GameObject|m_Component.Array.data[0].component.m_FileID",
+      "current": "-46160",
+      "disk": "-109100"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips/Chips:GameObject|m_Component.Array.data[1].component.m_FileID",
+      "current": "-46162",
+      "disk": "-109102"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips/Chips:GameObject|m_Component.Array.data[2].component.m_FileID",
+      "current": "-46164",
+      "disk": "-109104"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips/Chips:Transform|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips/Chips:Transform|m_GameObject.m_FileID",
+      "current": "-46158",
+      "disk": "-109098"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips/Chips:Transform|m_Father.m_FileID",
+      "current": "-45952",
+      "disk": "-109088"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips/Chips:ParticleSystem|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips/Chips:ParticleSystem|m_GameObject.m_FileID",
+      "current": "-46158",
+      "disk": "-109098"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips/Chips:ParticleSystemRenderer|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/05_SparksAndChips/Chips:ParticleSystemRenderer|m_GameObject.m_FileID",
+      "current": "-46158",
+      "disk": "-109098"
+    },
+    {
+      "key": "BuildFX/00_Glow:GameObject|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/00_Glow:GameObject|m_Component.Array.data[0].component.m_FileID",
+      "current": "-45956",
+      "disk": "-109108"
+    },
+    {
+      "key": "BuildFX/00_Glow:Transform|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/00_Glow:Transform|m_GameObject.m_FileID",
+      "current": "-45954",
+      "disk": "-109106"
+    },
+    {
+      "key": "BuildFX/00_Glow:Transform|m_Children.Array.data[0].m_FileID",
+      "current": "-46168",
+      "disk": "-109112"
+    },
+    {
+      "key": "BuildFX/00_Glow:Transform|m_Father.m_FileID",
+      "current": "-45924",
+      "disk": "-109000"
+    },
+    {
+      "key": "BuildFX/00_Glow/SoftGlow:GameObject|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/00_Glow/SoftGlow:GameObject|m_Component.Array.data[0].component.m_FileID",
+      "current": "-46168",
+      "disk": "-109112"
+    },
+    {
+      "key": "BuildFX/00_Glow/SoftGlow:GameObject|m_Component.Array.data[1].component.m_FileID",
+      "current": "-46170",
+      "disk": "-109114"
+    },
+    {
+      "key": "BuildFX/00_Glow/SoftGlow:GameObject|m_Component.Array.data[2].component.m_FileID",
+      "current": "-46172",
+      "disk": "-109116"
+    },
+    {
+      "key": "BuildFX/00_Glow/SoftGlow:Transform|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/00_Glow/SoftGlow:Transform|m_GameObject.m_FileID",
+      "current": "-46166",
+      "disk": "-109110"
+    },
+    {
+      "key": "BuildFX/00_Glow/SoftGlow:Transform|m_Father.m_FileID",
+      "current": "-45956",
+      "disk": "-109108"
+    },
+    {
+      "key": "BuildFX/00_Glow/SoftGlow:ParticleSystem|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/00_Glow/SoftGlow:ParticleSystem|m_GameObject.m_FileID",
+      "current": "-46166",
+      "disk": "-109110"
+    },
+    {
+      "key": "BuildFX/00_Glow/SoftGlow:ParticleSystemRenderer|m_PrefabInstance.m_FileID",
+      "current": "-46422",
+      "disk": "57402"
+    },
+    {
+      "key": "BuildFX/00_Glow/SoftGlow:ParticleSystemRenderer|m_GameObject.m_FileID",
+      "current": "-46166",
+      "disk": "-109110"
+    }
+  ],
+  "staleOverrides": 51,
+  "modifications": [
+    {
+      "target": "null",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:1252559074562234977",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:1252559074562234977",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:1252559074562234977",
+      "propertyPath": "InitialModule.startSizeY.minMaxState",
+      "value": "3",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:1252559074562234977",
+      "propertyPath": "InitialModule.startSizeZ.minMaxState",
+      "value": "3",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:1252559074562234977",
+      "propertyPath": "InitialModule.startRotationX.minMaxState",
+      "value": "3",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:1252559074562234977",
+      "propertyPath": "InitialModule.startRotationY.minMaxState",
+      "value": "3",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:1252559074562234977",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:1252559074562234977",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[1].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:1252559074562234977",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[2].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:1593853048491283035",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:1593853048491283035",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:1593853048491283035",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:1947987473390352328",
+      "propertyPath": "m_Name",
+      "value": "BuildFX",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:2570474628545613644",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:2570474628545613644",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:2570474628545613644",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:2977743045145201296",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:2977743045145201296",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:3325087240392468709",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:3325087240392468709",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:3325087240392468709",
+      "propertyPath": "InitialModule.startSizeY.minMaxState",
+      "value": "3",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:3325087240392468709",
+      "propertyPath": "InitialModule.startSizeZ.minMaxState",
+      "value": "3",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:3325087240392468709",
+      "propertyPath": "InitialModule.startRotationX.minMaxState",
+      "value": "3",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:3325087240392468709",
+      "propertyPath": "InitialModule.startRotationY.minMaxState",
+      "value": "3",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:3325087240392468709",
+      "propertyPath": "InitialModule.startLifetime.maxCurve.m_Curve.Array.data[1].time",
+      "value": "0.046875",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:3325087240392468709",
+      "propertyPath": "InitialModule.startLifetime.maxCurve.m_Curve.Array.data[2].time",
+      "value": "0.29375",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:3325087240392468709",
+      "propertyPath": "InitialModule.startLifetime.maxCurve.m_Curve.Array.data[3].time",
+      "value": "0.43125",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:3325087240392468709",
+      "propertyPath": "InitialModule.startLifetime.minCurve.m_Curve.Array.data[1].time",
+      "value": "0.046875",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:3325087240392468709",
+      "propertyPath": "InitialModule.startLifetime.minCurve.m_Curve.Array.data[2].time",
+      "value": "0.29375",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:3325087240392468709",
+      "propertyPath": "InitialModule.startLifetime.minCurve.m_Curve.Array.data[3].time",
+      "value": "0.43125",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:3650576854624928502",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:3650576854624928502",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:3650576854624928502",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:4676033673037836761",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:4676033673037836761",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:4676033673037836761",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:4916056587010128513",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:4916056587010128513",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:4916056587010128513",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:4916056587010128513",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[1].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:4916056587010128513",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[2].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:7645160747108894328",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:7645160747108894328",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:7645160747108894328",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:8083293377851922232",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:8083293377851922232",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:8083293377851922232",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:8083293377851922232",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[1].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:8083293377851922232",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[2].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:8562009768287925081",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:8562009768287925081",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:8562009768287925081",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:8613956017529014740",
+      "propertyPath": "m_LocalPosition.x",
+      "value": "0",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:8613956017529014740",
+      "propertyPath": "m_LocalPosition.y",
+      "value": "-1.3",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:8613956017529014740",
+      "propertyPath": "m_LocalPosition.z",
+      "value": "0",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:8613956017529014740",
+      "propertyPath": "m_LocalRotation.w",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:8613956017529014740",
+      "propertyPath": "m_LocalRotation.x",
+      "value": "0",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:8613956017529014740",
+      "propertyPath": "m_LocalRotation.y",
+      "value": "0",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:8613956017529014740",
+      "propertyPath": "m_LocalRotation.z",
+      "value": "0",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:8613956017529014740",
+      "propertyPath": "m_LocalEulerAnglesHint.x",
+      "value": "0",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:8613956017529014740",
+      "propertyPath": "m_LocalEulerAnglesHint.y",
+      "value": "0",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:8613956017529014740",
+      "propertyPath": "m_LocalEulerAnglesHint.z",
+      "value": "0",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "null",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:9083908711309545412",
+      "propertyPath": "looping",
+      "value": "1",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:9083908711309545412",
+      "propertyPath": "lengthInSec",
+      "value": "1.6",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:9083908711309545412",
+      "propertyPath": "InitialModule.startSizeY.minMaxState",
+      "value": "3",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:9083908711309545412",
+      "propertyPath": "InitialModule.startSizeZ.minMaxState",
+      "value": "3",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:9083908711309545412",
+      "propertyPath": "InitialModule.startRotationX.minMaxState",
+      "value": "3",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:9083908711309545412",
+      "propertyPath": "InitialModule.startRotationY.minMaxState",
+      "value": "3",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:9083908711309545412",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[0].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:9083908711309545412",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[1].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    },
+    {
+      "target": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab:9083908711309545412",
+      "propertyPath": "EmissionModule.m_Bursts.Array.data[2].repeatInterval",
+      "value": "0.01",
+      "reference": "null"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "scheduled": true,
+  "seconds": 70,
+  "repetitions": 2,
+  "versions": [
+    1,
+    2
+  ],
+  "instances": [
+    0,
+    1,
+    8,
+    32
+  ]
+}

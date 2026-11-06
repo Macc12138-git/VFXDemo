@@ -1,0 +1,725 @@
+{
+  "success": true,
+  "fail": null,
+  "actualPlayMode": true,
+  "manualSimulate": false,
+  "manualEmit": false,
+  "manualSetParticles": false,
+  "offAfterDrain": 0,
+  "onAfterRestore": 27,
+  "oneShotAfterGameAge1_3": 0,
+  "errors": [],
+  "rows": [
+    {
+      "wall": 0.13934245799828204,
+      "frame": 2477,
+      "time": 4.040235,
+      "rootTime": 0.860234141,
+      "smokeTime": 0,
+      "count": 21,
+      "smokeCount": 0,
+      "seed": 2775330257,
+      "oneTime": 0,
+      "oneAge": -1,
+      "oneCount": 0,
+      "emission": true,
+      "particles": []
+    },
+    {
+      "wall": 0.3312731250007346,
+      "frame": 2479,
+      "time": 4.14304066,
+      "rootTime": 0.963039458,
+      "smokeTime": 0.102805316,
+      "count": 19,
+      "smokeCount": 8,
+      "seed": 2775330257,
+      "oneTime": 0.102805316,
+      "oneAge": 0.102805614,
+      "oneCount": 7,
+      "emission": true,
+      "particles": [
+        {
+          "position": "(1.1268, 0.8042, 0.0000)",
+          "remaining": 0.5864006,
+          "life": 0.614205956
+        },
+        {
+          "position": "(-0.9844, 1.2355, 0.0000)",
+          "remaining": 0.628384352,
+          "life": 0.6561897
+        },
+        {
+          "position": "(-0.3201, 0.9137, 0.0000)",
+          "remaining": 0.597527266,
+          "life": 0.6253326
+        }
+      ]
+    },
+    {
+      "wall": 0.5313098330007051,
+      "frame": 2481,
+      "time": 4.342286,
+      "rootTime": 1.16228533,
+      "smokeTime": 0.302051067,
+      "count": 8,
+      "smokeCount": 8,
+      "seed": 2775330257,
+      "oneTime": 0.302051067,
+      "oneAge": 0.302051067,
+      "oneCount": 26,
+      "emission": true,
+      "particles": [
+        {
+          "position": "(1.0297, 0.9475, 0.0000)",
+          "remaining": 0.3871549,
+          "life": 0.614205956
+        },
+        {
+          "position": "(-0.9984, 1.3449, 0.0000)",
+          "remaining": 0.42913866,
+          "life": 0.6561897
+        },
+        {
+          "position": "(-0.3437, 1.0134, 0.0000)",
+          "remaining": 0.3982816,
+          "life": 0.6253326
+        }
+      ]
+    },
+    {
+      "wall": 0.6322014580000541,
+      "frame": 2482,
+      "time": 4.44436932,
+      "rootTime": 1.26436853,
+      "smokeTime": 0.404134154,
+      "count": 8,
+      "smokeCount": 8,
+      "seed": 2775330257,
+      "oneTime": 0.404134154,
+      "oneAge": 0.404134274,
+      "oneCount": 18,
+      "emission": true,
+      "particles": [
+        {
+          "position": "(0.9767, 1.0203, 0.0000)",
+          "remaining": 0.28507188,
+          "life": 0.614205956
+        },
+        {
+          "position": "(-1.0040, 1.4004, 0.0000)",
+          "remaining": 0.3270556,
+          "life": 0.6561897
+        },
+        {
+          "position": "(-0.3561, 1.0638, 0.0000)",
+          "remaining": 0.296198577,
+          "life": 0.6253326
+        }
+      ]
+    },
+    {
+      "wall": 0.8316050829998858,
+      "frame": 2484,
+      "time": 4.643338,
+      "rootTime": 1.4633379,
+      "smokeTime": 0.603103042,
+      "count": 12,
+      "smokeCount": 12,
+      "seed": 2775330257,
+      "oneTime": 0.603103042,
+      "oneAge": 0.603103161,
+      "oneCount": 32,
+      "emission": true,
+      "particles": [
+        {
+          "position": "(0.8772, 1.1614, 0.0000)",
+          "remaining": 0.08610301,
+          "life": 0.614205956
+        },
+        {
+          "position": "(-1.0060, 1.5076, 0.0000)",
+          "remaining": 0.128086716,
+          "life": 0.6561897
+        },
+        {
+          "position": "(-0.3761, 1.1613, 0.0000)",
+          "remaining": 0.09722956,
+          "life": 0.6253326
+        }
+      ]
+    },
+    {
+      "wall": 1.031063250000443,
+      "frame": 2486,
+      "time": 4.842829,
+      "rootTime": 0.0628288537,
+      "smokeTime": 0.8025938,
+      "count": 7,
+      "smokeCount": 7,
+      "seed": 2775330257,
+      "oneTime": 0.8025938,
+      "oneAge": 0.8025942,
+      "oneCount": 34,
+      "emission": true,
+      "particles": [
+        {
+          "position": "(-0.4181, 0.9851, 0.0000)",
+          "remaining": 0.1014026,
+          "life": 0.4339964
+        },
+        {
+          "position": "(0.6608, 1.1506, 0.0000)",
+          "remaining": 0.28720215,
+          "life": 0.3997959
+        },
+        {
+          "position": "(1.0171, 1.0546, 0.0000)",
+          "remaining": 0.112582922,
+          "life": 0.445176661
+        }
+      ]
+    },
+    {
+      "wall": 1.1315598330002103,
+      "frame": 2487,
+      "time": 4.94240427,
+      "rootTime": 0.162404016,
+      "smokeTime": 0.90216887,
+      "count": 10,
+      "smokeCount": 6,
+      "seed": 2775330257,
+      "oneTime": 0.90216887,
+      "oneAge": 0.9021692,
+      "oneCount": 22,
+      "emission": true,
+      "particles": [
+        {
+          "position": "(-0.4479, 1.0524, 0.0000)",
+          "remaining": 0.00182738155,
+          "life": 0.4339964
+        },
+        {
+          "position": "(0.6173, 1.2169, 0.0000)",
+          "remaining": 0.187627017,
+          "life": 0.3997959
+        },
+        {
+          "position": "(1.0159, 1.1021, 0.0000)",
+          "remaining": 0.01300779,
+          "life": 0.445176661
+        }
+      ]
+    },
+    {
+      "wall": 1.33174366700041,
+      "frame": 2489,
+      "time": 5.142582,
+      "rootTime": 0.362581849,
+      "smokeTime": 1.10234678,
+      "count": 14,
+      "smokeCount": 2,
+      "seed": 2775330257,
+      "oneTime": 1.10234678,
+      "oneAge": 1.1023469,
+      "oneCount": 1,
+      "emission": true,
+      "particles": [
+        {
+          "position": "(0.9464, 1.7590, 0.0000)",
+          "remaining": 0.0304536521,
+          "life": 0.442800432
+        },
+        {
+          "position": "(0.6640, 1.8005, 0.0000)",
+          "remaining": 0.00690584676,
+          "life": 0.419252634
+        }
+      ]
+    },
+    {
+      "wall": 1.53086012499989,
+      "frame": 2491,
+      "time": 5.342214,
+      "rootTime": 0.5622137,
+      "smokeTime": 1.301979,
+      "count": 19,
+      "smokeCount": 0,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 1.30197906,
+      "oneCount": 0,
+      "emission": true,
+      "particles": []
+    },
+    {
+      "wall": 1.6326842499984195,
+      "frame": 2492,
+      "time": 5.445182,
+      "rootTime": 0.665181935,
+      "smokeTime": 1.40494716,
+      "count": 15,
+      "smokeCount": 0,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 1.4049468,
+      "oneCount": 0,
+      "emission": true,
+      "particles": []
+    },
+    {
+      "wall": 1.8313507919992844,
+      "frame": 2494,
+      "time": 5.64412165,
+      "rootTime": 0.864121735,
+      "smokeTime": 0.00388646126,
+      "count": 21,
+      "smokeCount": 0,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 1.6038866,
+      "oneCount": 0,
+      "emission": false,
+      "particles": []
+    },
+    {
+      "wall": 2.0312192919991503,
+      "frame": 2496,
+      "time": 5.84317446,
+      "rootTime": 1.06317461,
+      "smokeTime": 0.202939332,
+      "count": 3,
+      "smokeCount": 0,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 1.80293941,
+      "oneCount": 0,
+      "emission": false,
+      "particles": []
+    },
+    {
+      "wall": 2.1321577499984414,
+      "frame": 2497,
+      "time": 5.94266844,
+      "rootTime": 1.16266859,
+      "smokeTime": 0.3024332,
+      "count": 0,
+      "smokeCount": 0,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 1.9024334,
+      "oneCount": 0,
+      "emission": false,
+      "particles": []
+    },
+    {
+      "wall": 2.232793250001123,
+      "frame": 2498,
+      "time": 6.044793,
+      "rootTime": 1.26479328,
+      "smokeTime": 0.404557884,
+      "count": 0,
+      "smokeCount": 0,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 2.004558,
+      "oneCount": 0,
+      "emission": false,
+      "particles": []
+    },
+    {
+      "wall": 2.431359166999755,
+      "frame": 2500,
+      "time": 6.243036,
+      "rootTime": 1.463036,
+      "smokeTime": 0.6028004,
+      "count": 0,
+      "smokeCount": 0,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 2.20280075,
+      "oneCount": 0,
+      "emission": false,
+      "particles": []
+    },
+    {
+      "wall": 2.632250499998918,
+      "frame": 2502,
+      "time": 6.44255638,
+      "rootTime": 0.06255643,
+      "smokeTime": 0.8023208,
+      "count": 0,
+      "smokeCount": 0,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 2.40232134,
+      "oneCount": 0,
+      "emission": false,
+      "particles": []
+    },
+    {
+      "wall": 2.8315946250004345,
+      "frame": 2504,
+      "time": 6.64290762,
+      "rootTime": 0.262907863,
+      "smokeTime": 1.00267231,
+      "count": 0,
+      "smokeCount": 0,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 2.60267258,
+      "oneCount": 0,
+      "emission": false,
+      "particles": []
+    },
+    {
+      "wall": 3.031884916999843,
+      "frame": 2506,
+      "time": 6.845674,
+      "rootTime": 0.465674281,
+      "smokeTime": 1.20543873,
+      "count": 0,
+      "smokeCount": 0,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 2.805439,
+      "oneCount": 0,
+      "emission": false,
+      "particles": []
+    },
+    {
+      "wall": 3.132205999998405,
+      "frame": 2507,
+      "time": 6.94315529,
+      "rootTime": 0.563155353,
+      "smokeTime": 1.30292,
+      "count": 0,
+      "smokeCount": 0,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 2.90292025,
+      "oneCount": 0,
+      "emission": false,
+      "particles": []
+    },
+    {
+      "wall": 3.3315742919985496,
+      "frame": 2509,
+      "time": 7.142599,
+      "rootTime": 0.7625992,
+      "smokeTime": 1.50236428,
+      "count": 0,
+      "smokeCount": 0,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 3.102364,
+      "oneCount": 0,
+      "emission": true,
+      "particles": []
+    },
+    {
+      "wall": 3.4321577080008865,
+      "frame": 2510,
+      "time": 7.24963331,
+      "rootTime": 0.8696336,
+      "smokeTime": 0.009398937,
+      "count": 0,
+      "smokeCount": 0,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 3.20939827,
+      "oneCount": 0,
+      "emission": true,
+      "particles": []
+    },
+    {
+      "wall": 3.632230832998175,
+      "frame": 2512,
+      "time": 7.442569,
+      "rootTime": 1.062569,
+      "smokeTime": 0.2023344,
+      "count": 8,
+      "smokeCount": 8,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 3.40233374,
+      "oneCount": 0,
+      "emission": true,
+      "particles": [
+        {
+          "position": "(0.9232, 1.3018, 0.0000)",
+          "remaining": 0.496733,
+          "life": 0.6240674
+        },
+        {
+          "position": "(-1.2263, 1.3556, 0.0000)",
+          "remaining": 0.551429033,
+          "life": 0.678763449
+        },
+        {
+          "position": "(0.8115, 1.6567, 0.0000)",
+          "remaining": 0.5069825,
+          "life": 0.634316862
+        }
+      ]
+    },
+    {
+      "wall": 3.8315837920017657,
+      "frame": 2514,
+      "time": 7.64276934,
+      "rootTime": 1.2627691,
+      "smokeTime": 0.402534723,
+      "count": 8,
+      "smokeCount": 8,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 3.60253429,
+      "oneCount": 0,
+      "emission": true,
+      "particles": [
+        {
+          "position": "(0.8517, 1.4000, 0.0000)",
+          "remaining": 0.296532631,
+          "life": 0.6240674
+        },
+        {
+          "position": "(-1.2099, 1.4461, 0.0000)",
+          "remaining": 0.351228625,
+          "life": 0.678763449
+        },
+        {
+          "position": "(0.8609, 1.7559, 0.0000)",
+          "remaining": 0.306782067,
+          "life": 0.634316862
+        }
+      ]
+    },
+    {
+      "wall": 4.031178583001747,
+      "frame": 2516,
+      "time": 7.84284639,
+      "rootTime": 1.46284616,
+      "smokeTime": 0.602612,
+      "count": 14,
+      "smokeCount": 14,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 3.80261135,
+      "oneCount": 0,
+      "emission": true,
+      "particles": [
+        {
+          "position": "(0.7975, 1.4996, 0.0000)",
+          "remaining": 0.0964553952,
+          "life": 0.6240674
+        },
+        {
+          "position": "(-1.1779, 1.5381, 0.0000)",
+          "remaining": 0.151151389,
+          "life": 0.678763449
+        },
+        {
+          "position": "(0.9129, 1.8566, 0.0000)",
+          "remaining": 0.106704958,
+          "life": 0.634316862
+        }
+      ]
+    },
+    {
+      "wall": 4.132229167000332,
+      "frame": 2517,
+      "time": 7.942682,
+      "rootTime": 1.56268156,
+      "smokeTime": 0.7024472,
+      "count": 16,
+      "smokeCount": 16,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 3.90244675,
+      "oneCount": 0,
+      "emission": true,
+      "particles": [
+        {
+          "position": "(-0.8455, 1.3004, 0.0000)",
+          "remaining": 0.18423219,
+          "life": 0.416679353
+        },
+        {
+          "position": "(-1.1573, 1.5845, 0.0000)",
+          "remaining": 0.0513161123,
+          "life": 0.678763449
+        },
+        {
+          "position": "(0.9371, 1.9072, 0.0000)",
+          "remaining": 0.00686975569,
+          "life": 0.634316862
+        }
+      ]
+    },
+    {
+      "wall": 4.332612207999773,
+      "frame": 2519,
+      "time": 8.142601,
+      "rootTime": 0.162600815,
+      "smokeTime": 0.9023664,
+      "count": 11,
+      "smokeCount": 7,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 4.102366,
+      "oneCount": 0,
+      "emission": true,
+      "particles": [
+        {
+          "position": "(-0.8968, 1.2293, 0.0000)",
+          "remaining": 0.02589474,
+          "life": 0.458261162
+        },
+        {
+          "position": "(-0.5549, 1.6978, 0.0000)",
+          "remaining": 0.153588846,
+          "life": 0.365955234
+        },
+        {
+          "position": "(-0.5316, 1.1548, 0.0000)",
+          "remaining": 0.15004383,
+          "life": 0.362410218
+        }
+      ]
+    },
+    {
+      "wall": 4.531160082999122,
+      "frame": 2521,
+      "time": 8.34256,
+      "rootTime": 0.3625592,
+      "smokeTime": 1.10232472,
+      "count": 11,
+      "smokeCount": 1,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 4.302325,
+      "oneCount": 0,
+      "emission": true,
+      "particles": [
+        {
+          "position": "(-1.0658, 1.3802, 0.0000)",
+          "remaining": 0.0389098749,
+          "life": 0.451234639
+        }
+      ]
+    },
+    {
+      "wall": 4.631448249998357,
+      "frame": 2522,
+      "time": 8.442777,
+      "rootTime": 0.462776423,
+      "smokeTime": 1.20254207,
+      "count": 3,
+      "smokeCount": 0,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 4.40254164,
+      "oneCount": 0,
+      "emission": true,
+      "particles": []
+    },
+    {
+      "wall": 4.731894749998901,
+      "frame": 2523,
+      "time": 8.542664,
+      "rootTime": 0.5626635,
+      "smokeTime": 1.302429,
+      "count": 19,
+      "smokeCount": 0,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 4.50242853,
+      "oneCount": 0,
+      "emission": true,
+      "particles": []
+    },
+    {
+      "wall": 4.931199416998425,
+      "frame": 2525,
+      "time": 8.742818,
+      "rootTime": 0.762818038,
+      "smokeTime": 1.50258327,
+      "count": 27,
+      "smokeCount": 0,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 4.702583,
+      "oneCount": 0,
+      "emission": true,
+      "particles": []
+    },
+    {
+      "wall": 5.1322750830004225,
+      "frame": 2527,
+      "time": 8.942242,
+      "rootTime": 0.962241352,
+      "smokeTime": 0.102006473,
+      "count": 19,
+      "smokeCount": 9,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 4.90200663,
+      "oneCount": 0,
+      "emission": true,
+      "particles": [
+        {
+          "position": "(-0.6092, 0.5188, 0.0000)",
+          "remaining": 0.6478898,
+          "life": 0.6748963
+        },
+        {
+          "position": "(0.5358, 0.4927, 0.0000)",
+          "remaining": 0.6143207,
+          "life": 0.641327143
+        },
+        {
+          "position": "(-0.2264, 0.8823, 0.0000)",
+          "remaining": 0.579564154,
+          "life": 0.606570661
+        }
+      ]
+    },
+    {
+      "wall": 5.331550957998843,
+      "frame": 2529,
+      "time": 9.142597,
+      "rootTime": 1.162597,
+      "smokeTime": 0.302362144,
+      "count": 9,
+      "smokeCount": 9,
+      "seed": 2775330257,
+      "oneTime": 1.2,
+      "oneAge": 5.102362,
+      "oneCount": 0,
+      "emission": true,
+      "particles": [
+        {
+          "position": "(-0.6965, 0.6611, 0.0000)",
+          "remaining": 0.447534144,
+          "life": 0.6748963
+        },
+        {
+          "position": "(0.4725, 0.6205, 0.0000)",
+          "remaining": 0.413965,
+          "life": 0.641327143
+        },
+        {
+          "position": "(-0.2393, 0.9837, 0.0000)",
+          "remaining": 0.3792085,
+          "life": 0.606570661
+        }
+      ]
+    }
+  ],
+  "autoSeeds": [
+    648657903,
+    1851065695,
+    2775330257
+  ],
+  "backgroundRestored": true
+}

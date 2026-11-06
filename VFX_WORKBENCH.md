@@ -12,6 +12,11 @@
 
 制造装配闪爆使用 `Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab`，
 放置和原生模块调参见 [BuildFX 使用说明](Assets/PixelFX/BuildFX/Docs/README.md)。
+当前版本支持独立调色与原生随机烟雾；旧版保留为同目录的 `BuildFX_V1.prefab`。
+
+雷霆环爆提供 `Assets/PixelFX/LightningNova/Prefabs/LightningNova_2D.prefab` 和
+`LightningNova_3D.prefab`，前者固定平面，后者可绕视角查看空间雷环。
+公共工作场景已并排放置两版，调参见 [LightningNova 使用说明](Assets/PixelFX/LightningNova/Docs/README.md)。
 
 独立火焰的根节点放在模型火口。只调整某个实例的材质时，先复制材质再赋给该实例，
 避免影响其他共用实例。效果目录不含场景和 Editor 脚本，使用时不需要 Build 菜单。

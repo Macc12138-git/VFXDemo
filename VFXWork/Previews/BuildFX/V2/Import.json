@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "prefab": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab",
+  "preservedPrefab": "Assets/PixelFX/BuildFX/Prefabs/BuildFX_V1.prefab",
+  "systems": 12,
+  "smokeSystems": 1,
+  "materials": 2,
+  "meshes": 14,
+  "sceneRootsPreserved": true,
+  "before": [
+    {
+      "name": "Main Camera",
+      "position": "(0.00, 1.68, -12.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "active": true
+    },
+    {
+      "name": "BuildFX",
+      "position": "(0.00, -1.30, 0.00)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "active": true
+    }
+  ],
+  "shaderSupported": true,
+  "shaderErrors": []
+}

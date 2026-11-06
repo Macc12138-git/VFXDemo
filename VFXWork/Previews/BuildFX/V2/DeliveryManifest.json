@@ -1,0 +1,528 @@
+{
+  "effect": "BuildFX",
+  "version": "V2",
+  "date": "2026-11-05",
+  "status": "editable-palette-random-smoke-playback-verified-local-editor-ab-measured",
+  "gifGenerated": false,
+  "final": {
+    "success": true,
+    "identity": {
+      "data": "/Users/user/Desktop/VFXDemo/VFXDemo/Assets",
+      "product": "VFXDemo",
+      "scene": "Assets/Scenes/VFXWorkbench.unity",
+      "unity": "6000.3.19f1"
+    },
+    "sceneDirty": false,
+    "playing": false,
+    "frameDebugger": false,
+    "background": false,
+    "sceneRootsPreserved": true,
+    "staleOverridesRemoved": 0,
+    "roots": [
+      {
+        "name": "Main Camera",
+        "position": "(0.00, 1.68, -12.00)",
+        "active": true
+      },
+      {
+        "name": "BuildFX",
+        "position": "(0.00, -1.30, 0.00)",
+        "active": true
+      }
+    ],
+    "prefab": {
+      "path": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab",
+      "systems": 12,
+      "oldSystems": 28,
+      "smokeSystems": 1,
+      "duration": 1.2,
+      "loop": false,
+      "scripts": 0,
+      "missing": 0,
+      "types": [
+        "Transform",
+        "ParticleSystem",
+        "ParticleSystemRenderer"
+      ],
+      "textureSheet": false,
+      "lights": false
+    },
+    "smoke": {
+      "autoSeed": true,
+      "shape": "Box",
+      "position": "(0.00, 1.00, 0.00)",
+      "size": "(2.50, 1.35, 0.00)",
+      "meshVariants": 3,
+      "noise": true,
+      "zNoise": 0,
+      "zVelocity": [
+        0,
+        0
+      ],
+      "bursts": [
+        {
+          "time": 0.075,
+          "min": 7,
+          "max": 9
+        },
+        {
+          "time": 0.47,
+          "min": 4,
+          "max": 6
+        },
+        {
+          "time": 0.69,
+          "min": 3,
+          "max": 5
+        }
+      ],
+      "lifetimeMin": [
+        {
+          "time": 0,
+          "value": 0.57
+        },
+        {
+          "time": 0.0625,
+          "value": 0.57
+        },
+        {
+          "time": 0.391666651,
+          "value": 0.4
+        },
+        {
+          "time": 0.575,
+          "value": 0.36
+        },
+        {
+          "time": 1,
+          "value": 0.36
+        }
+      ],
+      "lifetimeMax": [
+        {
+          "time": 0,
+          "value": 0.7
+        },
+        {
+          "time": 0.0625,
+          "value": 0.7
+        },
+        {
+          "time": 0.391666651,
+          "value": 0.5
+        },
+        {
+          "time": 0.575,
+          "value": 0.46
+        },
+        {
+          "time": 1,
+          "value": 0.46
+        }
+      ]
+    },
+    "sceneInstance": {
+      "allLoop": true,
+      "smokeDuration": 1.6,
+      "useAutoRandomSeed": true,
+      "sourcePrefab": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab",
+      "smokeLifetimeKeyTimes": [
+        0,
+        0.046875,
+        0.29375,
+        0.43125,
+        1
+      ]
+    },
+    "shader": {
+      "name": "PixelFX/BuildFX/Editable Palette URP",
+      "isSupported": true,
+      "hasErrors": false
+    },
+    "materials": [
+      {
+        "path": "Assets/PixelFX/BuildFX/V2/Materials/BuildFX_Alpha.mat",
+        "blend": 10,
+        "palette": [
+          {
+            "property": "_SmokeColor",
+            "value": "RGBA(0.608, 0.588, 0.643, 1.000)"
+          },
+          {
+            "property": "_FlashColor",
+            "value": "RGBA(1.000, 0.914, 0.345, 1.000)"
+          },
+          {
+            "property": "_HighlightColor",
+            "value": "RGBA(1.000, 0.984, 0.722, 1.000)"
+          },
+          {
+            "property": "_ArcColor",
+            "value": "RGBA(1.000, 0.957, 0.859, 1.000)"
+          },
+          {
+            "property": "_SparkColor",
+            "value": "RGBA(1.000, 0.941, 0.459, 1.000)"
+          },
+          {
+            "property": "_DebrisColor",
+            "value": "RGBA(0.835, 0.816, 0.835, 1.000)"
+          },
+          {
+            "property": "_GlowColor",
+            "value": "RGBA(1.000, 0.945, 0.592, 1.000)"
+          }
+        ]
+      },
+      {
+        "path": "Assets/PixelFX/BuildFX/V2/Materials/BuildFX_Additive.mat",
+        "blend": 1,
+        "palette": [
+          {
+            "property": "_SmokeColor",
+            "value": "RGBA(0.608, 0.588, 0.643, 1.000)"
+          },
+          {
+            "property": "_FlashColor",
+            "value": "RGBA(1.000, 0.914, 0.345, 1.000)"
+          },
+          {
+            "property": "_HighlightColor",
+            "value": "RGBA(1.000, 0.984, 0.722, 1.000)"
+          },
+          {
+            "property": "_ArcColor",
+            "value": "RGBA(1.000, 0.957, 0.859, 1.000)"
+          },
+          {
+            "property": "_SparkColor",
+            "value": "RGBA(1.000, 0.941, 0.459, 1.000)"
+          },
+          {
+            "property": "_DebrisColor",
+            "value": "RGBA(0.835, 0.816, 0.835, 1.000)"
+          },
+          {
+            "property": "_GlowColor",
+            "value": "RGBA(1.000, 0.945, 0.592, 1.000)"
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      "Assets/PixelFX/BuildFX/V2/Meshes/ChipLight.asset",
+      "Assets/PixelFX/BuildFX/V2/Meshes/BackFlash1.asset",
+      "Assets/PixelFX/BuildFX/V2/Meshes/FrontFlash1.asset",
+      "Assets/PixelFX/BuildFX/V2/Textures/BuildFX_Masks.png",
+      "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab",
+      "Assets/PixelFX/BuildFX/V2/Meshes/SweepArcs.asset",
+      "Assets/PixelFX/BuildFX/V2/Meshes/Smoke1.asset",
+      "Assets/PixelFX/BuildFX/V2/Meshes/FrontFlash2.asset",
+      "Assets/PixelFX/BuildFX/V2/Meshes/SoftGlow.asset",
+      "Assets/PixelFX/BuildFX/V2/Meshes/Smoke2.asset",
+      "Assets/PixelFX/BuildFX/V2/Meshes/ChipDark.asset",
+      "Assets/PixelFX/BuildFX/V2/Meshes/Smoke0.asset",
+      "Assets/PixelFX/BuildFX/V2/Meshes/Star.asset",
+      "Assets/PixelFX/BuildFX/V2/Meshes/BackFlash2.asset",
+      "Assets/PixelFX/BuildFX/V2/Materials/BuildFX_Alpha.mat",
+      "Assets/PixelFX/BuildFX/V2/Shaders/BuildFXPaletteParticle.shader",
+      "Assets/PixelFX/BuildFX/V2/Meshes/BackFlash0.asset",
+      "Assets/PixelFX/BuildFX/V2/Materials/BuildFX_Additive.mat",
+      "Assets/PixelFX/BuildFX/V2/Meshes/FrontFlash0.asset"
+    ],
+    "temporaryObjects": []
+  },
+  "preservation": {
+    "originalResources": [
+      {
+        "path": "Assets/PixelFX/BuildFX/Materials/BuildFX_Additive.mat",
+        "unchanged": true
+      },
+      {
+        "path": "Assets/PixelFX/BuildFX/Materials/BuildFX_Alpha.mat",
+        "unchanged": true
+      },
+      {
+        "path": "Assets/PixelFX/BuildFX/Meshes/BackFlash0.asset",
+        "unchanged": true
+      },
+      {
+        "path": "Assets/PixelFX/BuildFX/Meshes/BackFlash1.asset",
+        "unchanged": true
+      },
+      {
+        "path": "Assets/PixelFX/BuildFX/Meshes/BackFlash2.asset",
+        "unchanged": true
+      },
+      {
+        "path": "Assets/PixelFX/BuildFX/Meshes/ChipDark.asset",
+        "unchanged": true
+      },
+      {
+        "path": "Assets/PixelFX/BuildFX/Meshes/ChipLight.asset",
+        "unchanged": true
+      },
+      {
+        "path": "Assets/PixelFX/BuildFX/Meshes/FrontFlash0.asset",
+        "unchanged": true
+      },
+      {
+        "path": "Assets/PixelFX/BuildFX/Meshes/FrontFlash1.asset",
+        "unchanged": true
+      },
+      {
+        "path": "Assets/PixelFX/BuildFX/Meshes/FrontFlash2.asset",
+        "unchanged": true
+      },
+      {
+        "path": "Assets/PixelFX/BuildFX/Meshes/Smoke0.asset",
+        "unchanged": true
+      },
+      {
+        "path": "Assets/PixelFX/BuildFX/Meshes/Smoke1.asset",
+        "unchanged": true
+      },
+      {
+        "path": "Assets/PixelFX/BuildFX/Meshes/Smoke2.asset",
+        "unchanged": true
+      },
+      {
+        "path": "Assets/PixelFX/BuildFX/Meshes/SoftGlow.asset",
+        "unchanged": true
+      },
+      {
+        "path": "Assets/PixelFX/BuildFX/Meshes/Star.asset",
+        "unchanged": true
+      },
+      {
+        "path": "Assets/PixelFX/BuildFX/Meshes/SweepArcs.asset",
+        "unchanged": true
+      },
+      {
+        "path": "Assets/PixelFX/BuildFX/Shaders/BuildFXStaticParticle.shader",
+        "unchanged": true
+      },
+      {
+        "path": "Assets/PixelFX/BuildFX/Textures/BuildFX_StaticAtlas.png",
+        "unchanged": true
+      }
+    ],
+    "originalPrefabRawHashMatches": false,
+    "originalPrefabMatchesExceptRootName": true,
+    "prefabCopyDifference": "Unity CopyAsset renamed only the prefab root from BuildFX to BuildFX_V1; all other serialized bytes match the V1 hash."
+  },
+  "checks": {
+    "missingMeta": [],
+    "prohibited": [],
+    "sourceUnmodified": true,
+    "textureMatchesExport": true,
+    "visualColorEndpoints": true,
+    "live": true,
+    "reuse": true,
+    "performance": true
+  },
+  "assetHashes": [
+    {
+      "path": "Assets/PixelFX/BuildFX/Docs/README.md",
+      "bytes": 4092,
+      "sha256": "f8346a09bf383d7600621dd99592b69049ba9994f4fd6629b175fe4e90ca147c"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Materials/BuildFX_Additive.mat",
+      "bytes": 979,
+      "sha256": "4f060d838000d6da57ef85c07d4b1348c7098226fdf880be5d150d44f926c314"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Materials/BuildFX_Alpha.mat",
+      "bytes": 975,
+      "sha256": "12df6c9edd57656f2a1304d434df49ed5abd2f424e03568dffbd0554a561f7b8"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/BackFlash0.asset",
+      "bytes": 5446,
+      "sha256": "f21b0f853e333c9c6e7910c669a284242576aec7ddd873f6076a0046fb91f13f"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/BackFlash1.asset",
+      "bytes": 5448,
+      "sha256": "6b4ec4ea29e13dc196af2f41606ff07de428d3f9a7431364b41075ae0d9b5a4b"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/BackFlash2.asset",
+      "bytes": 5446,
+      "sha256": "f8645c95e29d0b949f3cccc9cca662f2610fd0f7b27f376559a206016daaf8db"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/ChipDark.asset",
+      "bytes": 3717,
+      "sha256": "1a496ec76c2bc12d858c69fe749b8fff0187d8ab849c3aeef0002604deee4b28"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/ChipLight.asset",
+      "bytes": 3718,
+      "sha256": "c08f1de5366a6d6d00e4826b8184ad5dd5da30b48cc0a2269ba40958f6923983"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/FrontFlash0.asset",
+      "bytes": 9247,
+      "sha256": "1405b1898be7b6cdfd3631004f31943341373b2d04fd9e479c0835019189e7cd"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/FrontFlash1.asset",
+      "bytes": 9255,
+      "sha256": "60d9ea5c0ec2fbee400b4ffe56ead2801d6de420c62fafe3c7361a7434b7b978"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/FrontFlash2.asset",
+      "bytes": 9247,
+      "sha256": "d4c4a07a16c78eeb6fccea2a1d9c1e4879fd1434f5d35839a1179e013d213825"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/Smoke0.asset",
+      "bytes": 3679,
+      "sha256": "a4a2e9f5caba4ecca50a3b8d6274b7428c204f637954a798601c44159a0cd4fa"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/Smoke1.asset",
+      "bytes": 3679,
+      "sha256": "3374b0ffe23783d994198f8e1bce7591b597728f0101af7ab8cddc70a3aab170"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/Smoke2.asset",
+      "bytes": 3679,
+      "sha256": "642899e6a64d0bca4f567a692f764de5175665ea30042e7c8a33598e755e0d00"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/SoftGlow.asset",
+      "bytes": 3719,
+      "sha256": "6c476051b486b42cc749abb941459c560afe7eafdaa814c1551cf3acebdb17a4"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/Star.asset",
+      "bytes": 3986,
+      "sha256": "14db0ee0270d3a811c7888c09a68e58febd93ef4f1418305a59614e72748d175"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Meshes/SweepArcs.asset",
+      "bytes": 46493,
+      "sha256": "d1b522563cd9a185f528a647595aafc75db920e1906b64bec09200c611018d90"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab",
+      "bytes": 1560032,
+      "sha256": "c4f985593179de5b4c2ecbf6b6eb7b28c0ec627543fa40ed47a43d23ce32387f"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Prefabs/BuildFX_V1.prefab",
+      "bytes": 4065761,
+      "sha256": "e653fdfd8b051712054c22f4e7191dce5ce0bfa655a5805c88085323a0f2c29f"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Shaders/BuildFXStaticParticle.shader",
+      "bytes": 1598,
+      "sha256": "89095b790026746114bdc64b8391b806d6a1d1b39677d09dd7673cca66f0c417"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/Textures/BuildFX_StaticAtlas.png",
+      "bytes": 69603,
+      "sha256": "a91b1a6cd1d69802fc12eafb378ce63dfa734dac120ee58c401f9d0ff811a07e"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/V2/Materials/BuildFX_Additive.mat",
+      "bytes": 1448,
+      "sha256": "9e55e018e562c95d0f5de36bfafc35469ec1d2bb7f37f34f22561bf45b99b4bb"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/V2/Materials/BuildFX_Alpha.mat",
+      "bytes": 1446,
+      "sha256": "bc36d85de95c8db0266c61f39c752a39291c3afedd3c3931cfc5f3320cd0fa05"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/V2/Meshes/BackFlash0.asset",
+      "bytes": 5446,
+      "sha256": "f21b0f853e333c9c6e7910c669a284242576aec7ddd873f6076a0046fb91f13f"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/V2/Meshes/BackFlash1.asset",
+      "bytes": 5448,
+      "sha256": "6b4ec4ea29e13dc196af2f41606ff07de428d3f9a7431364b41075ae0d9b5a4b"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/V2/Meshes/BackFlash2.asset",
+      "bytes": 5446,
+      "sha256": "f8645c95e29d0b949f3cccc9cca662f2610fd0f7b27f376559a206016daaf8db"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/V2/Meshes/ChipDark.asset",
+      "bytes": 3717,
+      "sha256": "1a496ec76c2bc12d858c69fe749b8fff0187d8ab849c3aeef0002604deee4b28"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/V2/Meshes/ChipLight.asset",
+      "bytes": 3718,
+      "sha256": "c08f1de5366a6d6d00e4826b8184ad5dd5da30b48cc0a2269ba40958f6923983"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/V2/Meshes/FrontFlash0.asset",
+      "bytes": 9247,
+      "sha256": "1405b1898be7b6cdfd3631004f31943341373b2d04fd9e479c0835019189e7cd"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/V2/Meshes/FrontFlash1.asset",
+      "bytes": 9255,
+      "sha256": "60d9ea5c0ec2fbee400b4ffe56ead2801d6de420c62fafe3c7361a7434b7b978"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/V2/Meshes/FrontFlash2.asset",
+      "bytes": 9247,
+      "sha256": "d4c4a07a16c78eeb6fccea2a1d9c1e4879fd1434f5d35839a1179e013d213825"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/V2/Meshes/Smoke0.asset",
+      "bytes": 3681,
+      "sha256": "4b780edf6ee7457cf5a8afa9ed1a79f6db6c7d82550465df6bc8d7ade7338e3a"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/V2/Meshes/Smoke1.asset",
+      "bytes": 3681,
+      "sha256": "11baef2f0c66e028d47fe5af4fa625d7c46660c6f6cf9aac33136e07ab55b443"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/V2/Meshes/Smoke2.asset",
+      "bytes": 3681,
+      "sha256": "7c7bcdf274ee72d278c127a36f595b9fb3d09e50c2599b0f649b1a6ee77f0ce0"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/V2/Meshes/SoftGlow.asset",
+      "bytes": 3719,
+      "sha256": "6c476051b486b42cc749abb941459c560afe7eafdaa814c1551cf3acebdb17a4"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/V2/Meshes/Star.asset",
+      "bytes": 3986,
+      "sha256": "14db0ee0270d3a811c7888c09a68e58febd93ef4f1418305a59614e72748d175"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/V2/Meshes/SweepArcs.asset",
+      "bytes": 46493,
+      "sha256": "d1b522563cd9a185f528a647595aafc75db920e1906b64bec09200c611018d90"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/V2/Shaders/BuildFXPaletteParticle.shader",
+      "bytes": 3144,
+      "sha256": "bd8af3f98e7d48c9198ac5fdfee3cf3eabcfd4335f47a0f04b760016c63f5635"
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/V2/Textures/BuildFX_Masks.png",
+      "bytes": 59200,
+      "sha256": "fa52fc213fe99e76e07136119c0c98554a5fcdc38f6af2be396dbc168feade21"
+    }
+  ],
+  "pending": [
+    "Author visual acceptance in Unity",
+    "Exact draw-level batch merge and break reasons",
+    "Target Player shader variants and device budget",
+    "Per-pass GPU/overdraw, render-thread and long-run reuse memory"
+  ],
+  "success": true
+}

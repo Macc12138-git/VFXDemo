@@ -1,0 +1,1563 @@
+{
+  "success": true,
+  "staticSamplingOnly": true,
+  "fixedStep": true,
+  "notLiveProof": true,
+  "render": {
+    "width": 1024,
+    "height": 768,
+    "ppu": 128,
+    "background": "#151820",
+    "post": false,
+    "hdr": false
+  },
+  "randomSamples": [
+    {
+      "seed": 22,
+      "phase": 0.21,
+      "count": 9,
+      "particles": [
+        {
+          "position": "(0.690, 1.551, 0.000)",
+          "size": 1.20820987,
+          "lifetime": 0.6832821,
+          "remaining": 0.5582821,
+          "mesh": 1
+        },
+        {
+          "position": "(-1.097, 0.434, 0.000)",
+          "size": 1.3076328,
+          "lifetime": 0.576486766,
+          "remaining": 0.4514868,
+          "mesh": 0
+        },
+        {
+          "position": "(0.016, 0.853, 0.000)",
+          "size": 1.46880174,
+          "lifetime": 0.6158572,
+          "remaining": 0.490857184,
+          "mesh": 1
+        },
+        {
+          "position": "(0.868, 0.748, 0.000)",
+          "size": 1.20367658,
+          "lifetime": 0.6070866,
+          "remaining": 0.482086629,
+          "mesh": 1
+        },
+        {
+          "position": "(0.893, 1.345, 0.000)",
+          "size": 1.386941,
+          "lifetime": 0.673042834,
+          "remaining": 0.548042834,
+          "mesh": 1
+        },
+        {
+          "position": "(1.206, 1.501, 0.000)",
+          "size": 1.56131446,
+          "lifetime": 0.607912064,
+          "remaining": 0.482912064,
+          "mesh": 2
+        },
+        {
+          "position": "(-0.064, 0.371, 0.000)",
+          "size": 1.08881855,
+          "lifetime": 0.6697972,
+          "remaining": 0.5447972,
+          "mesh": 1
+        },
+        {
+          "position": "(-0.455, 0.886, 0.000)",
+          "size": 1.379995,
+          "lifetime": 0.5969586,
+          "remaining": 0.471958578,
+          "mesh": 2
+        },
+        {
+          "position": "(0.603, 1.008, 0.000)",
+          "size": 1.43304336,
+          "lifetime": 0.6369844,
+          "remaining": 0.5119844,
+          "mesh": 1
+        }
+      ]
+    },
+    {
+      "seed": 22,
+      "phase": 0.54,
+      "count": 14,
+      "particles": [
+        {
+          "position": "(0.688, 1.673, 0.000)",
+          "size": 1.49796414,
+          "lifetime": 0.6832821,
+          "remaining": 0.238282114,
+          "mesh": 1
+        },
+        {
+          "position": "(-1.113, 0.537, 0.000)",
+          "size": 1.67607009,
+          "lifetime": 0.576486766,
+          "remaining": 0.1314867,
+          "mesh": 0
+        },
+        {
+          "position": "(0.092, 0.981, 0.000)",
+          "size": 1.864228,
+          "lifetime": 0.6158572,
+          "remaining": 0.1708573,
+          "mesh": 1
+        },
+        {
+          "position": "(0.971, 0.840, 0.000)",
+          "size": 1.53156877,
+          "lifetime": 0.6070866,
+          "remaining": 0.162086636,
+          "mesh": 1
+        },
+        {
+          "position": "(0.808, 1.441, 0.000)",
+          "size": 1.72630084,
+          "lifetime": 0.673042834,
+          "remaining": 0.228042766,
+          "mesh": 1
+        },
+        {
+          "position": "(1.199, 1.575, 0.000)",
+          "size": 1.98617458,
+          "lifetime": 0.607912064,
+          "remaining": 0.1629122,
+          "mesh": 2
+        },
+        {
+          "position": "(-0.094, 0.436, 0.000)",
+          "size": 1.35688746,
+          "lifetime": 0.6697972,
+          "remaining": 0.224797279,
+          "mesh": 1
+        },
+        {
+          "position": "(-0.384, 0.964, 0.000)",
+          "size": 1.76064527,
+          "lifetime": 0.5969586,
+          "remaining": 0.1519586,
+          "mesh": 2
+        },
+        {
+          "position": "(0.620, 1.140, 0.000)",
+          "size": 1.80678475,
+          "lifetime": 0.6369844,
+          "remaining": 0.19198449,
+          "mesh": 1
+        },
+        {
+          "position": "(-0.849, 0.877, 0.000)",
+          "size": 0.9301456,
+          "lifetime": 0.458491385,
+          "remaining": 0.4084913,
+          "mesh": 1
+        },
+        {
+          "position": "(0.367, 1.677, 0.000)",
+          "size": 0.838937342,
+          "lifetime": 0.434154838,
+          "remaining": 0.384154767,
+          "mesh": 1
+        },
+        {
+          "position": "(0.759, 0.351, 0.000)",
+          "size": 0.8693777,
+          "lifetime": 0.47247833,
+          "remaining": 0.422478259,
+          "mesh": 0
+        },
+        {
+          "position": "(0.470, 1.110, 0.000)",
+          "size": 1.27255249,
+          "lifetime": 0.417439759,
+          "remaining": 0.3674397,
+          "mesh": 1
+        },
+        {
+          "position": "(1.150, 1.341, 0.000)",
+          "size": 0.9997337,
+          "lifetime": 0.491826534,
+          "remaining": 0.441826463,
+          "mesh": 2
+        }
+      ]
+    },
+    {
+      "seed": 22,
+      "phase": 0.75,
+      "count": 11,
+      "particles": [
+        {
+          "position": "(0.691, 1.754, 0.000)",
+          "size": 1.651756,
+          "lifetime": 0.6832821,
+          "remaining": 0.0182822142,
+          "mesh": 1
+        },
+        {
+          "position": "(1.072, 1.432, 0.000)",
+          "size": 1.64131784,
+          "lifetime": 0.491826534,
+          "remaining": 0.221826449,
+          "mesh": 2
+        },
+        {
+          "position": "(0.392, 1.750, 0.000)",
+          "size": 1.28789139,
+          "lifetime": 0.434154838,
+          "remaining": 0.164154768,
+          "mesh": 1
+        },
+        {
+          "position": "(0.837, 0.434, 0.000)",
+          "size": 1.39525688,
+          "lifetime": 0.47247833,
+          "remaining": 0.202478275,
+          "mesh": 0
+        },
+        {
+          "position": "(0.737, 1.504, 0.000)",
+          "size": 1.8967346,
+          "lifetime": 0.673042834,
+          "remaining": 0.008042672,
+          "mesh": 1
+        },
+        {
+          "position": "(-0.842, 0.945, 0.000)",
+          "size": 1.46857417,
+          "lifetime": 0.458491385,
+          "remaining": 0.188491285,
+          "mesh": 1
+        },
+        {
+          "position": "(-0.110, 0.478, 0.000)",
+          "size": 1.48896706,
+          "lifetime": 0.6697972,
+          "remaining": 0.00479735,
+          "mesh": 1
+        },
+        {
+          "position": "(0.520, 1.209, 0.000)",
+          "size": 1.91714859,
+          "lifetime": 0.417439759,
+          "remaining": 0.147439659,
+          "mesh": 1
+        },
+        {
+          "position": "(0.084, 1.042, 0.000)",
+          "size": 1.21589231,
+          "lifetime": 0.439300776,
+          "remaining": 0.389300883,
+          "mesh": 0
+        },
+        {
+          "position": "(0.044, 1.357, 0.000)",
+          "size": 1.09180057,
+          "lifetime": 0.4331614,
+          "remaining": 0.383161545,
+          "mesh": 2
+        },
+        {
+          "position": "(-0.962, 0.929, 0.000)",
+          "size": 1.13840282,
+          "lifetime": 0.4019991,
+          "remaining": 0.351999223,
+          "mesh": 2
+        }
+      ]
+    },
+    {
+      "seed": 71,
+      "phase": 0.21,
+      "count": 9,
+      "particles": [
+        {
+          "position": "(-0.970, 1.324, 0.000)",
+          "size": 1.16172981,
+          "lifetime": 0.6585062,
+          "remaining": 0.5335062,
+          "mesh": 1
+        },
+        {
+          "position": "(-0.593, 1.647, 0.000)",
+          "size": 1.221102,
+          "lifetime": 0.6928402,
+          "remaining": 0.5678402,
+          "mesh": 0
+        },
+        {
+          "position": "(0.193, 1.226, 0.000)",
+          "size": 1.40651751,
+          "lifetime": 0.6520993,
+          "remaining": 0.5270994,
+          "mesh": 0
+        },
+        {
+          "position": "(0.367, 1.630, 0.000)",
+          "size": 1.5103662,
+          "lifetime": 0.6906424,
+          "remaining": 0.5656424,
+          "mesh": 1
+        },
+        {
+          "position": "(-0.716, 1.007, 0.000)",
+          "size": 1.00579321,
+          "lifetime": 0.6774058,
+          "remaining": 0.5524058,
+          "mesh": 0
+        },
+        {
+          "position": "(-1.058, 1.523, 0.000)",
+          "size": 1.46020985,
+          "lifetime": 0.663827837,
+          "remaining": 0.538827837,
+          "mesh": 2
+        },
+        {
+          "position": "(-0.139, 1.144, 0.000)",
+          "size": 1.22438073,
+          "lifetime": 0.637065351,
+          "remaining": 0.512065351,
+          "mesh": 0
+        },
+        {
+          "position": "(0.945, 1.028, 0.000)",
+          "size": 1.18248439,
+          "lifetime": 0.6776889,
+          "remaining": 0.5526889,
+          "mesh": 2
+        },
+        {
+          "position": "(0.222, 0.745, 0.000)",
+          "size": 1.45063424,
+          "lifetime": 0.6464277,
+          "remaining": 0.5214277,
+          "mesh": 1
+        }
+      ]
+    },
+    {
+      "seed": 71,
+      "phase": 0.54,
+      "count": 13,
+      "particles": [
+        {
+          "position": "(-0.943, 1.535, 0.000)",
+          "size": 1.45378268,
+          "lifetime": 0.6585062,
+          "remaining": 0.213506147,
+          "mesh": 1
+        },
+        {
+          "position": "(-0.546, 1.774, 0.000)",
+          "size": 1.50830972,
+          "lifetime": 0.6928402,
+          "remaining": 0.247840166,
+          "mesh": 0
+        },
+        {
+          "position": "(0.267, 1.357, 0.000)",
+          "size": 1.76415122,
+          "lifetime": 0.6520993,
+          "remaining": 0.207099408,
+          "mesh": 0
+        },
+        {
+          "position": "(0.468, 1.771, 0.000)",
+          "size": 1.86722267,
+          "lifetime": 0.6906424,
+          "remaining": 0.245642379,
+          "mesh": 1
+        },
+        {
+          "position": "(-0.781, 1.167, 0.000)",
+          "size": 1.24982154,
+          "lifetime": 0.6774058,
+          "remaining": 0.232405931,
+          "mesh": 0
+        },
+        {
+          "position": "(-1.011, 1.698, 0.000)",
+          "size": 1.82375264,
+          "lifetime": 0.663827837,
+          "remaining": 0.2188279,
+          "mesh": 2
+        },
+        {
+          "position": "(-0.165, 1.268, 0.000)",
+          "size": 1.54366088,
+          "lifetime": 0.637065351,
+          "remaining": 0.192065313,
+          "mesh": 0
+        },
+        {
+          "position": "(0.939, 1.153, 0.000)",
+          "size": 1.46922326,
+          "lifetime": 0.6776889,
+          "remaining": 0.232688919,
+          "mesh": 2
+        },
+        {
+          "position": "(0.254, 0.907, 0.000)",
+          "size": 1.82310474,
+          "lifetime": 0.6464277,
+          "remaining": 0.201427773,
+          "mesh": 1
+        },
+        {
+          "position": "(0.775, 0.497, 0.000)",
+          "size": 0.949686766,
+          "lifetime": 0.4016739,
+          "remaining": 0.351673841,
+          "mesh": 0
+        },
+        {
+          "position": "(-0.277, 1.362, 0.000)",
+          "size": 0.9837071,
+          "lifetime": 0.405692428,
+          "remaining": 0.355692357,
+          "mesh": 2
+        },
+        {
+          "position": "(-0.440, 1.668, 0.000)",
+          "size": 1.03645337,
+          "lifetime": 0.4836714,
+          "remaining": 0.4336713,
+          "mesh": 2
+        },
+        {
+          "position": "(-1.199, 1.651, 0.000)",
+          "size": 0.88926053,
+          "lifetime": 0.4922215,
+          "remaining": 0.442221433,
+          "mesh": 1
+        }
+      ]
+    },
+    {
+      "seed": 71,
+      "phase": 0.75,
+      "count": 12,
+      "particles": [
+        {
+          "position": "(1.044, 1.488, 0.000)",
+          "size": 1.2146914,
+          "lifetime": 0.4372025,
+          "remaining": 0.38720265,
+          "mesh": 0
+        },
+        {
+          "position": "(-0.514, 1.867, 0.000)",
+          "size": 1.667869,
+          "lifetime": 0.6928402,
+          "remaining": 0.0278404448,
+          "mesh": 0
+        },
+        {
+          "position": "(0.081, 0.988, 0.000)",
+          "size": 1.16004062,
+          "lifetime": 0.362030536,
+          "remaining": 0.312030643,
+          "mesh": 1
+        },
+        {
+          "position": "(0.537, 1.875, 0.000)",
+          "size": 2.063495,
+          "lifetime": 0.6906424,
+          "remaining": 0.0256426465,
+          "mesh": 1
+        },
+        {
+          "position": "(-0.806, 1.284, 0.000)",
+          "size": 1.3754108,
+          "lifetime": 0.6774058,
+          "remaining": 0.0124060521,
+          "mesh": 0
+        },
+        {
+          "position": "(0.854, 0.366, 0.000)",
+          "size": 1.01060438,
+          "lifetime": 0.410446376,
+          "remaining": 0.360446483,
+          "mesh": 2
+        },
+        {
+          "position": "(0.476, 1.027, 0.000)",
+          "size": 0.8611366,
+          "lifetime": 0.4198772,
+          "remaining": 0.3698773,
+          "mesh": 1
+        },
+        {
+          "position": "(0.952, 1.246, 0.000)",
+          "size": 1.61702085,
+          "lifetime": 0.6776889,
+          "remaining": 0.0126887,
+          "mesh": 2
+        },
+        {
+          "position": "(-1.125, 1.748, 0.000)",
+          "size": 1.46062493,
+          "lifetime": 0.4922215,
+          "remaining": 0.222221464,
+          "mesh": 1
+        },
+        {
+          "position": "(0.766, 0.634, 0.000)",
+          "size": 1.40634823,
+          "lifetime": 0.4016739,
+          "remaining": 0.131673828,
+          "mesh": 0
+        },
+        {
+          "position": "(-0.278, 1.518, 0.000)",
+          "size": 1.46303654,
+          "lifetime": 0.405692428,
+          "remaining": 0.135692343,
+          "mesh": 2
+        },
+        {
+          "position": "(-0.439, 1.792, 0.000)",
+          "size": 1.68538439,
+          "lifetime": 0.4836714,
+          "remaining": 0.213671327,
+          "mesh": 2
+        }
+      ]
+    },
+    {
+      "seed": 143,
+      "phase": 0.21,
+      "count": 9,
+      "particles": [
+        {
+          "position": "(1.080, 0.745, 0.000)",
+          "size": 1.24341154,
+          "lifetime": 0.601983249,
+          "remaining": 0.476983249,
+          "mesh": 0
+        },
+        {
+          "position": "(-0.976, 1.156, 0.000)",
+          "size": 1.1543622,
+          "lifetime": 0.642319441,
+          "remaining": 0.517319441,
+          "mesh": 2
+        },
+        {
+          "position": "(0.479, 0.927, 0.000)",
+          "size": 1.34060335,
+          "lifetime": 0.6212174,
+          "remaining": 0.49621743,
+          "mesh": 1
+        },
+        {
+          "position": "(0.102, 0.922, 0.000)",
+          "size": 1.252686,
+          "lifetime": 0.619144738,
+          "remaining": 0.494144738,
+          "mesh": 0
+        },
+        {
+          "position": "(0.653, 0.644, 0.000)",
+          "size": 1.11980736,
+          "lifetime": 0.6371618,
+          "remaining": 0.5121618,
+          "mesh": 0
+        },
+        {
+          "position": "(0.321, 1.753, 0.000)",
+          "size": 1.22428715,
+          "lifetime": 0.660095334,
+          "remaining": 0.535095334,
+          "mesh": 0
+        },
+        {
+          "position": "(0.500, 1.376, 0.000)",
+          "size": 1.40902317,
+          "lifetime": 0.613178968,
+          "remaining": 0.488178968,
+          "mesh": 2
+        },
+        {
+          "position": "(-0.085, 1.691, 0.000)",
+          "size": 1.490389,
+          "lifetime": 0.5861689,
+          "remaining": 0.461168915,
+          "mesh": 0
+        },
+        {
+          "position": "(-0.901, 1.604, 0.000)",
+          "size": 1.435257,
+          "lifetime": 0.6909014,
+          "remaining": 0.5659014,
+          "mesh": 2
+        }
+      ]
+    },
+    {
+      "seed": 143,
+      "phase": 0.54,
+      "count": 13,
+      "particles": [
+        {
+          "position": "(1.006, 0.971, 0.000)",
+          "size": 1.58432,
+          "lifetime": 0.601983249,
+          "remaining": 0.156983212,
+          "mesh": 0
+        },
+        {
+          "position": "(-0.981, 1.362, 0.000)",
+          "size": 1.45281053,
+          "lifetime": 0.642319441,
+          "remaining": 0.197319433,
+          "mesh": 2
+        },
+        {
+          "position": "(0.393, 1.110, 0.000)",
+          "size": 1.698777,
+          "lifetime": 0.6212174,
+          "remaining": 0.176217377,
+          "mesh": 1
+        },
+        {
+          "position": "(0.171, 1.144, 0.000)",
+          "size": 1.58837008,
+          "lifetime": 0.619144738,
+          "remaining": 0.174144715,
+          "mesh": 0
+        },
+        {
+          "position": "(0.703, 0.846, 0.000)",
+          "size": 1.41177273,
+          "lifetime": 0.6371618,
+          "remaining": 0.1921618,
+          "mesh": 0
+        },
+        {
+          "position": "(0.422, 1.987, 0.000)",
+          "size": 1.53118324,
+          "lifetime": 0.660095334,
+          "remaining": 0.2150953,
+          "mesh": 0
+        },
+        {
+          "position": "(0.473, 1.527, 0.000)",
+          "size": 1.7897588,
+          "lifetime": 0.613178968,
+          "remaining": 0.1681789,
+          "mesh": 2
+        },
+        {
+          "position": "(0.025, 1.903, 0.000)",
+          "size": 1.90641308,
+          "lifetime": 0.5861689,
+          "remaining": 0.1411688,
+          "mesh": 0
+        },
+        {
+          "position": "(-0.931, 1.793, 0.000)",
+          "size": 1.77418673,
+          "lifetime": 0.6909014,
+          "remaining": 0.24590148,
+          "mesh": 2
+        },
+        {
+          "position": "(-0.273, 0.994, 0.000)",
+          "size": 1.15033054,
+          "lifetime": 0.453792632,
+          "remaining": 0.40379256,
+          "mesh": 2
+        },
+        {
+          "position": "(0.504, 0.964, 0.000)",
+          "size": 1.0517652,
+          "lifetime": 0.461768538,
+          "remaining": 0.411768466,
+          "mesh": 2
+        },
+        {
+          "position": "(0.821, 0.482, 0.000)",
+          "size": 1.13554382,
+          "lifetime": 0.422899067,
+          "remaining": 0.372899,
+          "mesh": 0
+        },
+        {
+          "position": "(-0.738, 0.849, 0.000)",
+          "size": 0.8944812,
+          "lifetime": 0.499403954,
+          "remaining": 0.449403882,
+          "mesh": 0
+        }
+      ]
+    },
+    {
+      "seed": 143,
+      "phase": 0.75,
+      "count": 9,
+      "particles": [
+        {
+          "position": "(-0.754, 1.003, 0.000)",
+          "size": 1.4816364,
+          "lifetime": 0.499403954,
+          "remaining": 0.229403824,
+          "mesh": 0
+        },
+        {
+          "position": "(1.103, 0.811, 0.000)",
+          "size": 1.13056028,
+          "lifetime": 0.389293879,
+          "remaining": 0.339294,
+          "mesh": 0
+        },
+        {
+          "position": "(-0.310, 1.109, 0.000)",
+          "size": 1.80631506,
+          "lifetime": 0.453792632,
+          "remaining": 0.183792576,
+          "mesh": 2
+        },
+        {
+          "position": "(0.492, 1.099, 0.000)",
+          "size": 1.66695321,
+          "lifetime": 0.461768538,
+          "remaining": 0.191768482,
+          "mesh": 2
+        },
+        {
+          "position": "(0.436, 1.275, 0.000)",
+          "size": 1.08729029,
+          "lifetime": 0.4598101,
+          "remaining": 0.409810245,
+          "mesh": 1
+        },
+        {
+          "position": "(-0.237, 0.747, 0.000)",
+          "size": 1.255368,
+          "lifetime": 0.4184763,
+          "remaining": 0.368476421,
+          "mesh": 2
+        },
+        {
+          "position": "(-0.959, 1.925, 0.000)",
+          "size": 1.96082282,
+          "lifetime": 0.6909014,
+          "remaining": 0.0259016119,
+          "mesh": 2
+        },
+        {
+          "position": "(0.803, 0.591, 0.000)",
+          "size": 1.72118616,
+          "lifetime": 0.422899067,
+          "remaining": 0.152899027,
+          "mesh": 0
+        },
+        {
+          "position": "(0.600, 1.047, 0.000)",
+          "size": 0.934669137,
+          "lifetime": 0.388399661,
+          "remaining": 0.3383998,
+          "mesh": 0
+        }
+      ]
+    },
+    {
+      "seed": 329,
+      "phase": 0.21,
+      "count": 7,
+      "particles": [
+        {
+          "position": "(-0.812, 1.362, 0.000)",
+          "size": 1.04938018,
+          "lifetime": 0.664202332,
+          "remaining": 0.539202332,
+          "mesh": 0
+        },
+        {
+          "position": "(-0.533, 0.369, 0.000)",
+          "size": 1.54398823,
+          "lifetime": 0.570532143,
+          "remaining": 0.445532143,
+          "mesh": 1
+        },
+        {
+          "position": "(1.081, 1.205, 0.000)",
+          "size": 1.11479366,
+          "lifetime": 0.650260031,
+          "remaining": 0.525260031,
+          "mesh": 0
+        },
+        {
+          "position": "(0.374, 1.223, 0.000)",
+          "size": 1.11453819,
+          "lifetime": 0.6512886,
+          "remaining": 0.5262886,
+          "mesh": 1
+        },
+        {
+          "position": "(0.142, 0.739, 0.000)",
+          "size": 1.466118,
+          "lifetime": 0.5865884,
+          "remaining": 0.461588383,
+          "mesh": 0
+        },
+        {
+          "position": "(0.515, 0.611, 0.000)",
+          "size": 1.32206535,
+          "lifetime": 0.6461556,
+          "remaining": 0.5211556,
+          "mesh": 0
+        },
+        {
+          "position": "(-0.477, 0.411, 0.000)",
+          "size": 1.55197847,
+          "lifetime": 0.5814475,
+          "remaining": 0.456447482,
+          "mesh": 1
+        }
+      ]
+    },
+    {
+      "seed": 329,
+      "phase": 0.54,
+      "count": 12,
+      "particles": [
+        {
+          "position": "(-0.916, 1.502, 0.000)",
+          "size": 1.31045973,
+          "lifetime": 0.664202332,
+          "remaining": 0.21920228,
+          "mesh": 0
+        },
+        {
+          "position": "(-0.474, 0.459, 0.000)",
+          "size": 1.98123467,
+          "lifetime": 0.570532143,
+          "remaining": 0.125532046,
+          "mesh": 1
+        },
+        {
+          "position": "(1.117, 1.312, 0.000)",
+          "size": 1.399159,
+          "lifetime": 0.650260031,
+          "remaining": 0.205260113,
+          "mesh": 0
+        },
+        {
+          "position": "(0.295, 1.352, 0.000)",
+          "size": 1.39833152,
+          "lifetime": 0.6512886,
+          "remaining": 0.206288636,
+          "mesh": 1
+        },
+        {
+          "position": "(0.082, 0.885, 0.000)",
+          "size": 1.87518919,
+          "lifetime": 0.5865884,
+          "remaining": 0.141588375,
+          "mesh": 0
+        },
+        {
+          "position": "(0.470, 0.693, 0.000)",
+          "size": 1.66168058,
+          "lifetime": 0.6461556,
+          "remaining": 0.201155573,
+          "mesh": 0
+        },
+        {
+          "position": "(-0.382, 0.489, 0.000)",
+          "size": 1.98724449,
+          "lifetime": 0.5814475,
+          "remaining": 0.136447653,
+          "mesh": 1
+        },
+        {
+          "position": "(0.730, 0.343, 0.000)",
+          "size": 0.797151864,
+          "lifetime": 0.4942298,
+          "remaining": 0.444229722,
+          "mesh": 2
+        },
+        {
+          "position": "(1.234, 1.324, 0.000)",
+          "size": 0.7251804,
+          "lifetime": 0.489321619,
+          "remaining": 0.439321548,
+          "mesh": 1
+        },
+        {
+          "position": "(1.100, 0.608, 0.000)",
+          "size": 0.8193494,
+          "lifetime": 0.479814649,
+          "remaining": 0.429814577,
+          "mesh": 2
+        },
+        {
+          "position": "(-0.866, 1.024, 0.000)",
+          "size": 0.851251841,
+          "lifetime": 0.42619428,
+          "remaining": 0.3761942,
+          "mesh": 1
+        },
+        {
+          "position": "(-0.962, 0.458, 0.000)",
+          "size": 1.08542061,
+          "lifetime": 0.446231931,
+          "remaining": 0.39623186,
+          "mesh": 1
+        }
+      ]
+    },
+    {
+      "seed": 329,
+      "phase": 0.75,
+      "count": 9,
+      "particles": [
+        {
+          "position": "(0.601, 1.684, 0.000)",
+          "size": 1.19984317,
+          "lifetime": 0.424964637,
+          "remaining": 0.374964744,
+          "mesh": 2
+        },
+        {
+          "position": "(-0.907, 0.519, 0.000)",
+          "size": 1.68953013,
+          "lifetime": 0.446231931,
+          "remaining": 0.176231846,
+          "mesh": 1
+        },
+        {
+          "position": "(0.086, 0.688, 0.000)",
+          "size": 1.06244636,
+          "lifetime": 0.411231279,
+          "remaining": 0.3612314,
+          "mesh": 2
+        },
+        {
+          "position": "(0.398, 1.513, 0.000)",
+          "size": 0.9247818,
+          "lifetime": 0.410332561,
+          "remaining": 0.360332668,
+          "mesh": 0
+        },
+        {
+          "position": "(1.021, 0.666, 0.000)",
+          "size": 1.32633173,
+          "lifetime": 0.479814649,
+          "remaining": 0.209814548,
+          "mesh": 2
+        },
+        {
+          "position": "(-0.631, 0.733, 0.000)",
+          "size": 1.16265786,
+          "lifetime": 0.4333991,
+          "remaining": 0.383399248,
+          "mesh": 2
+        },
+        {
+          "position": "(-0.959, 1.096, 0.000)",
+          "size": 1.29506028,
+          "lifetime": 0.42619428,
+          "remaining": 0.1561942,
+          "mesh": 1
+        },
+        {
+          "position": "(0.765, 0.410, 0.000)",
+          "size": 1.31242561,
+          "lifetime": 0.4942298,
+          "remaining": 0.224229768,
+          "mesh": 2
+        },
+        {
+          "position": "(1.198, 1.400, 0.000)",
+          "size": 1.18707192,
+          "lifetime": 0.489321619,
+          "remaining": 0.219321534,
+          "mesh": 1
+        }
+      ]
+    }
+  ],
+  "colorEndpoints": [
+    {
+      "property": "_SmokeColor",
+      "opacityZeroChangedPixels": 77748
+    },
+    {
+      "property": "_FlashColor",
+      "opacityZeroChangedPixels": 22689
+    },
+    {
+      "property": "_HighlightColor",
+      "opacityZeroChangedPixels": 11899
+    },
+    {
+      "property": "_ArcColor",
+      "opacityZeroChangedPixels": 3820
+    },
+    {
+      "property": "_SparkColor",
+      "opacityZeroChangedPixels": 244
+    },
+    {
+      "property": "_DebrisColor",
+      "opacityZeroChangedPixels": 150
+    },
+    {
+      "property": "_GlowColor",
+      "opacityZeroChangedPixels": 49077
+    }
+  ],
+  "allColorEndpointsVisible": true,
+  "prefab": {
+    "systems": 12,
+    "scripts": 0,
+    "components": [
+      {
+        "type": "Transform",
+        "count": 18
+      },
+      {
+        "type": "ParticleSystem",
+        "count": 12
+      },
+      {
+        "type": "ParticleSystemRenderer",
+        "count": 12
+      }
+    ],
+    "particles": [
+      {
+        "name": "BuildFX",
+        "duration": 1.2,
+        "loop": false,
+        "useAutoRandomSeed": true,
+        "maxParticles": 1,
+        "bursts": 0,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 0,
+        "velocityModes": [
+          "Constant",
+          "Constant",
+          "Constant"
+        ]
+      },
+      {
+        "name": "SmokeRandom",
+        "duration": 1.2,
+        "loop": false,
+        "useAutoRandomSeed": true,
+        "maxParticles": 32,
+        "bursts": 3,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 3,
+        "velocityModes": [
+          "TwoConstants",
+          "TwoConstants",
+          "TwoConstants"
+        ]
+      },
+      {
+        "name": "Back_0",
+        "duration": 1.2,
+        "loop": false,
+        "useAutoRandomSeed": false,
+        "maxParticles": 2,
+        "bursts": 1,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 1,
+        "velocityModes": [
+          "Constant",
+          "Constant",
+          "Constant"
+        ]
+      },
+      {
+        "name": "Back_1",
+        "duration": 1.2,
+        "loop": false,
+        "useAutoRandomSeed": false,
+        "maxParticles": 2,
+        "bursts": 1,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 1,
+        "velocityModes": [
+          "Constant",
+          "Constant",
+          "Constant"
+        ]
+      },
+      {
+        "name": "Back_2",
+        "duration": 1.2,
+        "loop": false,
+        "useAutoRandomSeed": false,
+        "maxParticles": 2,
+        "bursts": 1,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 1,
+        "velocityModes": [
+          "Constant",
+          "Constant",
+          "Constant"
+        ]
+      },
+      {
+        "name": "Front_0",
+        "duration": 1.2,
+        "loop": false,
+        "useAutoRandomSeed": false,
+        "maxParticles": 2,
+        "bursts": 1,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 1,
+        "velocityModes": [
+          "Constant",
+          "Constant",
+          "Constant"
+        ]
+      },
+      {
+        "name": "Front_1",
+        "duration": 1.2,
+        "loop": false,
+        "useAutoRandomSeed": false,
+        "maxParticles": 2,
+        "bursts": 1,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 1,
+        "velocityModes": [
+          "Constant",
+          "Constant",
+          "Constant"
+        ]
+      },
+      {
+        "name": "Front_2",
+        "duration": 1.2,
+        "loop": false,
+        "useAutoRandomSeed": false,
+        "maxParticles": 2,
+        "bursts": 1,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 1,
+        "velocityModes": [
+          "Constant",
+          "Constant",
+          "Constant"
+        ]
+      },
+      {
+        "name": "GroundAndSideArcs",
+        "duration": 1.2,
+        "loop": false,
+        "useAutoRandomSeed": false,
+        "maxParticles": 2,
+        "bursts": 3,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 1,
+        "velocityModes": [
+          "Constant",
+          "Constant",
+          "Constant"
+        ]
+      },
+      {
+        "name": "Stars",
+        "duration": 1.2,
+        "loop": false,
+        "useAutoRandomSeed": true,
+        "maxParticles": 32,
+        "bursts": 3,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 1,
+        "velocityModes": [
+          "TwoConstants",
+          "TwoConstants",
+          "TwoConstants"
+        ]
+      },
+      {
+        "name": "Chips",
+        "duration": 1.2,
+        "loop": false,
+        "useAutoRandomSeed": true,
+        "maxParticles": 18,
+        "bursts": 3,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 2,
+        "velocityModes": [
+          "TwoCurves",
+          "TwoCurves",
+          "TwoCurves"
+        ]
+      },
+      {
+        "name": "SoftGlow",
+        "duration": 1.2,
+        "loop": false,
+        "useAutoRandomSeed": false,
+        "maxParticles": 2,
+        "bursts": 3,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 1,
+        "velocityModes": [
+          "Constant",
+          "Constant",
+          "Constant"
+        ]
+      }
+    ]
+  },
+  "scene": {
+    "systems": 12,
+    "scripts": 0,
+    "components": [
+      {
+        "type": "Transform",
+        "count": 18
+      },
+      {
+        "type": "ParticleSystem",
+        "count": 12
+      },
+      {
+        "type": "ParticleSystemRenderer",
+        "count": 12
+      }
+    ],
+    "particles": [
+      {
+        "name": "BuildFX",
+        "duration": 1.6,
+        "loop": true,
+        "useAutoRandomSeed": true,
+        "maxParticles": 1,
+        "bursts": 0,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 0,
+        "velocityModes": [
+          "Constant",
+          "Constant",
+          "Constant"
+        ]
+      },
+      {
+        "name": "SmokeRandom",
+        "duration": 1.6,
+        "loop": true,
+        "useAutoRandomSeed": true,
+        "maxParticles": 32,
+        "bursts": 3,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 3,
+        "velocityModes": [
+          "TwoConstants",
+          "TwoConstants",
+          "TwoConstants"
+        ]
+      },
+      {
+        "name": "Back_0",
+        "duration": 1.6,
+        "loop": true,
+        "useAutoRandomSeed": false,
+        "maxParticles": 2,
+        "bursts": 1,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 1,
+        "velocityModes": [
+          "Constant",
+          "Constant",
+          "Constant"
+        ]
+      },
+      {
+        "name": "Back_1",
+        "duration": 1.6,
+        "loop": true,
+        "useAutoRandomSeed": false,
+        "maxParticles": 2,
+        "bursts": 1,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 1,
+        "velocityModes": [
+          "Constant",
+          "Constant",
+          "Constant"
+        ]
+      },
+      {
+        "name": "Back_2",
+        "duration": 1.6,
+        "loop": true,
+        "useAutoRandomSeed": false,
+        "maxParticles": 2,
+        "bursts": 1,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 1,
+        "velocityModes": [
+          "Constant",
+          "Constant",
+          "Constant"
+        ]
+      },
+      {
+        "name": "Front_0",
+        "duration": 1.6,
+        "loop": true,
+        "useAutoRandomSeed": false,
+        "maxParticles": 2,
+        "bursts": 1,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 1,
+        "velocityModes": [
+          "Constant",
+          "Constant",
+          "Constant"
+        ]
+      },
+      {
+        "name": "Front_1",
+        "duration": 1.6,
+        "loop": true,
+        "useAutoRandomSeed": false,
+        "maxParticles": 2,
+        "bursts": 1,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 1,
+        "velocityModes": [
+          "Constant",
+          "Constant",
+          "Constant"
+        ]
+      },
+      {
+        "name": "Front_2",
+        "duration": 1.6,
+        "loop": true,
+        "useAutoRandomSeed": false,
+        "maxParticles": 2,
+        "bursts": 1,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 1,
+        "velocityModes": [
+          "Constant",
+          "Constant",
+          "Constant"
+        ]
+      },
+      {
+        "name": "GroundAndSideArcs",
+        "duration": 1.6,
+        "loop": true,
+        "useAutoRandomSeed": false,
+        "maxParticles": 2,
+        "bursts": 3,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 1,
+        "velocityModes": [
+          "Constant",
+          "Constant",
+          "Constant"
+        ]
+      },
+      {
+        "name": "Stars",
+        "duration": 1.6,
+        "loop": true,
+        "useAutoRandomSeed": true,
+        "maxParticles": 32,
+        "bursts": 3,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 1,
+        "velocityModes": [
+          "TwoConstants",
+          "TwoConstants",
+          "TwoConstants"
+        ]
+      },
+      {
+        "name": "Chips",
+        "duration": 1.6,
+        "loop": true,
+        "useAutoRandomSeed": true,
+        "maxParticles": 18,
+        "bursts": 3,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 2,
+        "velocityModes": [
+          "TwoCurves",
+          "TwoCurves",
+          "TwoCurves"
+        ]
+      },
+      {
+        "name": "SoftGlow",
+        "duration": 1.6,
+        "loop": true,
+        "useAutoRandomSeed": false,
+        "maxParticles": 2,
+        "bursts": 3,
+        "textureSheet": false,
+        "lights": false,
+        "meshCount": 1,
+        "velocityModes": [
+          "Constant",
+          "Constant",
+          "Constant"
+        ]
+      }
+    ]
+  },
+  "dependencies": [
+    "Assets/PixelFX/BuildFX/V2/Meshes/ChipLight.asset",
+    "Assets/PixelFX/BuildFX/V2/Meshes/BackFlash1.asset",
+    "Assets/PixelFX/BuildFX/V2/Meshes/FrontFlash1.asset",
+    "Assets/PixelFX/BuildFX/V2/Textures/BuildFX_Masks.png",
+    "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab",
+    "Assets/PixelFX/BuildFX/V2/Meshes/SweepArcs.asset",
+    "Assets/PixelFX/BuildFX/V2/Meshes/Smoke1.asset",
+    "Assets/PixelFX/BuildFX/V2/Meshes/FrontFlash2.asset",
+    "Assets/PixelFX/BuildFX/V2/Meshes/SoftGlow.asset",
+    "Assets/PixelFX/BuildFX/V2/Meshes/Smoke2.asset",
+    "Assets/PixelFX/BuildFX/V2/Meshes/ChipDark.asset",
+    "Assets/PixelFX/BuildFX/V2/Meshes/Smoke0.asset",
+    "Assets/PixelFX/BuildFX/V2/Meshes/Star.asset",
+    "Assets/PixelFX/BuildFX/V2/Meshes/BackFlash2.asset",
+    "Assets/PixelFX/BuildFX/V2/Materials/BuildFX_Alpha.mat",
+    "Assets/PixelFX/BuildFX/V2/Shaders/BuildFXPaletteParticle.shader",
+    "Assets/PixelFX/BuildFX/V2/Meshes/BackFlash0.asset",
+    "Assets/PixelFX/BuildFX/V2/Materials/BuildFX_Additive.mat",
+    "Assets/PixelFX/BuildFX/V2/Meshes/FrontFlash0.asset"
+  ],
+  "sceneDirtyUnchanged": true,
+  "resources": [
+    {
+      "name": "ChipLight",
+      "type": "Mesh",
+      "bytes": 1832
+    },
+    {
+      "name": "BackFlash1",
+      "type": "Mesh",
+      "bytes": 3532
+    },
+    {
+      "name": "FrontFlash1",
+      "type": "Mesh",
+      "bytes": 7336
+    },
+    {
+      "name": "BuildFX_Masks",
+      "type": "Texture2D",
+      "bytes": 4195200
+    },
+    {
+      "name": "BuildFX",
+      "type": "GameObject",
+      "bytes": 312
+    },
+    {
+      "name": "SweepArcs",
+      "type": "Mesh",
+      "bytes": 44576
+    },
+    {
+      "name": "Smoke1",
+      "type": "Mesh",
+      "bytes": 1832
+    },
+    {
+      "name": "FrontFlash2",
+      "type": "Mesh",
+      "bytes": 7336
+    },
+    {
+      "name": "SoftGlow",
+      "type": "Mesh",
+      "bytes": 1832
+    },
+    {
+      "name": "Smoke2",
+      "type": "Mesh",
+      "bytes": 1832
+    },
+    {
+      "name": "ChipDark",
+      "type": "Mesh",
+      "bytes": 1832
+    },
+    {
+      "name": "Smoke0",
+      "type": "Mesh",
+      "bytes": 1832
+    },
+    {
+      "name": "Star",
+      "type": "Mesh",
+      "bytes": 2136
+    },
+    {
+      "name": "BackFlash2",
+      "type": "Mesh",
+      "bytes": 3532
+    },
+    {
+      "name": "BuildFX_Alpha",
+      "type": "Material",
+      "bytes": 1412
+    },
+    {
+      "name": "PixelFX/BuildFX/Editable Palette URP",
+      "type": "Shader",
+      "bytes": 34936
+    },
+    {
+      "name": "BackFlash0",
+      "type": "Mesh",
+      "bytes": 3532
+    },
+    {
+      "name": "BuildFX_Additive",
+      "type": "Material",
+      "bytes": 1412
+    },
+    {
+      "name": "FrontFlash0",
+      "type": "Mesh",
+      "bytes": 7336
+    }
+  ]
+}

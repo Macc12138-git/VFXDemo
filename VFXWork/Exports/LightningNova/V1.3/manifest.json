@@ -1,0 +1,31 @@
+{
+  "effect": "LightningNova",
+  "version": "V1.3",
+  "authorization": "导入到unity中",
+  "source": "Tools/PixelFX/src/hd/lightning-nova.js",
+  "sourceHash": "0fae2726a83fdac40a742a7510d6dc89cdc23f4199bbaba8937da57e2c28b664",
+  "options": {
+    "seed": 69,
+    "radius": 2.5,
+    "intensity": 1,
+    "glow": 0.65,
+    "density": 1,
+    "core": "#f5ffff",
+    "body": "#73eaff",
+    "edge": "#387bfa",
+    "spark": "#bcf7ff"
+  },
+  "assetsRoot": "Assets/PixelFX/LightningNova",
+  "units": "Source world unit = Unity unit, pivot = strike landing point",
+  "duration": 1.2,
+  "staticFrames": 1,
+  "animationTextures": false,
+  "textures": [],
+  "implementation": "Static parametric element meshes + age-driven URP vertex shader + native Particle System births/lifetimes/motion. Independent 2D flattened and spatial 3D prefabs.",
+  "approximations": [
+    "Native secondary arc/spark distributions preserve behavior, not particle identities.",
+    "Ring vertex current and path equations are ported; browser per-brush transparency sorting differs from Unity mesh transparency.",
+    "2D is a fixed 24 degree source projection encoded in the material, not a camera-facing billboard."
+  ],
+  "targetBudget": "Not provided; local Editor exploratory measurements only."
+}

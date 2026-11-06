@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "scene": "Assets/Scenes/VFXWorkbench.unity",
+  "isDirty": false,
+  "normalizedAxes": [
+    "InitialModule.startSizeY.minMaxState",
+    "InitialModule.startSizeZ.minMaxState",
+    "InitialModule.startRotationX.minMaxState",
+    "InitialModule.startRotationY.minMaxState"
+  ],
+  "validatedSceneChanges": [
+    {
+      "key": "BuildFX/01_Smoke/SmokeRandom:ParticleSystem|InitialModule.startSizeY.minMaxState",
+      "current": "3",
+      "disk": "0"
+    },
+    {
+      "key": "BuildFX/01_Smoke/SmokeRandom:ParticleSystem|InitialModule.startSizeZ.minMaxState",
+      "current": "3",
+      "disk": "0"
+    },
+    {
+      "key": "BuildFX/01_Smoke/SmokeRandom:ParticleSystem|InitialModule.startRotationX.minMaxState",
+      "current": "3",
+      "disk": "0"
+    },
+    {
+      "key": "BuildFX/01_Smoke/SmokeRandom:ParticleSystem|InitialModule.startRotationY.minMaxState",
+      "current": "3",
+      "disk": "0"
+    }
+  ],
+  "staleOverridesRemoved": 51,
+  "roots": [
+    {
+      "name": "Main Camera",
+      "position": "(0.00, 1.68, -12.00)"
+    },
+    {
+      "name": "BuildFX",
+      "position": "(0.00, -1.30, 0.00)"
+    }
+  ],
+  "frameDebugger": false,
+  "background": false
+}

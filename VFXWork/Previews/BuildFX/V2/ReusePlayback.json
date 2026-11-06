@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "fail": null,
+  "actualPlayMode": true,
+  "rows": [
+    {
+      "op": "Play and capture",
+      "frame": 54594,
+      "rootTime": 0.09415403,
+      "smokeTime": 0.09415403,
+      "particles": 8,
+      "seed": 3037552082
+    },
+    {
+      "op": "Pause holds child time while game frames advance",
+      "frame": 54597,
+      "rootTime": 0.09415403,
+      "smokeTime": 0.09415403,
+      "particles": 8,
+      "seed": 3037552082
+    },
+    {
+      "op": "Resume",
+      "frame": 54600,
+      "rootTime": 0.394895524,
+      "smokeTime": 0.394895524,
+      "particles": 20,
+      "seed": 3037552082
+    },
+    {
+      "op": "Stop clears all particles",
+      "frame": 54600,
+      "rootTime": 0.394895524,
+      "smokeTime": 0.394895524,
+      "particles": 0,
+      "seed": 3037552082
+    },
+    {
+      "op": "Disable enable starts new play",
+      "frame": 54603,
+      "rootTime": 0.2990464,
+      "smokeTime": 0.2990464,
+      "particles": 27,
+      "seed": 361153593
+    },
+    {
+      "op": "Offscreen native clock at half scale",
+      "frame": 54606,
+      "rootTime": 0.5995716,
+      "smokeTime": 0.5995716,
+      "particles": 31,
+      "seed": 361153593
+    },
+    {
+      "op": "Return and replay",
+      "frame": 54609,
+      "rootTime": 0.299391985,
+      "smokeTime": 0.299391985,
+      "particles": 27,
+      "seed": 1584418875
+    }
+  ],
+  "restored": true
+}

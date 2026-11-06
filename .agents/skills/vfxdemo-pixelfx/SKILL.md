@@ -7,7 +7,7 @@ description: 在 VFXDemo 中基于 pixelfx 制作高清手绘游戏特效，迭�
 
 基于项目内 pixelfx 的“分析参考 → 制作 → render/look/refine”方法，扩展为
 高清素材、实时 Shader、材质和原生粒子的协同工作流。保留名称 `vfxdemo-pixelfx` 作为
-统一入口，不另建相互冲突的创作/迁移技能。当前有 Brazier 与 BuildFX 两个案例族的初步验证，
+统一入口，不另建相互冲突的创作/迁移技能。当前有 Brazier、BuildFX 与 LightningNova 三个案例族的初步验证，
 不是任意效果的一键转换器；能力与缺口见 [案例与迭代](references/iteration.md)。
 
 ## 阶段与授权
@@ -65,14 +65,19 @@ Node/JS。内置副本是本工程之后的创作来源，不自动与原桌面 
   [效果记录模板](assets/effect-record.template.md)记录适用边界和证据。
 - 高清/噪声 Brazier 的已验证映射与踩坑：读 [brazier-hd.md](references/brazier-hd.md)。
   旧像素/单粒子图集版本另见 [brazier.md](references/brazier.md)，不是当前默认方案。
-- 短爆发、静态轮廓 Mesh/烟印章和 Editor 基线案例：读 [buildfx.md](references/buildfx.md)。
+- 短爆发、独立调色、受控随机烟雾和 Editor A/B 案例：读 [buildfx.md](references/buildfx.md)。
   该例的具体合批机制和目标设备预算尚未验证。
+- 空间细雷环、原生年龄驱动参数 Mesh、顶点流与线性光校准案例：读 [lightning-nova.md](references/lightning-nova.md)。
+  该例的 Unity 最终视觉、精确合批原因及目标 Player/设备预算仍待验收。
 
 ## 实现选择与交付约束
 
 1. 每层分别决定“画什么、怎样变、怎样运动、怎样混合”。优先静态手绘/噪声素材 + 实时
    Shader + 原生 Particle System；需要几何轮廓时可用原生 MeshRenderer、粒子 Mesh/Trail
    等适配表达。不能把 Brazier 的粒子层数、参数、Shader 或 2D 朝向作为通用模板。
+   从创作时就区分艺术不变量、独立调色项和允许随机变化的范围；Unity 迁移保留表现目标，
+   不照搬固定 seed 下的逐粒子节点。配色设计见 Shader/材质参考，行为分组、随机范围与
+   时钟映射见原生迁移参考；两者都须通过 Inspector 调整并实际验证，不能仅暴露整体 Tint。
 2. 发射、寿命、轨迹、尺寸/颜色包络和实际需要的子发射关系交给原生模块；UV 流动、内部
    轮廓形变、侵蚀与着色交给 Shader。默认非序列帧；不能用整效果视频/图集替代制作。
    确实需要单粒子序列帧时先解释必要性并获得明确许可；已有旧图集案例不构成许可。
@@ -101,4 +106,5 @@ Node/JS。内置副本是本工程之后的创作来源，不自动与原桌面 
 不得以“显示正常”“系统更少”替代性能验收。未测项目写“未测/待条件”，明确可交付的是
 原型、播放验证版还是目标设备预算通过版；缺工具时可以交付已有成果，但不宣称生产性能达标。
 当前 Brazier 视觉与原生播放已有证据，渲染批次、合批收益和真机性能仍待补测。
-BuildFX 的结构/真实播放及本地 Editor 基线已有证据；原生版最终视觉、实际合批机制和目标设备预算仍待验收。
+BuildFX V2 的独立调色、多 seed、结构/真实播放及本地 Editor A/B 已有证据；
+原生版最终视觉、实际合批机制和目标设备预算仍待验收。

@@ -1,0 +1,627 @@
+{
+  "success": true,
+  "dataPath": "/Users/user/Desktop/VFXDemo/VFXDemo/Assets",
+  "product": "VFXDemo",
+  "scene": "Assets/Scenes/VFXWorkbench.unity",
+  "dirty": false,
+  "playing": false,
+  "paused": false,
+  "background": false,
+  "roots": [
+    {
+      "name": "Main Camera",
+      "active": true,
+      "position": "(0.00, 1.68, -12.00)",
+      "rotation": "(0.00, 0.00, 0.00)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "components": [
+        "Transform",
+        "Camera",
+        "UniversalAdditionalCameraData"
+      ],
+      "systems": []
+    },
+    {
+      "name": "LightningNova_2D_Demo",
+      "active": true,
+      "position": "(-3.10, -0.35, 0.00)",
+      "rotation": "(0.00, 0.00, 0.00)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "components": [
+        "Transform",
+        "ParticleSystem",
+        "ParticleSystemRenderer"
+      ],
+      "systems": [
+        {
+          "name": "Playback",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "Leader",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "MainStrike",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "Restrikes",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "CrownRelease",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "ImpactRelease",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "OrbitOuter",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "OrbitInner",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "DescendingWhips",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "MainStrikeGlow",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "OrbitalGlow",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "GroundCharge",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "GroundFlash",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "SecondaryCurrents",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": true
+        },
+        {
+          "name": "EjectedCharges",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": true
+        },
+        {
+          "name": "ResidualSnap",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": true
+        }
+      ]
+    },
+    {
+      "name": "LightningNova_3D_Demo",
+      "active": true,
+      "position": "(3.10, -0.35, 0.00)",
+      "rotation": "(30.00, 338.00, 0.00)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "components": [
+        "Transform",
+        "ParticleSystem",
+        "ParticleSystemRenderer"
+      ],
+      "systems": [
+        {
+          "name": "Playback",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "Leader",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "MainStrike",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "Restrikes",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "CrownRelease",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "ImpactRelease",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "OrbitOuter",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "OrbitInner",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "DescendingWhips",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "MainStrikeGlow",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "OrbitalGlow",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "GroundCharge",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "GroundFlash",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": false
+        },
+        {
+          "name": "SecondaryCurrents",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": true
+        },
+        {
+          "name": "EjectedCharges",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": true
+        },
+        {
+          "name": "ResidualSnap",
+          "duration": 1.9,
+          "loop": true,
+          "autoSeed": true
+        }
+      ]
+    }
+  ],
+  "prefabs": [
+    {
+      "path": "Assets/PixelFX/LightningNova/Prefabs/LightningNova_2D.prefab",
+      "components": [
+        "Transform",
+        "ParticleSystem",
+        "ParticleSystemRenderer"
+      ],
+      "systems": [
+        {
+          "name": "Playback",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": false,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "Leader",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "MainStrike",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "Restrikes",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "CrownRelease",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "ImpactRelease",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "OrbitOuter",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "OrbitInner",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "DescendingWhips",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "MainStrikeGlow",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "OrbitalGlow",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "GroundCharge",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "GroundFlash",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "SecondaryCurrents",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 0,
+          "autoSeed": true,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "EjectedCharges",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 0,
+          "autoSeed": true,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "ResidualSnap",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 0,
+          "autoSeed": true,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        }
+      ]
+    },
+    {
+      "path": "Assets/PixelFX/LightningNova/Prefabs/LightningNova_3D.prefab",
+      "components": [
+        "Transform",
+        "ParticleSystem",
+        "ParticleSystemRenderer"
+      ],
+      "systems": [
+        {
+          "name": "Playback",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": false,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "Leader",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "MainStrike",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "Restrikes",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "CrownRelease",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "ImpactRelease",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "OrbitOuter",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "OrbitInner",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "DescendingWhips",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "MainStrikeGlow",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "OrbitalGlow",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "GroundCharge",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "GroundFlash",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 69,
+          "autoSeed": false,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "SecondaryCurrents",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 0,
+          "autoSeed": true,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "EjectedCharges",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 0,
+          "autoSeed": true,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        },
+        {
+          "name": "ResidualSnap",
+          "loop": false,
+          "duration": 1.2,
+          "seed": 0,
+          "autoSeed": true,
+          "emission": true,
+          "lights": false,
+          "sheet": false,
+          "alignment": "Local"
+        }
+      ]
+    }
+  ],
+  "shaderSupported": true,
+  "shaderErrors": [],
+  "materials": [
+    "Assets/PixelFX/LightningNova/Materials/2D_Additive.mat",
+    "Assets/PixelFX/LightningNova/Materials/2D_Color.mat",
+    "Assets/PixelFX/LightningNova/Materials/3D_Additive.mat",
+    "Assets/PixelFX/LightningNova/Materials/3D_Color.mat"
+  ]
+}

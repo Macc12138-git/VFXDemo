@@ -1,0 +1,228 @@
+{
+  "success": true,
+  "identity": {
+    "data": "/Users/user/Desktop/VFXDemo/VFXDemo/Assets",
+    "product": "VFXDemo",
+    "scene": "Assets/Scenes/VFXWorkbench.unity",
+    "unity": "6000.3.19f1"
+  },
+  "sceneDirty": false,
+  "playing": false,
+  "frameDebugger": false,
+  "background": false,
+  "sceneRootsPreserved": true,
+  "staleOverridesRemoved": 0,
+  "roots": [
+    {
+      "name": "Main Camera",
+      "position": "(0.00, 1.68, -12.00)",
+      "active": true
+    },
+    {
+      "name": "BuildFX",
+      "position": "(0.00, -1.30, 0.00)",
+      "active": true
+    }
+  ],
+  "prefab": {
+    "path": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab",
+    "systems": 12,
+    "oldSystems": 28,
+    "smokeSystems": 1,
+    "duration": 1.2,
+    "loop": false,
+    "scripts": 0,
+    "missing": 0,
+    "types": [
+      "Transform",
+      "ParticleSystem",
+      "ParticleSystemRenderer"
+    ],
+    "textureSheet": false,
+    "lights": false
+  },
+  "smoke": {
+    "autoSeed": true,
+    "shape": "Box",
+    "position": "(0.00, 1.00, 0.00)",
+    "size": "(2.50, 1.35, 0.00)",
+    "meshVariants": 3,
+    "noise": true,
+    "zNoise": 0,
+    "zVelocity": [
+      0,
+      0
+    ],
+    "bursts": [
+      {
+        "time": 0.075,
+        "min": 7,
+        "max": 9
+      },
+      {
+        "time": 0.47,
+        "min": 4,
+        "max": 6
+      },
+      {
+        "time": 0.69,
+        "min": 3,
+        "max": 5
+      }
+    ],
+    "lifetimeMin": [
+      {
+        "time": 0,
+        "value": 0.57
+      },
+      {
+        "time": 0.0625,
+        "value": 0.57
+      },
+      {
+        "time": 0.391666651,
+        "value": 0.4
+      },
+      {
+        "time": 0.575,
+        "value": 0.36
+      },
+      {
+        "time": 1,
+        "value": 0.36
+      }
+    ],
+    "lifetimeMax": [
+      {
+        "time": 0,
+        "value": 0.7
+      },
+      {
+        "time": 0.0625,
+        "value": 0.7
+      },
+      {
+        "time": 0.391666651,
+        "value": 0.5
+      },
+      {
+        "time": 0.575,
+        "value": 0.46
+      },
+      {
+        "time": 1,
+        "value": 0.46
+      }
+    ]
+  },
+  "sceneInstance": {
+    "allLoop": true,
+    "smokeDuration": 1.6,
+    "useAutoRandomSeed": true,
+    "sourcePrefab": "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab",
+    "smokeLifetimeKeyTimes": [
+      0,
+      0.046875,
+      0.29375,
+      0.43125,
+      1
+    ]
+  },
+  "shader": {
+    "name": "PixelFX/BuildFX/Editable Palette URP",
+    "isSupported": true,
+    "hasErrors": false
+  },
+  "materials": [
+    {
+      "path": "Assets/PixelFX/BuildFX/V2/Materials/BuildFX_Alpha.mat",
+      "blend": 10,
+      "palette": [
+        {
+          "property": "_SmokeColor",
+          "value": "RGBA(0.608, 0.588, 0.643, 1.000)"
+        },
+        {
+          "property": "_FlashColor",
+          "value": "RGBA(1.000, 0.914, 0.345, 1.000)"
+        },
+        {
+          "property": "_HighlightColor",
+          "value": "RGBA(1.000, 0.984, 0.722, 1.000)"
+        },
+        {
+          "property": "_ArcColor",
+          "value": "RGBA(1.000, 0.957, 0.859, 1.000)"
+        },
+        {
+          "property": "_SparkColor",
+          "value": "RGBA(1.000, 0.941, 0.459, 1.000)"
+        },
+        {
+          "property": "_DebrisColor",
+          "value": "RGBA(0.835, 0.816, 0.835, 1.000)"
+        },
+        {
+          "property": "_GlowColor",
+          "value": "RGBA(1.000, 0.945, 0.592, 1.000)"
+        }
+      ]
+    },
+    {
+      "path": "Assets/PixelFX/BuildFX/V2/Materials/BuildFX_Additive.mat",
+      "blend": 1,
+      "palette": [
+        {
+          "property": "_SmokeColor",
+          "value": "RGBA(0.608, 0.588, 0.643, 1.000)"
+        },
+        {
+          "property": "_FlashColor",
+          "value": "RGBA(1.000, 0.914, 0.345, 1.000)"
+        },
+        {
+          "property": "_HighlightColor",
+          "value": "RGBA(1.000, 0.984, 0.722, 1.000)"
+        },
+        {
+          "property": "_ArcColor",
+          "value": "RGBA(1.000, 0.957, 0.859, 1.000)"
+        },
+        {
+          "property": "_SparkColor",
+          "value": "RGBA(1.000, 0.941, 0.459, 1.000)"
+        },
+        {
+          "property": "_DebrisColor",
+          "value": "RGBA(0.835, 0.816, 0.835, 1.000)"
+        },
+        {
+          "property": "_GlowColor",
+          "value": "RGBA(1.000, 0.945, 0.592, 1.000)"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    "Assets/PixelFX/BuildFX/V2/Meshes/ChipLight.asset",
+    "Assets/PixelFX/BuildFX/V2/Meshes/BackFlash1.asset",
+    "Assets/PixelFX/BuildFX/V2/Meshes/FrontFlash1.asset",
+    "Assets/PixelFX/BuildFX/V2/Textures/BuildFX_Masks.png",
+    "Assets/PixelFX/BuildFX/Prefabs/BuildFX.prefab",
+    "Assets/PixelFX/BuildFX/V2/Meshes/SweepArcs.asset",
+    "Assets/PixelFX/BuildFX/V2/Meshes/Smoke1.asset",
+    "Assets/PixelFX/BuildFX/V2/Meshes/FrontFlash2.asset",
+    "Assets/PixelFX/BuildFX/V2/Meshes/SoftGlow.asset",
+    "Assets/PixelFX/BuildFX/V2/Meshes/Smoke2.asset",
+    "Assets/PixelFX/BuildFX/V2/Meshes/ChipDark.asset",
+    "Assets/PixelFX/BuildFX/V2/Meshes/Smoke0.asset",
+    "Assets/PixelFX/BuildFX/V2/Meshes/Star.asset",
+    "Assets/PixelFX/BuildFX/V2/Meshes/BackFlash2.asset",
+    "Assets/PixelFX/BuildFX/V2/Materials/BuildFX_Alpha.mat",
+    "Assets/PixelFX/BuildFX/V2/Shaders/BuildFXPaletteParticle.shader",
+    "Assets/PixelFX/BuildFX/V2/Meshes/BackFlash0.asset",
+    "Assets/PixelFX/BuildFX/V2/Materials/BuildFX_Additive.mat",
+    "Assets/PixelFX/BuildFX/V2/Meshes/FrontFlash0.asset"
+  ],
+  "temporaryObjects": []
+}

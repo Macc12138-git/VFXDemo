@@ -1,0 +1,162 @@
+{
+  "effect": "LightningNova",
+  "version": "V1.3",
+  "authorization": "导入到unity中",
+  "sourceHash": "0fae2726a83fdac40a742a7510d6dc89cdc23f4199bbaba8937da57e2c28b664",
+  "mathHash": "da45e1ed43f7d119dd80fbe97c7de2b35b4ea95dea8781671c296ee5942ac0bc",
+  "assets": [
+    {
+      "path": "Assets/PixelFX/LightningNova/Docs/README.md",
+      "sha256": "ee46e8e011beb1cae9ba78c357d39646ec39f21417dc571b6835f6aa0666d3a1",
+      "bytes": 3181
+    },
+    {
+      "path": "Assets/PixelFX/LightningNova/Materials/2D_Additive.mat",
+      "sha256": "2cb419ed055b0351ae167ba4ab68a21cddeb25b5620bfdbe95a58af610c87c34",
+      "bytes": 1098
+    },
+    {
+      "path": "Assets/PixelFX/LightningNova/Materials/2D_Color.mat",
+      "sha256": "768f1f5e670766cf3998831332f2f24aef733885b58281e79f029b7180f21e3f",
+      "bytes": 1096
+    },
+    {
+      "path": "Assets/PixelFX/LightningNova/Materials/3D_Additive.mat",
+      "sha256": "83e4bfc827e30368a1a01cddb3b2c2847b2788b856eebe41853d3ee9066e3d86",
+      "bytes": 1098
+    },
+    {
+      "path": "Assets/PixelFX/LightningNova/Materials/3D_Color.mat",
+      "sha256": "6872621d2cf3be77b3eabc1195f4c7733f5ba6dc094717a2de715fa251c01cbd",
+      "bytes": 1096
+    },
+    {
+      "path": "Assets/PixelFX/LightningNova/Meshes/Arc.asset",
+      "sha256": "16946cf8dbd940063331478a39506d85da1694c7faf95997e95fb4b31e306bae",
+      "bytes": 34123
+    },
+    {
+      "path": "Assets/PixelFX/LightningNova/Meshes/Crown.asset",
+      "sha256": "30dd699dbd2efecae79c91a32ee13edc5e541f8c45af93e131b99b50983965b3",
+      "bytes": 24525
+    },
+    {
+      "path": "Assets/PixelFX/LightningNova/Meshes/DescendingWhips.asset",
+      "sha256": "5cc50fbce8833ae6b422431a24e309e5590d727111ed21903d0d323842e03202",
+      "bytes": 314459
+    },
+    {
+      "path": "Assets/PixelFX/LightningNova/Meshes/GroundCharge.asset",
+      "sha256": "92773ccd25e1cf61814251afdf61e0a5635fed8e70fc40356dc67e719102b0f6",
+      "bytes": 34132
+    },
+    {
+      "path": "Assets/PixelFX/LightningNova/Meshes/GroundFlash.asset",
+      "sha256": "2f89a7524bcb13ca079220ba6731a3b586f47fd917ef44b2186890bbb0f67868",
+      "bytes": 34131
+    },
+    {
+      "path": "Assets/PixelFX/LightningNova/Meshes/Impact.asset",
+      "sha256": "31a16ff08bd3a77beee84b8ff5baa930d13f95ad738bcecafdf70bacd95115ec",
+      "bytes": 303890
+    },
+    {
+      "path": "Assets/PixelFX/LightningNova/Meshes/Leader.asset",
+      "sha256": "487400de43e670754dd8b3c22a19abfd4d5cdaf3475089c93779521de35b484d",
+      "bytes": 49486
+    },
+    {
+      "path": "Assets/PixelFX/LightningNova/Meshes/MainBolt.asset",
+      "sha256": "f19f3351cc771870ea75b9c00ae115c61d306b4efc7401da8f41b7f678b958a2",
+      "bytes": 210771
+    },
+    {
+      "path": "Assets/PixelFX/LightningNova/Meshes/OrbitInner.asset",
+      "sha256": "dc4d32d157712fd0bc8980ef46562311f4ee8b4d4010bbe29c2fd0d3c9bad8ce",
+      "bytes": 226134
+    },
+    {
+      "path": "Assets/PixelFX/LightningNova/Meshes/OrbitOuter.asset",
+      "sha256": "62923a3b67f813cc43d4db3de85c9cacf6739bb03d1ba06915e9574f36514b48",
+      "bytes": 276054
+    },
+    {
+      "path": "Assets/PixelFX/LightningNova/Meshes/OrbitalLight.asset",
+      "sha256": "4c7779ce568ccd8daa9f2940b25d1247b1065ac257b09423ff5bdbdf2fe12c0d",
+      "bytes": 809816
+    },
+    {
+      "path": "Assets/PixelFX/LightningNova/Meshes/Spark.asset",
+      "sha256": "494c7be6f13e35eb21b796a45f338b0a2ca1fb49d0c2a4b9a0410f138f08bf75",
+      "bytes": 5320
+    },
+    {
+      "path": "Assets/PixelFX/LightningNova/Prefabs/LightningNova_2D.prefab",
+      "sha256": "42a44538a4c7a9167e718614adbbc889952a1d010f60b1aaaec3d2a17c523ee2",
+      "bytes": 1909942
+    },
+    {
+      "path": "Assets/PixelFX/LightningNova/Prefabs/LightningNova_3D.prefab",
+      "sha256": "a1064d1d0e97a7d7323a81c02c875c9010462f4f355478d19d7511888df46fe3",
+      "bytes": 1909924
+    },
+    {
+      "path": "Assets/PixelFX/LightningNova/Shaders/LightningNovaNative.shader",
+      "sha256": "67cfca0e5b6e21b66bc8f8ae84ac8667cea245e1362fe07b2c05c14bb5cdc4e8",
+      "bytes": 11085
+    }
+  ],
+  "scene": {
+    "beforeBlocks": 9,
+    "afterBlocks": 11,
+    "changed": [
+      {
+        "id": "9223372036854775807",
+        "type": "1660057539",
+        "present": true
+      }
+    ],
+    "added": [
+      "199245268",
+      "2036892714"
+    ],
+    "existingBlocksPreserved": true,
+    "scope": "Only SceneRoots list and two added PrefabInstance blocks may differ. Camera, Transform, GameObject and scene settings compared verbatim against this turn backup."
+  },
+  "prefabs": [
+    "Assets/PixelFX/LightningNova/Prefabs/LightningNova_2D.prefab",
+    "Assets/PixelFX/LightningNova/Prefabs/LightningNova_3D.prefab"
+  ],
+  "stage": "Real-playback validated, local Editor performance baseline measured; Unity final visual acceptance pending author.",
+  "staticReview": "2D/3D key phases, 5/24/60/85 degree elevations, four native distribution seeds, isolated rings/sparks, light/dark background, four palette alpha endpoints and cross-hue render.",
+  "live": true,
+  "performance": true,
+  "frameEvents": [
+    {
+      "instances": 1,
+      "total": 18,
+      "effectGeometry": 11,
+      "detailAvailable": false
+    },
+    {
+      "instances": 8,
+      "total": 95,
+      "effectGeometry": 88,
+      "detailAvailable": false
+    }
+  ],
+  "pending": [
+    "Author Unity final visual acceptance",
+    "Target Player/API variants and device performance budget",
+    "Per-pass GPU/overdraw",
+    "Detailed event batch break reasons",
+    "Long-term pool/memory trend"
+  ],
+  "approximations": [
+    "Native secondary currents and ejected charges do not preserve source particle identities.",
+    "Main path geometry and current equations retained; small double filaments and disconnected endpoint sparks are approximated by native secondary bursts.",
+    "Fixed transparent Mesh triangle ordering differs from source per-brush camera sorting.",
+    "Both restrikes use native .04s/.28 alpha; source two followups use differing strengths.",
+    "Outer ground pool retained and calibrated in linear lighting; small source secondary core pool is represented by impact core rather than a separate pool."
+  ]
+}

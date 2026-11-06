@@ -17,7 +17,6 @@ await rpc('initialize',{protocolVersion:'2025-03-26',capabilities:{},clientInfo:
 if(method==='list'){const data=await rpc('tools/list',{});console.log(JSON.stringify(data,null,2));}
 else if(method==='identity')console.log(JSON.stringify(await rpc('tools/call',{name:'execute_code',arguments:{code:'using UnityEngine; using UnityEditor; using UnityEngine.SceneManagement; public static class ScopeIdentity { public static string Run(){var s=SceneManager.GetActiveScene(); return JsonUtility.ToJson(new ScopeInfo { dataPath=Application.dataPath, product=Application.productName, scene=s.path, sceneDirty=s.isDirty, playing=Application.isPlaying, compiling=EditorApplication.isCompiling });} [System.Serializable] public class ScopeInfo {public string dataPath,product,scene;public bool sceneDirty,playing,compiling;} }',safety_checks:true}}),null,2));
 else{
-  let args=JSON.parse(argument);
-  if(method==='code-file'){args={code:readFileSync(argument,'utf8'),safety_checks:true};}
+  let args=method==='code-file'?{code:readFileSync(argument,'utf8'),safety_checks:true}:JSON.parse(argument);
   console.log(JSON.stringify(await rpc('tools/call',{name:method==='code-file'?'execute_code':method,arguments:args}),null,2));
 }

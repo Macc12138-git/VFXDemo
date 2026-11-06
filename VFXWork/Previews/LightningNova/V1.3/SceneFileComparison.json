@@ -1,0 +1,17 @@
+{
+  "beforeBlocks": 9,
+  "afterBlocks": 11,
+  "changed": [
+    {
+      "id": "9223372036854775807",
+      "type": "1660057539",
+      "present": true
+    }
+  ],
+  "added": [
+    "199245268",
+    "2036892714"
+  ],
+  "existingBlocksPreserved": true,
+  "scope": "Only SceneRoots list and two added PrefabInstance blocks may differ. Camera, Transform, GameObject and scene settings compared verbatim against this turn backup."
+}

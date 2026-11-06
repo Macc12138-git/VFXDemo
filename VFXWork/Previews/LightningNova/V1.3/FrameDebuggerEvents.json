@@ -1,0 +1,926 @@
+{
+  "error": null,
+  "method": "Official FrameDebuggerWindow EnableFrameDebugger, current Profiler target; 1/8 real Play Mode instances at native age ~0.17; diagnostic capture isolated from timing",
+  "reports": [
+    {
+      "instances": 1,
+      "totalEvents": 18,
+      "events": [
+        {
+          "index": 0,
+          "type": "ClearColor",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 1,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 2,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 3,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 4,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 5,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 2:0) CopyColor/CopyColor",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 6,
+          "type": "DynamicGeometry",
+          "obj": "EjectedCharges",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 7,
+          "type": "DynamicGeometry",
+          "obj": "SecondaryCurrents",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 8,
+          "type": "DynamicGeometry",
+          "obj": "DescendingWhips",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 9,
+          "type": "DynamicGeometry",
+          "obj": "CrownRelease",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 10,
+          "type": "DynamicGeometry",
+          "obj": "OrbitInner",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 11,
+          "type": "DynamicGeometry",
+          "obj": "MainStrike",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 12,
+          "type": "DynamicGeometry",
+          "obj": "ImpactRelease",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 13,
+          "type": "DynamicGeometry",
+          "obj": "OrbitOuter",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 14,
+          "type": "DynamicGeometry",
+          "obj": "MainStrikeGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 15,
+          "type": "DynamicGeometry",
+          "obj": "GroundFlash",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 16,
+          "type": "DynamicGeometry",
+          "obj": "OrbitalGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 17,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 4:0) BlitFinalToBackBuffer",
+          "dataOk": false,
+          "detail": null
+        }
+      ],
+      "liveParticles": 29
+    },
+    {
+      "instances": 8,
+      "totalEvents": 95,
+      "events": [
+        {
+          "index": 0,
+          "type": "ClearColor",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 1,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 2,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 3,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 4,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 5,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 2:0) CopyColor/CopyColor",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 6,
+          "type": "DynamicGeometry",
+          "obj": "EjectedCharges",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 7,
+          "type": "DynamicGeometry",
+          "obj": "EjectedCharges",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 8,
+          "type": "DynamicGeometry",
+          "obj": "EjectedCharges",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 9,
+          "type": "DynamicGeometry",
+          "obj": "EjectedCharges",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 10,
+          "type": "DynamicGeometry",
+          "obj": "EjectedCharges",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 11,
+          "type": "DynamicGeometry",
+          "obj": "EjectedCharges",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 12,
+          "type": "DynamicGeometry",
+          "obj": "EjectedCharges",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 13,
+          "type": "DynamicGeometry",
+          "obj": "EjectedCharges",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 14,
+          "type": "DynamicGeometry",
+          "obj": "SecondaryCurrents",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 15,
+          "type": "DynamicGeometry",
+          "obj": "SecondaryCurrents",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 16,
+          "type": "DynamicGeometry",
+          "obj": "SecondaryCurrents",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 17,
+          "type": "DynamicGeometry",
+          "obj": "SecondaryCurrents",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 18,
+          "type": "DynamicGeometry",
+          "obj": "SecondaryCurrents",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 19,
+          "type": "DynamicGeometry",
+          "obj": "SecondaryCurrents",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 20,
+          "type": "DynamicGeometry",
+          "obj": "SecondaryCurrents",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 21,
+          "type": "DynamicGeometry",
+          "obj": "SecondaryCurrents",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 22,
+          "type": "DynamicGeometry",
+          "obj": "DescendingWhips",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 23,
+          "type": "DynamicGeometry",
+          "obj": "ImpactRelease",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 24,
+          "type": "DynamicGeometry",
+          "obj": "OrbitOuter",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 25,
+          "type": "DynamicGeometry",
+          "obj": "OrbitInner",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 26,
+          "type": "DynamicGeometry",
+          "obj": "CrownRelease",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 27,
+          "type": "DynamicGeometry",
+          "obj": "MainStrike",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 28,
+          "type": "DynamicGeometry",
+          "obj": "DescendingWhips",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 29,
+          "type": "DynamicGeometry",
+          "obj": "CrownRelease",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 30,
+          "type": "DynamicGeometry",
+          "obj": "OrbitInner",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 31,
+          "type": "DynamicGeometry",
+          "obj": "MainStrike",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 32,
+          "type": "DynamicGeometry",
+          "obj": "ImpactRelease",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 33,
+          "type": "DynamicGeometry",
+          "obj": "OrbitOuter",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 34,
+          "type": "DynamicGeometry",
+          "obj": "DescendingWhips",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 35,
+          "type": "DynamicGeometry",
+          "obj": "CrownRelease",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 36,
+          "type": "DynamicGeometry",
+          "obj": "OrbitInner",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 37,
+          "type": "DynamicGeometry",
+          "obj": "MainStrike",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 38,
+          "type": "DynamicGeometry",
+          "obj": "ImpactRelease",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 39,
+          "type": "DynamicGeometry",
+          "obj": "OrbitOuter",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 40,
+          "type": "DynamicGeometry",
+          "obj": "DescendingWhips",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 41,
+          "type": "DynamicGeometry",
+          "obj": "CrownRelease",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 42,
+          "type": "DynamicGeometry",
+          "obj": "OrbitInner",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 43,
+          "type": "DynamicGeometry",
+          "obj": "MainStrike",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 44,
+          "type": "DynamicGeometry",
+          "obj": "ImpactRelease",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 45,
+          "type": "DynamicGeometry",
+          "obj": "OrbitOuter",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 46,
+          "type": "DynamicGeometry",
+          "obj": "DescendingWhips",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 47,
+          "type": "DynamicGeometry",
+          "obj": "CrownRelease",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 48,
+          "type": "DynamicGeometry",
+          "obj": "OrbitInner",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 49,
+          "type": "DynamicGeometry",
+          "obj": "MainStrike",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 50,
+          "type": "DynamicGeometry",
+          "obj": "ImpactRelease",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 51,
+          "type": "DynamicGeometry",
+          "obj": "OrbitOuter",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 52,
+          "type": "DynamicGeometry",
+          "obj": "DescendingWhips",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 53,
+          "type": "DynamicGeometry",
+          "obj": "CrownRelease",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 54,
+          "type": "DynamicGeometry",
+          "obj": "OrbitInner",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 55,
+          "type": "DynamicGeometry",
+          "obj": "MainStrike",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 56,
+          "type": "DynamicGeometry",
+          "obj": "ImpactRelease",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 57,
+          "type": "DynamicGeometry",
+          "obj": "OrbitOuter",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 58,
+          "type": "DynamicGeometry",
+          "obj": "DescendingWhips",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 59,
+          "type": "DynamicGeometry",
+          "obj": "CrownRelease",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 60,
+          "type": "DynamicGeometry",
+          "obj": "OrbitInner",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 61,
+          "type": "DynamicGeometry",
+          "obj": "MainStrike",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 62,
+          "type": "DynamicGeometry",
+          "obj": "ImpactRelease",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 63,
+          "type": "DynamicGeometry",
+          "obj": "OrbitOuter",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 64,
+          "type": "DynamicGeometry",
+          "obj": "DescendingWhips",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 65,
+          "type": "DynamicGeometry",
+          "obj": "CrownRelease",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 66,
+          "type": "DynamicGeometry",
+          "obj": "OrbitInner",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 67,
+          "type": "DynamicGeometry",
+          "obj": "MainStrike",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 68,
+          "type": "DynamicGeometry",
+          "obj": "ImpactRelease",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 69,
+          "type": "DynamicGeometry",
+          "obj": "OrbitOuter",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 70,
+          "type": "DynamicGeometry",
+          "obj": "GroundFlash",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 71,
+          "type": "DynamicGeometry",
+          "obj": "MainStrikeGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 72,
+          "type": "DynamicGeometry",
+          "obj": "OrbitalGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 73,
+          "type": "DynamicGeometry",
+          "obj": "MainStrikeGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 74,
+          "type": "DynamicGeometry",
+          "obj": "GroundFlash",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 75,
+          "type": "DynamicGeometry",
+          "obj": "OrbitalGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 76,
+          "type": "DynamicGeometry",
+          "obj": "MainStrikeGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 77,
+          "type": "DynamicGeometry",
+          "obj": "GroundFlash",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 78,
+          "type": "DynamicGeometry",
+          "obj": "OrbitalGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 79,
+          "type": "DynamicGeometry",
+          "obj": "MainStrikeGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 80,
+          "type": "DynamicGeometry",
+          "obj": "GroundFlash",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 81,
+          "type": "DynamicGeometry",
+          "obj": "OrbitalGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 82,
+          "type": "DynamicGeometry",
+          "obj": "MainStrikeGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 83,
+          "type": "DynamicGeometry",
+          "obj": "GroundFlash",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 84,
+          "type": "DynamicGeometry",
+          "obj": "OrbitalGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 85,
+          "type": "DynamicGeometry",
+          "obj": "MainStrikeGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 86,
+          "type": "DynamicGeometry",
+          "obj": "GroundFlash",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 87,
+          "type": "DynamicGeometry",
+          "obj": "OrbitalGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 88,
+          "type": "DynamicGeometry",
+          "obj": "MainStrikeGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 89,
+          "type": "DynamicGeometry",
+          "obj": "GroundFlash",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 90,
+          "type": "DynamicGeometry",
+          "obj": "OrbitalGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 91,
+          "type": "DynamicGeometry",
+          "obj": "MainStrikeGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 92,
+          "type": "DynamicGeometry",
+          "obj": "GroundFlash",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 93,
+          "type": "DynamicGeometry",
+          "obj": "OrbitalGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 94,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 4:0) BlitFinalToBackBuffer",
+          "dataOk": false,
+          "detail": null
+        }
+      ],
+      "liveParticles": 232
+    }
+  ],
+  "limitation": "Event metadata alone does not prove renderer merges; event details marked available only if native GetFrameEventData succeeded.",
+  "restored": true
+}

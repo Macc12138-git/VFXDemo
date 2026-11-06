@@ -1,0 +1,6184 @@
+{
+  "success": true,
+  "error": null,
+  "method": "Real Play Mode; engine age and native particle data, no Simulate/Emit/SetParticles",
+  "ended": 0,
+  "drained": 0,
+  "restored": 26,
+  "reactivated": 118,
+  "seeds": [
+    [
+      3004594934,
+      556056657,
+      1402786601,
+      3654056274,
+      3641534807,
+      3727432815
+    ],
+    [
+      1805424920,
+      3508566992,
+      1674966898,
+      3718533123,
+      1384072950,
+      2152941970
+    ],
+    [
+      1290883213,
+      3005887832,
+      466263357,
+      30365711,
+      3346797955,
+      622753985
+    ],
+    [
+      1785866794,
+      285608011,
+      921819109,
+      3774839178,
+      455556293,
+      977415098
+    ],
+    [
+      2192874984,
+      2577176349,
+      3145683455,
+      2420875985,
+      3057006317,
+      3413080905
+    ]
+  ],
+  "samples": [
+    {
+      "label": "oneshot_0.08",
+      "stage": 0,
+      "engineAge": 0.10523475056689335,
+      "engineFrame": 239,
+      "instances": [
+        {
+          "name": "QA_2D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.10523475,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.10523475,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.10523475,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.102765262,
+                  "life": 0.10800001
+                }
+              ]
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.10523475,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.10523475,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.169765264,
+                  "life": 0.175000012
+                }
+              ]
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.10523475,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.169765264,
+                  "life": 0.175000012
+                }
+              ]
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.10523475,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.10523475,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.10523475,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.10523475,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.102765262,
+                  "life": 0.10800001
+                }
+              ]
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.10523475,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.10523475,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.10523475,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.174765274,
+                  "life": 0.180000022
+                }
+              ]
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.10523475,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 1805424920,
+              "particles": []
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.10523475,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 3508566992,
+              "particles": []
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.10523475,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 1674966898,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_3D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.10523475,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.10523475,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.10523475,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.102765262,
+                  "life": 0.10800001
+                }
+              ]
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.10523475,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.10523475,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.169765264,
+                  "life": 0.175000012
+                }
+              ]
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.10523475,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.169765264,
+                  "life": 0.175000012
+                }
+              ]
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.10523475,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.10523475,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.10523475,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.10523475,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.102765262,
+                  "life": 0.10800001
+                }
+              ]
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.10523475,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.10523475,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.10523475,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.174765274,
+                  "life": 0.180000022
+                }
+              ]
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.10523475,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 3718533123,
+              "particles": []
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.10523475,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 1384072950,
+              "particles": []
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.10523475,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 2152941970,
+              "particles": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "oneshot_0.112",
+      "stage": 0,
+      "engineAge": 0.23286854450113736,
+      "engineFrame": 240,
+      "instances": [
+        {
+          "name": "QA_2D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.232868552,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.232868552,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.232868552,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.232868552,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.03713145,
+                  "life": 0.04
+                }
+              ]
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.232868552,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.0421314947,
+                  "life": 0.175000012
+                }
+              ]
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.232868552,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.0421314947,
+                  "life": 0.175000012
+                }
+              ]
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.232868552,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.245131537,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.232868552,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.2731315,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.232868552,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.137131467,
+                  "life": 0.235
+                }
+              ]
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.232868552,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.232868552,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.285131454,
+                  "life": 0.4
+                }
+              ]
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.232868552,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.232868552,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.0471314937,
+                  "life": 0.180000022
+                }
+              ]
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.232868552,
+              "count": 12,
+              "playing": true,
+              "emission": true,
+              "seed": 1805424920,
+              "particles": [
+                {
+                  "position": [
+                    -0.816425145,
+                    0.7603841,
+                    0.0
+                  ],
+                  "remaining": 0.236844987,
+                  "life": 0.3197135
+                },
+                {
+                  "position": [
+                    -1.06424713,
+                    -0.512317061,
+                    0.0
+                  ],
+                  "remaining": 0.220930636,
+                  "life": 0.303799152
+                }
+              ]
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.232868552,
+              "count": 38,
+              "playing": true,
+              "emission": true,
+              "seed": 3508566992,
+              "particles": [
+                {
+                  "position": [
+                    -0.234176308,
+                    0.5052758,
+                    0.0
+                  ],
+                  "remaining": 0.541041136,
+                  "life": 0.6439097
+                },
+                {
+                  "position": [
+                    0.055296015,
+                    0.4599808,
+                    0.0
+                  ],
+                  "remaining": 0.234252259,
+                  "life": 0.337120771
+                }
+              ]
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.232868552,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 1674966898,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_3D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.232868552,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.232868552,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.232868552,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.232868552,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.03713145,
+                  "life": 0.04
+                }
+              ]
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.232868552,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.0421314947,
+                  "life": 0.175000012
+                }
+              ]
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.232868552,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.0421314947,
+                  "life": 0.175000012
+                }
+              ]
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.232868552,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.245131537,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.232868552,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.2731315,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.232868552,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.137131467,
+                  "life": 0.235
+                }
+              ]
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.232868552,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.232868552,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.285131454,
+                  "life": 0.4
+                }
+              ]
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.232868552,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.232868552,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.0471314937,
+                  "life": 0.180000022
+                }
+              ]
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.232868552,
+              "count": 12,
+              "playing": true,
+              "emission": true,
+              "seed": 3718533123,
+              "particles": [
+                {
+                  "position": [
+                    -1.30438209,
+                    0.07999998,
+                    -0.280894548
+                  ],
+                  "remaining": 0.110058352,
+                  "life": 0.192926884
+                },
+                {
+                  "position": [
+                    1.28952146,
+                    0.08000009,
+                    1.4433229
+                  ],
+                  "remaining": 0.258016735,
+                  "life": 0.340885282
+                }
+              ]
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.232868552,
+              "count": 38,
+              "playing": true,
+              "emission": true,
+              "seed": 1384072950,
+              "particles": [
+                {
+                  "position": [
+                    -0.018976802,
+                    0.45820272,
+                    0.285420775
+                  ],
+                  "remaining": 0.4560652,
+                  "life": 0.558933735
+                },
+                {
+                  "position": [
+                    0.236683652,
+                    0.433683157,
+                    0.05777648
+                  ],
+                  "remaining": 0.3035114,
+                  "life": 0.406379968
+                }
+              ]
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.232868552,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 2152941970,
+              "particles": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "oneshot_0.17",
+      "stage": 0,
+      "engineAge": 0.30190537840135789,
+      "engineFrame": 241,
+      "instances": [
+        {
+          "name": "QA_2D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.3019054,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.3019054,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.3019054,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.3019054,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.3019054,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.3019054,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.3019054,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.176094681,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.3019054,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.204094678,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.3019054,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.06809466,
+                  "life": 0.235
+                }
+              ]
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.3019054,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.3019054,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.216094643,
+                  "life": 0.4
+                }
+              ]
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.3019054,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.3019054,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.3019054,
+              "count": 17,
+              "playing": true,
+              "emission": true,
+              "seed": 1805424920,
+              "particles": [
+                {
+                  "position": [
+                    -0.816425145,
+                    0.7603841,
+                    0.0
+                  ],
+                  "remaining": 0.16780816,
+                  "life": 0.3197135
+                },
+                {
+                  "position": [
+                    -1.06424713,
+                    -0.512317061,
+                    0.0
+                  ],
+                  "remaining": 0.1518938,
+                  "life": 0.303799152
+                }
+              ]
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.3019054,
+              "count": 38,
+              "playing": true,
+              "emission": true,
+              "seed": 3508566992,
+              "particles": [
+                {
+                  "position": [
+                    -0.4159944,
+                    0.6244541,
+                    0.0
+                  ],
+                  "remaining": 0.472004324,
+                  "life": 0.6439097
+                },
+                {
+                  "position": [
+                    0.0869468749,
+                    0.5490076,
+                    0.0
+                  ],
+                  "remaining": 0.165215418,
+                  "life": 0.337120771
+                }
+              ]
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.3019054,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 1674966898,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_3D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.3019054,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.3019054,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.3019054,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.3019054,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.3019054,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.3019054,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.3019054,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.176094681,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.3019054,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.204094678,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.3019054,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.06809466,
+                  "life": 0.235
+                }
+              ]
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.3019054,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.3019054,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.216094643,
+                  "life": 0.4
+                }
+              ]
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.3019054,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.3019054,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.3019054,
+              "count": 17,
+              "playing": true,
+              "emission": true,
+              "seed": 3718533123,
+              "particles": [
+                {
+                  "position": [
+                    -1.30438209,
+                    0.07999998,
+                    -0.280894548
+                  ],
+                  "remaining": 0.0410215221,
+                  "life": 0.192926884
+                },
+                {
+                  "position": [
+                    1.28952146,
+                    0.08000009,
+                    1.4433229
+                  ],
+                  "remaining": 0.188979924,
+                  "life": 0.340885282
+                }
+              ]
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.3019054,
+              "count": 38,
+              "playing": true,
+              "emission": true,
+              "seed": 1384072950,
+              "particles": [
+                {
+                  "position": [
+                    -0.0229370017,
+                    0.5022119,
+                    0.4789792
+                  ],
+                  "remaining": 0.387028366,
+                  "life": 0.558933735
+                },
+                {
+                  "position": [
+                    0.350811541,
+                    0.533943236,
+                    0.137525454
+                  ],
+                  "remaining": 0.234474614,
+                  "life": 0.406379968
+                }
+              ]
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.3019054,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 2152941970,
+              "particles": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "oneshot_0.24",
+      "stage": 0,
+      "engineAge": 0.48400554846939059,
+      "engineFrame": 242,
+      "instances": [
+        {
+          "name": "QA_2D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.484005481,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.0219945032,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.484005481,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.0339944623,
+                  "life": 0.4
+                }
+              ]
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.484005481,
+              "count": 5,
+              "playing": true,
+              "emission": true,
+              "seed": 1805424920,
+              "particles": [
+                {
+                  "position": [
+                    -0.8970561,
+                    0.3691569,
+                    0.0
+                  ],
+                  "remaining": 0.0342543758,
+                  "life": 0.318259925
+                },
+                {
+                  "position": [
+                    -0.781351,
+                    -0.6342884,
+                    0.0
+                  ],
+                  "remaining": 0.04660555,
+                  "life": 0.33061108
+                }
+              ]
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.484005481,
+              "count": 30,
+              "playing": true,
+              "emission": true,
+              "seed": 3508566992,
+              "particles": [
+                {
+                  "position": [
+                    -0.856615067,
+                    0.7037589,
+                    0.0
+                  ],
+                  "remaining": 0.2899042,
+                  "life": 0.6439097
+                },
+                {
+                  "position": [
+                    -0.287271649,
+                    0.57055366,
+                    0.0
+                  ],
+                  "remaining": 0.3195962,
+                  "life": 0.5736017
+                }
+              ]
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 1674966898,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_3D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.484005481,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.0219945032,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.484005481,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.0339944623,
+                  "life": 0.4
+                }
+              ]
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.484005481,
+              "count": 6,
+              "playing": true,
+              "emission": true,
+              "seed": 3718533123,
+              "particles": [
+                {
+                  "position": [
+                    0.2981221,
+                    0.08000011,
+                    1.85234094
+                  ],
+                  "remaining": 0.10415864,
+                  "life": 0.3381642
+                },
+                {
+                  "position": [
+                    1.28952146,
+                    0.08000009,
+                    1.4433229
+                  ],
+                  "remaining": 0.00687971059,
+                  "life": 0.340885282
+                }
+              ]
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.484005481,
+              "count": 31,
+              "playing": true,
+              "emission": true,
+              "seed": 1384072950,
+              "particles": [
+                {
+                  "position": [
+                    -0.0326445,
+                    0.4263797,
+                    1.059508
+                  ],
+                  "remaining": 0.204928219,
+                  "life": 0.558933735
+                },
+                {
+                  "position": [
+                    0.623770058,
+                    0.593449354,
+                    0.432347953
+                  ],
+                  "remaining": 0.0523744524,
+                  "life": 0.406379968
+                }
+              ]
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.484005481,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 2152941970,
+              "particles": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "oneshot_0.31",
+      "stage": 0,
+      "engineAge": 0.4993737103174638,
+      "engineFrame": 243,
+      "instances": [
+        {
+          "name": "QA_2D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.499373645,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.006626323,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.499373645,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.0186262857,
+                  "life": 0.4
+                }
+              ]
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.499373645,
+              "count": 5,
+              "playing": true,
+              "emission": true,
+              "seed": 1805424920,
+              "particles": [
+                {
+                  "position": [
+                    -0.8970561,
+                    0.3691569,
+                    0.0
+                  ],
+                  "remaining": 0.0188862085,
+                  "life": 0.318259925
+                },
+                {
+                  "position": [
+                    -0.781351,
+                    -0.6342884,
+                    0.0
+                  ],
+                  "remaining": 0.031237388,
+                  "life": 0.33061108
+                }
+              ]
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.499373645,
+              "count": 28,
+              "playing": true,
+              "emission": true,
+              "seed": 3508566992,
+              "particles": [
+                {
+                  "position": [
+                    -0.891251564,
+                    0.6966637,
+                    0.0
+                  ],
+                  "remaining": 0.274536043,
+                  "life": 0.6439097
+                },
+                {
+                  "position": [
+                    -0.301062584,
+                    0.566594,
+                    0.0
+                  ],
+                  "remaining": 0.304228038,
+                  "life": 0.5736017
+                }
+              ]
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 1674966898,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_3D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.499373645,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.006626323,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.499373645,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.0186262857,
+                  "life": 0.4
+                }
+              ]
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.499373645,
+              "count": 3,
+              "playing": true,
+              "emission": true,
+              "seed": 3718533123,
+              "particles": [
+                {
+                  "position": [
+                    0.2981221,
+                    0.08000011,
+                    1.85234094
+                  ],
+                  "remaining": 0.08879048,
+                  "life": 0.3381642
+                },
+                {
+                  "position": [
+                    1.392192,
+                    0.07999997,
+                    -0.547535658
+                  ],
+                  "remaining": 0.0549228638,
+                  "life": 0.354296565
+                }
+              ]
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.499373645,
+              "count": 31,
+              "playing": true,
+              "emission": true,
+              "seed": 1384072950,
+              "particles": [
+                {
+                  "position": [
+                    -0.0334243141,
+                    0.408597529,
+                    1.11289215
+                  ],
+                  "remaining": 0.189560056,
+                  "life": 0.558933735
+                },
+                {
+                  "position": [
+                    0.64519,
+                    0.5865607,
+                    0.4621568
+                  ],
+                  "remaining": 0.037006285,
+                  "life": 0.406379968
+                }
+              ]
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.499373645,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 2152941970,
+              "particles": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "oneshot_0.55",
+      "stage": 0,
+      "engineAge": 0.599482043650795,
+      "engineFrame": 244,
+      "instances": [
+        {
+          "name": "QA_2D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 1805424920,
+              "particles": []
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.599482,
+              "count": 19,
+              "playing": true,
+              "emission": true,
+              "seed": 3508566992,
+              "particles": [
+                {
+                  "position": [
+                    -1.10651135,
+                    0.5945502,
+                    0.0
+                  ],
+                  "remaining": 0.174427658,
+                  "life": 0.6439097
+                },
+                {
+                  "position": [
+                    -0.38221693,
+                    0.487553567,
+                    0.0
+                  ],
+                  "remaining": 0.204119682,
+                  "life": 0.5736017
+                }
+              ]
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.599482,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 1674966898,
+              "particles": [
+                {
+                  "position": [
+                    0.0604384877,
+                    0.04465831,
+                    0.0
+                  ],
+                  "remaining": 0.0105180312,
+                  "life": 0.0599999949
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "QA_3D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.599482,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 3718533123,
+              "particles": []
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.599482,
+              "count": 21,
+              "playing": true,
+              "emission": true,
+              "seed": 1384072950,
+              "particles": [
+                {
+                  "position": [
+                    -0.0383621119,
+                    0.244999141,
+                    1.48036683
+                  ],
+                  "remaining": 0.08945177,
+                  "life": 0.558933735
+                },
+                {
+                  "position": [
+                    -0.205093592,
+                    0.583175063,
+                    -0.4192459
+                  ],
+                  "remaining": 0.141582832,
+                  "life": 0.5110649
+                }
+              ]
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.599482,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 2152941970,
+              "particles": [
+                {
+                  "position": [
+                    -0.127097175,
+                    0.289336532,
+                    0.05794261
+                  ],
+                  "remaining": 0.0105180312,
+                  "life": 0.0599999949
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "oneshot_0.94",
+      "stage": 0,
+      "engineAge": 0.99910941751700477,
+      "engineFrame": 248,
+      "instances": [
+        {
+          "name": "QA_2D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 1805424920,
+              "particles": []
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 3508566992,
+              "particles": []
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 1674966898,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_3D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 3718533123,
+              "particles": []
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 1384072950,
+              "particles": []
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.9991092,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 2152941970,
+              "particles": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "oneshot_1.3",
+      "stage": 0,
+      "engineAge": 1.3996693806689322,
+      "engineFrame": 252,
+      "instances": [
+        {
+          "name": "QA_2D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitInner",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundCharge",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 1805424920,
+              "particles": []
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 3508566992,
+              "particles": []
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 1674966898,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_3D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitInner",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundCharge",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 3718533123,
+              "particles": []
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 1384072950,
+              "particles": []
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 1.2,
+              "count": 0,
+              "playing": false,
+              "emission": true,
+              "seed": 2152941970,
+              "particles": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "before_emission_off",
+      "stage": 1,
+      "engineAge": 0.39949037698412582,
+      "engineFrame": 257,
+      "instances": [
+        {
+          "name": "QA_2D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.399490327,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.399490327,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.399490327,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.399490327,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.399490327,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.399490327,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.399490327,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.07850968,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.399490327,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.106509693,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.399490327,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.399490327,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.399490327,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.11850965,
+                  "life": 0.4
+                }
+              ]
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.399490327,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.399490327,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.399490327,
+              "count": 13,
+              "playing": true,
+              "emission": true,
+              "seed": 1290883213,
+              "particles": [
+                {
+                  "position": [
+                    -1.68432,
+                    -0.2998491,
+                    0.0
+                  ],
+                  "remaining": 0.08861325,
+                  "life": 0.338103652
+                },
+                {
+                  "position": [
+                    -0.264849454,
+                    0.720482051,
+                    0.0
+                  ],
+                  "remaining": 0.00135280425,
+                  "life": 0.250843167
+                }
+              ]
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.399490327,
+              "count": 38,
+              "playing": true,
+              "emission": true,
+              "seed": 3005887832,
+              "particles": [
+                {
+                  "position": [
+                    -0.34638837,
+                    0.5533792,
+                    0.0
+                  ],
+                  "remaining": 0.33919,
+                  "life": 0.608680367
+                },
+                {
+                  "position": [
+                    -0.9458871,
+                    0.385511369,
+                    0.0
+                  ],
+                  "remaining": 0.04295737,
+                  "life": 0.312447727
+                }
+              ]
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.399490327,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 466263357,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_3D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.399490327,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.399490327,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.399490327,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.399490327,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.399490327,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.399490327,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.399490327,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.07850968,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.399490327,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.106509693,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.399490327,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.399490327,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.399490327,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.11850965,
+                  "life": 0.4
+                }
+              ]
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.399490327,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.399490327,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.399490327,
+              "count": 10,
+              "playing": true,
+              "emission": true,
+              "seed": 30365711,
+              "particles": [
+                {
+                  "position": [
+                    -1.247852,
+                    0.07999991,
+                    -1.46921
+                  ],
+                  "remaining": 0.0886052251,
+                  "life": 0.238095567
+                },
+                {
+                  "position": [
+                    0.789731,
+                    0.0799999163,
+                    -1.40919161
+                  ],
+                  "remaining": 0.170129,
+                  "life": 0.319619358
+                }
+              ]
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.399490327,
+              "count": 38,
+              "playing": true,
+              "emission": true,
+              "seed": 3346797955,
+              "particles": [
+                {
+                  "position": [
+                    -0.781102359,
+                    0.7423216,
+                    0.387628943
+                  ],
+                  "remaining": 0.0512932278,
+                  "life": 0.320783615
+                },
+                {
+                  "position": [
+                    0.424573869,
+                    0.366022885,
+                    0.4900822
+                  ],
+                  "remaining": 0.123754911,
+                  "life": 0.3932453
+                }
+              ]
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.399490327,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 622753985,
+              "particles": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "emission_off_drained",
+      "stage": 2,
+      "engineAge": 1.4006148738662105,
+      "engineFrame": 271,
+      "instances": [
+        {
+          "name": "QA_2D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 1290883213,
+              "particles": []
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 3005887832,
+              "particles": []
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 466263357,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_3D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 30365711,
+              "particles": []
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 3346797955,
+              "particles": []
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.6001052,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 622753985,
+              "particles": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "emission_restored",
+      "stage": 3,
+      "engineAge": 1.2997428358843592,
+      "engineFrame": 284,
+      "instances": [
+        {
+          "name": "QA_2D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 1290883213,
+              "particles": []
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.699848056,
+              "count": 12,
+              "playing": true,
+              "emission": true,
+              "seed": 3005887832,
+              "particles": [
+                {
+                  "position": [
+                    -0.152006969,
+                    0.244710118,
+                    0.0
+                  ],
+                  "remaining": 0.188482419,
+                  "life": 0.6583305
+                },
+                {
+                  "position": [
+                    -0.438223779,
+                    -0.428165019,
+                    0.0
+                  ],
+                  "remaining": 0.1155333,
+                  "life": 0.6853812
+                }
+              ]
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 466263357,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_3D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 30365711,
+              "particles": []
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.699848056,
+              "count": 14,
+              "playing": true,
+              "emission": true,
+              "seed": 3346797955,
+              "particles": [
+                {
+                  "position": [
+                    -0.8535876,
+                    -0.314897835,
+                    -0.252806664
+                  ],
+                  "remaining": 0.009069669,
+                  "life": 0.5289177
+                },
+                {
+                  "position": [
+                    0.0336867645,
+                    -0.0605022423,
+                    1.31284571
+                  ],
+                  "remaining": 0.06973077,
+                  "life": 0.5395788
+                }
+              ]
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.699848056,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 622753985,
+              "particles": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "stop_play_reuse",
+      "stage": 4,
+      "engineAge": 0.3003505385487486,
+      "engineFrame": 287,
+      "instances": [
+        {
+          "name": "QA_2D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.300350547,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.300350547,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.300350547,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.300350547,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.300350547,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.300350547,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.300350547,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.177649513,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.300350547,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.2056495,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.300350547,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.0696494654,
+                  "life": 0.235
+                }
+              ]
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.300350547,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.300350547,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.21764946,
+                  "life": 0.4
+                }
+              ]
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.300350547,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.300350547,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.300350547,
+              "count": 17,
+              "playing": true,
+              "emission": true,
+              "seed": 1785866794,
+              "particles": [
+                {
+                  "position": [
+                    -1.01108348,
+                    0.7420681,
+                    0.0
+                  ],
+                  "remaining": 0.184951961,
+                  "life": 0.335302472
+                },
+                {
+                  "position": [
+                    -1.61822414,
+                    0.06481479,
+                    0.0
+                  ],
+                  "remaining": 0.1057818,
+                  "life": 0.2561323
+                }
+              ]
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.300350547,
+              "count": 38,
+              "playing": true,
+              "emission": true,
+              "seed": 285608011,
+              "particles": [
+                {
+                  "position": [
+                    0.518909156,
+                    0.5913354,
+                    0.0
+                  ],
+                  "remaining": 0.2230657,
+                  "life": 0.393416226
+                },
+                {
+                  "position": [
+                    -0.257098138,
+                    0.519780159,
+                    0.0
+                  ],
+                  "remaining": 0.134019211,
+                  "life": 0.304369718
+                }
+              ]
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.300350547,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 921819109,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_3D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.300350547,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.300350547,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.300350547,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.300350547,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.300350547,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.300350547,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.300350547,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.177649513,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.300350547,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.2056495,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.300350547,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.0696494654,
+                  "life": 0.235
+                }
+              ]
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.300350547,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.300350547,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.21764946,
+                  "life": 0.4
+                }
+              ]
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.300350547,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.300350547,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.300350547,
+              "count": 17,
+              "playing": true,
+              "emission": true,
+              "seed": 3774839178,
+              "particles": [
+                {
+                  "position": [
+                    1.48076308,
+                    0.07999994,
+                    -0.9935105
+                  ],
+                  "remaining": 0.1479082,
+                  "life": 0.298258722
+                },
+                {
+                  "position": [
+                    -1.10395133,
+                    0.0799999461,
+                    -0.9002482
+                  ],
+                  "remaining": 0.0613063462,
+                  "life": 0.211656883
+                }
+              ]
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.300350547,
+              "count": 38,
+              "playing": true,
+              "emission": true,
+              "seed": 455556293,
+              "particles": [
+                {
+                  "position": [
+                    0.643270731,
+                    0.4905652,
+                    0.437779963
+                  ],
+                  "remaining": 0.402729928,
+                  "life": 0.5730805
+                },
+                {
+                  "position": [
+                    0.313066483,
+                    0.2581738,
+                    0.5191275
+                  ],
+                  "remaining": 0.362013459,
+                  "life": 0.532364
+                }
+              ]
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.300350547,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 977415098,
+              "particles": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "returned_from_offscreen",
+      "stage": 5,
+      "engineAge": 0.20076858701813904,
+      "engineFrame": 289,
+      "instances": [
+        {
+          "name": "QA_2D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.501119137,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.00488093449,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.501119137,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.0168808941,
+                  "life": 0.4
+                }
+              ]
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.501119137,
+              "count": 5,
+              "playing": true,
+              "emission": true,
+              "seed": 1785866794,
+              "particles": [
+                {
+                  "position": [
+                    1.06526709,
+                    0.209093884,
+                    0.0
+                  ],
+                  "remaining": 0.108215034,
+                  "life": 0.359334171
+                },
+                {
+                  "position": [
+                    0.431132436,
+                    -0.6256024,
+                    0.0
+                  ],
+                  "remaining": 0.107472159,
+                  "life": 0.358591259
+                }
+              ]
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.501119137,
+              "count": 29,
+              "playing": true,
+              "emission": true,
+              "seed": 285608011,
+              "particles": [
+                {
+                  "position": [
+                    0.987183,
+                    0.6080622,
+                    0.0
+                  ],
+                  "remaining": 0.0222970583,
+                  "life": 0.393416226
+                },
+                {
+                  "position": [
+                    -1.011805,
+                    0.327574849,
+                    0.0
+                  ],
+                  "remaining": 0.179106131,
+                  "life": 0.450225234
+                }
+              ]
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 921819109,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_3D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.501119137,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.00488093449,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.501119137,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.0168808941,
+                  "life": 0.4
+                }
+              ]
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.501119137,
+              "count": 3,
+              "playing": true,
+              "emission": true,
+              "seed": 3774839178,
+              "particles": [
+                {
+                  "position": [
+                    0.8480019,
+                    0.0799999461,
+                    -0.8148546
+                  ],
+                  "remaining": 0.0244417,
+                  "life": 0.3255608
+                },
+                {
+                  "position": [
+                    -0.65130055,
+                    0.0799999461,
+                    -0.9371979
+                  ],
+                  "remaining": 0.03246048,
+                  "life": 0.283579618
+                }
+              ]
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.501119137,
+              "count": 35,
+              "playing": true,
+              "emission": true,
+              "seed": 455556293,
+              "particles": [
+                {
+                  "position": [
+                    1.29453492,
+                    0.513553,
+                    1.05420852
+                  ],
+                  "remaining": 0.201961353,
+                  "life": 0.5730805
+                },
+                {
+                  "position": [
+                    0.663141251,
+                    0.0186410956,
+                    1.24006522
+                  ],
+                  "remaining": 0.161244914,
+                  "life": 0.532364
+                }
+              ]
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.501119137,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 977415098,
+              "particles": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "final_restart",
+      "stage": 6,
+      "engineAge": 0.29917562358276939,
+      "engineFrame": 292,
+      "instances": [
+        {
+          "name": "QA_2D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.29917562,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.29917562,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.29917562,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.29917562,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.29917562,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.29917562,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.29917562,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.178824425,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.29917562,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.2068244,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.29917562,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.07082438,
+                  "life": 0.235
+                }
+              ]
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.29917562,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.29917562,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.218824387,
+                  "life": 0.4
+                }
+              ]
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.29917562,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.29917562,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.29917562,
+              "count": 17,
+              "playing": true,
+              "emission": true,
+              "seed": 2192874984,
+              "particles": [
+                {
+                  "position": [
+                    -1.68646073,
+                    -0.00777936727,
+                    0.0
+                  ],
+                  "remaining": 0.127330586,
+                  "life": 0.2765062
+                },
+                {
+                  "position": [
+                    0.9798162,
+                    0.288642973,
+                    0.0
+                  ],
+                  "remaining": 0.00181611639,
+                  "life": 0.150991738
+                }
+              ]
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.29917562,
+              "count": 38,
+              "playing": true,
+              "emission": true,
+              "seed": 2577176349,
+              "particles": [
+                {
+                  "position": [
+                    -0.2487284,
+                    0.6218479,
+                    0.0
+                  ],
+                  "remaining": 0.292996019,
+                  "life": 0.4621716
+                },
+                {
+                  "position": [
+                    0.08456941,
+                    0.325957566,
+                    0.0
+                  ],
+                  "remaining": 0.514419,
+                  "life": 0.683594644
+                }
+              ]
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.29917562,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 3145683455,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_3D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.29917562,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.29917562,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.29917562,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.29917562,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.29917562,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.29917562,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.29917562,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.178824425,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.29917562,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.2068244,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.29917562,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.07082438,
+                  "life": 0.235
+                }
+              ]
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.29917562,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.29917562,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.218824387,
+                  "life": 0.4
+                }
+              ]
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.29917562,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.29917562,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.29917562,
+              "count": 17,
+              "playing": true,
+              "emission": true,
+              "seed": 2420875985,
+              "particles": [
+                {
+                  "position": [
+                    0.947227836,
+                    0.08000005,
+                    0.844605744
+                  ],
+                  "remaining": 0.0309770312,
+                  "life": 0.180152655
+                },
+                {
+                  "position": [
+                    0.505830467,
+                    0.0799998939,
+                    -1.79175985
+                  ],
+                  "remaining": 0.170651034,
+                  "life": 0.319826663
+                }
+              ]
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.29917562,
+              "count": 38,
+              "playing": true,
+              "emission": true,
+              "seed": 3057006317,
+              "particles": [
+                {
+                  "position": [
+                    -0.347016245,
+                    0.603423953,
+                    0.675697446
+                  ],
+                  "remaining": 0.398671746,
+                  "life": 0.5678474
+                },
+                {
+                  "position": [
+                    -0.30279693,
+                    0.426621735,
+                    -0.193505481
+                  ],
+                  "remaining": 0.428976655,
+                  "life": 0.5981523
+                }
+              ]
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.29917562,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 3413080905,
+              "particles": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "root_disable_enable",
+      "stage": 8,
+      "engineAge": 0.29890245181405817,
+      "engineFrame": 297,
+      "instances": [
+        {
+          "name": "QA_2D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.298902452,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.298902452,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.298902452,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.298902452,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.298902452,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.298902452,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.298902452,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.179097623,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.298902452,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.20709759,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.298902452,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.0710975453,
+                  "life": 0.235
+                }
+              ]
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.298902452,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.298902452,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.21909757,
+                  "life": 0.4
+                }
+              ]
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.298902452,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.298902452,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.298902452,
+              "count": 17,
+              "playing": true,
+              "emission": true,
+              "seed": 2329820018,
+              "particles": [
+                {
+                  "position": [
+                    1.03258312,
+                    0.328254819,
+                    0.0
+                  ],
+                  "remaining": 0.0183163472,
+                  "life": 0.167218789
+                },
+                {
+                  "position": [
+                    -0.915586054,
+                    -0.5311189,
+                    0.0
+                  ],
+                  "remaining": 0.143037945,
+                  "life": 0.2919404
+                }
+              ]
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.298902452,
+              "count": 38,
+              "playing": true,
+              "emission": true,
+              "seed": 1196318162,
+              "particles": [
+                {
+                  "position": [
+                    0.6050773,
+                    0.3776586,
+                    0.0
+                  ],
+                  "remaining": 0.157882541,
+                  "life": 0.326784968
+                },
+                {
+                  "position": [
+                    -0.580635846,
+                    0.451176167,
+                    0.0
+                  ],
+                  "remaining": 0.454292238,
+                  "life": 0.6231947
+                }
+              ]
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.298902452,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 1086884488,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_3D",
+          "systems": [
+            {
+              "name": "Playback",
+              "time": 0.298902452,
+              "count": 0,
+              "playing": true,
+              "emission": false,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Leader",
+              "time": 0.298902452,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "MainStrike",
+              "time": 0.298902452,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "Restrikes",
+              "time": 0.298902452,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "CrownRelease",
+              "time": 0.298902452,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "ImpactRelease",
+              "time": 0.298902452,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitOuter",
+              "time": 0.298902452,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.179097623,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "OrbitInner",
+              "time": 0.298902452,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.20709759,
+                  "life": 0.360000044
+                }
+              ]
+            },
+            {
+              "name": "DescendingWhips",
+              "time": 0.298902452,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.0710975453,
+                  "life": 0.235
+                }
+              ]
+            },
+            {
+              "name": "MainStrikeGlow",
+              "time": 0.298902452,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "OrbitalGlow",
+              "time": 0.298902452,
+              "count": 1,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": [
+                {
+                  "position": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ],
+                  "remaining": 0.21909757,
+                  "life": 0.4
+                }
+              ]
+            },
+            {
+              "name": "GroundCharge",
+              "time": 0.298902452,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "GroundFlash",
+              "time": 0.298902452,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 69,
+              "particles": []
+            },
+            {
+              "name": "SecondaryCurrents",
+              "time": 0.298902452,
+              "count": 17,
+              "playing": true,
+              "emission": true,
+              "seed": 4039967979,
+              "particles": [
+                {
+                  "position": [
+                    -1.81194508,
+                    0.08,
+                    -0.0216282438
+                  ],
+                  "remaining": 0.157175958,
+                  "life": 0.3060784
+                },
+                {
+                  "position": [
+                    -1.48824573,
+                    0.08000007,
+                    1.20996928
+                  ],
+                  "remaining": 0.186928853,
+                  "life": 0.335831285
+                }
+              ]
+            },
+            {
+              "name": "EjectedCharges",
+              "time": 0.298902452,
+              "count": 38,
+              "playing": true,
+              "emission": true,
+              "seed": 2343810091,
+              "particles": [
+                {
+                  "position": [
+                    -0.479277,
+                    0.268762618,
+                    -0.15859516
+                  ],
+                  "remaining": 0.110643685,
+                  "life": 0.2795461
+                },
+                {
+                  "position": [
+                    0.383045375,
+                    0.6452785,
+                    0.716986954
+                  ],
+                  "remaining": 0.4555966,
+                  "life": 0.6244991
+                }
+              ]
+            },
+            {
+              "name": "ResidualSnap",
+              "time": 0.298902452,
+              "count": 0,
+              "playing": true,
+              "emission": true,
+              "seed": 3190212674,
+              "particles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "restoredBackground": false
+}

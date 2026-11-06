@@ -1,0 +1,1044 @@
+{
+  "method": "Edit Mode deterministic native Simulate for static review only",
+  "structures": [
+    {
+      "path": "Assets/PixelFX/LightningNova/Prefabs/LightningNova_2D.prefab",
+      "components": [
+        "Transform",
+        "ParticleSystem",
+        "ParticleSystemRenderer"
+      ],
+      "systems": [
+        {
+          "name": "Playback",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 0,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 4
+        },
+        {
+          "name": "Leader",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 1,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "MainStrike",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 1,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "Restrikes",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 2,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "CrownRelease",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 1,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "ImpactRelease",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 1,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "OrbitOuter",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 1,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "OrbitInner",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 1,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "DescendingWhips",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 1,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "MainStrikeGlow",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 1,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "OrbitalGlow",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 1,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "GroundCharge",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 1,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "GroundFlash",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 1,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "SecondaryCurrents",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": true,
+          "bursts": 3,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "EjectedCharges",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": true,
+          "bursts": 3,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "ResidualSnap",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": true,
+          "bursts": 4,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        }
+      ]
+    },
+    {
+      "path": "Assets/PixelFX/LightningNova/Prefabs/LightningNova_3D.prefab",
+      "components": [
+        "Transform",
+        "ParticleSystem",
+        "ParticleSystemRenderer"
+      ],
+      "systems": [
+        {
+          "name": "Playback",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 0,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 4
+        },
+        {
+          "name": "Leader",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 1,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "MainStrike",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 1,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "Restrikes",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 2,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "CrownRelease",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 1,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "ImpactRelease",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 1,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "OrbitOuter",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 1,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "OrbitInner",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 1,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "DescendingWhips",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 1,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "MainStrikeGlow",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 1,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "OrbitalGlow",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 1,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "GroundCharge",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 1,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "GroundFlash",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": false,
+          "bursts": 1,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "SecondaryCurrents",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": true,
+          "bursts": 3,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "EjectedCharges",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": true,
+          "bursts": 3,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        },
+        {
+          "name": "ResidualSnap",
+          "duration": 1.2,
+          "loop": false,
+          "autoSeed": true,
+          "bursts": 4,
+          "textureSheet": false,
+          "lights": false,
+          "streams": 12
+        }
+      ]
+    }
+  ],
+  "shaderSupported": true,
+  "shaderErrors": [
+    {
+      "message": "integer modulus may be much slower, try using uints if possible.",
+      "messageDetails": "Compiling Subshader: 0, Pass: NativeAgeDriven, Vertex program with <no keywords>\nPlatform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PASS_SRPDEFAULTUNLIT UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS\nDisabled keywords: SHADER_API_GLES30 SHADER_API_GLES31 SHADER_API_GLES32 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING",
+      "file": "Assets/PixelFX/LightningNova/Shaders/LightningNovaNative.shader",
+      "line": 60,
+      "platform": 14,
+      "severity": 1
+    },
+    {
+      "message": "integer modulus may be much slower, try using uints if possible.",
+      "messageDetails": "Compiling Subshader: 0, Pass: NativeAgeDriven, Vertex program with <no keywords>\nPlatform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PASS_SRPDEFAULTUNLIT UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS\nDisabled keywords: SHADER_API_GLES30 SHADER_API_GLES31 SHADER_API_GLES32 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING",
+      "file": "Assets/PixelFX/LightningNova/Shaders/LightningNovaNative.shader",
+      "line": 71,
+      "platform": 14,
+      "severity": 1
+    },
+    {
+      "message": "integer modulus may be much slower, try using uints if possible.",
+      "messageDetails": "Compiling Subshader: 0, Pass: NativeAgeDriven, Vertex program with <no keywords>\nPlatform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PASS_SRPDEFAULTUNLIT UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS\nDisabled keywords: SHADER_API_GLES30 SHADER_API_GLES31 SHADER_API_GLES32 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING",
+      "file": "Assets/PixelFX/LightningNova/Shaders/LightningNovaNative.shader",
+      "line": 72,
+      "platform": 14,
+      "severity": 1
+    },
+    {
+      "message": "integer modulus may be much slower, try using uints if possible.",
+      "messageDetails": "Compiling Subshader: 0, Pass: NativeAgeDriven, Vertex program with <no keywords>\nPlatform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PASS_SRPDEFAULTUNLIT UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS\nDisabled keywords: SHADER_API_GLES30 SHADER_API_GLES31 SHADER_API_GLES32 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING",
+      "file": "Assets/PixelFX/LightningNova/Shaders/LightningNovaNative.shader",
+      "line": 73,
+      "platform": 14,
+      "severity": 1
+    },
+    {
+      "message": "integer modulus may be much slower, try using uints if possible.",
+      "messageDetails": "Compiling Subshader: 0, Pass: NativeAgeDriven, Vertex program with <no keywords>\nPlatform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PASS_SRPDEFAULTUNLIT UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS\nDisabled keywords: SHADER_API_GLES30 SHADER_API_GLES31 SHADER_API_GLES32 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING",
+      "file": "Assets/PixelFX/LightningNova/Shaders/LightningNovaNative.shader",
+      "line": 85,
+      "platform": 14,
+      "severity": 1
+    },
+    {
+      "message": "integer modulus may be much slower, try using uints if possible.",
+      "messageDetails": "Compiling Subshader: 0, Pass: NativeAgeDriven, Vertex program with <no keywords>\nPlatform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PASS_SRPDEFAULTUNLIT UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS\nDisabled keywords: SHADER_API_GLES30 SHADER_API_GLES31 SHADER_API_GLES32 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING",
+      "file": "Assets/PixelFX/LightningNova/Shaders/LightningNovaNative.shader",
+      "line": 93,
+      "platform": 14,
+      "severity": 1
+    },
+    {
+      "message": "integer modulus may be much slower, try using uints if possible.",
+      "messageDetails": "Compiling Subshader: 0, Pass: NativeAgeDriven, Vertex program with <no keywords>\nPlatform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PASS_SRPDEFAULTUNLIT UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS\nDisabled keywords: SHADER_API_GLES30 SHADER_API_GLES31 SHADER_API_GLES32 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING",
+      "file": "Assets/PixelFX/LightningNova/Shaders/LightningNovaNative.shader",
+      "line": 97,
+      "platform": 14,
+      "severity": 1
+    },
+    {
+      "message": "integer modulus may be much slower, try using uints if possible.",
+      "messageDetails": "Compiling Subshader: 0, Pass: NativeAgeDriven, Vertex program with <no keywords>\nPlatform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PASS_SRPDEFAULTUNLIT UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS\nDisabled keywords: SHADER_API_GLES30 SHADER_API_GLES31 SHADER_API_GLES32 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING",
+      "file": "Assets/PixelFX/LightningNova/Shaders/LightningNovaNative.shader",
+      "line": 101,
+      "platform": 14,
+      "severity": 1
+    }
+  ],
+  "paletteTests": [
+    {
+      "prop": "_Core",
+      "changedPixels": 4205
+    },
+    {
+      "prop": "_Body",
+      "changedPixels": 87210
+    },
+    {
+      "prop": "_Edge",
+      "changedPixels": 2892
+    },
+    {
+      "prop": "_Spark",
+      "changedPixels": 112
+    }
+  ],
+  "samples": [
+    {
+      "name": "2D_112",
+      "time": 0.112,
+      "flat": true,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 22387,
+      "bounds": [
+        295,
+        155,
+        472,
+        540
+      ],
+      "particles": 5
+    },
+    {
+      "name": "2D_165",
+      "time": 0.165,
+      "flat": true,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 86137,
+      "bounds": [
+        132,
+        88,
+        635,
+        536
+      ],
+      "particles": 29
+    },
+    {
+      "name": "2D_240",
+      "time": 0.24,
+      "flat": true,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 16012,
+      "bounds": [
+        169,
+        103,
+        605,
+        536
+      ],
+      "particles": 58
+    },
+    {
+      "name": "2D_305",
+      "time": 0.305,
+      "flat": true,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 4907,
+      "bounds": [
+        166,
+        107,
+        600,
+        349
+      ],
+      "particles": 59
+    },
+    {
+      "name": "2D_440",
+      "time": 0.44,
+      "flat": true,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 553,
+      "bounds": [
+        215,
+        140,
+        508,
+        271
+      ],
+      "particles": 44
+    },
+    {
+      "name": "2D_940",
+      "time": 0.94,
+      "flat": true,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 0,
+      "bounds": [
+        768,
+        640,
+        0,
+        0
+      ],
+      "particles": 0
+    },
+    {
+      "name": "2D_1210",
+      "time": 1.21,
+      "flat": true,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 0,
+      "bounds": [
+        768,
+        640,
+        0,
+        0
+      ],
+      "particles": 0
+    },
+    {
+      "name": "3D_112",
+      "time": 0.112,
+      "flat": false,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 22611,
+      "bounds": [
+        295,
+        166,
+        472,
+        551
+      ],
+      "particles": 5
+    },
+    {
+      "name": "3D_165",
+      "time": 0.165,
+      "flat": false,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 85333,
+      "bounds": [
+        132,
+        99,
+        635,
+        549
+      ],
+      "particles": 29
+    },
+    {
+      "name": "3D_240",
+      "time": 0.24,
+      "flat": false,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 16328,
+      "bounds": [
+        164,
+        116,
+        606,
+        547
+      ],
+      "particles": 58
+    },
+    {
+      "name": "3D_305",
+      "time": 0.305,
+      "flat": false,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 4800,
+      "bounds": [
+        165,
+        144,
+        600,
+        401
+      ],
+      "particles": 59
+    },
+    {
+      "name": "3D_440",
+      "time": 0.44,
+      "flat": false,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 519,
+      "bounds": [
+        241,
+        147,
+        571,
+        282
+      ],
+      "particles": 44
+    },
+    {
+      "name": "3D_940",
+      "time": 0.94,
+      "flat": false,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 0,
+      "bounds": [
+        768,
+        640,
+        0,
+        0
+      ],
+      "particles": 0
+    },
+    {
+      "name": "3D_1210",
+      "time": 1.21,
+      "flat": false,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 0,
+      "bounds": [
+        768,
+        640,
+        0,
+        0
+      ],
+      "particles": 0
+    },
+    {
+      "name": "3D_Angle5",
+      "time": 0.24,
+      "flat": false,
+      "elevation": 5.0,
+      "yaw": 35.0,
+      "seed": 69,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 14166,
+      "bounds": [
+        173,
+        177,
+        616,
+        568
+      ],
+      "particles": 58
+    },
+    {
+      "name": "3D_Angle60",
+      "time": 0.24,
+      "flat": false,
+      "elevation": 60.0,
+      "yaw": 35.0,
+      "seed": 69,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 18893,
+      "bounds": [
+        165,
+        68,
+        616,
+        466
+      ],
+      "particles": 58
+    },
+    {
+      "name": "3D_Angle85",
+      "time": 0.24,
+      "flat": false,
+      "elevation": 85.0,
+      "yaw": 35.0,
+      "seed": 69,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 16778,
+      "bounds": [
+        165,
+        84,
+        617,
+        531
+      ],
+      "particles": 58
+    },
+    {
+      "name": "3D_Seed22",
+      "time": 0.24,
+      "flat": false,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 22,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 16551,
+      "bounds": [
+        164,
+        116,
+        606,
+        547
+      ],
+      "particles": 58
+    },
+    {
+      "name": "3D_Seed143",
+      "time": 0.24,
+      "flat": false,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 143,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 16334,
+      "bounds": [
+        164,
+        116,
+        606,
+        547
+      ],
+      "particles": 58
+    },
+    {
+      "name": "3D_Seed329",
+      "time": 0.24,
+      "flat": false,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 329,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 16545,
+      "bounds": [
+        164,
+        116,
+        606,
+        547
+      ],
+      "particles": 58
+    },
+    {
+      "name": "3D_LightBackground",
+      "time": 0.165,
+      "flat": false,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 26725,
+      "bounds": [
+        207,
+        131,
+        559,
+        548
+      ],
+      "particles": 29
+    },
+    {
+      "name": "3D_RingsOnly",
+      "time": 0.24,
+      "flat": false,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": "OrbitOuter",
+      "mute": null,
+      "palette": null,
+      "visible": 1549,
+      "bounds": [
+        170,
+        171,
+        606,
+        319
+      ],
+      "particles": 58
+    },
+    {
+      "name": "3D_SparksOnly",
+      "time": 0.24,
+      "flat": false,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": "EjectedCharges",
+      "mute": null,
+      "palette": null,
+      "visible": 256,
+      "bounds": [
+        348,
+        212,
+        420,
+        252
+      ],
+      "particles": 58
+    },
+    {
+      "name": "Palette_Default_Core",
+      "time": 0.165,
+      "flat": false,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 85333,
+      "bounds": [
+        132,
+        99,
+        635,
+        549
+      ],
+      "particles": 29
+    },
+    {
+      "name": "Palette_Mute_Core",
+      "time": 0.165,
+      "flat": false,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": "_Core",
+      "palette": null,
+      "visible": 85289,
+      "bounds": [
+        132,
+        99,
+        635,
+        549
+      ],
+      "particles": 29
+    },
+    {
+      "name": "Palette_Default_Body",
+      "time": 0.165,
+      "flat": false,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 85333,
+      "bounds": [
+        132,
+        99,
+        635,
+        549
+      ],
+      "particles": 29
+    },
+    {
+      "name": "Palette_Mute_Body",
+      "time": 0.165,
+      "flat": false,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": "_Body",
+      "palette": null,
+      "visible": 8357,
+      "bounds": [
+        216,
+        152,
+        551,
+        548
+      ],
+      "particles": 29
+    },
+    {
+      "name": "Palette_Default_Edge",
+      "time": 0.165,
+      "flat": false,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 85333,
+      "bounds": [
+        132,
+        99,
+        635,
+        549
+      ],
+      "particles": 29
+    },
+    {
+      "name": "Palette_Mute_Edge",
+      "time": 0.165,
+      "flat": false,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": "_Edge",
+      "palette": null,
+      "visible": 85333,
+      "bounds": [
+        132,
+        99,
+        635,
+        549
+      ],
+      "particles": 29
+    },
+    {
+      "name": "Palette_Default_Spark",
+      "time": 0.4,
+      "flat": false,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": null,
+      "palette": null,
+      "visible": 1159,
+      "bounds": [
+        228,
+        149,
+        571,
+        288
+      ],
+      "particles": 50
+    },
+    {
+      "name": "Palette_Mute_Spark",
+      "time": 0.4,
+      "flat": false,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": "_Spark",
+      "palette": null,
+      "visible": 1047,
+      "bounds": [
+        228,
+        149,
+        571,
+        288
+      ],
+      "particles": 50
+    },
+    {
+      "name": "Palette_Red",
+      "time": 0.165,
+      "flat": false,
+      "elevation": 24.0,
+      "yaw": 0.0,
+      "seed": 69,
+      "only": null,
+      "mute": null,
+      "palette": "red",
+      "visible": 78779,
+      "bounds": [
+        141,
+        103,
+        626,
+        548
+      ],
+      "particles": 29
+    }
+  ],
+  "resourceMemory": {
+    "meshes": 2300544,
+    "materials": 4992
+  }
+}

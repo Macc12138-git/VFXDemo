@@ -1,0 +1,46 @@
+{
+  "effectName": "BuildFX",
+  "version": "V2",
+  "authorInstruction": "按照理解修改本次组装的特效：颜色独立可调、烟雾使用原生受控随机分布。",
+  "source": "Tools/PixelFX/src/hd/mortar-assembly.js",
+  "sourceHash": "c8d6914c4d583d5481b7e9d927f2d3c6acb7bcf4d0ae54ce693446d97fe032aa",
+  "sourceUnmodified": true,
+  "geometrySource": "V1 native-recipe (captured actual source painter); retain contours and UV layout, planar smoke mesh aspect .88.",
+  "texture": {
+    "name": "BuildFX_Masks.png",
+    "size": [
+      1024,
+      512
+    ],
+    "frames": 1,
+    "animation": false,
+    "sRGB": false,
+    "format": "RGBA8 data atlas: neutral smoke/glow shading plus palette role/shade/alpha blocks",
+    "sha256": "fa52fc213fe99e76e07136119c0c98554a5fcdc38f6af2be396dbc168feade21",
+    "filter": "Bilinear",
+    "wrap": "Clamp",
+    "mips": false,
+    "compression": "Uncompressed baseline"
+  },
+  "maskContract": {
+    "smoke": "UV.x<.625 and UV.y>.60: neutral RGB shading, original alpha",
+    "glow": "UV.x<.625 and UV.y<=.60: neutral radial RGB, original alpha",
+    "palette": "UV.x>=.625: role=round(R*8), G=shade, A=source element opacity",
+    "roles": {
+      "1": "Flash",
+      "2": "Highlight",
+      "3": "Arc",
+      "4": "Spark",
+      "5": "Debris"
+    }
+  },
+  "nativeAdaptation": "One smoke system, three timed bursts, random box domain in local XY, random mesh/size/lifetime/velocity/rotation and small planar Noise. Keep three flash timings; no per-puff fixed nodes.",
+  "colors": "Material palette parameters define independent roles; native Start Color and Color over Lifetime multiply them. Two shared blend materials, no per-role material proliferation.",
+  "boundaries": [
+    "Fixed-plane 2.5D remains intentional.",
+    "Random layouts preserve range and timing, not source particle identities.",
+    "Default live stochastic systems use Auto Random Seed; fixed seeds are only for comparison."
+  ],
+  "unityAssetRoot": "Assets/PixelFX/BuildFX",
+  "gifGenerated": false
+}
