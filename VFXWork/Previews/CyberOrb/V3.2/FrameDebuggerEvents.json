@@ -1,0 +1,172 @@
+{
+  "error": null,
+  "method": "Official FrameDebuggerWindow capture; 1/8 overlapping real Play Mode Visual instances. Diagnostic only, never timed performance.",
+  "reports": [
+    {
+      "instances": 1,
+      "totalEvents": 9,
+      "events": [
+        {
+          "index": 0,
+          "type": "ClearColor",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 1,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 2,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 3,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 4,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 5,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 2:0) CopyColor/CopyColor",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 6,
+          "type": "DynamicGeometry",
+          "obj": "CompactGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 7,
+          "type": "DynamicGeometry",
+          "obj": "BodyAndWake",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 8,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 4:0) BlitFinalToBackBuffer",
+          "dataOk": false,
+          "detail": null
+        }
+      ],
+      "particles": 2,
+      "batches": 8,
+      "draws": 8,
+      "setPass": 8
+    },
+    {
+      "instances": 8,
+      "totalEvents": 9,
+      "events": [
+        {
+          "index": 0,
+          "type": "ClearColor",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 1,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 2,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 3,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 4,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 5,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 2:0) CopyColor/CopyColor",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 6,
+          "type": "DynamicGeometry",
+          "obj": "CompactGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 7,
+          "type": "DynamicGeometry",
+          "obj": "BodyAndWake",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 8,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 4:0) BlitFinalToBackBuffer",
+          "dataOk": false,
+          "detail": null
+        }
+      ],
+      "particles": 16,
+      "batches": 8,
+      "draws": 22,
+      "setPass": 8
+    }
+  ],
+  "limitation": "Metadata/representative names alone do not prove all renderer merges. Details are available only when native GetFrameEventData succeeds.",
+  "restored": true
+}

@@ -1,0 +1,30 @@
+{
+  "id": "hd/energy-burst-v6",
+  "name": "圆形能量爆炸 · 跃动扩散",
+  "version": "6.0",
+  "duration": 1.02,
+  "loop": false,
+  "fps": 60,
+  "options": {
+    "seed": 37,
+    "radius": 180,
+    "duration": 1.02,
+    "charge": 0.14,
+    "strength": 1,
+    "body": 1,
+    "electric": 1,
+    "glow": 0.65,
+    "hotColor": "#ffffff",
+    "bodyColor": "#2458ff",
+    "edgeColor": "#a7c6ff",
+    "electricColor": "#f1f6ff",
+    "glowColor": "#1440ff",
+    "pulse": 1,
+    "flow": 1,
+    "mistColor": "#508cff"
+  },
+  "sourceSha256": "7ebae9e84f334c8e78e230462bd1f161d324e6aa5b7e1538c6a8b621e1aa14cf",
+  "baseVersion": "V5 white folds / charge / current paths",
+  "texture": "same 128px static noise, no new atlas",
+  "unity": false
+}

@@ -1,0 +1,207 @@
+{
+  "effect": "EnergyCluster",
+  "version": "3.2-256-reference-sequence",
+  "provenance": "Author-supplied reference GIF converted into frames; not a new drawing.",
+  "sourceFile": "codex-clipboard-5032fe0e-6c69-4a34-aec3-1bf80ddefba3.gif",
+  "sourceSha256": "2678ee00df77981221ec3e53c76368417309a8bbda62aa47af135987e9a93733",
+  "sourceSize": [
+    793,
+    793
+  ],
+  "sourceFrameCount": 20,
+  "frameCount": 12,
+  "fps": 25,
+  "duration": 0.48,
+  "loop": true,
+  "frameDurationsMs": [
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40
+  ],
+  "cellSize": [
+    256,
+    256
+  ],
+  "atlasSize": [
+    1024,
+    768
+  ],
+  "columns": 4,
+  "rows": 3,
+  "order": "left-to-right, top-to-bottom",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "uniformSourceCrop": [
+    0,
+    0,
+    793,
+    793
+  ],
+  "cellPaddingPx": 2,
+  "colorSpace": "sRGB color",
+  "alpha": "straight RGBA, blue-black matte removed",
+  "matteColorsRGB": [
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ]
+  ],
+  "recommendedPreviewBlend": "source-over",
+  "mipmaps": false,
+  "filter": "bilinear",
+  "wrap": "clamp",
+  "npot": "keep original size; PC target",
+  "atlasSha256": "bc8e5f3fd6d8e924c74018798cee329986ff57a06845c129734dcdd3f1e24705",
+  "checks": {
+    "atlasCellsEqualFrames": true,
+    "edgeMaxAlpha": 0,
+    "zeroAlphaRGBCleared": true,
+    "adjacentFrameMeanDifferenceRGB8": [
+      7.512218475341797,
+      6.484254837036133,
+      8.022948265075684,
+      8.864707946777344,
+      7.255007266998291,
+      5.734642028808594,
+      6.040782451629639,
+      6.85302734375,
+      8.670851707458496,
+      7.219573974609375,
+      5.596288681030273,
+      4.678515911102295
+    ],
+    "seamDifferenceRGB8": 4.678515911102295,
+    "frameOrderAndTimingUnchanged": true,
+    "sourceFilesUnchanged": true
+  },
+  "unity": "Not imported; no Unity runtime/performance validation.",
+  "sourceFrameIndices": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    10,
+    12,
+    13,
+    15,
+    17,
+    18
+  ],
+  "derivedFromVersion": "3.1-compact-reference-sequence",
+  "derivedFromAtlasSha256": "df9ab2c0af1c18943510309cdb37ce3e751528eef48df4b80d679c7bfe4ce897",
+  "timeScaleVsOriginal": 1.6666666666666667,
+  "reduction": {
+    "oldFrameCount": 12,
+    "newFrameCount": 12,
+    "oldDuration": 0.48,
+    "newDuration": 0.48,
+    "oldCellSize": [
+      512,
+      512
+    ],
+    "newCellSize": [
+      256,
+      256
+    ],
+    "oldAtlasSize": [
+      2048,
+      1536
+    ],
+    "newAtlasSize": [
+      1024,
+      768
+    ],
+    "oldPixels": 3145728,
+    "newPixels": 786432,
+    "oldRGBA8BytesNoMips": 12582912,
+    "newRGBA8BytesNoMips": 3145728,
+    "oldPngBytes": 2090656,
+    "newPngBytes": 577139,
+    "pixelReductionPercent": 75.0,
+    "pngReductionPercent": 72.39435851713529
+  },
+  "frameSha256": [
+    "fc173f988d6cb1d1462b938ea569e60d6dbafdb2678b846f1d63dff61b8f9f49",
+    "2ac332d50fd820e0a7b279dbd15bbcbf0ad643f749b7952ce8b51ccd69987740",
+    "e3bef5c8c41dd397c49e278704d5bd276ff26f8c69e57dd67aa44fda99018cc0",
+    "328062af6810df6c266ac6b437fa90074c18d75747e34b6ee6c403d0feb90c44",
+    "cf43ef19093830cf73cda6df5065f4ee1cdc798d46b5a6ed9a3821680999d5c0",
+    "b0b0d9bb4120c21bfd8d4fa786dbad5dbf85bae1d9db682f4b9b091d60c3ca73",
+    "2332a0f433c021ec5723667c058fe219e0296dd6cd0c7785682b5e8affc98e4f",
+    "1ba50b0717bed9298ba68536889685df96ad2e6c3bdcaf9e97d55986fbc3f7da",
+    "f598743009d38a01253911254a414aa49738f34f82e5b5dc87ac139d7bcb23dc",
+    "f2915e612c43fa7531378725b0eb67f5aa7ce0562e659429774e087ee8801dd0",
+    "2e18ff84cb62ae24c791c634d144f2d003f6114d2a1e75af2e95307d7aface52",
+    "38ff459616de2863bc60bc4d4d05e4bafb6ca4d7a52867e7f58f24829d9207ce"
+  ],
+  "resampling": "Pillow RGBA Lanczos (premultiplied-alpha filtering); zero-alpha RGB cleared"
+}

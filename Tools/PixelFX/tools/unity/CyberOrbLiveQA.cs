@@ -1,0 +1,33 @@
+// Temporary in-memory Editor observation; not attached to any effect object.
+using System;
+using System.IO;
+using System.Linq;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEditor;
+using UnityEngine.SceneManagement;
+using Newtonsoft.Json;
+public static class CyberOrbLiveQA {
+ static string Out=>Path.Combine(Directory.GetParent(Application.dataPath).FullName,"VFXWork/Previews/CyberOrb/V3.2");
+ static List<GameObject> clones=new List<GameObject>();static List<object> samples=new List<object>();static GameObject demo;static bool demoActive,background;static float timeScale;static EditorWindow focused;static double begin;static int stage=-1,frame=-1,mark,drained,restored,ended,maxShards,shotHits;static float[] marks={.025f,.07f,.115f,.22f,.48f,.525f,.59f,.73f};
+ static ParticleSystem[] Top(GameObject g)=>g.GetComponentsInChildren<ParticleSystem>().Where(p=>p.transform.parent==null||p.transform.parent.GetComponent<ParticleSystem>()==null).ToArray();
+ static void Play(GameObject g){foreach(var p in Top(g)){p.Stop(true,ParticleSystemStopBehavior.StopEmittingAndClear);p.Play(true);}}
+ static int Count(GameObject g)=>g.GetComponentsInChildren<ParticleSystem>().Sum(p=>p.particleCount);
+ static object Particles(ParticleSystem p){var data=new ParticleSystem.Particle[p.particleCount];p.GetParticles(data);return data.Take(4).Select(x=>new{pos=x.position.ToString(),velocity=x.velocity.ToString(),remaining=x.remainingLifetime,life=x.startLifetime,size=x.GetCurrentSize(p),color=x.GetCurrentColor(p).ToString()}).ToArray();}
+ static void Sample(string label){samples.Add(new{label,stage,age=Time.timeAsDouble-begin,engineFrame=Time.frameCount,instances=clones.Select(g=>new{g.name,systems=g.GetComponentsInChildren<ParticleSystem>().Select(p=>new{p.name,p.time,count=p.particleCount,particles=Particles(p)}).ToArray()}).ToArray()});}
+ static void Capture(string name,Vector3? focus=null){GameObject cg=null;var cam=Camera.main;var old=cam.targetTexture;var active=RenderTexture.active;var rt=new RenderTexture(focus.HasValue?640:1280,focus.HasValue?360:720,24);rt.Create();try{if(focus.HasValue){cg=new GameObject("Temporary_CyberOrb_Capture");cam=cg.AddComponent<Camera>();cam.orthographic=true;cam.orthographicSize=.6f;cam.clearFlags=CameraClearFlags.SolidColor;cam.backgroundColor=new Color(.03137f,.06275f,.12549f,1);cam.transform.position=focus.Value+new Vector3(-.15f,0,-10);cam.allowHDR=false;cam.allowMSAA=false;}cam.targetTexture=rt;cam.Render();RenderTexture.active=rt;var image=new Texture2D(rt.width,rt.height,TextureFormat.RGBA32,false);image.ReadPixels(new Rect(0,0,rt.width,rt.height),0,0);image.Apply();File.WriteAllBytes(Path.Combine(Out,name+".png"),image.EncodeToPNG());UnityEngine.Object.Destroy(image);}finally{if(cg!=null)UnityEngine.Object.Destroy(cg);else cam.targetTexture=old;RenderTexture.active=active;rt.Release();UnityEngine.Object.Destroy(rt);}}
+ static void Finish(string error=null){EditorApplication.update-=Tick;foreach(var g in clones)if(g!=null)UnityEngine.Object.Destroy(g);if(demo!=null)demo.SetActive(demoActive);Application.runInBackground=background;Time.timeScale=timeScale;if(focused!=null)focused.Focus();File.WriteAllText(Path.Combine(Out,"LivePlayback.json"),JsonConvert.SerializeObject(new{success=error==null&&ended==0&&drained==0&&restored>0&&shotHits>0,error,method="Real Play Mode / engine frames / native data; first visual cycle at 0.25x for short-flash observation, then original speed for emission/reuse. No Simulate, Emit or SetParticles",ended,drained,restored,maxShards,shotHits,samples,settingsRestored=true},Formatting.Indented));}
+ static void Tick(){try{if(!Application.isPlaying){Finish("Play Mode stopped");return;}if(frame==Time.frameCount)return;frame=Time.frameCount;double age=Time.timeAsDouble-begin;
+  foreach(var p in clones[1].GetComponentsInChildren<ParticleSystem>().Where(p=>p.name=="Shards"))maxShards=Math.Max(maxShards,p.particleCount);foreach(var p in clones[2].GetComponentsInChildren<ParticleSystem>().Where(p=>p.name=="CyberOrb_Impact"||p.name=="Shards"))shotHits=Math.Max(shotHits,p.particleCount);
+  if(stage<0&&age>.7){foreach(var g in clones)Play(g);stage=0;begin=Time.timeAsDouble;}
+  else if(stage==0){if(mark<marks.Length&&age>=marks[mark]){Sample("native_"+marks[mark]);if(mark==0)Capture("Live_Workbench");if(mark==1)Capture("Live_Impact_Detail",new Vector3(3,3.2f,0));mark++;}if(age>.8){ended=Count(clones[1])+Count(clones[2]);Time.timeScale=timeScale;foreach(var p in Top(clones[0])){var e=p.emission;e.enabled=false;}stage=1;begin=Time.timeAsDouble;}}
+  else if(stage==1&&age>4.2){drained=Count(clones[0]);Sample("emission_off_drained");foreach(var p in Top(clones[0])){var e=p.emission;e.enabled=true;}stage=2;begin=Time.timeAsDouble;}
+  else if(stage==2&&age>4.2){restored=Count(clones[0]);Sample("emission_restored");foreach(var g in clones)Play(g);stage=3;begin=Time.timeAsDouble;}
+  else if(stage==3&&age>.15){Sample("restart");foreach(var g in clones)g.SetActive(false);stage=4;begin=Time.timeAsDouble;}
+  else if(stage==4&&age>.1){foreach(var g in clones)g.SetActive(true);stage=5;begin=Time.timeAsDouble;}
+  else if(stage==5&&age>.15){Sample("root_disable_enable");foreach(var g in clones)g.transform.position+=Vector3.right*100;stage=6;begin=Time.timeAsDouble;}
+  else if(stage==6&&age>.1){foreach(var g in clones)g.transform.position-=Vector3.right*100;Sample("return_from_offscreen");Finish();}
+ }catch(Exception e){Finish(e.ToString());}}
+ public static string Run(){if(!Application.isPlaying||Application.dataPath!="/Users/user/Desktop/VFXDemo/VFXDemo/Assets"||SceneManager.GetActiveScene().path!="Assets/Scenes/VFXWorkbench.unity")throw new Exception("Wrong target/state");background=Application.runInBackground;Application.runInBackground=true;timeScale=Time.timeScale;Time.timeScale=.25f;focused=EditorWindow.focusedWindow;EditorWindow.GetWindow(typeof(Editor).Assembly.GetType("UnityEditor.GameView")).Focus();demo=GameObject.Find("CyberOrb_Demo");demoActive=demo!=null&&demo.activeSelf;if(demo!=null)demo.SetActive(false);
+  foreach(var name in new[]{"ProjectileVisual","Impact","Shot"}){var g=UnityEngine.Object.Instantiate(AssetDatabase.LoadAssetAtPath<GameObject>("Assets/PixelFX/CyberOrb/Prefabs/CyberOrb_"+name+".prefab"));g.name="QA_"+name;g.transform.position=name=="ProjectileVisual"?new Vector3(-3,3.2f,0):name=="Impact"?new Vector3(3,3.2f,0):new Vector3(-3,.5f,0);if(name=="ProjectileVisual")g.transform.localScale=Vector3.one*3;clones.Add(g);Play(g);}begin=Time.timeAsDouble;EditorApplication.update+=Tick;return "Native live playback observation scheduled (~10 seconds engine time).";}
+}

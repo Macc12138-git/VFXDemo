@@ -1,0 +1,111 @@
+{
+  "effect": "EnergyCluster",
+  "version": "4.3-hybrid-20-shell-sdf",
+  "stage": "authoring / not Unity",
+  "provenance": "Approximate shell mask derived from author-supplied reference; realtime core/volume/glow/motes reconstructed.",
+  "sourceVersion": "3.0-reference-sequence",
+  "sourceAtlasSha256": "f2ee70d6436b2aca2d0b7eafdd70827d99d836132637a55e028c802f8b75f939",
+  "sourceFrameIndices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "frameCount": 20,
+  "fps": 41.66666666666667,
+  "duration": 0.48,
+  "loop": true,
+  "cellSize": [
+    256,
+    256
+  ],
+  "columns": 5,
+  "rows": 4,
+  "atlasSize": [
+    1280,
+    1024
+  ],
+  "order": "left-to-right, top-to-bottom",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "seed": 37,
+  "textures": [
+    {
+      "file": "Textures/EnergyCluster_ShellSDF.png",
+      "pngMode": "L",
+      "targetFormat": "R8 UNorm",
+      "colorSpace": "linear data (sRGB off)",
+      "channel": "R: signed distance, inside positive",
+      "decode": "(R * 2 - 1) * 10 pixels",
+      "filter": "bilinear",
+      "wrap": "clamp",
+      "mipmaps": false,
+      "sha256": "2e84497617fa9ce614853328fc47551f539855c4bf739e8cd6c3ddfa6ee711f0",
+      "pngBytes": 79405
+    }
+  ],
+  "animation": {
+    "shell": "20 shape frames with signed-distance interpolation; no optical-flow texture",
+    "core": "analytic disc, continuous size/intensity pulse",
+    "volume": "analytic sphere falloff + continuously orbiting cyan lobes",
+    "glow": "analytic radial additive light, independent intensity",
+    "motes": "deterministic short-life native-style line particles; no frame textures",
+    "clock": "per-instance seconds; frame phase = age * 41.66666666666667; loop 0.48 seconds",
+    "interpolationLimit": "Distance interpolation removes hold steps/alpha double-images but is not optical flow; fast topology changes may still contract."
+  },
+  "separationLimit": "Threshold/component approximation; connected jagged tips remain with shell. Not original artist layers or pixel-identical reconstruction.",
+  "resources": {
+    "baselineRGBA8NoMipsBytes": 3145728,
+    "R8NoMipsBytes": 1310720,
+    "R8ReductionPercent": 58.33333333333333,
+    "RGBA8FallbackNoMipsBytes": 5242880,
+    "baselineVersion": "3.2-256-reference-sequence",
+    "baselinePngBytes": 577139,
+    "shellPngBytes": 79405,
+    "note": "R8 capacity only; actual Unity format/platform memory and GPU sampling cost untested. RGBA fallback has no raw-memory saving."
+  },
+  "checks": {
+    "shellCoveragePixels": [
+      2027.0,
+      2027.0,
+      1979.0,
+      1984.0,
+      2357.0,
+      2616.0,
+      2666.0,
+      2605.0,
+      2095.0,
+      2415.0,
+      2445.0,
+      2789.0,
+      3104.0,
+      3052.0,
+      3039.0,
+      2378.0,
+      1996.0,
+      1747.0,
+      1626.0,
+      1659.0
+    ],
+    "sourceFilesUnchanged": true,
+    "noNewGIF": true
+  }
+}

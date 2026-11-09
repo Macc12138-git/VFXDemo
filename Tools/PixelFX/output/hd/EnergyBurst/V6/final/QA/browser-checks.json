@@ -1,0 +1,24 @@
+{
+  "kind": "observed browser authoring checks, not automated Unity tests",
+  "url": "http://127.0.0.1:8086/gallery/hd-energy-burst-v6.html?review=1",
+  "sourceSha256": "f5f30a1c59628b1f4fc9b8e2b99dbfd40383d2ac9a0afd0524a1e520ac181021",
+  "webglCompiled": true,
+  "consoleErrors": [],
+  "whiteRegression": [
+    {"radius": 180, "age": 0.36, "channelsDifferent": 0, "maxDifference255": 0},
+    {"radius": 180, "age": 0.25, "channelsDifferent": 1, "maxDifference255": 1},
+    {"radius": 90, "age": 0.36, "channelsDifferent": 0, "maxDifference255": 0},
+    {"radius": 220, "age": 0.67, "channelsDifferent": 0, "maxDifference255": 0},
+    {"radius": 180, "age": 0.5294117647, "duration": 1.5, "pulse": 0, "flow": 0, "channelsDifferent": 0, "maxDifference255": 0}
+  ],
+  "observed": [
+    "independent blue layer and retained white layer",
+    "0.25x and 1x dynamic playback",
+    "radius 90 and 220",
+    "default dark, checker and light backgrounds",
+    "duration 0.55 ends empty; 1.5 normalized phase test",
+    "default reset restores all layers, radius 180 and duration 1.02"
+  ],
+  "screenshots": ["browser-final.png", "browser-white-regression.png", "browser-light-r220.png"],
+  "limitations": ["author acceptance pending", "Unity not imported or tested", "PC player performance not measured"]
+}

@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "prefabs": [
+    "Assets/PixelFX/CyberOrb/Prefabs/CyberOrb_ProjectileVisual.prefab",
+    "Assets/PixelFX/CyberOrb/Prefabs/CyberOrb_Impact.prefab",
+    "Assets/PixelFX/CyberOrb/Prefabs/CyberOrb_Shot.prefab"
+  ],
+  "shader": true,
+  "shaderMessages": [],
+  "scene": "Assets/Scenes/VFXWorkbench.unity",
+  "oldRootsPreserved": true,
+  "sceneDirty": false
+}

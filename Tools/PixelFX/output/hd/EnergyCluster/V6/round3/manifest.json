@@ -1,0 +1,209 @@
+{
+  "effect": "EnergyCluster",
+  "version": "6.0-gray-alpha-round3",
+  "stage": "authoring / NOT Unity",
+  "provenance": "Reference-derived grayscale and alpha shell, approximate separation, not original artist layers or newly drawn animation",
+  "frameCount": 20,
+  "fps": 41.66666666666667,
+  "duration": 0.48,
+  "loop": true,
+  "originalDuration": 0.8,
+  "timeScaleVsOriginal": 1.6666666666666667,
+  "cellSize": [
+    256,
+    256
+  ],
+  "atlasSize": [
+    1280,
+    1024
+  ],
+  "columns": 5,
+  "rows": 4,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "source": {
+    "Tools/PixelFX/output/hd/EnergyCluster/V3/Frames/EnergyCluster_000.png": "7d4f4583a7f31041c9690d0ded5e5f7ed753f31a8cc396dc225e38edf58ac744",
+    "Tools/PixelFX/output/hd/EnergyCluster/V3/Frames/EnergyCluster_001.png": "690c392b94eeb6776fef945693d8d911e95e4fded4e4a7ce3cd54b8d22cad528",
+    "Tools/PixelFX/output/hd/EnergyCluster/V3/Frames/EnergyCluster_002.png": "f75b310aa8cc655dcb53f8d38b3d170f70791a6f930bb700bd97dcb5e57f21bc",
+    "Tools/PixelFX/output/hd/EnergyCluster/V3/Frames/EnergyCluster_003.png": "e0e4611d835cfba0db426eb730bc15284cdf44b994c29e676693977d4cdb396d",
+    "Tools/PixelFX/output/hd/EnergyCluster/V3/Frames/EnergyCluster_004.png": "274cbe6e4dd6c75a7414f596a2746f15e28909be36625027404e436c4fa74fdf",
+    "Tools/PixelFX/output/hd/EnergyCluster/V3/Frames/EnergyCluster_005.png": "1066e245bad41b138edf9e8de7591914a5efc9778d1dc0d973261062299bc057",
+    "Tools/PixelFX/output/hd/EnergyCluster/V3/Frames/EnergyCluster_006.png": "fffee7d1e4975ff1d9dc5aa3b5d3c2b69a9f31c1c3aa2e91a293ad1942d74f95",
+    "Tools/PixelFX/output/hd/EnergyCluster/V3/Frames/EnergyCluster_007.png": "0f63373a944938ebd12add5a5d607b8fab638127892b979feccafe24c98451c1",
+    "Tools/PixelFX/output/hd/EnergyCluster/V3/Frames/EnergyCluster_008.png": "2db88ef8469b05ea795666315e632a6eb8b1168de7ec46f8e9806886d4dd95e0",
+    "Tools/PixelFX/output/hd/EnergyCluster/V3/Frames/EnergyCluster_009.png": "0db515400b7e7572138c42fd90821666503779fa8e236974aaa81b01ae1755e2",
+    "Tools/PixelFX/output/hd/EnergyCluster/V3/Frames/EnergyCluster_010.png": "da2e9437d30112d9df20b33b943417b92a6eaa1061110926d3e8302083ebc0a8",
+    "Tools/PixelFX/output/hd/EnergyCluster/V3/Frames/EnergyCluster_011.png": "2f5eb735bd9760e4ea4b03a6f70ab6edbde8e15191a8809f8190cea8ca441349",
+    "Tools/PixelFX/output/hd/EnergyCluster/V3/Frames/EnergyCluster_012.png": "fbaa14dab5bb844496d8b8fe7cfc3e3c4d6382d42b9951843a32ad55e4fb3525",
+    "Tools/PixelFX/output/hd/EnergyCluster/V3/Frames/EnergyCluster_013.png": "4bdba6efaa4fbf34db159c5eeeea4717d74969b8b23dae2da3758b29f755f561",
+    "Tools/PixelFX/output/hd/EnergyCluster/V3/Frames/EnergyCluster_014.png": "cf736e2ac35c99c758dd52d40c8cd317d64d1c9059956cf1323301fb8ea90564",
+    "Tools/PixelFX/output/hd/EnergyCluster/V3/Frames/EnergyCluster_015.png": "9900d818c765780073f47669e45a3af33870af294f9a3e5af60915ccea6c4ceb",
+    "Tools/PixelFX/output/hd/EnergyCluster/V3/Frames/EnergyCluster_016.png": "2a87e2ea1eda52d364a045b811864e9696ec09506b86a68d9087120902f2214c",
+    "Tools/PixelFX/output/hd/EnergyCluster/V3/Frames/EnergyCluster_017.png": "f19f592c251fd095e75c53d2002e0c29da745b48396ab27b71b962ed141e0a71",
+    "Tools/PixelFX/output/hd/EnergyCluster/V3/Frames/EnergyCluster_018.png": "19684ff114662a8fd62960905293d51bfb1966cc5d730114f887c801ce37c248",
+    "Tools/PixelFX/output/hd/EnergyCluster/V3/Frames/EnergyCluster_019.png": "57dbc984e771b4ecafe70e47b937410e549980746d42114903bfc2adb5b5ec8a"
+  },
+  "uniformCropFromV3Frame": [
+    80,
+    80,
+    432,
+    432
+  ],
+  "coreSourceCenter": [
+    256,
+    252.5
+  ],
+  "shell": {
+    "pngMode": "LA",
+    "channels": "L=continuous gray tone, A=continuous opacity; NOT signed distance",
+    "raw": "Textures/EnergyCluster_ShellGrayAlpha.rg",
+    "targetFormat": "R8G8_UNorm (RG16), actual Unity format unverified",
+    "colorSpace": "linear data",
+    "filter": "Bilinear",
+    "wrap": "Clamp",
+    "mipmaps": false,
+    "rawBytes": 2621440,
+    "pngBytes": 651784
+  },
+  "profiles": {
+    "raw": "Textures/EnergyCluster_Profiles.rgba",
+    "dimensions": [
+      256,
+      1
+    ],
+    "count": 3,
+    "bytes": 3072,
+    "description": "Static radial premultiplied display RGB+opacity for volume; additive RGB for halo; core alpha. No temporal frames."
+  },
+  "metrics": [
+    {
+      "frame": 0,
+      "softAlphaPixels": 14695,
+      "grayscaleValues": 249,
+      "meanAbsRGB8": 8.987258493114119
+    },
+    {
+      "frame": 1,
+      "softAlphaPixels": 15370,
+      "grayscaleValues": 246,
+      "meanAbsRGB8": 3.5557572803257074
+    },
+    {
+      "frame": 2,
+      "softAlphaPixels": 17308,
+      "grayscaleValues": 251,
+      "meanAbsRGB8": 3.611099756719254
+    },
+    {
+      "frame": 3,
+      "softAlphaPixels": 17933,
+      "grayscaleValues": 251,
+      "meanAbsRGB8": 8.681850371461486
+    },
+    {
+      "frame": 4,
+      "softAlphaPixels": 19408,
+      "grayscaleValues": 249,
+      "meanAbsRGB8": 3.9087095437084254
+    },
+    {
+      "frame": 5,
+      "softAlphaPixels": 19715,
+      "grayscaleValues": 250,
+      "meanAbsRGB8": 6.488916653157833
+    },
+    {
+      "frame": 6,
+      "softAlphaPixels": 21609,
+      "grayscaleValues": 250,
+      "meanAbsRGB8": 4.214421748261838
+    },
+    {
+      "frame": 7,
+      "softAlphaPixels": 22377,
+      "grayscaleValues": 252,
+      "meanAbsRGB8": 8.865829723883325
+    },
+    {
+      "frame": 8,
+      "softAlphaPixels": 17970,
+      "grayscaleValues": 251,
+      "meanAbsRGB8": 3.9409956250171625
+    },
+    {
+      "frame": 9,
+      "softAlphaPixels": 17006,
+      "grayscaleValues": 246,
+      "meanAbsRGB8": 9.072517685011718
+    },
+    {
+      "frame": 10,
+      "softAlphaPixels": 16063,
+      "grayscaleValues": 245,
+      "meanAbsRGB8": 4.886707188198642
+    },
+    {
+      "frame": 11,
+      "softAlphaPixels": 17151,
+      "grayscaleValues": 244,
+      "meanAbsRGB8": 5.550473566376633
+    },
+    {
+      "frame": 12,
+      "softAlphaPixels": 18697,
+      "grayscaleValues": 249,
+      "meanAbsRGB8": 4.033886345524665
+    },
+    {
+      "frame": 13,
+      "softAlphaPixels": 19307,
+      "grayscaleValues": 251,
+      "meanAbsRGB8": 8.739094259235557
+    },
+    {
+      "frame": 14,
+      "softAlphaPixels": 22843,
+      "grayscaleValues": 249,
+      "meanAbsRGB8": 5.201450858936029
+    },
+    {
+      "frame": 15,
+      "softAlphaPixels": 18309,
+      "grayscaleValues": 252,
+      "meanAbsRGB8": 3.8807656897362786
+    },
+    {
+      "frame": 16,
+      "softAlphaPixels": 20257,
+      "grayscaleValues": 250,
+      "meanAbsRGB8": 4.8244820639361725
+    },
+    {
+      "frame": 17,
+      "softAlphaPixels": 17440,
+      "grayscaleValues": 248,
+      "meanAbsRGB8": 3.55259934408795
+    },
+    {
+      "frame": 18,
+      "softAlphaPixels": 17962,
+      "grayscaleValues": 249,
+      "meanAbsRGB8": 8.782925900505932
+    },
+    {
+      "frame": 19,
+      "softAlphaPixels": 11598,
+      "grayscaleValues": 247,
+      "meanAbsRGB8": 3.350516274800323
+    }
+  ],
+  "limitations": [
+    "R-channel background subtraction is approximate",
+    "Shell tone uses blue-white palette reconstruction, not exact original RGB",
+    "Core occlusion inferred from negative contrast",
+    "Reference-derived connected and detached tips remain in the shell frames",
+    "No Unity shader/API/PC performance validation"
+  ]
+}

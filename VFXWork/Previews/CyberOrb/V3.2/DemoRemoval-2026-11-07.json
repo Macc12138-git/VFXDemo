@@ -1,0 +1,51 @@
+{
+  "success": true,
+  "removedAsset": "Assets/PixelFX/CyberOrb/Prefabs/CyberOrb_Shot.prefab",
+  "removedInstance": "CyberOrb_Demo/NativeFlight_ToImpact",
+  "backup": "/Users/user/Desktop/VFXDemo/VFXDemo/VFXWork/Backups/CyberOrb/V3.2/RemoveDemo-2026-11-07",
+  "preservedComponents": 19,
+  "retainedAssetsUnchanged": true,
+  "remainingPrefabs": [
+    "Assets/PixelFX/CyberOrb/Prefabs/CyberOrb_Impact.prefab",
+    "Assets/PixelFX/CyberOrb/Prefabs/CyberOrb_ProjectileVisual.prefab"
+  ],
+  "scene": "Assets/Scenes/VFXWorkbench.unity",
+  "sceneDirty": false,
+  "remainingChildren": [
+    "Closeup_3x",
+    "Impact_3x"
+  ],
+  "retainedHashes": {
+    "Assets/PixelFX/CyberOrb/Docs.meta": "c80b8651c86924d3ca0f8430ce30a30c98aaa724785136ae0cb202b2e618c6c1",
+    "Assets/PixelFX/CyberOrb/Materials.meta": "67c8afb09d840d6471403f13b9c93e84fbf812fbd2cbce57e17cc147cfc5237b",
+    "Assets/PixelFX/CyberOrb/Meshes.meta": "6b2b086a390db6baa1342d07f0b2e714d9bf44ebe542000606131507e435bfec",
+    "Assets/PixelFX/CyberOrb/Prefabs.meta": "51ecc1d0bdc825e5646693a86b4172233a757d5af4872e3a004b2d474e981b04",
+    "Assets/PixelFX/CyberOrb/Shaders.meta": "0cc6a9061410de170ce7b8c23f0386146a5fc11fc1b7c635c005228fb8f67704",
+    "Assets/PixelFX/CyberOrb/Docs/README.md": "a5c26a39e82d0565bbcc66fbc7b4be11589314ae015bebf1fe36479c4efff7df",
+    "Assets/PixelFX/CyberOrb/Docs/README.md.meta": "d55726467234c810ad3b3346be017245207ce234bef0b1cfd76532491fd9f7bb",
+    "Assets/PixelFX/CyberOrb/Materials/BodyAndWake.mat": "b259c9bd9891b56693edc5cbceabc627f4c970065b2e0777b2ac968558aa853c",
+    "Assets/PixelFX/CyberOrb/Materials/BodyAndWake.mat.meta": "1abfb5427586058b0b8ad9ef1bc554b69e0f4da432204e6fa38c532808e2440b",
+    "Assets/PixelFX/CyberOrb/Materials/CompactGlow.mat": "1fb2c5f934788b6d72d9c66c60ce0df5f04f272b292c1548d68db4faa6b51736",
+    "Assets/PixelFX/CyberOrb/Materials/CompactGlow.mat.meta": "c5c6df428137be5c543242c92ca105a25495dec5203d08c65ba649ad83d7053e",
+    "Assets/PixelFX/CyberOrb/Materials/ImpactFlash.mat": "30b393b9aedfc346592c7fe44ed9ab3653712b7b9d48a40dbcb67310ba8e1eb9",
+    "Assets/PixelFX/CyberOrb/Materials/ImpactFlash.mat.meta": "377a227c953435c935a647fb0700e9d7fa6d97dae4efb5c5bc803d8ad84bed91",
+    "Assets/PixelFX/CyberOrb/Materials/ResidualWake.mat": "7d3ae501c63ecf7ed9b8d7b3e07c62100aef9d278891658e80b8f3021c75d1e6",
+    "Assets/PixelFX/CyberOrb/Materials/ResidualWake.mat.meta": "594f2066f19238dbf1908d3add41b644760b53f32e5f1d5ed93fbf1e56feb796",
+    "Assets/PixelFX/CyberOrb/Materials/Shards.mat": "9b40bb7de0cc962ca6e2ad7c9674e3e74a634b83642c84c7be7df3d4e5e58cc9",
+    "Assets/PixelFX/CyberOrb/Materials/Shards.mat.meta": "7d728fe66c11d944780a245a083ad8e5ea41e8785bba8e9916f29f1e47d32bd4",
+    "Assets/PixelFX/CyberOrb/Meshes/BodyTrail.asset": "5879a62e24b3ffd10cb16eab115f3f5ca0797c36c986f2bff11b4b46825620a1",
+    "Assets/PixelFX/CyberOrb/Meshes/BodyTrail.asset.meta": "ac8923a56f7e80f48a3cc0017fbd334560c118446f2e1cd3d11883bf995f7e9b",
+    "Assets/PixelFX/CyberOrb/Meshes/CompactGlow.asset": "9642bd5419ed0ab0d49b9c9fc5cf93c79c5a7c83eeeccfe3b4e21eb988ae9e6c",
+    "Assets/PixelFX/CyberOrb/Meshes/CompactGlow.asset.meta": "1f88152659da44eabc5e5fd6266588ab57bf1aaefabb13545f32a142ecf1d973",
+    "Assets/PixelFX/CyberOrb/Meshes/ImpactFlash.asset": "fa6a77c2a0819661c5cce3faff322526833cc263eb4736752b071df96df236e1",
+    "Assets/PixelFX/CyberOrb/Meshes/ImpactFlash.asset.meta": "3a9f872182c7f22dae3563134f78023d3252e5a8c97c7f58151187f5a91e5da8",
+    "Assets/PixelFX/CyberOrb/Meshes/ResidualTail.asset": "ebd7b79d8617b83debfc18a2a110a2a7cca00559c876a5c418e8b1038be14aea",
+    "Assets/PixelFX/CyberOrb/Meshes/ResidualTail.asset.meta": "a95745219a9783319bdb7fe5804c5e71d8dbddc5bb1259c918cf47b945cd737b",
+    "Assets/PixelFX/CyberOrb/Prefabs/CyberOrb_Impact.prefab": "05ddd3cd8b51f85580116589c0155756a255a63de17ae7b7fa28abce906db233",
+    "Assets/PixelFX/CyberOrb/Prefabs/CyberOrb_Impact.prefab.meta": "9155794aa9cf88ce7bce00d22938022918a7fe895a5b17fc026216e1c6213319",
+    "Assets/PixelFX/CyberOrb/Prefabs/CyberOrb_ProjectileVisual.prefab": "944c7211ed5aa212bd4a604fcdca0e56bab1f005c1c0fa648ad4dd71f3e7fd15",
+    "Assets/PixelFX/CyberOrb/Prefabs/CyberOrb_ProjectileVisual.prefab.meta": "89cfa1fc298443bd068458e7bc811fc405cab80b0ccd7fe1412b7ca2533945fc",
+    "Assets/PixelFX/CyberOrb/Shaders/CyberOrbNative.shader": "d171c275f51993378741e3d609ec240507068efb6b894e01ab524c63fa27a92c",
+    "Assets/PixelFX/CyberOrb/Shaders/CyberOrbNative.shader.meta": "1f30103b281a2d6d9f53253a61760ad08a24c0ee4f07dc230208f0ba30ebaf6b"
+  }
+}

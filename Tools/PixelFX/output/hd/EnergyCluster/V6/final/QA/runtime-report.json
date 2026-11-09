@@ -1,0 +1,44 @@
+{
+  "result": "PASS",
+  "samples": 40560,
+  "maxLoop": 0,
+  "meanNearBoundaryAlphaDelta": 8.101765815736382e-11,
+  "sourceSha256": "3fae51f92d2f11a9cfa446325f7ab87af37e56723500a057dc30e427b1b0b8f7",
+  "rawSha256": "7d953a1f7ade42c693bcae07fb745830a0861c6eeebb2f29f390c9c43def3670",
+  "meta": {
+    "name": "能量团 · 灰阶壳层混合版",
+    "version": "6.0",
+    "duration": 0.48,
+    "fps": 41.66666666666667,
+    "frameCount": 20,
+    "loop": true,
+    "options": {
+      "seed": 37,
+      "interpolation": "short",
+      "glow": 1,
+      "volume": 1,
+      "shellOpacity": 1,
+      "shellHot": "#ffffff",
+      "shellCool": "#0073ff",
+      "coreColor": "#fbfcff",
+      "bodyColor": "#2458ff",
+      "innerColor": "#45b5ff",
+      "glowColor": "#1440ff"
+    }
+  },
+  "checks": [
+    "finite field and all 20 frame boundaries",
+    "exact cyclic repeat",
+    "short premultiplied transitions continuous",
+    "disabled layers empty",
+    "shell opacity 0 equals shell off",
+    "disabled-shell color independence",
+    "radial profiles end empty",
+    "deterministic source"
+  ],
+  "limits": [
+    "Not optical-flow interpolation or new inbetween shapes",
+    "CPU reference only; WebGL playback/controls verified separately",
+    "No Unity or target PC performance claim"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "result": "PASS",
+  "samples": 48672,
+  "maxOutside": 0,
+  "sourceSha256": "ac6d1fbd62229ba5f43bb88c6b1aac71075d9549871b9ea3fe19440b2d82e043",
+  "noiseSha256": "361e30fb529c4525d382534fe18f0a67826a122ac5db61cb62f9a30c57dc1a10",
+  "meta": {
+    "id": "hd/energy-burst",
+    "name": "湛蓝能量爆炸",
+    "version": "1.0-r3",
+    "duration": 0.82,
+    "loop": false,
+    "fps": 60,
+    "options": {
+      "seed": 37,
+      "radius": 180,
+      "duration": 0.82,
+      "initialSize": 28,
+      "strength": 1,
+      "glow": 0.65,
+      "hotColor": "#f8fcff",
+      "bodyColor": "#235fff",
+      "edgeColor": "#75caff",
+      "glowColor": "#164bff"
+    }
+  },
+  "checks": [
+    "one-shot ends empty",
+    "finite field at seeds/radii/time endpoints",
+    "maximum support <= 1.08 R",
+    "all layers off",
+    "strength zero",
+    "deterministic",
+    "disabled hot layers independent",
+    "no EnergyCluster runtime dependency"
+  ],
+  "limits": [
+    "CPU authoring check, not Unity/PC performance",
+    "Browser WebGL playback and controls checked separately",
+    "Radius is visual, not gameplay damage"
+  ]
+}

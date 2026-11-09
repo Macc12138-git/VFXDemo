@@ -1,0 +1,30 @@
+{
+  "id": "hd/energy-burst-v7",
+  "name": "圆形能量爆炸 · 硬笔触扩散",
+  "version": "7.0",
+  "duration": 1.02,
+  "loop": false,
+  "fps": 60,
+  "options": {
+    "seed": 37,
+    "radius": 180,
+    "duration": 1.02,
+    "charge": 0.14,
+    "strength": 1,
+    "body": 1,
+    "electric": 1,
+    "glow": 0.65,
+    "hotColor": "#ffffff",
+    "bodyColor": "#2458ff",
+    "edgeColor": "#a7c6ff",
+    "electricColor": "#f1f6ff",
+    "glowColor": "#1440ff",
+    "pulse": 0.35,
+    "flow": 0.7,
+    "mistColor": "#508cff"
+  },
+  "sourceSha256": "413a9857dd4253bd4fa72afbc1d95e750dd2d4e71a9d8287ca106da0641eb167",
+  "baseVersion": "V5 white folds / charge / current paths",
+  "texture": "same 128px static noise, no new atlas",
+  "unity": false
+}

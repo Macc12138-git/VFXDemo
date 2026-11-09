@@ -1,0 +1,774 @@
+{
+  "method": "Static Edit Mode native Simulate, not actual playback",
+  "shaderMessages": [],
+  "structure": [
+    {
+      "name": "ProjectileVisual",
+      "components": [
+        "Transform",
+        "ParticleSystem",
+        "ParticleSystemRenderer"
+      ],
+      "systems": [
+        {
+          "name": "BodyAndWake",
+          "loop": true,
+          "lifeMin": 0.0,
+          "lifeMax": 4.0,
+          "space": "Local",
+          "autoSeed": false,
+          "subEmitters": 0,
+          "textureSheet": false,
+          "lights": false,
+          "material": "BodyAndWake"
+        },
+        {
+          "name": "CompactGlow",
+          "loop": true,
+          "lifeMin": 0.0,
+          "lifeMax": 4.0,
+          "space": "Local",
+          "autoSeed": false,
+          "subEmitters": 0,
+          "textureSheet": false,
+          "lights": false,
+          "material": "CompactGlow"
+        }
+      ]
+    },
+    {
+      "name": "Impact",
+      "components": [
+        "Transform",
+        "ParticleSystem",
+        "ParticleSystemRenderer"
+      ],
+      "systems": [
+        {
+          "name": "CyberOrb_Impact",
+          "loop": false,
+          "lifeMin": 0.0,
+          "lifeMax": 0.085,
+          "space": "World",
+          "autoSeed": false,
+          "subEmitters": 2,
+          "textureSheet": false,
+          "lights": false,
+          "material": "ImpactFlash"
+        },
+        {
+          "name": "Shards",
+          "loop": false,
+          "lifeMin": 0.13,
+          "lifeMax": 0.18,
+          "space": "World",
+          "autoSeed": true,
+          "subEmitters": 0,
+          "textureSheet": false,
+          "lights": false,
+          "material": "Shards"
+        },
+        {
+          "name": "ResidualWake",
+          "loop": false,
+          "lifeMin": 0.0,
+          "lifeMax": 0.035,
+          "space": "World",
+          "autoSeed": false,
+          "subEmitters": 0,
+          "textureSheet": false,
+          "lights": false,
+          "material": "ResidualWake"
+        }
+      ]
+    },
+    {
+      "name": "Shot",
+      "components": [
+        "Transform",
+        "ParticleSystem",
+        "ParticleSystemRenderer"
+      ],
+      "systems": [
+        {
+          "name": "BodyAndWake",
+          "loop": false,
+          "lifeMin": 0.0,
+          "lifeMax": 0.5,
+          "space": "Local",
+          "autoSeed": false,
+          "subEmitters": 1,
+          "textureSheet": false,
+          "lights": false,
+          "material": "BodyAndWake"
+        },
+        {
+          "name": "CyberOrb_Impact",
+          "loop": false,
+          "lifeMin": 0.0,
+          "lifeMax": 0.085,
+          "space": "World",
+          "autoSeed": false,
+          "subEmitters": 2,
+          "textureSheet": false,
+          "lights": false,
+          "material": "ImpactFlash"
+        },
+        {
+          "name": "Shards",
+          "loop": false,
+          "lifeMin": 0.13,
+          "lifeMax": 0.18,
+          "space": "World",
+          "autoSeed": true,
+          "subEmitters": 0,
+          "textureSheet": false,
+          "lights": false,
+          "material": "Shards"
+        },
+        {
+          "name": "ResidualWake",
+          "loop": false,
+          "lifeMin": 0.0,
+          "lifeMax": 0.035,
+          "space": "World",
+          "autoSeed": false,
+          "subEmitters": 0,
+          "textureSheet": false,
+          "lights": false,
+          "material": "ResidualWake"
+        },
+        {
+          "name": "CompactGlow",
+          "loop": false,
+          "lifeMin": 0.0,
+          "lifeMax": 0.5,
+          "space": "Local",
+          "autoSeed": false,
+          "subEmitters": 0,
+          "textureSheet": false,
+          "lights": false,
+          "material": "CompactGlow"
+        }
+      ]
+    }
+  ],
+  "paletteTests": [
+    {
+      "prop": "_Core",
+      "mutePixels": 4738,
+      "huePixels": 4706
+    },
+    {
+      "prop": "_Outline",
+      "mutePixels": 3078,
+      "huePixels": 2990
+    },
+    {
+      "prop": "_Rim",
+      "mutePixels": 2062,
+      "huePixels": 2062
+    },
+    {
+      "prop": "_Trail",
+      "mutePixels": 744,
+      "huePixels": 746
+    },
+    {
+      "prop": "_Glow",
+      "changedPixels": 1200
+    }
+  ],
+  "samples": [
+    {
+      "name": "Flight_Dark",
+      "prefab": "ProjectileVisual",
+      "time": 1.0,
+      "light": false,
+      "seed": 42,
+      "property": null,
+      "visible": 9270,
+      "center": "RGBA(244, 254, 255, 255)",
+      "background": "RGBA(8, 16, 32, 255)",
+      "systems": [
+        {
+          "name": "BodyAndWake",
+          "count": 1,
+          "time": 0.9999942
+        },
+        {
+          "name": "CompactGlow",
+          "count": 1,
+          "time": 0.9999942
+        }
+      ]
+    },
+    {
+      "name": "Flight_Light",
+      "prefab": "ProjectileVisual",
+      "time": 1.0,
+      "light": true,
+      "seed": 42,
+      "property": null,
+      "visible": 8156,
+      "center": "RGBA(244, 254, 255, 255)",
+      "background": "RGBA(217, 223, 227, 255)",
+      "systems": [
+        {
+          "name": "BodyAndWake",
+          "count": 1,
+          "time": 0.9999942
+        },
+        {
+          "name": "CompactGlow",
+          "count": 1,
+          "time": 0.9999942
+        }
+      ]
+    },
+    {
+      "name": "Flight_GameSize",
+      "prefab": "ProjectileVisual",
+      "time": 1.0,
+      "light": false,
+      "seed": 42,
+      "property": null,
+      "visible": 408,
+      "center": "RGBA(8, 16, 32, 255)",
+      "background": "RGBA(8, 16, 32, 255)",
+      "systems": [
+        {
+          "name": "BodyAndWake",
+          "count": 1,
+          "time": 0.9999942
+        },
+        {
+          "name": "CompactGlow",
+          "count": 1,
+          "time": 0.9999942
+        }
+      ]
+    },
+    {
+      "name": "Impact_0",
+      "prefab": "Impact",
+      "time": 0.0,
+      "light": false,
+      "seed": 42,
+      "property": null,
+      "visible": 0,
+      "center": "RGBA(8, 16, 32, 255)",
+      "background": "RGBA(8, 16, 32, 255)",
+      "systems": [
+        {
+          "name": "CyberOrb_Impact(Clone)",
+          "count": 0,
+          "time": 0.0
+        },
+        {
+          "name": "Shards",
+          "count": 0,
+          "time": 0.0
+        },
+        {
+          "name": "ResidualWake",
+          "count": 0,
+          "time": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Impact_16",
+      "prefab": "Impact",
+      "time": 0.016,
+      "light": false,
+      "seed": 42,
+      "property": null,
+      "visible": 2912,
+      "center": "RGBA(243, 253, 255, 255)",
+      "background": "RGBA(8, 16, 32, 255)",
+      "systems": [
+        {
+          "name": "CyberOrb_Impact(Clone)",
+          "count": 1,
+          "time": 0.016
+        },
+        {
+          "name": "Shards",
+          "count": 4,
+          "time": 0.016
+        },
+        {
+          "name": "ResidualWake",
+          "count": 1,
+          "time": 0.016
+        }
+      ]
+    },
+    {
+      "name": "Impact_50",
+      "prefab": "Impact",
+      "time": 0.05,
+      "light": false,
+      "seed": 42,
+      "property": null,
+      "visible": 1736,
+      "center": "RGBA(188, 202, 231, 255)",
+      "background": "RGBA(8, 16, 32, 255)",
+      "systems": [
+        {
+          "name": "CyberOrb_Impact(Clone)",
+          "count": 1,
+          "time": 0.05
+        },
+        {
+          "name": "Shards",
+          "count": 4,
+          "time": 0.05
+        },
+        {
+          "name": "ResidualWake",
+          "count": 0,
+          "time": 0.05
+        }
+      ]
+    },
+    {
+      "name": "Impact_90",
+      "prefab": "Impact",
+      "time": 0.09,
+      "light": false,
+      "seed": 42,
+      "property": null,
+      "visible": 348,
+      "center": "RGBA(8, 16, 32, 255)",
+      "background": "RGBA(8, 16, 32, 255)",
+      "systems": [
+        {
+          "name": "CyberOrb_Impact(Clone)",
+          "count": 0,
+          "time": 0.08999996
+        },
+        {
+          "name": "Shards",
+          "count": 4,
+          "time": 0.08999996
+        },
+        {
+          "name": "ResidualWake",
+          "count": 0,
+          "time": 0.08999996
+        }
+      ]
+    },
+    {
+      "name": "Impact_150",
+      "prefab": "Impact",
+      "time": 0.15,
+      "light": false,
+      "seed": 42,
+      "property": null,
+      "visible": 101,
+      "center": "RGBA(8, 16, 32, 255)",
+      "background": "RGBA(8, 16, 32, 255)",
+      "systems": [
+        {
+          "name": "CyberOrb_Impact(Clone)",
+          "count": 0,
+          "time": 0.149999946
+        },
+        {
+          "name": "Shards",
+          "count": 3,
+          "time": 0.149999946
+        },
+        {
+          "name": "ResidualWake",
+          "count": 0,
+          "time": 0.149999946
+        }
+      ]
+    },
+    {
+      "name": "Impact_210",
+      "prefab": "Impact",
+      "time": 0.21,
+      "light": false,
+      "seed": 42,
+      "property": null,
+      "visible": 0,
+      "center": "RGBA(8, 16, 32, 255)",
+      "background": "RGBA(8, 16, 32, 255)",
+      "systems": [
+        {
+          "name": "CyberOrb_Impact(Clone)",
+          "count": 0,
+          "time": 0.2
+        },
+        {
+          "name": "Shards",
+          "count": 0,
+          "time": 0.2
+        },
+        {
+          "name": "ResidualWake",
+          "count": 0,
+          "time": 0.2
+        }
+      ]
+    },
+    {
+      "name": "Impact_Light",
+      "prefab": "Impact",
+      "time": 0.016,
+      "light": true,
+      "seed": 42,
+      "property": null,
+      "visible": 2851,
+      "center": "RGBA(243, 253, 255, 255)",
+      "background": "RGBA(217, 223, 227, 255)",
+      "systems": [
+        {
+          "name": "CyberOrb_Impact(Clone)",
+          "count": 1,
+          "time": 0.016
+        },
+        {
+          "name": "Shards",
+          "count": 4,
+          "time": 0.016
+        },
+        {
+          "name": "ResidualWake",
+          "count": 1,
+          "time": 0.016
+        }
+      ]
+    },
+    {
+      "name": "Impact_Seed1",
+      "prefab": "Impact",
+      "time": 0.07,
+      "light": false,
+      "seed": 1,
+      "property": null,
+      "visible": 1167,
+      "center": "RGBA(130, 142, 175, 255)",
+      "background": "RGBA(8, 16, 32, 255)",
+      "systems": [
+        {
+          "name": "CyberOrb_Impact(Clone)",
+          "count": 1,
+          "time": 0.06999999
+        },
+        {
+          "name": "Shards",
+          "count": 4,
+          "time": 0.06999999
+        },
+        {
+          "name": "ResidualWake",
+          "count": 0,
+          "time": 0.06999999
+        }
+      ]
+    },
+    {
+      "name": "Impact_Seed179",
+      "prefab": "Impact",
+      "time": 0.07,
+      "light": false,
+      "seed": 179,
+      "property": null,
+      "visible": 1178,
+      "center": "RGBA(130, 142, 175, 255)",
+      "background": "RGBA(8, 16, 32, 255)",
+      "systems": [
+        {
+          "name": "CyberOrb_Impact(Clone)",
+          "count": 1,
+          "time": 0.06999999
+        },
+        {
+          "name": "Shards",
+          "count": 4,
+          "time": 0.06999999
+        },
+        {
+          "name": "ResidualWake",
+          "count": 0,
+          "time": 0.06999999
+        }
+      ]
+    },
+    {
+      "name": "Shard_Only",
+      "prefab": "Impact",
+      "time": 0.09,
+      "light": false,
+      "seed": 42,
+      "property": null,
+      "visible": 348,
+      "center": "RGBA(8, 16, 32, 255)",
+      "background": "RGBA(8, 16, 32, 255)",
+      "systems": [
+        {
+          "name": "CyberOrb_Impact(Clone)",
+          "count": 0,
+          "time": 0.08999996
+        },
+        {
+          "name": "Shards",
+          "count": 4,
+          "time": 0.08999996
+        },
+        {
+          "name": "ResidualWake",
+          "count": 0,
+          "time": 0.08999996
+        }
+      ]
+    },
+    {
+      "name": "Shard_SolidProbe",
+      "prefab": "Impact",
+      "time": 0.09,
+      "light": false,
+      "seed": 42,
+      "property": "_Role",
+      "visible": 561,
+      "center": "RGBA(8, 16, 32, 255)",
+      "background": "RGBA(8, 16, 32, 255)",
+      "systems": [
+        {
+          "name": "CyberOrb_Impact(Clone)",
+          "count": 0,
+          "time": 0.08999996
+        },
+        {
+          "name": "Shards",
+          "count": 4,
+          "time": 0.08999996
+        },
+        {
+          "name": "ResidualWake",
+          "count": 0,
+          "time": 0.08999996
+        }
+      ]
+    },
+    {
+      "name": "Mute_Core",
+      "prefab": "ProjectileVisual",
+      "time": 1.0,
+      "light": false,
+      "seed": 42,
+      "property": "_Core",
+      "visible": 9270,
+      "center": "RGBA(36, 51, 63, 255)",
+      "background": "RGBA(8, 16, 32, 255)",
+      "systems": [
+        {
+          "name": "BodyAndWake",
+          "count": 1,
+          "time": 0.9999942
+        },
+        {
+          "name": "CompactGlow",
+          "count": 1,
+          "time": 0.9999942
+        }
+      ]
+    },
+    {
+      "name": "Recolor_Core",
+      "prefab": "ProjectileVisual",
+      "time": 1.0,
+      "light": false,
+      "seed": 42,
+      "property": "_Core",
+      "visible": 9270,
+      "center": "RGBA(255, 25, 102, 255)",
+      "background": "RGBA(8, 16, 32, 255)",
+      "systems": [
+        {
+          "name": "BodyAndWake",
+          "count": 1,
+          "time": 0.9999942
+        },
+        {
+          "name": "CompactGlow",
+          "count": 1,
+          "time": 0.9999942
+        }
+      ]
+    },
+    {
+      "name": "Mute_Outline",
+      "prefab": "ProjectileVisual",
+      "time": 1.0,
+      "light": false,
+      "seed": 42,
+      "property": "_Outline",
+      "visible": 7952,
+      "center": "RGBA(244, 254, 255, 255)",
+      "background": "RGBA(8, 16, 32, 255)",
+      "systems": [
+        {
+          "name": "BodyAndWake",
+          "count": 1,
+          "time": 0.9999942
+        },
+        {
+          "name": "CompactGlow",
+          "count": 1,
+          "time": 0.9999942
+        }
+      ]
+    },
+    {
+      "name": "Recolor_Outline",
+      "prefab": "ProjectileVisual",
+      "time": 1.0,
+      "light": false,
+      "seed": 42,
+      "property": "_Outline",
+      "visible": 9000,
+      "center": "RGBA(244, 254, 255, 255)",
+      "background": "RGBA(8, 16, 32, 255)",
+      "systems": [
+        {
+          "name": "BodyAndWake",
+          "count": 1,
+          "time": 0.9999942
+        },
+        {
+          "name": "CompactGlow",
+          "count": 1,
+          "time": 0.9999942
+        }
+      ]
+    },
+    {
+      "name": "Mute_Rim",
+      "prefab": "ProjectileVisual",
+      "time": 1.0,
+      "light": false,
+      "seed": 42,
+      "property": "_Rim",
+      "visible": 8130,
+      "center": "RGBA(244, 254, 255, 255)",
+      "background": "RGBA(8, 16, 32, 255)",
+      "systems": [
+        {
+          "name": "BodyAndWake",
+          "count": 1,
+          "time": 0.9999942
+        },
+        {
+          "name": "CompactGlow",
+          "count": 1,
+          "time": 0.9999942
+        }
+      ]
+    },
+    {
+      "name": "Recolor_Rim",
+      "prefab": "ProjectileVisual",
+      "time": 1.0,
+      "light": false,
+      "seed": 42,
+      "property": "_Rim",
+      "visible": 9268,
+      "center": "RGBA(244, 254, 255, 255)",
+      "background": "RGBA(8, 16, 32, 255)",
+      "systems": [
+        {
+          "name": "BodyAndWake",
+          "count": 1,
+          "time": 0.9999942
+        },
+        {
+          "name": "CompactGlow",
+          "count": 1,
+          "time": 0.9999942
+        }
+      ]
+    },
+    {
+      "name": "Mute_Trail",
+      "prefab": "ProjectileVisual",
+      "time": 1.0,
+      "light": false,
+      "seed": 42,
+      "property": "_Trail",
+      "visible": 9150,
+      "center": "RGBA(244, 254, 255, 255)",
+      "background": "RGBA(8, 16, 32, 255)",
+      "systems": [
+        {
+          "name": "BodyAndWake",
+          "count": 1,
+          "time": 0.9999942
+        },
+        {
+          "name": "CompactGlow",
+          "count": 1,
+          "time": 0.9999942
+        }
+      ]
+    },
+    {
+      "name": "Recolor_Trail",
+      "prefab": "ProjectileVisual",
+      "time": 1.0,
+      "light": false,
+      "seed": 42,
+      "property": "_Trail",
+      "visible": 9272,
+      "center": "RGBA(244, 254, 255, 255)",
+      "background": "RGBA(8, 16, 32, 255)",
+      "systems": [
+        {
+          "name": "BodyAndWake",
+          "count": 1,
+          "time": 0.9999942
+        },
+        {
+          "name": "CompactGlow",
+          "count": 1,
+          "time": 0.9999942
+        }
+      ]
+    },
+    {
+      "name": "Glow_Off",
+      "prefab": "ProjectileVisual",
+      "time": 1.0,
+      "light": false,
+      "seed": 42,
+      "property": "_Glow",
+      "visible": 8340,
+      "center": "RGBA(244, 254, 255, 255)",
+      "background": "RGBA(8, 16, 32, 255)",
+      "systems": [
+        {
+          "name": "BodyAndWake",
+          "count": 1,
+          "time": 0.9999942
+        },
+        {
+          "name": "CompactGlow",
+          "count": 1,
+          "time": 0.9999942
+        }
+      ]
+    }
+  ],
+  "resourceMemory": {
+    "meshes": 9184,
+    "materials": 6320,
+    "textures": 0
+  },
+  "sceneDirty": false
+}

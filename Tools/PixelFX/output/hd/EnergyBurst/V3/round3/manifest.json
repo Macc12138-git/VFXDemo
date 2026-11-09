@@ -1,0 +1,41 @@
+{
+  "effect": "EnergyBurst",
+  "stage": "authoring only / NOT Unity",
+  "id": "hd/energy-burst-v3",
+  "name": "湛蓝能量爆炸 · 窄环细节",
+  "version": "3.0",
+  "duration": 0.82,
+  "loop": false,
+  "fps": 60,
+  "options": {
+    "seed": 37,
+    "radius": 180,
+    "duration": 0.82,
+    "initialSize": 28,
+    "strength": 1,
+    "glow": 0.65,
+    "ringWidth": 0.52,
+    "detailAmount": 1,
+    "hotColor": "#ffffff",
+    "bodyColor": "#2458ff",
+    "edgeColor": "#45b5ff",
+    "glowColor": "#1440ff",
+    "detailColor": "#eff4ff"
+  },
+  "sourceSha256": "39b82900db54d611bfdde7f57b2c2cdf38aee3b6a436fa0eb3c60f448245ede2",
+  "noiseSha256": "361e30fb529c4525d382534fe18f0a67826a122ac5db61cb62f9a30c57dc1a10",
+  "dataTexture": {
+    "size": [
+      256,
+      256
+    ],
+    "channels": "R=coarse shape noise, G=erosion, B=fine detail reserve, A=255",
+    "space": "linear data",
+    "filter": "bilinear",
+    "wrap": "repeat",
+    "mipmap": false,
+    "bytes": 262144
+  },
+  "bounds": "main body within R, low light padding <= 1.08 R",
+  "newFlipbook": false
+}

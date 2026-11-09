@@ -1,0 +1,20 @@
+{
+  "result": "PASS",
+  "round": "round1",
+  "sourceSha256": "9d737ec8f4101cfa82b56af6c43f821e87d7aeff4f68e5a0efd90f3e41a20f96",
+  "count": 1320,
+  "seamMax": 0,
+  "nearLoopMean": 0.000001548163961533758,
+  "mean60HzCoverageChange": 0.01649343355183831,
+  "checks": [
+    "static deterministic data",
+    "exact loop",
+    "UV U seam",
+    "dissolve=1 shell cleared",
+    "finite field",
+    "all layers disabled",
+    "disabled-back-color independence",
+    "indexed mesh bounds"
+  ],
+  "limitation": "CPU approximation only; actual WebGL visual/controls/playback checked separately. Not a Unity performance validation."
+}

@@ -1,0 +1,50 @@
+{
+  "result": "PASS",
+  "sourceSha256": "f30232e2b036856ad42fae9d5bbc4fde5ff1c68c9bbc7d73f41970cda5bbd6e0",
+  "checks": 15210,
+  "whiteRegression": 10890,
+  "parameterChecks": 270,
+  "recolored": 161,
+  "maxAlphaR": 1.053694843996398,
+  "meta": {
+    "id": "hd/energy-burst-v7",
+    "name": "圆形能量爆炸 · 硬笔触扩散",
+    "version": "7.0",
+    "duration": 1.02,
+    "loop": false,
+    "fps": 60,
+    "options": {
+      "seed": 37,
+      "radius": 180,
+      "duration": 1.02,
+      "charge": 0.14,
+      "strength": 1,
+      "body": 1,
+      "electric": 1,
+      "glow": 0.65,
+      "hotColor": "#ffffff",
+      "bodyColor": "#2458ff",
+      "edgeColor": "#a7c6ff",
+      "electricColor": "#f1f6ff",
+      "glowColor": "#1440ff",
+      "pulse": 0.35,
+      "flow": 0.7,
+      "mistColor": "#508cff"
+    }
+  },
+  "checksPassed": [
+    "finite arbitrary-age field",
+    "starts and ends empty",
+    "V5 isolated white highlights exact equality",
+    "V5 electric paths unchanged",
+    "pulse and flow change blue energy",
+    "all layers off empty and pulse/flow endpoints finite",
+    "mist color changes only blue color, not coverage/light/white",
+    "duration scaling",
+    "visible alpha bounded without clipping"
+  ],
+  "limitations": [
+    "CPU authoring checks; browser WebGL separately inspected",
+    "not Unity or PC performance"
+  ]
+}

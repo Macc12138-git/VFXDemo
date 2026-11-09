@@ -1,0 +1,37 @@
+{
+  "result": "PASS",
+  "round": "round1",
+  "sourceSha256": "3262e1c1a4087ef5f33fc901e3ff33a10695f1e0f4b704b787241665f9498d64",
+  "meta": {
+    "name": "能量团 · 混合分层",
+    "version": "4.0",
+    "duration": 0.48,
+    "fps": 25,
+    "loop": true,
+    "options": {
+      "seed": 37,
+      "interpolation": "distance",
+      "glow": 0.72,
+      "pulse": 0.018,
+      "coreColor": "#f2ffff",
+      "innerColor": "#28c9ff",
+      "bodyColor": "#164aff",
+      "shellColor": "#e6f3ff",
+      "arcColor": "#c7eaff"
+    }
+  },
+  "fieldCount": 38988,
+  "nearBoundaryMeanAlphaDelta": 0.000002367024725721798,
+  "stepBoundaryMeanAlphaDelta": 0.05948122774837414,
+  "checks": [
+    "CPU finite field",
+    "disabled layers empty",
+    "12 subframe contacts",
+    "all-background scale samples",
+    "shell exact loop",
+    "motes 3 seeds and loop",
+    "distance interpolation continuity",
+    "deterministic authoring"
+  ],
+  "limitation": "Continuity is not proof of perceptual quality, correspondence or target GPU performance. Browser shader/playback checked separately."
+}

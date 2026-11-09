@@ -1,0 +1,78 @@
+{
+  "effect": "CyberOrb",
+  "version": "V3.2",
+  "authorization": "导入到unity",
+  "sourceHash": "2c2c883a4a53931d287b4a32b7b0729ce421bb08723e38a83050ba5644b6450d",
+  "helpers": [
+    {
+      "path": "Tools/PixelFX/src/hd/cyber-orb-v3.js",
+      "sha256": "768180dff97adf5fcaab8107745997ea2d1b0c295428de20506473c95403da79"
+    },
+    {
+      "path": "Tools/PixelFX/src/hd/cyber-orb-v3-1.js",
+      "sha256": "4987e9c991270955c18d5528deb01e9582ade69c4a76a3876fbaad2312a6231b"
+    },
+    {
+      "path": "Tools/PixelFX/src/hd/cyber-orb-v3-2.js",
+      "sha256": "2c2c883a4a53931d287b4a32b7b0729ce421bb08723e38a83050ba5644b6450d"
+    }
+  ],
+  "options": {
+    "seed": 42,
+    "radius": 14,
+    "speed": 1200,
+    "tailLength": 2.8,
+    "tailWidth": 0.63,
+    "tailOpacity": 1,
+    "motion": "straight",
+    "core": "#f4feff",
+    "rim": "#65e5ff",
+    "trail": "#2674ff",
+    "hitScale": 1,
+    "outlineWidth": 0.14,
+    "outline": "#9edfff",
+    "glow": 0.55,
+    "glowRadius": 1.35
+  },
+  "seed": 42,
+  "units": "100 source pixels per Unity unit; XY plane, local +X flight direction; head pivot at origin",
+  "staticFrames": 1,
+  "animationTextures": false,
+  "textures": [],
+  "meshes": [
+    {
+      "name": "BodyTrail",
+      "vertices": 5,
+      "triangles": 4
+    },
+    {
+      "name": "CompactGlow",
+      "vertices": 5,
+      "triangles": 4
+    },
+    {
+      "name": "ResidualTail",
+      "vertices": 5,
+      "triangles": 4
+    },
+    {
+      "name": "ImpactFlash",
+      "vertices": 18,
+      "triangles": 16
+    }
+  ],
+  "implementation": "Static element meshes + analytic URP color/additive shader + native Particle Systems. Separate projectile visual and impact. Native shot demonstration uses velocity and Death/Birth sub-emitters, not runtime code.",
+  "timing": {
+    "visualLoop": 4,
+    "demonstrationFlight": 0.5,
+    "demonstrationSpeed": 12,
+    "impact": 0.2
+  },
+  "approximations": [
+    "Default straight short wake is head-local, not a history-following curved trail.",
+    "Native four-shard shape/lifetime/velocity ranges preserve the compact left-biased burst, not fixed-seed per-shard identity.",
+    "Native demo death is a 0.5s flight demonstration, not gameplay collision logic.",
+    "Canvas sRGB/additive and Unity Linear/Metal need visual calibration."
+  ],
+  "targetBudget": "Not supplied; local Editor 0/1/8/32 exploratory baselines, not device acceptance."
+}

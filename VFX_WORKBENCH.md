@@ -18,6 +18,10 @@
 `LightningNova_3D.prefab`，前者固定平面，后者可绕视角查看空间雷环。
 公共工作场景已并排放置两版，调参见 [LightningNova 使用说明](Assets/PixelFX/LightningNova/Docs/README.md)。
 
+赛博能量弹提供 `Assets/PixelFX/CyberOrb/Prefabs/` 中的 `CyberOrb_ProjectileVisual`（子弹视觉）、
+`CyberOrb_Impact`（独立命中）两个预制体。工作场景中的 `CyberOrb_Demo` 提供外观和命中预览；
+使用和调参见 [CyberOrb 使用说明](Assets/PixelFX/CyberOrb/Docs/README.md)。
+
 独立火焰的根节点放在模型火口。只调整某个实例的材质时，先复制材质再赋给该实例，
 避免影响其他共用实例。效果目录不含场景和 Editor 脚本，使用时不需要 Build 菜单。
 

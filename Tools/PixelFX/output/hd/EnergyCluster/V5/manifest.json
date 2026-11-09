@@ -1,0 +1,86 @@
+{
+  "effect": "EnergyCluster",
+  "version": "5.0",
+  "stage": "authoring WebGL prototype - no Unity import",
+  "meta": {
+    "name": "能量团 · 球面流动膜",
+    "version": "5.0",
+    "duration": 2.4,
+    "loop": true,
+    "fps": 60,
+    "options": {
+      "seed": 37,
+      "flow": 0.18,
+      "dissolve": 0.18,
+      "width": 0.48,
+      "deform": 0.055,
+      "glow": 0.55,
+      "yaw": 0.35,
+      "pitch": -0.25,
+      "frontAlpha": 0.98,
+      "backAlpha": 0.68,
+      "frontColor": "#edf6ff",
+      "backColor": "#80b2fa",
+      "edgeColor": "#5d9eff",
+      "coreColor": "#f3ffff",
+      "innerColor": "#34caff",
+      "bodyColor": "#184aff"
+    }
+  },
+  "source": "src/hd/energy-cluster-v5.js",
+  "sourceSha256": "0c56d9f1b611b1acc71274e56143b02366e58df92ca97ca6f0b4cb76876357c6",
+  "seed": 37,
+  "assets": {
+    "texture": "Textures/EnergyCluster_SurfaceData.png",
+    "raw": "Textures/EnergyCluster_SurfaceData.rgba",
+    "dimensions": [
+      256,
+      256
+    ],
+    "channels": {
+      "R": "U vector encoded 0..1",
+      "G": "V vector encoded 0..1",
+      "B": "authored curved membrane structure",
+      "A": "edge erosion data, NOT opacity"
+    },
+    "colorSpace": "linear non-color data",
+    "alpha": "independent data, must NOT premultiply",
+    "uv": "U=atan2(z,x)/TAU wrapped; V=acos(y)/PI, north pole V=0. PNG row0=V0. Raw upload without Y flip.",
+    "wrap": "Repeat",
+    "filter": "Bilinear",
+    "mipmaps": false,
+    "pngBytes": 218944,
+    "rgba8NoMipsBytes": 262144,
+    "dataSha256": "79e4325c5a205b1ce54389e403b1e09dfb34905795dd0df9bff8f01b3d8269fb"
+  },
+  "mesh": {
+    "vertices": 2145,
+    "trianglesPerFullSpherePass": 4096
+  },
+  "material": {
+    "blend": "ONE / ONE_MINUS_SRC_ALPHA (premultiplied output)",
+    "depthWrite": false,
+    "depthTest": false,
+    "geometry": "unit radius sphere centered at origin, orthographic authoring view",
+    "colors": "CSS display RGB in WebGL prototype, not Unity linear/HDR-calibrated",
+    "order": [
+      "background/halo quad",
+      "back membrane culled front",
+      "volume/core quad",
+      "front membrane culled back"
+    ]
+  },
+  "timing": {
+    "fullLoopSeconds": 2.4,
+    "localFlowPhaseSeconds": 0.48,
+    "meaning": "looping preview clock, not lifetime",
+    "flow": "local UV distortion, main longitudinal transport remains enabled"
+  },
+  "sourceType": "new curve-authored mask and analytic flow, NOT literal hand-painted artwork, NOT reference flipbook",
+  "limitations": [
+    "CPU screenshots approximate sphere intersections, not exact GPU mesh parity",
+    "WebGL prototype, Unity shader/API/Player not validated",
+    "No PC GPU/CPU/batching budget claim",
+    "Orthographic authoring camera; Unity scene depth/sorting unvalidated"
+  ]
+}

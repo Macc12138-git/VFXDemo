@@ -1,0 +1,1652 @@
+{
+  "success": true,
+  "error": null,
+  "method": "Real Play Mode / engine frames / native data; first visual cycle at 0.25x for short-flash observation, then original speed for emission/reuse. No Simulate, Emit or SetParticles",
+  "ended": 0,
+  "drained": 0,
+  "restored": 2,
+  "maxShards": 4,
+  "shotHits": 4,
+  "samples": [
+    {
+      "label": "native_0.025",
+      "stage": 0,
+      "age": 0.025151927437641719,
+      "engineFrame": 32,
+      "instances": [
+        {
+          "name": "QA_ProjectileVisual",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 0.025151927,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 3.974848,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            },
+            {
+              "name": "CompactGlow",
+              "time": 0.025151927,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 3.974848,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "QA_Impact",
+          "systems": [
+            {
+              "name": "QA_Impact",
+              "time": 0.025151927,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(3.00, 3.20, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 0.0598480776,
+                  "life": 0.085,
+                  "size": 0.8372518,
+                  "color": "RGBA(255, 255, 255, 242)"
+                }
+              ]
+            },
+            {
+              "name": "Shards",
+              "time": 0.025151927,
+              "count": 4,
+              "particles": [
+                {
+                  "pos": "(3.00, 3.31, 0.00)",
+                  "velocity": "(0.00, 4.04, 0.00)",
+                  "remaining": 0.123729013,
+                  "life": 0.13988094,
+                  "size": 0.0362628549,
+                  "color": "RGBA(255, 255, 255, 230)"
+                },
+                {
+                  "pos": "(2.90, 3.26, 0.00)",
+                  "velocity": "(-3.76, 2.17, 0.00)",
+                  "remaining": 0.129963532,
+                  "life": 0.146115467,
+                  "size": 0.0310787484,
+                  "color": "RGBA(255, 255, 255, 231)"
+                },
+                {
+                  "pos": "(2.92, 3.15, 0.00)",
+                  "velocity": "(-2.90, -1.67, 0.00)",
+                  "remaining": 0.1257557,
+                  "life": 0.141907617,
+                  "size": 0.032322824,
+                  "color": "RGBA(255, 255, 255, 230)"
+                },
+                {
+                  "pos": "(3.00, 3.09, 0.00)",
+                  "velocity": "(0.00, -4.00, 0.00)",
+                  "remaining": 0.144572482,
+                  "life": 0.160724416,
+                  "size": 0.0333377123,
+                  "color": "RGBA(255, 255, 255, 233)"
+                }
+              ]
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.025151927,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(3.00, 3.20, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 0.009848069,
+                  "life": 0.0349999964,
+                  "size": 0.2813728,
+                  "color": "RGBA(255, 255, 255, 72)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "QA_Shot",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 0.025151927,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.30, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 0.474848062,
+                  "life": 0.5,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            },
+            {
+              "name": "CyberOrb_Impact",
+              "time": 0.025151927,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "Shards",
+              "time": 0.174914256,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.09993027,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "CompactGlow",
+              "time": 0.025151927,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.30, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 0.474848062,
+                  "life": 0.5,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "native_0.07",
+      "stage": 0,
+      "age": 0.07504291383219952,
+      "engineFrame": 34,
+      "instances": [
+        {
+          "name": "QA_ProjectileVisual",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 0.07504291,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 3.924957,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            },
+            {
+              "name": "CompactGlow",
+              "time": 0.07504291,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 3.924957,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "QA_Impact",
+          "systems": [
+            {
+              "name": "QA_Impact",
+              "time": 0.07504291,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(3.00, 3.20, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 0.009957087,
+                  "life": 0.085,
+                  "size": 0.514427662,
+                  "color": "RGBA(255, 255, 255, 40)"
+                }
+              ]
+            },
+            {
+              "name": "Shards",
+              "time": 0.07504291,
+              "count": 4,
+              "particles": [
+                {
+                  "pos": "(3.00, 3.43, 0.00)",
+                  "velocity": "(0.00, 4.04, 0.00)",
+                  "remaining": 0.0738380253,
+                  "life": 0.13988094,
+                  "size": 0.0256428439,
+                  "color": "RGBA(255, 255, 255, 148)"
+                },
+                {
+                  "pos": "(2.79, 3.32, 0.00)",
+                  "velocity": "(-3.76, 2.17, 0.00)",
+                  "remaining": 0.0800725445,
+                  "life": 0.146115467,
+                  "size": 0.0224003885,
+                  "color": "RGBA(255, 255, 255, 153)"
+                },
+                {
+                  "pos": "(2.83, 3.10, 0.00)",
+                  "velocity": "(-2.90, -1.67, 0.00)",
+                  "remaining": 0.075864695,
+                  "life": 0.141907617,
+                  "size": 0.02300451,
+                  "color": "RGBA(255, 255, 255, 150)"
+                },
+                {
+                  "pos": "(3.00, 2.96, 0.00)",
+                  "velocity": "(0.00, -4.00, 0.00)",
+                  "remaining": 0.0946815,
+                  "life": 0.160724416,
+                  "size": 0.0249436665,
+                  "color": "RGBA(255, 255, 255, 163)"
+                }
+              ]
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.07504291,
+              "count": 0,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_Shot",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 0.07504291,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.90, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 0.4249571,
+                  "life": 0.5,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            },
+            {
+              "name": "CyberOrb_Impact",
+              "time": 0.07504291,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "Shards",
+              "time": 0.174914256,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.09993027,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "CompactGlow",
+              "time": 0.07504291,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.90, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 0.4249571,
+                  "life": 0.5,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "native_0.115",
+      "stage": 0,
+      "age": 0.12505873724489791,
+      "engineFrame": 36,
+      "instances": [
+        {
+          "name": "QA_ProjectileVisual",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 0.12505874,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 3.87494135,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            },
+            {
+              "name": "CompactGlow",
+              "time": 0.12505874,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 3.87494135,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "QA_Impact",
+          "systems": [
+            {
+              "name": "QA_Impact",
+              "time": 0.12505874,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "Shards",
+              "time": 0.12505874,
+              "count": 4,
+              "particles": [
+                {
+                  "pos": "(3.00, 3.47, 0.00)",
+                  "velocity": "(0.00, 4.04, 0.00)",
+                  "remaining": 0.0238222163,
+                  "life": 0.13988094,
+                  "size": 0.0149962036,
+                  "color": "RGBA(255, 255, 255, 56)"
+                },
+                {
+                  "pos": "(2.74, 3.35, 0.00)",
+                  "velocity": "(-3.76, 2.17, 0.00)",
+                  "remaining": 0.0300567243,
+                  "life": 0.146115467,
+                  "size": 0.0137003325,
+                  "color": "RGBA(255, 255, 255, 66)"
+                },
+                {
+                  "pos": "(2.80, 3.08, 0.00)",
+                  "velocity": "(-2.90, -1.67, 0.00)",
+                  "remaining": 0.0258488785,
+                  "life": 0.141907617,
+                  "size": 0.0136628225,
+                  "color": "RGBA(255, 255, 255, 60)"
+                },
+                {
+                  "pos": "(3.00, 2.91, 0.00)",
+                  "velocity": "(0.00, -4.00, 0.00)",
+                  "remaining": 0.0446656756,
+                  "life": 0.160724416,
+                  "size": 0.0165286586,
+                  "color": "RGBA(255, 255, 255, 86)"
+                }
+              ]
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.12505874,
+              "count": 0,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_Shot",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 0.12505874,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(1.50, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 0.37494126,
+                  "life": 0.5,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            },
+            {
+              "name": "CyberOrb_Impact",
+              "time": 0.12505874,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "Shards",
+              "time": 0.174914256,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.09993027,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "CompactGlow",
+              "time": 0.12505874,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(1.50, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 0.37494126,
+                  "life": 0.5,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "native_0.22",
+      "stage": 0,
+      "age": 0.22507066326530611,
+      "engineFrame": 40,
+      "instances": [
+        {
+          "name": "QA_ProjectileVisual",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 0.22507067,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 3.77492929,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            },
+            {
+              "name": "CompactGlow",
+              "time": 0.22507067,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 3.77492929,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "QA_Impact",
+          "systems": [
+            {
+              "name": "QA_Impact",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "Shards",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_Shot",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 0.22507067,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(2.70, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 0.274929345,
+                  "life": 0.5,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            },
+            {
+              "name": "CyberOrb_Impact",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "Shards",
+              "time": 0.174914256,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.09993027,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "CompactGlow",
+              "time": 0.22507067,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(2.70, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 0.274929345,
+                  "life": 0.5,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "native_0.48",
+      "stage": 0,
+      "age": 0.50000960175736953,
+      "engineFrame": 51,
+      "instances": [
+        {
+          "name": "QA_ProjectileVisual",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 0.500009656,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 3.49999046,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            },
+            {
+              "name": "CompactGlow",
+              "time": 0.500009656,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 3.49999046,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "QA_Impact",
+          "systems": [
+            {
+              "name": "QA_Impact",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "Shards",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_Shot",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 0.500009656,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "CyberOrb_Impact",
+              "time": 0.2,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(3.00, 0.50, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 0.085,
+                  "life": 0.085,
+                  "size": 0.7,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            },
+            {
+              "name": "Shards",
+              "time": 0.174914256,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.09993027,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "CompactGlow",
+              "time": 0.500009656,
+              "count": 0,
+              "particles": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "native_0.525",
+      "stage": 0,
+      "age": 0.52504992205215417,
+      "engineFrame": 52,
+      "instances": [
+        {
+          "name": "QA_ProjectileVisual",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 0.52505,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 3.47495,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            },
+            {
+              "name": "CompactGlow",
+              "time": 0.52505,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 3.47495,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "QA_Impact",
+          "systems": [
+            {
+              "name": "QA_Impact",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "Shards",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_Shot",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 0.52505,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "CyberOrb_Impact",
+              "time": 0.2,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(3.00, 0.50, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 0.05995968,
+                  "life": 0.085,
+                  "size": 0.837974,
+                  "color": "RGBA(255, 255, 255, 243)"
+                }
+              ]
+            },
+            {
+              "name": "Shards",
+              "time": 0.199954569,
+              "count": 4,
+              "particles": [
+                {
+                  "pos": "(3.00, 0.61, 0.00)",
+                  "velocity": "(0.00, 4.10, 0.00)",
+                  "remaining": 0.1465877,
+                  "life": 0.162628025,
+                  "size": 0.0342765674,
+                  "color": "RGBA(255, 255, 255, 233)"
+                },
+                {
+                  "pos": "(2.91, 0.55, 0.00)",
+                  "velocity": "(-3.30, 1.91, 0.00)",
+                  "remaining": 0.119451545,
+                  "life": 0.135491863,
+                  "size": 0.03542693,
+                  "color": "RGBA(255, 255, 255, 229)"
+                },
+                {
+                  "pos": "(2.91, 0.45, 0.00)",
+                  "velocity": "(-3.27, -1.89, 0.00)",
+                  "remaining": 0.127144367,
+                  "life": 0.143184692,
+                  "size": 0.0371933877,
+                  "color": "RGBA(255, 255, 255, 230)"
+                },
+                {
+                  "pos": "(3.00, 0.39, 0.00)",
+                  "velocity": "(0.00, -4.43, 0.00)",
+                  "remaining": 0.139447019,
+                  "life": 0.155487344,
+                  "size": 0.0354611427,
+                  "color": "RGBA(255, 255, 255, 232)"
+                }
+              ]
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.124970593,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(3.00, 0.50, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 0.009959675,
+                  "life": 0.0349999964,
+                  "size": 0.2845615,
+                  "color": "RGBA(255, 255, 255, 73)"
+                }
+              ]
+            },
+            {
+              "name": "CompactGlow",
+              "time": 0.52505,
+              "count": 0,
+              "particles": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "native_0.59",
+      "stage": 0,
+      "age": 0.60006751700680272,
+      "engineFrame": 55,
+      "instances": [
+        {
+          "name": "QA_ProjectileVisual",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 0.6000675,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 3.39993238,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            },
+            {
+              "name": "CompactGlow",
+              "time": 0.6000675,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 3.39993238,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "QA_Impact",
+          "systems": [
+            {
+              "name": "QA_Impact",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "Shards",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_Shot",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 0.6000675,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "CyberOrb_Impact",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "Shards",
+              "time": 0.2,
+              "count": 4,
+              "particles": [
+                {
+                  "pos": "(3.00, 0.78, 0.00)",
+                  "velocity": "(0.00, 4.10, 0.00)",
+                  "remaining": 0.07157011,
+                  "life": 0.162628025,
+                  "size": 0.0214708578,
+                  "color": "RGBA(255, 255, 255, 127)"
+                },
+                {
+                  "pos": "(2.78, 0.62, 0.00)",
+                  "velocity": "(-3.30, 1.91, 0.00)",
+                  "remaining": 0.0444339439,
+                  "life": 0.135491863,
+                  "size": 0.0192823783,
+                  "color": "RGBA(255, 255, 255, 99)"
+                },
+                {
+                  "pos": "(2.78, 0.37, 0.00)",
+                  "velocity": "(-3.27, -1.89, 0.00)",
+                  "remaining": 0.0521267839,
+                  "life": 0.143184692,
+                  "size": 0.02123808,
+                  "color": "RGBA(255, 255, 255, 108)"
+                },
+                {
+                  "pos": "(3.00, 0.20, 0.00)",
+                  "velocity": "(0.00, -4.43, 0.00)",
+                  "remaining": 0.06442943,
+                  "life": 0.155487344,
+                  "size": 0.0215534382,
+                  "color": "RGBA(255, 255, 255, 121)"
+                }
+              ]
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.199988186,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "CompactGlow",
+              "time": 0.6000675,
+              "count": 0,
+              "particles": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "native_0.73",
+      "stage": 0,
+      "age": 0.75004423894557826,
+      "engineFrame": 61,
+      "instances": [
+        {
+          "name": "QA_ProjectileVisual",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 0.750044167,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 3.24995565,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            },
+            {
+              "name": "CompactGlow",
+              "time": 0.750044167,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 3.24995565,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "QA_Impact",
+          "systems": [
+            {
+              "name": "QA_Impact",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "Shards",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_Shot",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 0.750044167,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "CyberOrb_Impact",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "Shards",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.199988186,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "CompactGlow",
+              "time": 0.750044167,
+              "count": 0,
+              "particles": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "emission_off_drained",
+      "stage": 1,
+      "age": 4.2001526643990932,
+      "engineFrame": 1320,
+      "instances": [
+        {
+          "name": "QA_ProjectileVisual",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 1.000294,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "CompactGlow",
+              "time": 1.000294,
+              "count": 0,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_Impact",
+          "systems": [
+            {
+              "name": "QA_Impact",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "Shards",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_Shot",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 1.1,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "CyberOrb_Impact",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "Shards",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.199988186,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "CompactGlow",
+              "time": 1.1,
+              "count": 0,
+              "particles": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "emission_restored",
+      "stage": 2,
+      "age": 4.2001541383219951,
+      "engineFrame": 4922,
+      "instances": [
+        {
+          "name": "QA_ProjectileVisual",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 1.20044637,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 2.79912543,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            },
+            {
+              "name": "CompactGlow",
+              "time": 1.20044637,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 2.79912543,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "QA_Impact",
+          "systems": [
+            {
+              "name": "QA_Impact",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "Shards",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_Shot",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 1.1,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "CyberOrb_Impact",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "Shards",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.199988186,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "CompactGlow",
+              "time": 1.1,
+              "count": 0,
+              "particles": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "restart",
+      "stage": 3,
+      "age": 0.1510102962018145,
+      "engineFrame": 5066,
+      "instances": [
+        {
+          "name": "QA_ProjectileVisual",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 0.151010364,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 3.84898973,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            },
+            {
+              "name": "CompactGlow",
+              "time": 0.151010364,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 3.84898973,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "QA_Impact",
+          "systems": [
+            {
+              "name": "QA_Impact",
+              "time": 0.151010364,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "Shards",
+              "time": 0.151010364,
+              "count": 2,
+              "particles": [
+                {
+                  "pos": "(2.78, 3.07, 0.00)",
+                  "velocity": "(-3.23, -1.87, 0.00)",
+                  "remaining": 0.03228963,
+                  "life": 0.174299926,
+                  "size": 0.0158484541,
+                  "color": "RGBA(255, 255, 255, 60)"
+                },
+                {
+                  "pos": "(3.00, 2.93, 0.00)",
+                  "velocity": "(0.00, -4.04, 0.00)",
+                  "remaining": 0.0270127263,
+                  "life": 0.169023,
+                  "size": 0.0147016831,
+                  "color": "RGBA(255, 255, 255, 53)"
+                }
+              ]
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.151010364,
+              "count": 0,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_Shot",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 0.151010364,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(1.81, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 0.348989666,
+                  "life": 0.5,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            },
+            {
+              "name": "CyberOrb_Impact",
+              "time": 0.151010364,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "Shards",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.199988186,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "CompactGlow",
+              "time": 0.151010364,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(1.81, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 0.348989666,
+                  "life": 0.5,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "root_disable_enable",
+      "stage": 5,
+      "age": 0.15102083333333383,
+      "engineFrame": 5313,
+      "instances": [
+        {
+          "name": "QA_ProjectileVisual",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 0.1510208,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 3.84897923,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            },
+            {
+              "name": "CompactGlow",
+              "time": 0.1510208,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 3.84897923,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "QA_Impact",
+          "systems": [
+            {
+              "name": "QA_Impact",
+              "time": 0.151010364,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "Shards",
+              "time": 0.151010364,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.151010364,
+              "count": 0,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_Shot",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 0.151010364,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "CyberOrb_Impact",
+              "time": 0.151010364,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "Shards",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.199988186,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "CompactGlow",
+              "time": 0.1510208,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(1.81, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 0.348979145,
+                  "life": 0.5,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "return_from_offscreen",
+      "stage": 6,
+      "age": 0.10099637896825264,
+      "engineFrame": 5416,
+      "instances": [
+        {
+          "name": "QA_ProjectileVisual",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 0.25201723,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 3.74798274,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            },
+            {
+              "name": "CompactGlow",
+              "time": 0.25201723,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(0.00, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 3.74798274,
+                  "life": 4.0,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "QA_Impact",
+          "systems": [
+            {
+              "name": "QA_Impact",
+              "time": 0.151010364,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "Shards",
+              "time": 0.151010364,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.151010364,
+              "count": 0,
+              "particles": []
+            }
+          ]
+        },
+        {
+          "name": "QA_Shot",
+          "systems": [
+            {
+              "name": "BodyAndWake",
+              "time": 0.151010364,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "CyberOrb_Impact",
+              "time": 0.151010364,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "Shards",
+              "time": 0.2,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "ResidualWake",
+              "time": 0.199988186,
+              "count": 0,
+              "particles": []
+            },
+            {
+              "name": "CompactGlow",
+              "time": 0.25201723,
+              "count": 1,
+              "particles": [
+                {
+                  "pos": "(3.02, 0.00, 0.00)",
+                  "velocity": "(0.00, 0.00, 0.00)",
+                  "remaining": 0.2479828,
+                  "life": 0.5,
+                  "size": 1.0,
+                  "color": "RGBA(255, 255, 255, 255)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "settingsRestored": true
+}

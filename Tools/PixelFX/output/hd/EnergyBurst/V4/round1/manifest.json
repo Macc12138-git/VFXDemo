@@ -1,0 +1,27 @@
+{
+  "effect": "EnergyBurst",
+  "id": "hd/energy-burst-v4",
+  "name": "电流能量爆炸 · 重设计",
+  "version": "4.0",
+  "duration": 0.96,
+  "loop": false,
+  "fps": 60,
+  "options": {
+    "seed": 37,
+    "radius": 180,
+    "duration": 0.96,
+    "charge": 0.15,
+    "intensity": 1,
+    "flow": 1,
+    "glow": 0.65,
+    "coreColor": "#ffffff",
+    "bodyColor": "#2458ff",
+    "edgeColor": "#45b5ff",
+    "glowColor": "#1440ff"
+  },
+  "sourceSha256": "b3b58645cac8e2500bffeeec57d2ac214c6bdae86c7180dc101f11bdd36c6460",
+  "renderer": "Canvas live geometry",
+  "textureBytes": 0,
+  "newFlipbook": false,
+  "noRing": true
+}

@@ -1,0 +1,38 @@
+{
+  "effect": "EnergyBurst",
+  "id": "hd/energy-burst-v5",
+  "name": "圆形能量爆炸 · 电流内流",
+  "version": "5.0",
+  "duration": 1.02,
+  "loop": false,
+  "fps": 60,
+  "options": {
+    "seed": 37,
+    "radius": 180,
+    "duration": 1.02,
+    "charge": 0.14,
+    "strength": 1,
+    "body": 1,
+    "electric": 1,
+    "glow": 0.65,
+    "hotColor": "#ffffff",
+    "bodyColor": "#2458ff",
+    "edgeColor": "#a7c6ff",
+    "electricColor": "#f1f6ff",
+    "glowColor": "#1440ff"
+  },
+  "sourceSha256": "89ea68773d0748fe0f251080ba7aa7ff1a135a63adcbbe6629c525bb2d741e3f",
+  "texture": {
+    "size": [
+      128,
+      128
+    ],
+    "format": "RGBA8 linear data",
+    "bytes": 65536,
+    "wrap": "repeat",
+    "filter": "bilinear",
+    "mipmap": false
+  },
+  "flipbook": false,
+  "unity": false
+}

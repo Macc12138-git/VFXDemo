@@ -1,0 +1,176 @@
+{
+  "effect": "EnergyCluster",
+  "version": "3.0-reference-sequence",
+  "provenance": "Author-supplied reference GIF converted into frames; not a new drawing.",
+  "sourceFile": "codex-clipboard-5032fe0e-6c69-4a34-aec3-1bf80ddefba3.gif",
+  "sourceSha256": "2678ee00df77981221ec3e53c76368417309a8bbda62aa47af135987e9a93733",
+  "sourceSize": [
+    793,
+    793
+  ],
+  "sourceFrameCount": 20,
+  "frameCount": 20,
+  "fps": 25,
+  "duration": 0.8,
+  "loop": true,
+  "frameDurationsMs": [
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40,
+    40
+  ],
+  "cellSize": [
+    512,
+    512
+  ],
+  "atlasSize": [
+    2560,
+    2048
+  ],
+  "columns": 5,
+  "rows": 4,
+  "order": "left-to-right, top-to-bottom",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "uniformSourceCrop": [
+    0,
+    0,
+    793,
+    793
+  ],
+  "cellPaddingPx": 4,
+  "colorSpace": "sRGB color",
+  "alpha": "straight RGBA, blue-black matte removed",
+  "matteColorsRGB": [
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ],
+    [
+      5,
+      7,
+      22
+    ]
+  ],
+  "recommendedPreviewBlend": "source-over",
+  "mipmaps": false,
+  "filter": "bilinear",
+  "wrap": "clamp",
+  "npot": "keep original size; PC target",
+  "atlasSha256": "f2ee70d6436b2aca2d0b7eafdd70827d99d836132637a55e028c802f8b75f939",
+  "checks": {
+    "atlasCellsEqualFrames": true,
+    "edgeMaxAlpha": 0,
+    "meanOriginalReconstructionErrorRGB8": 0.14585792227083377
+  },
+  "unity": "Not imported; no Unity runtime/performance validation."
+}

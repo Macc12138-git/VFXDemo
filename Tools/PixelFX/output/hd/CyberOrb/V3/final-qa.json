@@ -1,0 +1,39 @@
+{
+  "version": "3.0.2",
+  "round": "final",
+  "tests": "PASS",
+  "seed": 42,
+  "options": {
+    "seed": 42,
+    "radius": 14,
+    "speed": 1200,
+    "tailLength": 2.8,
+    "tailWidth": 0.63,
+    "tailOpacity": 1,
+    "motion": "straight",
+    "core": "#f4feff",
+    "rim": "#65e5ff",
+    "trail": "#2674ff",
+    "hitScale": 1
+  },
+  "sourceSha256": "768180dff97adf5fcaab8107745997ea2d1b0c295428de20506473c95403da79",
+  "samples": {
+    "projectile": 726,
+    "impact": 603
+  },
+  "halo": "zero alpha outside core when trail is disabled",
+  "tail": {
+    "alphaSumV2": 266092,
+    "alphaSumV3": 716007,
+    "ratio": 2.6908249778272175
+  },
+  "projectileCanvasFills": 2,
+  "impactDuration": 0.2,
+  "impactMaxShards": 4,
+  "note": "Canvas shape counts are not Unity draw calls; previews are not performance evidence.",
+  "notTested": [
+    "Unity native Particle System / Shader",
+    "Unity batches / batching",
+    "target-device CPU / GPU / memory"
+  ]
+}

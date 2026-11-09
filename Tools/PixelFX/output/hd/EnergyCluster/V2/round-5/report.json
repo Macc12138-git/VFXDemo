@@ -1,0 +1,45 @@
+{
+  "result": "PASS",
+  "round": "round-5",
+  "stage": "CPU reference for real WebGL authoring shader",
+  "sourceSha256": "d291c4d6580fac1ead84467f3cf84e278bc7720e2c25a75536ac3f2d34f3f999",
+  "meta": {
+    "name": "湛蓝能量团 · 溶解流动",
+    "version": "2.0",
+    "duration": 4,
+    "fps": 60,
+    "loop": true,
+    "options": {
+      "seed": 37,
+      "dissolve": 0.46,
+      "distortion": 0.7,
+      "noiseScale": 1.45,
+      "edgeWidth": 0.07,
+      "glow": 0.7,
+      "pulse": 0.025,
+      "coreSize": 0.205,
+      "arcAmount": 0.7,
+      "core": "#f5ffff",
+      "inner": "#2bd7ff",
+      "body": "#1650ff",
+      "shell": "#eafaff",
+      "arc": "#c8eeff"
+    }
+  },
+  "finiteSamples": 54675,
+  "maxShell": 1.1384199576606169,
+  "seamError": 1.7783300346356163,
+  "checks": [
+    "3 seeds",
+    "deterministic static noise",
+    "repeat sampling",
+    "finite field and alpha",
+    "exact and near loop",
+    "controlled shell bounds",
+    "dissolve endpoints",
+    "empty disabled layers",
+    "independent color and light",
+    "default background and scale contact sheets"
+  ],
+  "unity": "not imported; WebGL compile/playback is validated separately"
+}

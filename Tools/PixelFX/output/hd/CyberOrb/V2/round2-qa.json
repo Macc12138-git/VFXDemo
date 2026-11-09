@@ -1,0 +1,28 @@
+{
+  "version": "2.0.1",
+  "round": "round2",
+  "tests": "PASS",
+  "sourceSha256": "862306c97e581871bb1a25f0e9be7d251bc788d2c4463b9fee2d4922002f9882",
+  "seed": 42,
+  "options": {
+    "seed": 42,
+    "radius": 14,
+    "speed": 1200,
+    "tailLength": 2.4,
+    "glow": 0.65,
+    "motion": "straight",
+    "core": "#f4feff",
+    "rim": "#48caff",
+    "trail": "#2264ff"
+  },
+  "modelSamples": 1446,
+  "core": "round white-hot center; no exterior ring",
+  "tail": "one wake; 17 cross sections; fixed short length",
+  "authoringFillOperations": 3,
+  "note": "Canvas shape operations are not Unity Draw Calls. No Unity/device performance claim.",
+  "notTested": [
+    "Unity native assembly",
+    "Unity draw calls / batching",
+    "target-device CPU / GPU / memory"
+  ]
+}

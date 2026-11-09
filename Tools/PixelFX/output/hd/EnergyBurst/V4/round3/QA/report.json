@@ -1,0 +1,40 @@
+{
+  "result": "PASS",
+  "frames": 873,
+  "maxRadius": 0.9200000000000003,
+  "sourceSha256": "889f010b1b013afe7b7066143aa1cd9db575a3ec271e1d4c51dae619c95d8425",
+  "meta": {
+    "id": "hd/energy-burst-v4",
+    "name": "电流能量爆炸 · 重设计",
+    "version": "4.0",
+    "duration": 0.96,
+    "loop": false,
+    "fps": 60,
+    "options": {
+      "seed": 37,
+      "radius": 180,
+      "duration": 0.96,
+      "charge": 0.15,
+      "intensity": 1,
+      "flow": 1,
+      "glow": 0.65,
+      "coreColor": "#ffffff",
+      "bodyColor": "#2458ff",
+      "edgeColor": "#adcaff",
+      "glowColor": "#1440ff"
+    }
+  },
+  "checks": [
+    "deterministic arbitrary time",
+    "starts and ends empty",
+    "finite bounded branching geometry",
+    "high-light gathering before release",
+    "discharge paths then independent return currents",
+    "flow independently disabled",
+    "duration normalization"
+  ],
+  "limitations": [
+    "Canvas authoring, not Unity performance",
+    "not a 3D arbitrary-view effect"
+  ]
+}

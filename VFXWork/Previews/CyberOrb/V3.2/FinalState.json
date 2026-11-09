@@ -1,0 +1,1048 @@
+{
+  "success": true,
+  "dataPath": "/Users/user/Desktop/VFXDemo/VFXDemo/Assets",
+  "product": "VFXDemo",
+  "scene": "Assets/Scenes/VFXWorkbench.unity",
+  "dirty": false,
+  "playing": false,
+  "paused": false,
+  "background": false,
+  "timeScale": 1.0,
+  "cameraPreserved": true,
+  "cleanRoots": true,
+  "nativeOnly": true,
+  "prefabs": [
+    {
+      "path": "Assets/PixelFX/CyberOrb/Prefabs/CyberOrb_ProjectileVisual.prefab",
+      "components": [
+        "Transform",
+        "ParticleSystem",
+        "ParticleSystemRenderer"
+      ],
+      "systems": [
+        {
+          "name": "BodyAndWake",
+          "loop": true,
+          "duration": 4.0,
+          "lifeMin": 0.0,
+          "lifeMax": 4.0,
+          "space": "Local",
+          "seed": 42,
+          "autoSeed": false,
+          "emission": true,
+          "awake": true,
+          "lights": false,
+          "sheet": false,
+          "max": 8,
+          "renderer": "Mesh",
+          "alignment": "Local",
+          "material": "Assets/PixelFX/CyberOrb/Materials/BodyAndWake.mat",
+          "streams": [
+            "Position",
+            "Color",
+            "UV",
+            "UV2",
+            "AgePercent",
+            "InvStartLifetime"
+          ],
+          "subemitters": []
+        },
+        {
+          "name": "CompactGlow",
+          "loop": true,
+          "duration": 4.0,
+          "lifeMin": 0.0,
+          "lifeMax": 4.0,
+          "space": "Local",
+          "seed": 42,
+          "autoSeed": false,
+          "emission": true,
+          "awake": true,
+          "lights": false,
+          "sheet": false,
+          "max": 8,
+          "renderer": "Mesh",
+          "alignment": "Local",
+          "material": "Assets/PixelFX/CyberOrb/Materials/CompactGlow.mat",
+          "streams": [
+            "Position",
+            "Color",
+            "UV",
+            "UV2",
+            "AgePercent",
+            "InvStartLifetime"
+          ],
+          "subemitters": []
+        }
+      ]
+    },
+    {
+      "path": "Assets/PixelFX/CyberOrb/Prefabs/CyberOrb_Impact.prefab",
+      "components": [
+        "Transform",
+        "ParticleSystem",
+        "ParticleSystemRenderer"
+      ],
+      "systems": [
+        {
+          "name": "CyberOrb_Impact",
+          "loop": false,
+          "duration": 0.2,
+          "lifeMin": 0.0,
+          "lifeMax": 0.085,
+          "space": "World",
+          "seed": 42,
+          "autoSeed": false,
+          "emission": true,
+          "awake": false,
+          "lights": false,
+          "sheet": false,
+          "max": 8,
+          "renderer": "Mesh",
+          "alignment": "Local",
+          "material": "Assets/PixelFX/CyberOrb/Materials/ImpactFlash.mat",
+          "streams": [
+            "Position",
+            "Color",
+            "UV",
+            "UV2",
+            "AgePercent",
+            "InvStartLifetime"
+          ],
+          "subemitters": [
+            {
+              "type": "Birth",
+              "name": "Shards",
+              "probability": 1.0
+            },
+            {
+              "type": "Birth",
+              "name": "ResidualWake",
+              "probability": 1.0
+            }
+          ]
+        },
+        {
+          "name": "Shards",
+          "loop": false,
+          "duration": 0.2,
+          "lifeMin": 0.13,
+          "lifeMax": 0.18,
+          "space": "World",
+          "seed": 0,
+          "autoSeed": true,
+          "emission": true,
+          "awake": false,
+          "lights": false,
+          "sheet": false,
+          "max": 4,
+          "renderer": "Stretch",
+          "alignment": "View",
+          "material": "Assets/PixelFX/CyberOrb/Materials/Shards.mat",
+          "streams": [
+            "Position",
+            "Color",
+            "UV",
+            "UV2",
+            "AgePercent",
+            "InvStartLifetime"
+          ],
+          "subemitters": []
+        },
+        {
+          "name": "ResidualWake",
+          "loop": false,
+          "duration": 0.2,
+          "lifeMin": 0.0,
+          "lifeMax": 0.035,
+          "space": "World",
+          "seed": 42,
+          "autoSeed": false,
+          "emission": true,
+          "awake": false,
+          "lights": false,
+          "sheet": false,
+          "max": 8,
+          "renderer": "Mesh",
+          "alignment": "Local",
+          "material": "Assets/PixelFX/CyberOrb/Materials/ResidualWake.mat",
+          "streams": [
+            "Position",
+            "Color",
+            "UV",
+            "UV2",
+            "AgePercent",
+            "InvStartLifetime"
+          ],
+          "subemitters": []
+        }
+      ]
+    },
+    {
+      "path": "Assets/PixelFX/CyberOrb/Prefabs/CyberOrb_Shot.prefab",
+      "components": [
+        "Transform",
+        "ParticleSystem",
+        "ParticleSystemRenderer"
+      ],
+      "systems": [
+        {
+          "name": "BodyAndWake",
+          "loop": false,
+          "duration": 1.1,
+          "lifeMin": 0.0,
+          "lifeMax": 0.5,
+          "space": "Local",
+          "seed": 42,
+          "autoSeed": false,
+          "emission": true,
+          "awake": false,
+          "lights": false,
+          "sheet": false,
+          "max": 8,
+          "renderer": "Mesh",
+          "alignment": "Local",
+          "material": "Assets/PixelFX/CyberOrb/Materials/BodyAndWake.mat",
+          "streams": [
+            "Position",
+            "Color",
+            "UV",
+            "UV2",
+            "AgePercent",
+            "InvStartLifetime"
+          ],
+          "subemitters": [
+            {
+              "type": "Death",
+              "name": "CyberOrb_Impact",
+              "probability": 1.0
+            }
+          ]
+        },
+        {
+          "name": "CyberOrb_Impact",
+          "loop": false,
+          "duration": 0.2,
+          "lifeMin": 0.0,
+          "lifeMax": 0.085,
+          "space": "World",
+          "seed": 42,
+          "autoSeed": false,
+          "emission": true,
+          "awake": false,
+          "lights": false,
+          "sheet": false,
+          "max": 8,
+          "renderer": "Mesh",
+          "alignment": "Local",
+          "material": "Assets/PixelFX/CyberOrb/Materials/ImpactFlash.mat",
+          "streams": [
+            "Position",
+            "Color",
+            "UV",
+            "UV2",
+            "AgePercent",
+            "InvStartLifetime"
+          ],
+          "subemitters": [
+            {
+              "type": "Birth",
+              "name": "Shards",
+              "probability": 1.0
+            },
+            {
+              "type": "Birth",
+              "name": "ResidualWake",
+              "probability": 1.0
+            }
+          ]
+        },
+        {
+          "name": "Shards",
+          "loop": false,
+          "duration": 0.2,
+          "lifeMin": 0.13,
+          "lifeMax": 0.18,
+          "space": "World",
+          "seed": 0,
+          "autoSeed": true,
+          "emission": true,
+          "awake": false,
+          "lights": false,
+          "sheet": false,
+          "max": 4,
+          "renderer": "Stretch",
+          "alignment": "View",
+          "material": "Assets/PixelFX/CyberOrb/Materials/Shards.mat",
+          "streams": [
+            "Position",
+            "Color",
+            "UV",
+            "UV2",
+            "AgePercent",
+            "InvStartLifetime"
+          ],
+          "subemitters": []
+        },
+        {
+          "name": "ResidualWake",
+          "loop": false,
+          "duration": 0.2,
+          "lifeMin": 0.0,
+          "lifeMax": 0.035,
+          "space": "World",
+          "seed": 42,
+          "autoSeed": false,
+          "emission": true,
+          "awake": false,
+          "lights": false,
+          "sheet": false,
+          "max": 8,
+          "renderer": "Mesh",
+          "alignment": "Local",
+          "material": "Assets/PixelFX/CyberOrb/Materials/ResidualWake.mat",
+          "streams": [
+            "Position",
+            "Color",
+            "UV",
+            "UV2",
+            "AgePercent",
+            "InvStartLifetime"
+          ],
+          "subemitters": []
+        },
+        {
+          "name": "CompactGlow",
+          "loop": false,
+          "duration": 1.1,
+          "lifeMin": 0.0,
+          "lifeMax": 0.5,
+          "space": "Local",
+          "seed": 42,
+          "autoSeed": false,
+          "emission": true,
+          "awake": true,
+          "lights": false,
+          "sheet": false,
+          "max": 8,
+          "renderer": "Mesh",
+          "alignment": "Local",
+          "material": "Assets/PixelFX/CyberOrb/Materials/CompactGlow.mat",
+          "streams": [
+            "Position",
+            "Color",
+            "UV",
+            "UV2",
+            "AgePercent",
+            "InvStartLifetime"
+          ],
+          "subemitters": []
+        }
+      ]
+    }
+  ],
+  "roots": [
+    {
+      "name": "Main Camera",
+      "active": true,
+      "position": "(0.00, 1.68, -12.00)",
+      "rotation": "(0.00, 0.00, 0.00)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "components": [
+        "Transform",
+        "Camera",
+        "UniversalAdditionalCameraData"
+      ],
+      "systems": []
+    },
+    {
+      "name": "CyberOrb_Demo",
+      "active": true,
+      "position": "(0.00, 0.00, 0.00)",
+      "rotation": "(0.00, 0.00, 0.00)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "components": [
+        "Transform",
+        "ParticleSystem",
+        "ParticleSystemRenderer"
+      ],
+      "systems": [
+        {
+          "name": "BodyAndWake",
+          "loop": true,
+          "duration": 4.0,
+          "lifeMin": 0.0,
+          "lifeMax": 4.0,
+          "space": "Local",
+          "seed": 42,
+          "autoSeed": false,
+          "emission": true,
+          "awake": true,
+          "lights": false,
+          "sheet": false,
+          "max": 8,
+          "renderer": "Mesh",
+          "alignment": "Local",
+          "material": "Assets/PixelFX/CyberOrb/Materials/BodyAndWake.mat",
+          "streams": [
+            "Position",
+            "Color",
+            "UV",
+            "UV2",
+            "AgePercent",
+            "InvStartLifetime"
+          ],
+          "subemitters": []
+        },
+        {
+          "name": "CompactGlow",
+          "loop": true,
+          "duration": 4.0,
+          "lifeMin": 0.0,
+          "lifeMax": 4.0,
+          "space": "Local",
+          "seed": 42,
+          "autoSeed": false,
+          "emission": true,
+          "awake": true,
+          "lights": false,
+          "sheet": false,
+          "max": 8,
+          "renderer": "Mesh",
+          "alignment": "Local",
+          "material": "Assets/PixelFX/CyberOrb/Materials/CompactGlow.mat",
+          "streams": [
+            "Position",
+            "Color",
+            "UV",
+            "UV2",
+            "AgePercent",
+            "InvStartLifetime"
+          ],
+          "subemitters": []
+        },
+        {
+          "name": "Impact_3x",
+          "loop": true,
+          "duration": 1.1,
+          "lifeMin": 0.0,
+          "lifeMax": 0.085,
+          "space": "World",
+          "seed": 42,
+          "autoSeed": false,
+          "emission": true,
+          "awake": false,
+          "lights": false,
+          "sheet": false,
+          "max": 8,
+          "renderer": "Mesh",
+          "alignment": "Local",
+          "material": "Assets/PixelFX/CyberOrb/Materials/ImpactFlash.mat",
+          "streams": [
+            "Position",
+            "Color",
+            "UV",
+            "UV2",
+            "AgePercent",
+            "InvStartLifetime"
+          ],
+          "subemitters": [
+            {
+              "type": "Birth",
+              "name": "Shards",
+              "probability": 1.0
+            },
+            {
+              "type": "Birth",
+              "name": "ResidualWake",
+              "probability": 1.0
+            }
+          ]
+        },
+        {
+          "name": "Shards",
+          "loop": false,
+          "duration": 0.2,
+          "lifeMin": 0.13,
+          "lifeMax": 0.18,
+          "space": "World",
+          "seed": 0,
+          "autoSeed": true,
+          "emission": true,
+          "awake": false,
+          "lights": false,
+          "sheet": false,
+          "max": 4,
+          "renderer": "Stretch",
+          "alignment": "View",
+          "material": "Assets/PixelFX/CyberOrb/Materials/Shards.mat",
+          "streams": [
+            "Position",
+            "Color",
+            "UV",
+            "UV2",
+            "AgePercent",
+            "InvStartLifetime"
+          ],
+          "subemitters": []
+        },
+        {
+          "name": "ResidualWake",
+          "loop": false,
+          "duration": 0.2,
+          "lifeMin": 0.0,
+          "lifeMax": 0.035,
+          "space": "World",
+          "seed": 42,
+          "autoSeed": false,
+          "emission": true,
+          "awake": false,
+          "lights": false,
+          "sheet": false,
+          "max": 8,
+          "renderer": "Mesh",
+          "alignment": "Local",
+          "material": "Assets/PixelFX/CyberOrb/Materials/ResidualWake.mat",
+          "streams": [
+            "Position",
+            "Color",
+            "UV",
+            "UV2",
+            "AgePercent",
+            "InvStartLifetime"
+          ],
+          "subemitters": []
+        },
+        {
+          "name": "BodyAndWake",
+          "loop": true,
+          "duration": 1.1,
+          "lifeMin": 0.0,
+          "lifeMax": 0.5,
+          "space": "Local",
+          "seed": 42,
+          "autoSeed": false,
+          "emission": true,
+          "awake": false,
+          "lights": false,
+          "sheet": false,
+          "max": 8,
+          "renderer": "Mesh",
+          "alignment": "Local",
+          "material": "Assets/PixelFX/CyberOrb/Materials/BodyAndWake.mat",
+          "streams": [
+            "Position",
+            "Color",
+            "UV",
+            "UV2",
+            "AgePercent",
+            "InvStartLifetime"
+          ],
+          "subemitters": [
+            {
+              "type": "Death",
+              "name": "CyberOrb_Impact",
+              "probability": 1.0
+            }
+          ]
+        },
+        {
+          "name": "CyberOrb_Impact",
+          "loop": false,
+          "duration": 0.2,
+          "lifeMin": 0.0,
+          "lifeMax": 0.085,
+          "space": "World",
+          "seed": 42,
+          "autoSeed": false,
+          "emission": true,
+          "awake": false,
+          "lights": false,
+          "sheet": false,
+          "max": 8,
+          "renderer": "Mesh",
+          "alignment": "Local",
+          "material": "Assets/PixelFX/CyberOrb/Materials/ImpactFlash.mat",
+          "streams": [
+            "Position",
+            "Color",
+            "UV",
+            "UV2",
+            "AgePercent",
+            "InvStartLifetime"
+          ],
+          "subemitters": [
+            {
+              "type": "Birth",
+              "name": "Shards",
+              "probability": 1.0
+            },
+            {
+              "type": "Birth",
+              "name": "ResidualWake",
+              "probability": 1.0
+            }
+          ]
+        },
+        {
+          "name": "Shards",
+          "loop": false,
+          "duration": 0.2,
+          "lifeMin": 0.13,
+          "lifeMax": 0.18,
+          "space": "World",
+          "seed": 0,
+          "autoSeed": true,
+          "emission": true,
+          "awake": false,
+          "lights": false,
+          "sheet": false,
+          "max": 4,
+          "renderer": "Stretch",
+          "alignment": "View",
+          "material": "Assets/PixelFX/CyberOrb/Materials/Shards.mat",
+          "streams": [
+            "Position",
+            "Color",
+            "UV",
+            "UV2",
+            "AgePercent",
+            "InvStartLifetime"
+          ],
+          "subemitters": []
+        },
+        {
+          "name": "ResidualWake",
+          "loop": false,
+          "duration": 0.2,
+          "lifeMin": 0.0,
+          "lifeMax": 0.035,
+          "space": "World",
+          "seed": 42,
+          "autoSeed": false,
+          "emission": true,
+          "awake": false,
+          "lights": false,
+          "sheet": false,
+          "max": 8,
+          "renderer": "Mesh",
+          "alignment": "Local",
+          "material": "Assets/PixelFX/CyberOrb/Materials/ResidualWake.mat",
+          "streams": [
+            "Position",
+            "Color",
+            "UV",
+            "UV2",
+            "AgePercent",
+            "InvStartLifetime"
+          ],
+          "subemitters": []
+        },
+        {
+          "name": "CompactGlow",
+          "loop": true,
+          "duration": 1.1,
+          "lifeMin": 0.0,
+          "lifeMax": 0.5,
+          "space": "Local",
+          "seed": 42,
+          "autoSeed": false,
+          "emission": true,
+          "awake": true,
+          "lights": false,
+          "sheet": false,
+          "max": 8,
+          "renderer": "Mesh",
+          "alignment": "Local",
+          "material": "Assets/PixelFX/CyberOrb/Materials/CompactGlow.mat",
+          "streams": [
+            "Position",
+            "Color",
+            "UV",
+            "UV2",
+            "AgePercent",
+            "InvStartLifetime"
+          ],
+          "subemitters": []
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "name": "Closeup_3x",
+      "position": "(-3.00, 3.20, 0.00)",
+      "scale": "(3.00, 3.00, 3.00)",
+      "modifications": [
+        {
+          "target": "CyberOrb_ProjectileVisual",
+          "guid": "06fc55200a63e463b90e5ccf5b4e7451",
+          "id": "1542366802569094982",
+          "path": "m_Name",
+          "value": "Closeup_3x",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_ProjectileVisual",
+          "guid": "06fc55200a63e463b90e5ccf5b4e7451",
+          "id": "8530743933244977112",
+          "path": "m_LocalScale.x",
+          "value": "3",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_ProjectileVisual",
+          "guid": "06fc55200a63e463b90e5ccf5b4e7451",
+          "id": "8530743933244977112",
+          "path": "m_LocalScale.y",
+          "value": "3",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_ProjectileVisual",
+          "guid": "06fc55200a63e463b90e5ccf5b4e7451",
+          "id": "8530743933244977112",
+          "path": "m_LocalScale.z",
+          "value": "3",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_ProjectileVisual",
+          "guid": "06fc55200a63e463b90e5ccf5b4e7451",
+          "id": "8530743933244977112",
+          "path": "m_LocalPosition.x",
+          "value": "-3",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_ProjectileVisual",
+          "guid": "06fc55200a63e463b90e5ccf5b4e7451",
+          "id": "8530743933244977112",
+          "path": "m_LocalPosition.y",
+          "value": "3.2",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_ProjectileVisual",
+          "guid": "06fc55200a63e463b90e5ccf5b4e7451",
+          "id": "8530743933244977112",
+          "path": "m_LocalPosition.z",
+          "value": "0",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_ProjectileVisual",
+          "guid": "06fc55200a63e463b90e5ccf5b4e7451",
+          "id": "8530743933244977112",
+          "path": "m_LocalRotation.w",
+          "value": "1",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_ProjectileVisual",
+          "guid": "06fc55200a63e463b90e5ccf5b4e7451",
+          "id": "8530743933244977112",
+          "path": "m_LocalRotation.x",
+          "value": "0",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_ProjectileVisual",
+          "guid": "06fc55200a63e463b90e5ccf5b4e7451",
+          "id": "8530743933244977112",
+          "path": "m_LocalRotation.y",
+          "value": "0",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_ProjectileVisual",
+          "guid": "06fc55200a63e463b90e5ccf5b4e7451",
+          "id": "8530743933244977112",
+          "path": "m_LocalRotation.z",
+          "value": "0",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_ProjectileVisual",
+          "guid": "06fc55200a63e463b90e5ccf5b4e7451",
+          "id": "8530743933244977112",
+          "path": "m_LocalEulerAnglesHint.x",
+          "value": "0",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_ProjectileVisual",
+          "guid": "06fc55200a63e463b90e5ccf5b4e7451",
+          "id": "8530743933244977112",
+          "path": "m_LocalEulerAnglesHint.y",
+          "value": "0",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_ProjectileVisual",
+          "guid": "06fc55200a63e463b90e5ccf5b4e7451",
+          "id": "8530743933244977112",
+          "path": "m_LocalEulerAnglesHint.z",
+          "value": "0",
+          "obj": null
+        }
+      ]
+    },
+    {
+      "name": "Impact_3x",
+      "position": "(3.00, 3.20, 0.00)",
+      "scale": "(3.00, 3.00, 3.00)",
+      "modifications": [
+        {
+          "target": "CyberOrb_Impact",
+          "guid": "096fe04300d27418f85d1874f25122bd",
+          "id": "1276985865129850192",
+          "path": "m_Name",
+          "value": "Impact_3x",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Impact",
+          "guid": "096fe04300d27418f85d1874f25122bd",
+          "id": "1978838826407159945",
+          "path": "m_LocalScale.x",
+          "value": "3",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Impact",
+          "guid": "096fe04300d27418f85d1874f25122bd",
+          "id": "1978838826407159945",
+          "path": "m_LocalScale.y",
+          "value": "3",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Impact",
+          "guid": "096fe04300d27418f85d1874f25122bd",
+          "id": "1978838826407159945",
+          "path": "m_LocalScale.z",
+          "value": "3",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Impact",
+          "guid": "096fe04300d27418f85d1874f25122bd",
+          "id": "1978838826407159945",
+          "path": "m_LocalPosition.x",
+          "value": "3",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Impact",
+          "guid": "096fe04300d27418f85d1874f25122bd",
+          "id": "1978838826407159945",
+          "path": "m_LocalPosition.y",
+          "value": "3.2",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Impact",
+          "guid": "096fe04300d27418f85d1874f25122bd",
+          "id": "1978838826407159945",
+          "path": "m_LocalPosition.z",
+          "value": "0",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Impact",
+          "guid": "096fe04300d27418f85d1874f25122bd",
+          "id": "1978838826407159945",
+          "path": "m_LocalRotation.w",
+          "value": "1",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Impact",
+          "guid": "096fe04300d27418f85d1874f25122bd",
+          "id": "1978838826407159945",
+          "path": "m_LocalRotation.x",
+          "value": "0",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Impact",
+          "guid": "096fe04300d27418f85d1874f25122bd",
+          "id": "1978838826407159945",
+          "path": "m_LocalRotation.y",
+          "value": "0",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Impact",
+          "guid": "096fe04300d27418f85d1874f25122bd",
+          "id": "1978838826407159945",
+          "path": "m_LocalRotation.z",
+          "value": "0",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Impact",
+          "guid": "096fe04300d27418f85d1874f25122bd",
+          "id": "1978838826407159945",
+          "path": "m_LocalEulerAnglesHint.x",
+          "value": "0",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Impact",
+          "guid": "096fe04300d27418f85d1874f25122bd",
+          "id": "1978838826407159945",
+          "path": "m_LocalEulerAnglesHint.y",
+          "value": "0",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Impact",
+          "guid": "096fe04300d27418f85d1874f25122bd",
+          "id": "1978838826407159945",
+          "path": "m_LocalEulerAnglesHint.z",
+          "value": "0",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Impact",
+          "guid": "096fe04300d27418f85d1874f25122bd",
+          "id": "8381085506739280881",
+          "path": "looping",
+          "value": "1",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Impact",
+          "guid": "096fe04300d27418f85d1874f25122bd",
+          "id": "8381085506739280881",
+          "path": "lengthInSec",
+          "value": "1.1",
+          "obj": null
+        }
+      ]
+    },
+    {
+      "name": "NativeFlight_ToImpact",
+      "position": "(-3.00, 0.50, 0.00)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "modifications": [
+        {
+          "target": "BodyAndWake",
+          "guid": "c7bc716572d17422b825ec3d8bd7a174",
+          "id": "3221735511850889416",
+          "path": "looping",
+          "value": "1",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Shot",
+          "guid": "c7bc716572d17422b825ec3d8bd7a174",
+          "id": "5693248074058222507",
+          "path": "m_LocalPosition.x",
+          "value": "-3",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Shot",
+          "guid": "c7bc716572d17422b825ec3d8bd7a174",
+          "id": "5693248074058222507",
+          "path": "m_LocalPosition.y",
+          "value": "0.5",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Shot",
+          "guid": "c7bc716572d17422b825ec3d8bd7a174",
+          "id": "5693248074058222507",
+          "path": "m_LocalPosition.z",
+          "value": "0",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Shot",
+          "guid": "c7bc716572d17422b825ec3d8bd7a174",
+          "id": "5693248074058222507",
+          "path": "m_LocalRotation.w",
+          "value": "1",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Shot",
+          "guid": "c7bc716572d17422b825ec3d8bd7a174",
+          "id": "5693248074058222507",
+          "path": "m_LocalRotation.x",
+          "value": "0",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Shot",
+          "guid": "c7bc716572d17422b825ec3d8bd7a174",
+          "id": "5693248074058222507",
+          "path": "m_LocalRotation.y",
+          "value": "0",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Shot",
+          "guid": "c7bc716572d17422b825ec3d8bd7a174",
+          "id": "5693248074058222507",
+          "path": "m_LocalRotation.z",
+          "value": "0",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Shot",
+          "guid": "c7bc716572d17422b825ec3d8bd7a174",
+          "id": "5693248074058222507",
+          "path": "m_LocalEulerAnglesHint.x",
+          "value": "0",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Shot",
+          "guid": "c7bc716572d17422b825ec3d8bd7a174",
+          "id": "5693248074058222507",
+          "path": "m_LocalEulerAnglesHint.y",
+          "value": "0",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Shot",
+          "guid": "c7bc716572d17422b825ec3d8bd7a174",
+          "id": "5693248074058222507",
+          "path": "m_LocalEulerAnglesHint.z",
+          "value": "0",
+          "obj": null
+        },
+        {
+          "target": "CyberOrb_Shot",
+          "guid": "c7bc716572d17422b825ec3d8bd7a174",
+          "id": "7462866590579840465",
+          "path": "m_Name",
+          "value": "NativeFlight_ToImpact",
+          "obj": null
+        },
+        {
+          "target": "CompactGlow",
+          "guid": "c7bc716572d17422b825ec3d8bd7a174",
+          "id": "8523076094756009272",
+          "path": "looping",
+          "value": "1",
+          "obj": null
+        }
+      ]
+    }
+  ],
+  "shaderSupported": true,
+  "shaderErrors": [],
+  "tailLengthMax": 2.8,
+  "materials": [
+    "Assets/PixelFX/CyberOrb/Materials/BodyAndWake.mat",
+    "Assets/PixelFX/CyberOrb/Materials/CompactGlow.mat",
+    "Assets/PixelFX/CyberOrb/Materials/ImpactFlash.mat",
+    "Assets/PixelFX/CyberOrb/Materials/ResidualWake.mat",
+    "Assets/PixelFX/CyberOrb/Materials/Shards.mat"
+  ]
+}

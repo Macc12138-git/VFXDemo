@@ -1,0 +1,230 @@
+{
+  "effect": "EnergyCluster",
+  "version": "4.1-hybrid-motion-sdf",
+  "stage": "authoring / not Unity",
+  "provenance": "Approximate shell mask derived from author-supplied reference; realtime core/volume/glow/motes reconstructed.",
+  "sourceVersion": "3.2-256-reference-sequence",
+  "sourceAtlasSha256": "bc8e5f3fd6d8e924c74018798cee329986ff57a06845c129734dcdd3f1e24705",
+  "sourceFrameIndices": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    10,
+    12,
+    13,
+    15,
+    17,
+    18
+  ],
+  "frameCount": 12,
+  "fps": 25,
+  "duration": 0.48,
+  "loop": true,
+  "cellSize": [
+    256,
+    256
+  ],
+  "columns": 4,
+  "rows": 3,
+  "atlasSize": [
+    1024,
+    768
+  ],
+  "order": "left-to-right, top-to-bottom",
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "seed": 37,
+  "textures": [
+    {
+      "file": "Textures/EnergyCluster_ShellSDF.png",
+      "pngMode": "L",
+      "targetFormat": "R8 UNorm",
+      "colorSpace": "linear data (sRGB off)",
+      "channel": "R: signed distance, inside positive",
+      "decode": "(R * 2 - 1) * 10 pixels",
+      "filter": "bilinear",
+      "wrap": "clamp",
+      "mipmaps": false,
+      "sha256": "5b1267fcc0a0eff5126804865e7c67e2093b921be16dd240baf739af731b30e6",
+      "pngBytes": 47073
+    },
+    {
+      "file": "Textures/EnergyCluster_ShellFlow64.rgba8",
+      "size": [
+        256,
+        192
+      ],
+      "cellSize": [
+        64,
+        64
+      ],
+      "targetFormat": "RGBA8 UNorm",
+      "colorSpace": "linear data (sRGB off)",
+      "channels": "RG: forward XY pixels, BA: backward XY pixels for each interval",
+      "decode": "(RGBA * 2 - 1) * 48 pixels in the original 256px frame",
+      "fileFormat": "raw RGBA8, row-major top-to-bottom; NOT an RGBA color image",
+      "filter": "bilinear",
+      "wrap": "clamp",
+      "mipmaps": false,
+      "bytes": 196608,
+      "sha256": "39cd4bc3905ce6ea60bab277595abed2598184e9f2934474fbdf296a874174d9"
+    }
+  ],
+  "animation": {
+    "shell": "12 shape frames, low-res bidirectional motion compensation + signed-distance interpolation",
+    "core": "analytic disc, continuous size/intensity pulse",
+    "volume": "analytic sphere falloff + continuously orbiting cyan lobes",
+    "glow": "analytic radial additive light, independent intensity",
+    "motes": "deterministic short-life native-style line particles; no frame textures",
+    "clock": "per-instance seconds; frame phase = age * 25; loop 0.48 seconds",
+    "interpolationLimit": "Approximate optical flow; new/disappearing topology can still contract. Not equivalent to newly drawn intermediate frames."
+  },
+  "separationLimit": "Threshold/component approximation; connected jagged tips remain with shell. Not original artist layers or pixel-identical reconstruction.",
+  "resources": {
+    "baselineRGBA8NoMipsBytes": 3145728,
+    "R8NoMipsBytes": 786432,
+    "R8ReductionPercent": 75.0,
+    "RGBA8FallbackNoMipsBytes": 3342336,
+    "baselinePngBytes": 577139,
+    "shellPngBytes": 47073,
+    "note": "R8 capacity only; actual Unity format/platform memory and GPU sampling cost untested. RGBA fallback has no raw-memory saving.",
+    "flowRGBA8NoMipsBytes": 196608,
+    "totalUncompressedNoMipsBytes": 983040,
+    "totalReductionPercent": 68.75,
+    "totalFileBytes": 243681,
+    "fileReductionPercent": 57.77776237613469
+  },
+  "checks": {
+    "shellCoveragePixels": [
+      2027.0,
+      1969.0,
+      1983.0,
+      2516.0,
+      2449.0,
+      1984.0,
+      2443.0,
+      2896.0,
+      2910.0,
+      2337.0,
+      1747.0,
+      1626.0
+    ],
+    "sourceFilesUnchanged": true,
+    "noNewGIF": true,
+    "motionAlignment": [
+      {
+        "pair": [
+          0,
+          1
+        ],
+        "meanFlowPixels": 23.196532836563893,
+        "alignmentSDFErrorBefore": 0.17152239476663295,
+        "alignmentSDFErrorAfter": 0.054688961870818203
+      },
+      {
+        "pair": [
+          1,
+          2
+        ],
+        "meanFlowPixels": 16.536678379448198,
+        "alignmentSDFErrorBefore": 0.12909958037881988,
+        "alignmentSDFErrorAfter": 0.0487492364600301
+      },
+      {
+        "pair": [
+          2,
+          3
+        ],
+        "meanFlowPixels": 24.009488029816076,
+        "alignmentSDFErrorBefore": 0.20086476302725095,
+        "alignmentSDFErrorAfter": 0.060296228334663284
+      },
+      {
+        "pair": [
+          3,
+          4
+        ],
+        "meanFlowPixels": 28.69496904400743,
+        "alignmentSDFErrorBefore": 0.19741224885015735,
+        "alignmentSDFErrorAfter": 0.0649376488032863
+      },
+      {
+        "pair": [
+          4,
+          5
+        ],
+        "meanFlowPixels": 24.102070395667802,
+        "alignmentSDFErrorBefore": 0.13024550605022034,
+        "alignmentSDFErrorAfter": 0.07023364423643702
+      },
+      {
+        "pair": [
+          5,
+          6
+        ],
+        "meanFlowPixels": 10.04538570309049,
+        "alignmentSDFErrorBefore": 0.15074457659117307,
+        "alignmentSDFErrorAfter": 0.03968358974481037
+      },
+      {
+        "pair": [
+          6,
+          7
+        ],
+        "meanFlowPixels": 20.570737773265083,
+        "alignmentSDFErrorBefore": 0.15663344736359155,
+        "alignmentSDFErrorAfter": 0.04526084747677011
+      },
+      {
+        "pair": [
+          7,
+          8
+        ],
+        "meanFlowPixels": 18.37150347767796,
+        "alignmentSDFErrorBefore": 0.11755305900113275,
+        "alignmentSDFErrorAfter": 0.059037254034201035
+      },
+      {
+        "pair": [
+          8,
+          9
+        ],
+        "meanFlowPixels": 19.9029951534166,
+        "alignmentSDFErrorBefore": 0.1414321971278954,
+        "alignmentSDFErrorAfter": 0.04778167230736168
+      },
+      {
+        "pair": [
+          9,
+          10
+        ],
+        "meanFlowPixels": 24.82459033311657,
+        "alignmentSDFErrorBefore": 0.18754416789310238,
+        "alignmentSDFErrorAfter": 0.05058761254084341
+      },
+      {
+        "pair": [
+          10,
+          11
+        ],
+        "meanFlowPixels": 13.394770136081842,
+        "alignmentSDFErrorBefore": 0.11279097846034966,
+        "alignmentSDFErrorAfter": 0.03387241097424503
+      },
+      {
+        "pair": [
+          11,
+          0
+        ],
+        "meanFlowPixels": 16.9596846356045,
+        "alignmentSDFErrorBefore": 0.1598460370981748,
+        "alignmentSDFErrorAfter": 0.04192938674151095
+      }
+    ]
+  }
+}

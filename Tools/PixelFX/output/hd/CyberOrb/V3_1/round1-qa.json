@@ -1,0 +1,30 @@
+{
+  "version": "3.1.0",
+  "round": "round1",
+  "tests": "PASS",
+  "seed": 42,
+  "options": {
+    "seed": 42,
+    "radius": 14,
+    "speed": 1200,
+    "tailLength": 2.8,
+    "tailWidth": 0.63,
+    "tailOpacity": 1,
+    "motion": "straight",
+    "core": "#f4feff",
+    "rim": "#65e5ff",
+    "trail": "#2674ff",
+    "hitScale": 1,
+    "outlineWidth": 0.1,
+    "outline": "#258bff"
+  },
+  "sourceSha256": "b7878bceac36cd8aa9874bd45442a54308aa97ae6f5bb04ac947fc9842eefeb0",
+  "baselineHash": "768180dff97adf5fcaab8107745997ea2d1b0c295428de20506473c95403da79",
+  "sceneHash": "4f3964be0cf5b1c6589b903f09561917e998a6c01595a0a9c3bf987243cdb11f",
+  "maxRadiusRatioIncludingAntialias": 1.1118053386771944,
+  "regression": "outline-off, trail-only and impact pixel-identical to V3",
+  "notTested": [
+    "Unity runtime visual / batches / CPU / GPU / memory",
+    "target-device performance"
+  ]
+}

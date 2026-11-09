@@ -1,0 +1,43 @@
+{
+  "version": "1.0.3",
+  "round": "final",
+  "seed": 42,
+  "options": {
+    "seed": 42,
+    "radius": 64,
+    "speed": 560,
+    "trailLife": 0.78,
+    "glow": 0.7,
+    "turbulence": 1,
+    "motion": "curve",
+    "body": "#2465f2",
+    "rim": "#65edff",
+    "trail": "#2877ff",
+    "core": "#ddffff"
+  },
+  "modelSamples": 726,
+  "tests": "PASS",
+  "sourceSha256": "a1d58e983430e40208d270a12ce9f471873520c1ac69561550a45fa314e29f5f",
+  "raster": {
+    "size": [
+      1400,
+      560
+    ],
+    "loopSeam": "exact endpoints + adjacent-frame delta",
+    "seamDelta": 0.4120762117346939,
+    "normalDelta": 0.3199779974489796,
+    "deterministic": true,
+    "defaultClipping": false
+  },
+  "canvasCPU": {
+    "medianMs": 18.249083000000155,
+    "p95Ms": 20.36508300000014,
+    "environment": "local Node + @napi-rs/canvas; includes PNG encoding; NOT Unity performance"
+  },
+  "notTested": [
+    "Unity rendering/compilation",
+    "Unity native Particle System assembly",
+    "batches / batching",
+    "target-device CPU / GPU / memory"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "result": "PASS",
+  "stage": "Canvas authoring only",
+  "round": "round-3",
+  "sourceSha256": "c20c6070ea7314114fc57079781dec498dd3094feb46e6848381c9993338cee9",
+  "meta": {
+    "name": "湛蓝能量团",
+    "version": "1.0",
+    "duration": 4,
+    "loop": true,
+    "fps": 60,
+    "size": [
+      640,
+      640
+    ],
+    "origin": [
+      320,
+      320
+    ],
+    "description": "白热亮核、蓝青体积、流转的破碎能量壳和短促外放电弧。独立悬浮循环，无飞行/命中。",
+    "options": {
+      "seed": 37,
+      "radius": 100,
+      "coreSize": 0.205,
+      "pulse": 0.035,
+      "distortion": 1,
+      "shellWidth": 1,
+      "arcAmount": 1,
+      "glow": 0.75,
+      "core": "#f5ffff",
+      "inner": "#29cfff",
+      "body": "#1552ff",
+      "shell": "#e6f8ff",
+      "arc": "#c8eeff"
+    }
+  },
+  "checks": [
+    "3 seeds / 360 times",
+    "determinism",
+    "exact loop endpoints",
+    "near-loop continuity",
+    "finite geometry",
+    "transparent alpha",
+    "no cropped default edges",
+    "5 layer switches",
+    "13 options",
+    "independent light pass"
+  ],
+  "maxExtent": 156.3573897428922,
+  "edgePixels": 0,
+  "seamMean": 0.377177734375,
+  "unity": "not imported; no Unity performance claim"
+}
