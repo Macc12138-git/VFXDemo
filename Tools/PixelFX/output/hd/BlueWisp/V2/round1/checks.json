@@ -1,0 +1,56 @@
+{
+  "version": "2.0.0",
+  "round": "round1",
+  "seed": 13,
+  "options": {
+    "seed": 13,
+    "radius": 112,
+    "flow": 1,
+    "localMotion": 0.7,
+    "glow": 0.4,
+    "shadow": "#0873ed",
+    "body": "#00caff",
+    "flame": "#4cfcff",
+    "core": "#eeffff",
+    "layers": {
+      "body": true,
+      "brush": true,
+      "core": true,
+      "tongues": true,
+      "flecks": true,
+      "glow": true
+    }
+  },
+  "sourceSha256": "0ed5cb496221783e33e75b9c642684527203a6d280945e98f1456556d0b9b0ec",
+  "preservedV1Sha256": "26035217db733d84fcf86dcd895ba9c9615be086ce24faa49ae12761d9ce3ffd",
+  "checks": "PASS",
+  "samples": 288,
+  "stableBodyRaster": true,
+  "stableCoreRaster": true,
+  "stableLeadingHemisphere": true,
+  "globalScale": 1,
+  "motion": {
+    "maxLocalShiftR": 0.05383124999999999,
+    "maxLocalBendR": 0.017325000000000007,
+    "detachedFlecks": 4
+  },
+  "loop": {
+    "endpointExact": true,
+    "seamDelta": 0.009482828776041667,
+    "ordinaryDelta": 0.011507161458333333
+  },
+  "edgeAlpha": 0,
+  "newFlipbooks": 0,
+  "referenceFramesInPlayback": 0,
+  "canvasDrawCPU": {
+    "medianMs": 0.529207999999926,
+    "p95Ms": 0.6315409999999702,
+    "condition": "local Node + napi Canvas 960x640; excludes PNG. NOT Unity performance."
+  },
+  "alpha": "Transparent still is color only. Live preview adds light after drawing the selected background.",
+  "notTested": [
+    "Unity compilation/native assembly",
+    "Unity batches / batching",
+    "target CPU/GPU/memory budget"
+  ]
+}

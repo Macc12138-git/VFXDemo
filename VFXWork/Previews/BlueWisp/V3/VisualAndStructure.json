@@ -1,0 +1,1026 @@
+{
+  "success": true,
+  "method": "Edit Mode Simulate: deterministic static review, not real playback",
+  "components": [
+    "Transform",
+    "ParticleSystem",
+    "ParticleSystemRenderer"
+  ],
+  "systems": [
+    {
+      "name": "VFX_BlueWisp_V3_Loop",
+      "duration": 0.28,
+      "lifetime": 0.28,
+      "loop": true,
+      "sheet": false,
+      "lights": false,
+      "align": "Local"
+    },
+    {
+      "name": "MicroGlow",
+      "duration": 0.28,
+      "lifetime": 0.28,
+      "loop": true,
+      "sheet": false,
+      "lights": false,
+      "align": "Local"
+    }
+  ],
+  "shaderSupported": true,
+  "shaderMessages": [],
+  "tests": [
+    {
+      "prop": "_Edge",
+      "mutedPixels": 5398,
+      "recoloredPixels": 5437
+    },
+    {
+      "prop": "_Blue",
+      "mutedPixels": 5868,
+      "recoloredPixels": 5917
+    },
+    {
+      "prop": "_Cyan",
+      "mutedPixels": 17032,
+      "recoloredPixels": 17070
+    },
+    {
+      "prop": "_Pale",
+      "mutedPixels": 14074,
+      "recoloredPixels": 14084
+    },
+    {
+      "prop": "_Core",
+      "mutedPixels": 4924,
+      "recoloredPixels": 4933
+    }
+  ],
+  "samples": [
+    {
+      "name": "Pose1",
+      "time": 0.035,
+      "background": "gray",
+      "mute": null,
+      "recolor": null,
+      "colorOnly": false,
+      "yaw": 0.0,
+      "visible": 46106,
+      "age": 0.03499998,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Pose2",
+      "time": 0.105000004,
+      "background": "gray",
+      "mute": null,
+      "recolor": null,
+      "colorOnly": false,
+      "yaw": 0.0,
+      "visible": 46173,
+      "age": 0.105000019,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.375000119,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.375000119,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Pose3",
+      "time": 0.175,
+      "background": "gray",
+      "mute": null,
+      "recolor": null,
+      "colorOnly": false,
+      "yaw": 0.0,
+      "visible": 47320,
+      "age": 0.174999967,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.62499994,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.62499994,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Pose4",
+      "time": 0.245,
+      "background": "gray",
+      "mute": null,
+      "recolor": null,
+      "colorOnly": false,
+      "yaw": 0.0,
+      "visible": 49299,
+      "age": 0.244999245,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.8749974,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.8749974,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "LoopRepeat",
+      "time": 0.315,
+      "background": "gray",
+      "mute": null,
+      "recolor": null,
+      "colorOnly": false,
+      "yaw": 0.0,
+      "visible": 46106,
+      "age": 0.03499998,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Background_light",
+      "time": 0.175,
+      "background": "light",
+      "mute": null,
+      "recolor": null,
+      "colorOnly": false,
+      "yaw": 0.0,
+      "visible": 47306,
+      "age": 0.174999967,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.62499994,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.62499994,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Background_dark",
+      "time": 0.175,
+      "background": "dark",
+      "mute": null,
+      "recolor": null,
+      "colorOnly": false,
+      "yaw": 0.0,
+      "visible": 47341,
+      "age": 0.174999967,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.62499994,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.62499994,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "ColorOnly",
+      "time": 0.105,
+      "background": "gray",
+      "mute": null,
+      "recolor": null,
+      "colorOnly": true,
+      "yaw": 0.0,
+      "visible": 46171,
+      "age": 0.105000019,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.375000119,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.375000119,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Angle45",
+      "time": 0.105,
+      "background": "gray",
+      "mute": null,
+      "recolor": null,
+      "colorOnly": false,
+      "yaw": 45.0,
+      "visible": 32658,
+      "age": 0.105000019,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.375000119,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.375000119,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Palette_Default_Edge",
+      "time": 0.035,
+      "background": "gray",
+      "mute": null,
+      "recolor": null,
+      "colorOnly": false,
+      "yaw": 0.0,
+      "visible": 46106,
+      "age": 0.03499998,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Palette_Mute_Edge",
+      "time": 0.035,
+      "background": "gray",
+      "mute": "_Edge",
+      "recolor": null,
+      "colorOnly": false,
+      "yaw": 0.0,
+      "visible": 41125,
+      "age": 0.03499998,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Palette_Red_Edge",
+      "time": 0.035,
+      "background": "gray",
+      "mute": null,
+      "recolor": "_Edge",
+      "colorOnly": false,
+      "yaw": 0.0,
+      "visible": 46121,
+      "age": 0.03499998,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Palette_Default_Blue",
+      "time": 0.035,
+      "background": "gray",
+      "mute": null,
+      "recolor": null,
+      "colorOnly": false,
+      "yaw": 0.0,
+      "visible": 46106,
+      "age": 0.03499998,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Palette_Mute_Blue",
+      "time": 0.035,
+      "background": "gray",
+      "mute": "_Blue",
+      "recolor": null,
+      "colorOnly": false,
+      "yaw": 0.0,
+      "visible": 46106,
+      "age": 0.03499998,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Palette_Red_Blue",
+      "time": 0.035,
+      "background": "gray",
+      "mute": null,
+      "recolor": "_Blue",
+      "colorOnly": false,
+      "yaw": 0.0,
+      "visible": 46106,
+      "age": 0.03499998,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Palette_Default_Cyan",
+      "time": 0.035,
+      "background": "gray",
+      "mute": null,
+      "recolor": null,
+      "colorOnly": false,
+      "yaw": 0.0,
+      "visible": 46106,
+      "age": 0.03499998,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Palette_Mute_Cyan",
+      "time": 0.035,
+      "background": "gray",
+      "mute": "_Cyan",
+      "recolor": null,
+      "colorOnly": false,
+      "yaw": 0.0,
+      "visible": 45984,
+      "age": 0.03499998,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Palette_Red_Cyan",
+      "time": 0.035,
+      "background": "gray",
+      "mute": null,
+      "recolor": "_Cyan",
+      "colorOnly": false,
+      "yaw": 0.0,
+      "visible": 46106,
+      "age": 0.03499998,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Palette_Default_Pale",
+      "time": 0.035,
+      "background": "gray",
+      "mute": null,
+      "recolor": null,
+      "colorOnly": false,
+      "yaw": 0.0,
+      "visible": 46106,
+      "age": 0.03499998,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Palette_Mute_Pale",
+      "time": 0.035,
+      "background": "gray",
+      "mute": "_Pale",
+      "recolor": null,
+      "colorOnly": false,
+      "yaw": 0.0,
+      "visible": 46106,
+      "age": 0.03499998,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Palette_Red_Pale",
+      "time": 0.035,
+      "background": "gray",
+      "mute": null,
+      "recolor": "_Pale",
+      "colorOnly": false,
+      "yaw": 0.0,
+      "visible": 46106,
+      "age": 0.03499998,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Palette_Default_Core",
+      "time": 0.035,
+      "background": "gray",
+      "mute": null,
+      "recolor": null,
+      "colorOnly": false,
+      "yaw": 0.0,
+      "visible": 46106,
+      "age": 0.03499998,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Palette_Mute_Core",
+      "time": 0.035,
+      "background": "gray",
+      "mute": "_Core",
+      "recolor": null,
+      "colorOnly": false,
+      "yaw": 0.0,
+      "visible": 46106,
+      "age": 0.03499998,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "name": "Palette_Red_Core",
+      "time": 0.035,
+      "background": "gray",
+      "mute": null,
+      "recolor": "_Core",
+      "colorOnly": false,
+      "yaw": 0.0,
+      "visible": 46106,
+      "age": 0.03499998,
+      "particles": 2,
+      "bakedUV0": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bakedUV1": [
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.124999963,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    }
+  ],
+  "sceneWasDirty": false,
+  "sceneIsDirty": false,
+  "resourceMemory": {
+    "meshBytes": 820992,
+    "materialBytes": 2480
+  }
+}

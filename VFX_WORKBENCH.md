@@ -22,6 +22,14 @@
 `CyberOrb_Impact`（独立命中）两个预制体。工作场景中的 `CyberOrb_Demo` 提供外观和命中预览；
 使用和调参见 [CyberOrb 使用说明](Assets/PixelFX/CyberOrb/Docs/README.md)。
 
+赛博能量球使用 `Assets/PixelFX/EnergyCluster/Prefabs/VFX_EnergyCluster_Loop.prefab`，
+已放入公共工作场景。它是独立循环能量球，不包含爆炸或演示预制体；
+放置、分层与调色见 [EnergyCluster 使用说明](Assets/PixelFX/EnergyCluster/Docs/README.md)。
+
+蓝色光球 V3 使用 `Assets/PixelFX/BlueWisp/V3/Prefabs/VFX_BlueWisp_V3_Loop.prefab`，
+已放入公共工作场景。保留四姿态各70ms的跳切循环，使用原生粒子和静态手绘几何；
+播放、缩放及独立调色见 [BlueWisp 使用说明](Assets/PixelFX/BlueWisp/V3/Docs/README.md)。
+
 独立火焰的根节点放在模型火口。只调整某个实例的材质时，先复制材质再赋给该实例，
 避免影响其他共用实例。效果目录不含场景和 Editor 脚本，使用时不需要 Build 菜单。
 

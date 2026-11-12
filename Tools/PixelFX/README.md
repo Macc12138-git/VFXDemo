@@ -4,7 +4,7 @@
 
 # pixelfx.
 
-**<!-- count -->244<!-- /count --> pixel art effects and animations, every one a small piece of code.** Fire,
+**<!-- count -->248<!-- /count --> pixel art effects and animations, every one a small piece of code.** Fire,
 explosions, magic, weather, UI, pickups, critters and more. Play them live, recolor and mirror them, drop them into
 a browser game, or export sprite sheets for any engine. Plus a Claude Code skill that makes new ones the way a
 picky pixel artist would: draft, render, look, refine.
@@ -27,15 +27,15 @@ the idea at library scale, with a skill to keep going.
 | category | effects | some of them |
 |---|---|---|
 | **moves** | 12 | arrow shot, dash strike, earth stomp, fireball throw, ground pound, holy smite… |
-| **fire** | 12 | brazier, campfire, candle, fire breath, fire ring, fire tornado… |
-| **explosions** | 12 | barrel explosion, big explosion, cartoon pow, dirt explosion, firework burst, firework rocket… |
+| **fire** | 13 | arcade fireball · copper body / violet wrap, brazier, campfire, candle, fire breath, fire ring… |
+| **explosions** | 13 | arcade fireball · eight impact poses, barrel explosion, big explosion, cartoon pow, dirt explosion, firework burst… |
 | **water** | 12 | bubbles, drip, fountain, geyser, rain splash, ripples… |
 | **ice** | 10 | blizzard vortex, freeze, frost breath, frost nova, ice crystal, ice lance… |
 | **lightning** | 11 | ball lightning, chain lightning, charge up, electrified, lightning strike, plasma ball… |
-| **sci-fi** | 12 | emp blast, energy core, force field, glitch, hologram, jetpack… |
+| **sci-fi** | 13 | arcade engine exhaust · flame only, emp blast, energy core, force field, glitch, hologram… |
 | **melee** | 12 | claw swipe, dagger flurry, double slash, hammer smash, heavy cleave, scythe reap… |
 | **impacts** | 11 | blunt hit, bullet impact, critical hit, ground slam, heavy landing, hit flash… |
-| **projectiles** | 13 | arrow, bullet tracer, cannon shot, energy disc, signal flare, homing missile… |
+| **projectiles** | 14 | arcade round · single, arrow, bullet tracer, cannon shot, energy disc, signal flare… |
 | **spawn & death** | 10 | coin drop, disintegrate, dissolve burn, egg hatch, poof, respawn beam… |
 | **arcane** | 12 | arcane beam, arcane missiles, arcane orb, blink in, blink out, magic circle cast… |
 | **holy** | 10 | blessing, divine shield, feather burst, halo, heal, healing ring… |

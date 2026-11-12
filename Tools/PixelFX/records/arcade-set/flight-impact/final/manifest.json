@@ -1,0 +1,124 @@
+{
+  "round": "final",
+  "unityImported": false,
+  "referenceFrameNumbering": "one-based",
+  "referenceRange": [
+    30,
+    60
+  ],
+  "timing": {
+    "artFps": 50,
+    "flightPoses": 6,
+    "flightLoopSeconds": 0.12,
+    "impactPoses": 8,
+    "impactSeconds": 0.16,
+    "note": "GIF frames are 20ms. Flight heat appears to repeat after six GIF frames; impact is an eight-pose reconstruction, not an exact isolated source animation"
+  },
+  "checks": {
+    "deterministic": true,
+    "singleConnectedFlightSprite": true,
+    "sixUniqueHeatStates": true,
+    "fixedFlightSilhouette": true,
+    "unchangedTail": true,
+    "exactLoopEndpoint": true,
+    "eightVisibleImpactStates": true,
+    "emptyImpactEndpoint": true,
+    "unclipped": true,
+    "coreLuma": [
+      209.4445406250002,
+      155.38417499999986,
+      143.7640968750001,
+      173.2549499999999,
+      206.44393437500014,
+      213.471415625
+    ],
+    "coreBrightDimRatio": 1.48487292909167
+  },
+  "effects": [
+    {
+      "id": "fire/arcade-fireball",
+      "source": "/Users/user/Desktop/VFXDemo/VFXDemo/Tools/PixelFX/src/fx/fire/arcade-fireball.js",
+      "sha256": "cac9598bdaf98bd9c0e46f825647b04fc5be5077ce476171b4fe55b96b2c4264",
+      "meta": {
+        "fps": 50,
+        "bg": "dark",
+        "loop": true,
+        "duration": 0.12,
+        "tags": [
+          "fire",
+          "projectile",
+          "arcade",
+          "pixel",
+          "single",
+          "loop"
+        ],
+        "options": {
+          "palette": [
+            "#48204f",
+            "#72345f",
+            "#a44f42",
+            "#c77550",
+            "#d69c59",
+            "#c8b65d",
+            "#e5dd83",
+            "#fff9c5"
+          ],
+          "pulse": 1,
+          "seed": 17
+        },
+        "name": "Arcade fireball · six heat poses",
+        "desc": "One round fire head with a quiet conical violet tail. Six stepped core-heat poses; the shell, tail and silhouette stay fixed.",
+        "size": [
+          36,
+          48
+        ],
+        "origin": [
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "id": "explosions/arcade-fireball-impact",
+      "source": "/Users/user/Desktop/VFXDemo/VFXDemo/Tools/PixelFX/src/fx/explosions/arcade-fireball-impact.js",
+      "sha256": "b6b3c2bb8986bebc73056c50df6f77a7bdf3e3f81b76d57df93dda884b11c730",
+      "meta": {
+        "fps": 50,
+        "bg": "dark",
+        "loop": false,
+        "duration": 0.16,
+        "tags": [
+          "explosion",
+          "fire",
+          "arcade",
+          "pixel",
+          "single",
+          "one-shot"
+        ],
+        "options": {
+          "palette": [
+            "#542b42",
+            "#874333",
+            "#ac563d",
+            "#cd7752",
+            "#df9d68",
+            "#e7c58c",
+            "#fff0bf",
+            "#fffde5"
+          ],
+          "seed": 17
+        },
+        "name": "Arcade fireball · eight impact poses",
+        "desc": "A single cream impact flash swells into an orange rolled cloud, splits into cooling fragments and clears. Eight geometric poses; no beam, ring chains or enemy sprite.",
+        "size": [
+          60,
+          60
+        ],
+        "origin": [
+          30,
+          30
+        ]
+      }
+    }
+  ]
+}

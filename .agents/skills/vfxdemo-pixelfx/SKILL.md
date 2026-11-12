@@ -8,6 +8,7 @@ description: 在 VFXDemo 中基于 pixelfx 制作高清手绘游戏特效，迭�
 基于项目内 pixelfx 的“分析参考 → 制作 → render/look/refine”方法，扩展为
 高清素材、实时 Shader、材质和原生粒子的协同工作流。保留名称 `vfxdemo-pixelfx` 作为
 统一入口，不另建相互冲突的创作/迁移技能。当前有 Brazier、BuildFX 与 LightningNova 三个案例族的初步验证，
+另有 BlueWisp 的参考驱动重绘制作记录，视觉仍待验收；Heavy cleave V4 已由作者选定保留，尚未导入 Unity。
 不是任意效果的一键转换器；能力与缺口见 [案例与迭代](references/iteration.md)。
 
 ## 阶段与授权
@@ -57,6 +58,12 @@ Node/JS。内置副本是本工程之后的创作来源，不自动与原桌面 
 
 - 制作、修改、预览特效：读 [creation.md](references/creation.md)，以及工程内
   `Tools/PixelFX/skills/pixelfx/SKILL.md`。新创作还须完整读 `Tools/PixelFX/docs/AUTHORING.md`。
+- 按图片/GIF 参考重绘、从像素参考转为高清手绘，或作者反馈“与参考差异太大”：
+  再读 [参考驱动重绘](references/reference-led-redraw.md)。先说明参考特点与待确认项，
+  再按特点选择表现方法；BlueWisp 的四姿态/70ms 仅是该案例的作者选择。
+- 斩击刀光手绘化、刀面单色过平，或需参考阴影/亮边/顺势笔触：再读
+  [Heavy cleave 手绘案例](references/heavy-cleave-handpainted.md)。区分运动依据与画法参考，
+  用少量语义色组建立刀面厚度；该例的宽头、配色和笔触数量不作为所有斩击的固定要求。
 - 涉及实时形变、噪声、溶解或材质设计：读 [shader-material.md](references/shader-material.md)。
 - 已获导入授权：读 [unity-native.md](references/unity-native.md)、Shader/材质参考和
   [performance.md](references/performance.md)，再读目标源码及其 helper；不只看最终 PNG。

@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "dataPath": "/Users/user/Desktop/VFXDemo/VFXDemo/Assets",
+  "scene": "Assets/Scenes/VFXWorkbench.unity",
+  "dirty": false,
+  "prefab": "Assets/PixelFX/BlueWisp/V3/Prefabs/VFX_BlueWisp_V3_Loop.prefab",
+  "sourceHash": "5544592adce52f7642784c7fe17f17e54f9862260988012668748cd5e65aa45c",
+  "priorComponentsUnchanged": 63,
+  "systems": 2,
+  "meshes": [
+    {
+      "name": "BlueWisp_AuthoredPoses",
+      "vertices": 8208,
+      "triangles": 12178
+    },
+    {
+      "name": "BlueWisp_StaticGlow",
+      "vertices": 4,
+      "triangles": 2
+    }
+  ],
+  "textures": 0,
+  "runtimeScripts": 0,
+  "shaderSupported": true,
+  "shaderMessages": []
+}

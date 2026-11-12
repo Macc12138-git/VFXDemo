@@ -1,0 +1,319 @@
+{
+  "success": true,
+  "error": null,
+  "method": "Actual Play Mode / advancing native particle ages; four live renders; Emission drain/restore, per-system Pause/Play, Stop/Play, root enable and offscreen return. No Simulate/Emit/SetParticles.",
+  "capturedPoses": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "activeFrames": 17,
+  "zeroFrames": 0,
+  "drained": 0,
+  "restored": 2,
+  "reused": 2,
+  "samples": [
+    {
+      "label": "live_pose_0",
+      "frame": 3,
+      "time": 0.0399999858276644,
+      "systems": [
+        {
+          "name": "BlueWisp_LiveQA_Temporary",
+          "time": 0.0199999921,
+          "count": 1,
+          "age": 0.01999998,
+          "pose": 0,
+          "emission": true,
+          "paused": false
+        },
+        {
+          "name": "MicroGlow",
+          "time": 0.0199999921,
+          "count": 1,
+          "age": 0.01999998,
+          "pose": 0,
+          "emission": true,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "label": "live_pose_2",
+      "frame": 4,
+      "time": 0.175015695861678,
+      "systems": [
+        {
+          "name": "BlueWisp_LiveQA_Temporary",
+          "time": 0.155015692,
+          "count": 1,
+          "age": 0.1550157,
+          "pose": 2,
+          "emission": true,
+          "paused": false
+        },
+        {
+          "name": "MicroGlow",
+          "time": 0.155015692,
+          "count": 1,
+          "age": 0.1550157,
+          "pose": 2,
+          "emission": true,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "label": "live_pose_3",
+      "frame": 5,
+      "time": 0.26886556831065761,
+      "systems": [
+        {
+          "name": "BlueWisp_LiveQA_Temporary",
+          "time": 0.248865589,
+          "count": 1,
+          "age": 0.248865589,
+          "pose": 3,
+          "emission": true,
+          "paused": false
+        },
+        {
+          "name": "MicroGlow",
+          "time": 0.248865589,
+          "count": 1,
+          "age": 0.248865589,
+          "pose": 3,
+          "emission": true,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "label": "live_pose_1",
+      "frame": 15,
+      "time": 1.2323424036281179,
+      "systems": [
+        {
+          "name": "BlueWisp_LiveQA_Temporary",
+          "time": 0.09234241,
+          "count": 1,
+          "age": 0.100148857,
+          "pose": 1,
+          "emission": true,
+          "paused": false
+        },
+        {
+          "name": "MicroGlow",
+          "time": 0.09234241,
+          "count": 1,
+          "age": 0.100148857,
+          "pose": 1,
+          "emission": true,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "label": "steady_loops",
+      "frame": 20,
+      "time": 1.7318160714285713,
+      "systems": [
+        {
+          "name": "BlueWisp_LiveQA_Temporary",
+          "time": 0.0318160355,
+          "count": 1,
+          "age": 0.0495306253,
+          "pose": 0,
+          "emission": true,
+          "paused": false
+        },
+        {
+          "name": "MicroGlow",
+          "time": 0.0318160355,
+          "count": 1,
+          "age": 0.0495306253,
+          "pose": 0,
+          "emission": true,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "label": "emission_drained",
+      "frame": 25,
+      "time": 2.2325843608276643,
+      "systems": [
+        {
+          "name": "BlueWisp_LiveQA_Temporary",
+          "time": 0.252584338,
+          "count": 0,
+          "age": -1.0,
+          "pose": -1,
+          "emission": false,
+          "paused": false
+        },
+        {
+          "name": "MicroGlow",
+          "time": 0.252584338,
+          "count": 0,
+          "age": -1.0,
+          "pose": -1,
+          "emission": false,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "label": "emission_restored",
+      "frame": 31,
+      "time": 2.8322508219954647,
+      "systems": [
+        {
+          "name": "BlueWisp_LiveQA_Temporary",
+          "time": 0.0122508109,
+          "count": 1,
+          "age": 0.025111258,
+          "pose": 0,
+          "emission": true,
+          "paused": false
+        },
+        {
+          "name": "MicroGlow",
+          "time": 0.0122508109,
+          "count": 1,
+          "age": 0.025111258,
+          "pose": 0,
+          "emission": true,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "label": "native_pause_held",
+      "frame": 33,
+      "time": 3.032551736111111,
+      "systems": [
+        {
+          "name": "BlueWisp_LiveQA_Temporary",
+          "time": 0.0122508109,
+          "count": 1,
+          "age": 0.025111258,
+          "pose": 0,
+          "emission": true,
+          "paused": true
+        },
+        {
+          "name": "MicroGlow",
+          "time": 0.0122508109,
+          "count": 1,
+          "age": 0.025111258,
+          "pose": 0,
+          "emission": true,
+          "paused": true
+        }
+      ]
+    },
+    {
+      "label": "native_resume",
+      "frame": 35,
+      "time": 3.2333513180272107,
+      "systems": [
+        {
+          "name": "BlueWisp_LiveQA_Temporary",
+          "time": 0.21305041,
+          "count": 1,
+          "age": 0.225910857,
+          "pose": 3,
+          "emission": true,
+          "paused": false
+        },
+        {
+          "name": "MicroGlow",
+          "time": 0.21305041,
+          "count": 1,
+          "age": 0.225910857,
+          "pose": 3,
+          "emission": true,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "label": "native_restart",
+      "frame": 36,
+      "time": 3.3334021116780046,
+      "systems": [
+        {
+          "name": "BlueWisp_LiveQA_Temporary",
+          "time": 0.100050785,
+          "count": 1,
+          "age": 0.100050777,
+          "pose": 1,
+          "emission": true,
+          "paused": false
+        },
+        {
+          "name": "MicroGlow",
+          "time": 0.100050785,
+          "count": 1,
+          "age": 0.100050777,
+          "pose": 1,
+          "emission": true,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "label": "root_reuse",
+      "frame": 39,
+      "time": 3.6337037344104308,
+      "systems": [
+        {
+          "name": "BlueWisp_LiveQA_Temporary",
+          "time": 0.19997409,
+          "count": 1,
+          "age": 0.19997406,
+          "pose": 2,
+          "emission": true,
+          "paused": false
+        },
+        {
+          "name": "MicroGlow",
+          "time": 0.19997409,
+          "count": 1,
+          "age": 0.19997406,
+          "pose": 2,
+          "emission": true,
+          "paused": false
+        }
+      ]
+    },
+    {
+      "label": "offscreen_return",
+      "frame": 42,
+      "time": 3.9317679492630382,
+      "systems": [
+        {
+          "name": "BlueWisp_LiveQA_Temporary",
+          "time": 0.218038291,
+          "count": 1,
+          "age": 0.222421259,
+          "pose": 3,
+          "emission": true,
+          "paused": false
+        },
+        {
+          "name": "MicroGlow",
+          "time": 0.218038291,
+          "count": 1,
+          "age": 0.222421259,
+          "pose": 3,
+          "emission": true,
+          "paused": false
+        }
+      ]
+    }
+  ],
+  "settingsRestored": true
+}

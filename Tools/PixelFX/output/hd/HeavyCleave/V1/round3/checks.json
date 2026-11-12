@@ -1,0 +1,41 @@
+{
+  "effect": "hd/heavy-cleave",
+  "version": "1.0.2",
+  "round": "round3",
+  "checks": "PASS",
+  "options": {
+    "seed": 5,
+    "scale": 1,
+    "thickness": 1,
+    "brush": 0.78,
+    "glow": 0.55,
+    "shadow": "#9a292c",
+    "body": "#f47732",
+    "hot": "#ffd578",
+    "edge": "#fff9df",
+    "layers": {
+      "echo": true,
+      "body": true,
+      "brush": true,
+      "edge": true,
+      "glow": true
+    }
+  },
+  "sourceSha256": "92f84f48c09c6d67998d05bee07c7e1e5e13e62457e32b7a133f8f26a1cf3e5d",
+  "referenceSha256": "86b8cba64882f09e6ce6a993d0b470e2588015d066a13bb72743557dc3919b27",
+  "boundaryAlpha": 0,
+  "firstAndLastEmpty": true,
+  "deterministic": true,
+  "scope": "Sword arc, inner echo, painted edge and attached low light only.",
+  "newFlipbooks": 0,
+  "newGifs": 0,
+  "canvasDrawCPU": {
+    "medianMs": 0.5122500000000514,
+    "p95Ms": 1.1880419999999958,
+    "condition": "Local Node + napi Canvas 1024x768; excludes PNG encoding and browser compositing. Not Unity performance."
+  },
+  "notTested": [
+    "Unity native assembly",
+    "target CPU/GPU/memory and batching"
+  ]
+}

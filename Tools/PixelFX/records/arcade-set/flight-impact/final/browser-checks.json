@@ -1,0 +1,27 @@
+{
+  "sequenceEnded": {
+    "phase": "ended",
+    "playing": "false",
+    "pose": "9"
+  },
+  "finalStage": {
+    "phase": "flight",
+    "playing": "true",
+    "pose": "5"
+  },
+  "previewErrors": [],
+  "observedChecks": [
+    "flight advances while playing",
+    "pause and step to core dim pose 3/6",
+    "core pulse checkbox restores bright core",
+    "impact step to 4/8 on light background at 6x without visible clipping",
+    "impact step to orange cloud 6/8",
+    "sequence stops empty after 28 art ticks (0.56s)",
+    "replay restarts sequence",
+    "final flight mode playing at 1x"
+  ],
+  "screenshots": [
+    "browser-final.jpg",
+    "browser-impact.jpg"
+  ]
+}

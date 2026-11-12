@@ -1,0 +1,25 @@
+{
+  "source": "/var/folders/hh/0sdcx5ps03925t5wsczr6f_80000gn/T/codex-clipboard-13b1861d-12ad-4fe3-8c8b-88a2a22e8e11.gif",
+  "size": [
+    752,
+    400
+  ],
+  "frames": 8,
+  "durationsMs": [
+    70,
+    70,
+    70,
+    70,
+    70,
+    70,
+    70,
+    70
+  ],
+  "crop": [
+    300,
+    130,
+    450,
+    265
+  ],
+  "use": "Visual reference only; no extracted frames used in the effect"
+}

@@ -1,0 +1,37 @@
+{
+  "source": "/var/folders/hh/0sdcx5ps03925t5wsczr6f_80000gn/T/codex-clipboard-13b1861d-12ad-4fe3-8c8b-88a2a22e8e11.gif",
+  "crop": [
+    300,
+    130,
+    450,
+    265
+  ],
+  "durationMs": 280,
+  "purpose": "Reference comparison UI only, not redrawn effect playback artwork",
+  "poses": [
+    {
+      "pose": 1,
+      "startMs": 0,
+      "holdMs": 70,
+      "cropSha256": "082e2a738081db15b60ea4131c4848ddb20cccefa20cde6e01e4dfb7f0703916"
+    },
+    {
+      "pose": 2,
+      "startMs": 70,
+      "holdMs": 70,
+      "cropSha256": "262c3af6cbf52dbe7e8453fd3a34d492b1a3553123153b64da202acc2cf5f5a5"
+    },
+    {
+      "pose": 3,
+      "startMs": 140,
+      "holdMs": 70,
+      "cropSha256": "a1c872ab4d7d90c6e0f9d94adbdc788b13b2c7dc01757a2a7208e77ba674fb41"
+    },
+    {
+      "pose": 4,
+      "startMs": 210,
+      "holdMs": 70,
+      "cropSha256": "42d15fd7c768c709a8e7c0bb56da4539c79384e37d808bb59afae2393789150d"
+    }
+  ]
+}

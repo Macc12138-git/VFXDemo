@@ -1,0 +1,18 @@
+{
+  "comparisons": [
+    {
+      "time": 0.144,
+      "activePixels": 56092,
+      "sourceBrightPixels": 16678,
+      "meanAbsoluteRGB8WithinSource": 8.861572654448644,
+      "limits": "Linear-alpha/additive Unity composition differs from author display-space layering; not an exact pixel port."
+    },
+    {
+      "time": 0.288,
+      "activePixels": 56092,
+      "sourceBrightPixels": 16412,
+      "meanAbsoluteRGB8WithinSource": 8.140198245739143,
+      "limits": "Linear-alpha/additive Unity composition differs from author display-space layering; not an exact pixel port."
+    }
+  ]
+}

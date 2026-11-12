@@ -1,0 +1,55 @@
+{
+  "effect": "hd/heavy-cleave-v2",
+  "version": "2.0.1",
+  "round": "round2",
+  "checks": "PASS",
+  "options": {
+    "bladeLength": 192,
+    "tear": 1,
+    "glow": 0.12,
+    "body": "#f36b32",
+    "shadow": "#9d302b",
+    "edge": "#fff3d1",
+    "layers": {
+      "body": true,
+      "shadow": true,
+      "tail": true,
+      "edge": true,
+      "glow": true
+    }
+  },
+  "leadingPixels": 190,
+  "majorColorCoverage": 0.9805246228601038,
+  "principalColors": [
+    [
+      "243,107,50",
+      85182
+    ],
+    [
+      "157,48,43",
+      11013
+    ],
+    [
+      "255,243,209",
+      4096
+    ]
+  ],
+  "boundaryAlpha": 0,
+  "firstAndLastEmpty": true,
+  "deterministic": true,
+  "sourceSha256": "acb4cf43fbf3b2e22d35b40a98e86867cf4fd73e19b59e7378f7d50439a9d995",
+  "preservedV1Sha256": "92f84f48c09c6d67998d05bee07c7e1e5e13e62457e32b7a133f8f26a1cf3e5d",
+  "referenceSha256": "39abb19687b8a082e21c435e35271153e6e396f43dd04bfe3c892d7c976adbf1",
+  "scope": "Blade light only. Stable outer arc, full-width front, torn inner side and trailing strips.",
+  "newFlipbooks": 0,
+  "newGifs": 0,
+  "canvasDrawCPU": {
+    "medianMs": 0.33929200000000037,
+    "p95Ms": 0.8297919999999976,
+    "condition": "Local Node + napi Canvas 1024x768; excludes encoding and browser compositing. Not Unity performance."
+  },
+  "notTested": [
+    "Unity assembly and playback",
+    "target device CPU/GPU/memory and batching"
+  ]
+}

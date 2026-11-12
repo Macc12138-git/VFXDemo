@@ -1,0 +1,149 @@
+{
+  "version": "final-round2",
+  "authoring": "pixelfx pure geometry / no texture / no animation sheets",
+  "unityImported": false,
+  "effects": [
+    {
+      "id": "scifi/arcade-engine-exhaust",
+      "source": "/Users/user/Desktop/VFXDemo/VFXDemo/Tools/PixelFX/src/fx/scifi/arcade-engine-exhaust.js",
+      "sha256": "d5ccdaec71f054fc3739f58fe1e3aa4b5f46489e6f20c14590f47d43c7a9b3f3",
+      "meta": {
+        "fps": 24,
+        "bg": "dark",
+        "loop": true,
+        "duration": 1,
+        "tags": [
+          "scifi",
+          "engine",
+          "exhaust",
+          "pixel",
+          "loop"
+        ],
+        "options": {
+          "palette": [
+            "#a65b56",
+            "#e8b75f",
+            "#fff2a5",
+            "#ffffe4"
+          ],
+          "thrust": 1,
+          "seed": 11
+        },
+        "name": "Arcade engine exhaust · flame only",
+        "desc": "An independent tiny downward jet: an ivory hot nozzle, a pale-yellow taper and a short orange edge. The airframe is not part of the effect.",
+        "size": [
+          32,
+          32
+        ],
+        "origin": [
+          16,
+          8
+        ]
+      }
+    },
+    {
+      "id": "fire/arcade-fireball",
+      "source": "/Users/user/Desktop/VFXDemo/VFXDemo/Tools/PixelFX/src/fx/fire/arcade-fireball.js",
+      "sha256": "26875aa71a15a9f7f12b422386db62533e611db261b4e49027b623a341b6d241",
+      "meta": {
+        "fps": 24,
+        "bg": "dark",
+        "loop": true,
+        "duration": 1,
+        "tags": [
+          "fire",
+          "projectile",
+          "arcade",
+          "pixel",
+          "single",
+          "loop"
+        ],
+        "options": {
+          "palette": [
+            "#35163e",
+            "#642356",
+            "#8b2f5b",
+            "#b94d50",
+            "#dc784e",
+            "#efa45c",
+            "#f3d36d",
+            "#fff2a0"
+          ],
+          "turbulence": 1,
+          "seed": 17
+        },
+        "name": "Arcade fireball · single",
+        "desc": "Exactly one upward-facing fireball: a yellow hot head wrapped in orange, with a short violet-red streaming tail. No side fireballs or explosion.",
+        "size": [
+          40,
+          56
+        ],
+        "origin": [
+          20,
+          26
+        ]
+      }
+    },
+    {
+      "id": "projectiles/arcade-round",
+      "source": "/Users/user/Desktop/VFXDemo/VFXDemo/Tools/PixelFX/src/fx/projectiles/arcade-round.js",
+      "sha256": "ce8ee287f9928a656b9286d0bb82d9fd439b3931d7d4038576b12f9ca443182f",
+      "meta": {
+        "fps": 24,
+        "bg": "dark",
+        "loop": true,
+        "duration": 1,
+        "tags": [
+          "projectile",
+          "bullet",
+          "arcade",
+          "pixel",
+          "single",
+          "loop"
+        ],
+        "options": {
+          "palette": [
+            "#4a2356",
+            "#79416c",
+            "#b56975",
+            "#df937e",
+            "#f6b99a",
+            "#fff0cb"
+          ],
+          "seed": 23
+        },
+        "name": "Arcade round · single",
+        "desc": "Exactly one compact upward-facing round with an ivory-pink cap, warm orange body and short violet tail. Not the five-round volley in the reference.",
+        "size": [
+          24,
+          32
+        ],
+        "origin": [
+          12,
+          14
+        ]
+      }
+    }
+  ],
+  "checks": {
+    "exactLoopEndpoints": true,
+    "stationaryAirframe": true,
+    "singleFireballAllFrames": true,
+    "singleRoundAllFrames": true,
+    "optionsRespond": true,
+    "deterministic": true
+  },
+  "staticAirframe": {
+    "image": "Static/arcade-fighter.png",
+    "sha256": "1fe71968656ce2e898a5c0fa8bea1b820ceb04da89b01fac0a4cb4c9828df967",
+    "anchor": [
+      40,
+      39
+    ],
+    "engineMouth": [
+      40,
+      61
+    ],
+    "animated": false
+  }
+}

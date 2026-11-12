@@ -1,0 +1,17 @@
+using System;using System.IO;using System.Linq;using UnityEngine;using UnityEditor;using UnityEngine.SceneManagement;using UnityEngine.Profiling;using Newtonsoft.Json;using Newtonsoft.Json.Linq;
+public static class EnergyClusterHaloFinalState {
+ public static string Run(){
+  var scene=SceneManager.GetActiveScene();if(Application.isPlaying||Application.dataPath!="/Users/user/Desktop/VFXDemo/VFXDemo/Assets"||scene.path!="Assets/Scenes/VFXWorkbench.unity")throw new Exception("Wrong target/state");
+  const string root="Assets/PixelFX/EnergyCluster";string output=Path.Combine(Directory.GetParent(Application.dataPath).FullName,"VFXWork/Previews/EnergyCluster/V6/HaloBoundsFix");
+  var before=JObject.Parse(File.ReadAllText(Path.Combine(output,"Before.json")));var prefab=AssetDatabase.LoadAssetAtPath<GameObject>(root+"/Prefabs/VFX_EnergyCluster_Loop.prefab");var shader=AssetDatabase.LoadAssetAtPath<Shader>(root+"/Shaders/EnergyClusterHybrid.shader");
+  var instance=scene.GetRootGameObjects().Single(g=>g.name==prefab.name);var dependencies=AssetDatabase.GetDependencies(AssetDatabase.GetAssetPath(prefab),true);var components=prefab.GetComponentsInChildren<Component>(true).Select(c=>c==null?"MISSING":c.GetType().Name).Distinct().ToArray();
+  var cameras=scene.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<Camera>(true)).Select(c=>new{c.name,json=EditorJsonUtility.ToJson(c),transform=EditorJsonUtility.ToJson(c.transform)}).ToArray();bool camerasUnchanged=JToken.DeepEquals(before["cameras"],JToken.FromObject(cameras));
+  bool sceneFileUnchanged=File.ReadAllText(scene.path)==File.ReadAllText(Path.Combine(output,"VFXWorkbench.unity.before"));
+  var state=new{dataPath=Application.dataPath,product=Application.productName,scene=scene.path,dirty=scene.isDirty,playing=Application.isPlaying,paused=EditorApplication.isPaused,background=Application.runInBackground,camerasUnchanged,sceneFileUnchanged,prefabCount=AssetDatabase.FindAssets("t:Prefab",new[]{root}).Length,components,dependencies,scripts=prefab.GetComponentsInChildren<MonoBehaviour>(true).Length,shaderSupported=shader.isSupported,messages=ShaderUtil.GetShaderMessages(shader),
+   sceneHaloSize=instance.GetComponentsInChildren<ParticleSystem>().Single(p=>p.name=="Halo").main.startSize.constant,
+   textures=AssetDatabase.FindAssets("t:Texture2D",new[]{root}).Select(id=>{var t=AssetDatabase.LoadAssetAtPath<Texture2D>(AssetDatabase.GUIDToAssetPath(id));return new{t.name,t.width,t.height,format=t.format.ToString(),t.isReadable,bytes=Profiler.GetRuntimeMemorySizeLong(t)};}).ToArray(),
+   temporaryObjects=scene.GetRootGameObjects().Where(g=>g.name.Contains("Temporary")||g.name.Contains("HaloBounds_")).Select(g=>g.name).ToArray()};
+  bool success=!state.dirty&&camerasUnchanged&&sceneFileUnchanged&&state.prefabCount==1&&!components.Contains("MISSING")&&state.scripts==0&&state.shaderSupported&&state.messages.Length==0&&state.temporaryObjects.Length==0&&Mathf.Abs(state.sceneHaloSize-3.84f)<.0001f&&!dependencies.Any(p=>p.Contains("EnergyBurst")||p.Contains("shockwave"));
+  File.WriteAllText(Path.Combine(output,"FinalState.json"),JsonConvert.SerializeObject(new{success,state},Formatting.Indented));Selection.activeGameObject=instance;return JsonConvert.SerializeObject(new{success,state.dirty,state.camerasUnchanged,state.sceneFileUnchanged,state.prefabCount,state.sceneHaloSize,state.temporaryObjects,state.textures});
+ }
+}

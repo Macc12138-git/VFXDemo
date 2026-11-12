@@ -1,0 +1,28 @@
+{
+  "version": "V4",
+  "observed": [
+    "updated copper body and wrapping purple tail shown beside author reference",
+    "paused pose 3/6 retains yellow-green core",
+    "heat animation checkbox freezes the core while stepping",
+    "bright pose 1/6 unclipped at 6x on light background",
+    "saved dim pose 3/6 and bright pose 6/6 at 4x on dark background",
+    "sequence with unchanged V3 explosion ends empty",
+    "returned to V4 flight loop at 1x"
+  ],
+  "sequenceEnd": {
+    "phase": "ended",
+    "playing": "false",
+    "pose": "9"
+  },
+  "finalStage": {
+    "phase": "flight",
+    "playing": "true",
+    "pose": "4"
+  },
+  "errors": [],
+  "screenshots": [
+    "browser-dim.jpg",
+    "browser-final.jpg",
+    "browser-light.jpg"
+  ]
+}

@@ -1,0 +1,222 @@
+[
+  {
+    "frame": 48,
+    "scale": 0.5,
+    "x": 297,
+    "y": 577,
+    "headPatchSize": [
+      20,
+      27
+    ],
+    "meanAbsoluteError": 12.000000953674316
+  },
+  {
+    "frame": 44,
+    "scale": 0.5,
+    "x": 239,
+    "y": 457,
+    "headPatchSize": [
+      20,
+      27
+    ],
+    "meanAbsoluteError": 12.166666984558105
+  },
+  {
+    "frame": 34,
+    "scale": 0.5,
+    "x": 208,
+    "y": 473,
+    "headPatchSize": [
+      20,
+      27
+    ],
+    "meanAbsoluteError": 12.375000953674316
+  },
+  {
+    "frame": 42,
+    "scale": 0.5,
+    "x": 166,
+    "y": 309,
+    "headPatchSize": [
+      20,
+      27
+    ],
+    "meanAbsoluteError": 12.444445610046387
+  },
+  {
+    "frame": 53,
+    "scale": 0.5,
+    "x": 69,
+    "y": 77,
+    "headPatchSize": [
+      20,
+      27
+    ],
+    "meanAbsoluteError": 12.569443702697754
+  },
+  {
+    "frame": 47,
+    "scale": 0.5,
+    "x": 319,
+    "y": 585,
+    "headPatchSize": [
+      20,
+      27
+    ],
+    "meanAbsoluteError": 12.625000953674316
+  },
+  {
+    "frame": 36,
+    "scale": 0.5,
+    "x": 179,
+    "y": 445,
+    "headPatchSize": [
+      20,
+      27
+    ],
+    "meanAbsoluteError": 12.736111640930176
+  },
+  {
+    "frame": 46,
+    "scale": 0.5,
+    "x": 167,
+    "y": 241,
+    "headPatchSize": [
+      20,
+      27
+    ],
+    "meanAbsoluteError": 12.777778625488281
+  },
+  {
+    "frame": 45,
+    "scale": 0.5,
+    "x": 252,
+    "y": 449,
+    "headPatchSize": [
+      20,
+      27
+    ],
+    "meanAbsoluteError": 12.791666984558105
+  },
+  {
+    "frame": 41,
+    "scale": 0.5,
+    "x": 353,
+    "y": 705,
+    "headPatchSize": [
+      20,
+      27
+    ],
+    "meanAbsoluteError": 12.819445610046387
+  },
+  {
+    "frame": 31,
+    "scale": 0.5,
+    "x": 499,
+    "y": 1,
+    "headPatchSize": [
+      20,
+      27
+    ],
+    "meanAbsoluteError": 12.958334922790527
+  },
+  {
+    "frame": 50,
+    "scale": 0.5,
+    "x": 393,
+    "y": 680,
+    "headPatchSize": [
+      20,
+      27
+    ],
+    "meanAbsoluteError": 13.0
+  },
+  {
+    "frame": 49,
+    "scale": 0.5,
+    "x": 202,
+    "y": 333,
+    "headPatchSize": [
+      20,
+      27
+    ],
+    "meanAbsoluteError": 13.333335876464844
+  },
+  {
+    "frame": 56,
+    "scale": 0.5,
+    "x": 366,
+    "y": 577,
+    "headPatchSize": [
+      20,
+      27
+    ],
+    "meanAbsoluteError": 13.375
+  },
+  {
+    "frame": 40,
+    "scale": 0.5,
+    "x": 177,
+    "y": 350,
+    "headPatchSize": [
+      20,
+      27
+    ],
+    "meanAbsoluteError": 13.666667938232422
+  },
+  {
+    "frame": 35,
+    "scale": 0.5,
+    "x": 203,
+    "y": 452,
+    "headPatchSize": [
+      20,
+      27
+    ],
+    "meanAbsoluteError": 13.805557250976562
+  },
+  {
+    "frame": 51,
+    "scale": 0.5,
+    "x": 387,
+    "y": 659,
+    "headPatchSize": [
+      20,
+      27
+    ],
+    "meanAbsoluteError": 13.833334922790527
+  },
+  {
+    "frame": 54,
+    "scale": 0.5,
+    "x": 371,
+    "y": 597,
+    "headPatchSize": [
+      20,
+      27
+    ],
+    "meanAbsoluteError": 13.888890266418457
+  },
+  {
+    "frame": 55,
+    "scale": 0.5,
+    "x": 371,
+    "y": 597,
+    "headPatchSize": [
+      20,
+      27
+    ],
+    "meanAbsoluteError": 13.888890266418457
+  },
+  {
+    "frame": 37,
+    "scale": 0.5,
+    "x": 212,
+    "y": 425,
+    "headPatchSize": [
+      20,
+      27
+    ],
+    "meanAbsoluteError": 13.916667938232422
+  }
+]

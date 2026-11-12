@@ -1,0 +1,20 @@
+{
+  "effect": "BlueWisp",
+  "version": "3.0.2",
+  "authorization": "将该特效导入到unity",
+  "sourceHash": "5544592adce52f7642784c7fe17f17e54f9862260988012668748cd5e65aa45c",
+  "assetsRoot": "Assets/PixelFX/BlueWisp/V3",
+  "ppu": 100,
+  "anchor": "Canvas source origin; source Y down -> Unity Y up; XY plane, faces -Z",
+  "textures": [],
+  "animationTextures": false,
+  "runtimeScripts": 0,
+  "clock": "Native AgePercent with 0.28-second lifetime; 4 authored geometry poses, each 0.25 normalized age. No global _Time.",
+  "implementation": "One native Mesh ParticleSystem for all authored color shapes; one native static additive glow particle. Source painter captured with adaptive cubic tessellation and semantic palette IDs.",
+  "approximations": [
+    "Cubic curves tessellated to <=0.18 source pixels; 0.45px static antialias fringe.",
+    "Canvas clipping of inset cyan is tessellated separately; offline image difference must be checked.",
+    "Canvas sRGB additive glow approximated in linear Unity; independently calibrated."
+  ],
+  "targetBudget": "Not provided; exploratory local Editor baseline, not device approval."
+}

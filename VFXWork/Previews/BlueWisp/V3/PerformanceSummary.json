@@ -1,0 +1,378 @@
+{
+  "success": true,
+  "error": null,
+  "method": "Actual Play Mode: exploratory 0/1/8/32 overlapped twice, plus 8 distributed. 0.8s warmup + 2.2s sample each phase, every other engine frame. Whole-frame Editor counters include editor/probe; no screenshot/FrameDebugger during timing.",
+  "environment": {
+    "unity": "6000.3.19f1",
+    "pipeline": "PC_RPAsset",
+    "colorSpace": "Linear",
+    "device": "Apple M5",
+    "api": "Metal",
+    "editor": true,
+    "width": 2340,
+    "height": 1080,
+    "orthographicSize": 4.9,
+    "hdr": false,
+    "msaa": false,
+    "vsync": 0
+  },
+  "counters": [
+    "CPU Main Thread Frame Time",
+    "CPU Render Thread Frame Time",
+    "GPU Frame Time",
+    "ParticleSystem.Update",
+    "GC Allocated In Frame"
+  ],
+  "groups": [
+    {
+      "instances": 0,
+      "spread": false,
+      "frames": 22,
+      "batches": {
+        "count": 22,
+        "median": 6.0,
+        "p95": 6.0,
+        "max": 6.0
+      },
+      "draws": {
+        "count": 22,
+        "median": 6.0,
+        "p95": 6.0,
+        "max": 6.0
+      },
+      "setPass": {
+        "count": 22,
+        "median": 6.0,
+        "p95": 6.0,
+        "max": 6.0
+      },
+      "mainMs": {
+        "count": 22,
+        "median": 2.693082,
+        "p95": 3.107207,
+        "max": 3.295417
+      },
+      "renderMs": {
+        "count": 22,
+        "median": 2.643375,
+        "p95": 2.963544,
+        "max": 3.333584
+      },
+      "gpuMs": {
+        "count": 22,
+        "median": 2.941042,
+        "p95": 3.554041,
+        "max": 5.280292
+      },
+      "particleUpdateMs": {
+        "count": 22,
+        "median": 0.012292,
+        "p95": 0.01975,
+        "max": 0.027542
+      },
+      "gcBytes": {
+        "count": 22,
+        "median": 10061.0,
+        "p95": 10113.0,
+        "max": 12629.0
+      },
+      "particles": {
+        "count": 22,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "instances": 1,
+      "spread": false,
+      "frames": 22,
+      "batches": {
+        "count": 22,
+        "median": 8.0,
+        "p95": 8.0,
+        "max": 8.0
+      },
+      "draws": {
+        "count": 22,
+        "median": 8.0,
+        "p95": 8.0,
+        "max": 8.0
+      },
+      "setPass": {
+        "count": 22,
+        "median": 8.0,
+        "p95": 8.0,
+        "max": 8.0
+      },
+      "mainMs": {
+        "count": 22,
+        "median": 3.0465,
+        "p95": 3.413667,
+        "max": 3.492167
+      },
+      "renderMs": {
+        "count": 22,
+        "median": 2.803082,
+        "p95": 3.149335,
+        "max": 3.357416
+      },
+      "gpuMs": {
+        "count": 22,
+        "median": 3.181999,
+        "p95": 3.598084,
+        "max": 3.9905
+      },
+      "particleUpdateMs": {
+        "count": 22,
+        "median": 0.038916,
+        "p95": 0.05225,
+        "max": 0.175792
+      },
+      "gcBytes": {
+        "count": 22,
+        "median": 10061.0,
+        "p95": 10113.0,
+        "max": 10113.0
+      },
+      "particles": {
+        "count": 22,
+        "median": 2.0,
+        "p95": 2.0,
+        "max": 2.0
+      }
+    },
+    {
+      "instances": 8,
+      "spread": false,
+      "frames": 22,
+      "batches": {
+        "count": 22,
+        "median": 22.0,
+        "p95": 22.0,
+        "max": 22.0
+      },
+      "draws": {
+        "count": 22,
+        "median": 22.0,
+        "p95": 22.0,
+        "max": 22.0
+      },
+      "setPass": {
+        "count": 22,
+        "median": 8.0,
+        "p95": 8.0,
+        "max": 8.0
+      },
+      "mainMs": {
+        "count": 22,
+        "median": 3.305375,
+        "p95": 3.594708,
+        "max": 4.204543
+      },
+      "renderMs": {
+        "count": 22,
+        "median": 2.917791,
+        "p95": 3.23,
+        "max": 3.822209
+      },
+      "gpuMs": {
+        "count": 22,
+        "median": 3.902625,
+        "p95": 5.045083,
+        "max": 5.819084
+      },
+      "particleUpdateMs": {
+        "count": 22,
+        "median": 0.065166,
+        "p95": 0.08575,
+        "max": 0.092625
+      },
+      "gcBytes": {
+        "count": 22,
+        "median": 10061.0,
+        "p95": 10113.0,
+        "max": 10113.0
+      },
+      "particles": {
+        "count": 22,
+        "median": 16.0,
+        "p95": 16.0,
+        "max": 16.0
+      }
+    },
+    {
+      "instances": 32,
+      "spread": false,
+      "frames": 23,
+      "batches": {
+        "count": 23,
+        "median": 70.0,
+        "p95": 70.0,
+        "max": 70.0
+      },
+      "draws": {
+        "count": 23,
+        "median": 70.0,
+        "p95": 70.0,
+        "max": 70.0
+      },
+      "setPass": {
+        "count": 23,
+        "median": 8.0,
+        "p95": 8.0,
+        "max": 8.0
+      },
+      "mainMs": {
+        "count": 23,
+        "median": 3.837875,
+        "p95": 4.431249,
+        "max": 7.148666
+      },
+      "renderMs": {
+        "count": 23,
+        "median": 3.189833,
+        "p95": 3.402375,
+        "max": 5.364042
+      },
+      "gpuMs": {
+        "count": 23,
+        "median": 5.383542,
+        "p95": 5.904583,
+        "max": 6.264124
+      },
+      "particleUpdateMs": {
+        "count": 23,
+        "median": 0.203584,
+        "p95": 0.840667,
+        "max": 2.961542
+      },
+      "gcBytes": {
+        "count": 23,
+        "median": 10061.0,
+        "p95": 10113.0,
+        "max": 10113.0
+      },
+      "particles": {
+        "count": 23,
+        "median": 64.0,
+        "p95": 64.0,
+        "max": 64.0
+      }
+    },
+    {
+      "instances": 8,
+      "spread": true,
+      "frames": 11,
+      "batches": {
+        "count": 11,
+        "median": 22.0,
+        "p95": 22.0,
+        "max": 22.0
+      },
+      "draws": {
+        "count": 11,
+        "median": 22.0,
+        "p95": 22.0,
+        "max": 22.0
+      },
+      "setPass": {
+        "count": 11,
+        "median": 8.0,
+        "p95": 8.0,
+        "max": 8.0
+      },
+      "mainMs": {
+        "count": 11,
+        "median": 2.048041,
+        "p95": 2.761835,
+        "max": 2.897583
+      },
+      "renderMs": {
+        "count": 11,
+        "median": 2.219709,
+        "p95": 2.464918,
+        "max": 2.574376
+      },
+      "gpuMs": {
+        "count": 11,
+        "median": 3.564124,
+        "p95": 4.549625,
+        "max": 4.907583
+      },
+      "particleUpdateMs": {
+        "count": 11,
+        "median": 0.042792,
+        "p95": 0.060709,
+        "max": 0.06125
+      },
+      "gcBytes": {
+        "count": 11,
+        "median": 10061.0,
+        "p95": 10113.0,
+        "max": 10113.0
+      },
+      "particles": {
+        "count": 11,
+        "median": 16.0,
+        "p95": 16.0,
+        "max": 16.0
+      }
+    }
+  ],
+  "memory": [
+    {
+      "phase": 0,
+      "allocated": 380763694,
+      "reserved": 829837312
+    },
+    {
+      "phase": 1,
+      "allocated": 381054142,
+      "reserved": 829837312
+    },
+    {
+      "phase": 2,
+      "allocated": 381991668,
+      "reserved": 829837312
+    },
+    {
+      "phase": 3,
+      "allocated": 385539541,
+      "reserved": 829837312
+    },
+    {
+      "phase": 4,
+      "allocated": 384672157,
+      "reserved": 829837312
+    },
+    {
+      "phase": 5,
+      "allocated": 381133670,
+      "reserved": 829837312
+    },
+    {
+      "phase": 6,
+      "allocated": 382068444,
+      "reserved": 829837312
+    },
+    {
+      "phase": 7,
+      "allocated": 385607321,
+      "reserved": 829837312
+    },
+    {
+      "phase": 8,
+      "allocated": 385641553,
+      "reserved": 829837312
+    }
+  ],
+  "restored": true,
+  "pending": [
+    "Business concurrency and target platform budget",
+    "Target Player/phone CPU/GPU/memory",
+    "Per-pass GPU/overdraw",
+    "Long-term pool memory",
+    "Exact batch breaks when event detail unavailable"
+  ]
+}

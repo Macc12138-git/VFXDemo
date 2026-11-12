@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "prefab": "Assets/PixelFX/EnergyCluster/Prefabs/VFX_EnergyCluster_Loop.prefab",
+  "scene": "Assets/Scenes/VFXWorkbench.unity",
+  "dirty": false,
+  "sourceHash": "3fae51f92d2f11a9cfa446325f7ab87af37e56723500a057dc30e427b1b0b8f7",
+  "shellHash": "7d953a1f7ade42c693bcae07fb745830a0861c6eeebb2f29f390c9c43def3670",
+  "profilesHash": "77ceccaabe05b40d28a85a993b4dca5183818974d4c05a9f2bdc817c877d877a",
+  "shellFormat": "RG16",
+  "shellReadable": false,
+  "profilesReadable": false,
+  "systems": 5,
+  "staticProfiles": true,
+  "animatedShellOnly": true,
+  "frameCount": 20,
+  "cellSize": 256,
+  "duration": 0.48,
+  "scriptComponents": 0,
+  "shaderMessages": [],
+  "priorRootsPreserved": true,
+  "explosionImported": false
+}

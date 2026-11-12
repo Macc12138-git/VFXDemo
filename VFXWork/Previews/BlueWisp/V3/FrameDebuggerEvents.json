@@ -1,0 +1,278 @@
+{
+  "error": null,
+  "method": "Official FrameDebuggerWindow API, isolated shared workbench, 1/8 actual Play Mode instances, separate from performance timing",
+  "reports": [
+    {
+      "instances": 1,
+      "totalEvents": 9,
+      "events": [
+        {
+          "index": 0,
+          "type": "ClearColor",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 1,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 2,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 3,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 4,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 5,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 2:0) CopyColor/CopyColor",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 6,
+          "type": "DynamicGeometry",
+          "obj": "BlueWisp_FrameProbe_0",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 7,
+          "type": "DynamicGeometry",
+          "obj": "MicroGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 8,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 4:0) BlitFinalToBackBuffer",
+          "dataOk": false,
+          "detail": null
+        }
+      ],
+      "particles": 2
+    },
+    {
+      "instances": 8,
+      "totalEvents": 23,
+      "events": [
+        {
+          "index": 0,
+          "type": "ClearColor",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 1,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 2,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 3,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 4,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/SSAO",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 5,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 2:0) CopyColor/CopyColor",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 6,
+          "type": "DynamicGeometry",
+          "obj": "BlueWisp_FrameProbe_7",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 7,
+          "type": "DynamicGeometry",
+          "obj": "BlueWisp_FrameProbe_0",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 8,
+          "type": "DynamicGeometry",
+          "obj": "BlueWisp_FrameProbe_1",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 9,
+          "type": "DynamicGeometry",
+          "obj": "BlueWisp_FrameProbe_2",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 10,
+          "type": "DynamicGeometry",
+          "obj": "BlueWisp_FrameProbe_3",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 11,
+          "type": "DynamicGeometry",
+          "obj": "BlueWisp_FrameProbe_4",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 12,
+          "type": "DynamicGeometry",
+          "obj": "BlueWisp_FrameProbe_5",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 13,
+          "type": "DynamicGeometry",
+          "obj": "BlueWisp_FrameProbe_6",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 14,
+          "type": "DynamicGeometry",
+          "obj": "MicroGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 15,
+          "type": "DynamicGeometry",
+          "obj": "MicroGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 16,
+          "type": "DynamicGeometry",
+          "obj": "MicroGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 17,
+          "type": "DynamicGeometry",
+          "obj": "MicroGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 18,
+          "type": "DynamicGeometry",
+          "obj": "MicroGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 19,
+          "type": "DynamicGeometry",
+          "obj": "MicroGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 20,
+          "type": "DynamicGeometry",
+          "obj": "MicroGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 21,
+          "type": "DynamicGeometry",
+          "obj": "MicroGlow",
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 3:0) DrawTransparentObjects/RenderLoop.Draw",
+          "dataOk": false,
+          "detail": null
+        },
+        {
+          "index": 22,
+          "type": "DrawProcedural",
+          "obj": null,
+          "info": "UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera/ExecuteRenderGraph/(RP 4:0) BlitFinalToBackBuffer",
+          "dataOk": false,
+          "detail": null
+        }
+      ],
+      "particles": 16
+    }
+  ],
+  "limitation": "Event metadata alone cannot establish renderer merges or batch-break reasons. Details are available only when GetFrameEventData succeeds.",
+  "restored": true
+}

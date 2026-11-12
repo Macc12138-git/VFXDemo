@@ -1,0 +1,18 @@
+{
+  "dataPath": "/Users/user/Desktop/VFXDemo/VFXDemo/Assets",
+  "scene": "Assets/Scenes/VFXWorkbench.unity",
+  "dirty": false,
+  "roots": [
+    {
+      "name": "Main Camera",
+      "active": true,
+      "transform": "{\"Transform\":{\"serializedVersion\":\"2\",\"m_LocalRotation\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"m_LocalPosition\":{\"x\":0.0,\"y\":1.6799999475479127,\"z\":-12.0},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_ConstrainProportionsScale\":false,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"
+    },
+    {
+      "name": "CyberOrb_Demo",
+      "active": true,
+      "transform": "{\"Transform\":{\"serializedVersion\":\"2\",\"m_LocalRotation\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":1.0},\"m_LocalPosition\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"m_LocalScale\":{\"x\":1.0,\"y\":1.0,\"z\":1.0},\"m_ConstrainProportionsScale\":false,\"m_LocalEulerAnglesHint\":{\"x\":0.0,\"y\":0.0,\"z\":0.0}}}"
+    }
+  ],
+  "camera": "{\"Camera\":{\"m_Enabled\":true,\"serializedVersion\":\"2\",\"m_ClearFlags\":2,\"m_BackGroundColor\":{\"r\":0.08235294371843338,\"g\":0.0941176488995552,\"b\":0.125490203499794,\"a\":1.0},\"m_projectionMatrixMode\":1,\"m_GateFitMode\":2,\"m_FOVAxisMode\":0,\"m_Iso\":200,\"m_ShutterSpeed\":0.004999999888241291,\"m_Aperture\":16.0,\"m_FocusDistance\":10.0,\"m_FocalLength\":50.0,\"m_BladeCount\":5,\"m_Curvature\":{\"x\":2.0,\"y\":11.0},\"m_BarrelClipping\":0.25,\"m_Anamorphism\":0.0,\"m_SensorSize\":{\"x\":36.0,\"y\":24.0},\"m_LensShift\":{\"x\":0.0,\"y\":0.0},\"m_NormalizedViewPortRect\":{\"serializedVersion\":\"2\",\"x\":0.0,\"y\":0.0,\"width\":1.0,\"height\":1.0},\"near clip plane\":0.10000000149011612,\"far clip plane\":40.0,\"field of view\":60.0,\"orthographic\":true,\"orthographic size\":4.900000095367432,\"m_Depth\":0.0,\"m_CullingMask\":{\"serializedVersion\":\"2\",\"m_Bits\":4294967295},\"m_RenderingPath\":-1,\"m_TargetTexture\":{\"instanceID\":0},\"m_TargetDisplay\":0,\"m_TargetEye\":3,\"m_HDR\":false,\"m_AllowMSAA\":false,\"m_AllowDynamicResolution\":false,\"m_ForceIntoRT\":false,\"m_OcclusionCulling\":true,\"m_StereoConvergence\":10.0,\"m_StereoSeparation\":0.02199999988079071}}"
+}

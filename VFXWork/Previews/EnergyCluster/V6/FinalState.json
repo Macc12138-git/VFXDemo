@@ -1,0 +1,120 @@
+{
+  "success": true,
+  "dataPath": "/Users/user/Desktop/VFXDemo/VFXDemo/Assets",
+  "product": "VFXDemo",
+  "scene": "Assets/Scenes/VFXWorkbench.unity",
+  "dirty": false,
+  "playing": false,
+  "paused": false,
+  "background": false,
+  "cameraPreserved": true,
+  "camera": "{\"Camera\":{\"m_Enabled\":true,\"serializedVersion\":\"2\",\"m_ClearFlags\":2,\"m_BackGroundColor\":{\"r\":0.08235294371843338,\"g\":0.0941176488995552,\"b\":0.125490203499794,\"a\":1.0},\"m_projectionMatrixMode\":1,\"m_GateFitMode\":2,\"m_FOVAxisMode\":0,\"m_Iso\":200,\"m_ShutterSpeed\":0.004999999888241291,\"m_Aperture\":16.0,\"m_FocusDistance\":10.0,\"m_FocalLength\":50.0,\"m_BladeCount\":5,\"m_Curvature\":{\"x\":2.0,\"y\":11.0},\"m_BarrelClipping\":0.25,\"m_Anamorphism\":0.0,\"m_SensorSize\":{\"x\":36.0,\"y\":24.0},\"m_LensShift\":{\"x\":0.0,\"y\":0.0},\"m_NormalizedViewPortRect\":{\"serializedVersion\":\"2\",\"x\":0.0,\"y\":0.0,\"width\":1.0,\"height\":1.0},\"near clip plane\":0.10000000149011612,\"far clip plane\":40.0,\"field of view\":60.0,\"orthographic\":true,\"orthographic size\":4.900000095367432,\"m_Depth\":0.0,\"m_CullingMask\":{\"serializedVersion\":\"2\",\"m_Bits\":4294967295},\"m_RenderingPath\":-1,\"m_TargetTexture\":{\"instanceID\":0},\"m_TargetDisplay\":0,\"m_TargetEye\":3,\"m_HDR\":false,\"m_AllowMSAA\":false,\"m_AllowDynamicResolution\":false,\"m_ForceIntoRT\":false,\"m_OcclusionCulling\":true,\"m_StereoConvergence\":10.0,\"m_StereoSeparation\":0.02199999988079071}}",
+  "roots": [
+    {
+      "name": "Main Camera",
+      "active": true,
+      "position": "(0.00, 1.68, -12.00)"
+    },
+    {
+      "name": "CyberOrb_Demo",
+      "active": true,
+      "position": "(0.00, 0.00, 0.00)"
+    },
+    {
+      "name": "VFX_EnergyCluster_Loop",
+      "active": true,
+      "position": "(0.00, -1.40, 0.00)"
+    }
+  ],
+  "components": [
+    "Transform",
+    "ParticleSystem",
+    "ParticleSystemRenderer"
+  ],
+  "dependencies": [
+    "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_Core.mat",
+    "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_Halo.mat",
+    "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_Volume.mat",
+    "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_ShellGlow.mat",
+    "Assets/PixelFX/EnergyCluster/Prefabs/VFX_EnergyCluster_Loop.prefab",
+    "Assets/PixelFX/EnergyCluster/Textures/EnergyCluster_ShellGrayAlpha.asset",
+    "Assets/PixelFX/EnergyCluster/Textures/EnergyCluster_Profiles.asset",
+    "Assets/PixelFX/EnergyCluster/Shaders/EnergyClusterHybrid.shader",
+    "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_Shell.mat"
+  ],
+  "prefabCount": 1,
+  "rootPosition": "(0.00, 0.00, 0.00)",
+  "rootRotation": "(0.00, 0.00, 0.00)",
+  "rootScale": "(1.00, 1.00, 1.00)",
+  "systems": [
+    {
+      "name": "Volume",
+      "duration": 0.48,
+      "loop": true,
+      "lifetime": 0.5,
+      "maxParticles": 2,
+      "emission": true,
+      "space": "Local",
+      "lights": false,
+      "sheets": false,
+      "roll": false,
+      "alignment": "View"
+    },
+    {
+      "name": "Halo",
+      "duration": 0.48,
+      "loop": true,
+      "lifetime": 0.5,
+      "maxParticles": 2,
+      "emission": true,
+      "space": "Local",
+      "lights": false,
+      "sheets": false,
+      "roll": false,
+      "alignment": "View"
+    },
+    {
+      "name": "Core",
+      "duration": 0.48,
+      "loop": true,
+      "lifetime": 0.5,
+      "maxParticles": 2,
+      "emission": true,
+      "space": "Local",
+      "lights": false,
+      "sheets": false,
+      "roll": false,
+      "alignment": "View"
+    },
+    {
+      "name": "ShellGlow",
+      "duration": 0.48,
+      "loop": true,
+      "lifetime": 0.5,
+      "maxParticles": 2,
+      "emission": true,
+      "space": "Local",
+      "lights": false,
+      "sheets": false,
+      "roll": false,
+      "alignment": "View"
+    },
+    {
+      "name": "Shell",
+      "duration": 0.48,
+      "loop": true,
+      "lifetime": 0.5,
+      "maxParticles": 2,
+      "emission": true,
+      "space": "Local",
+      "lights": false,
+      "sheets": false,
+      "roll": false,
+      "alignment": "View"
+    }
+  ],
+  "shaderSupported": true,
+  "shaderMessages": [],
+  "runtimeScripts": 0,
+  "explosionImported": false
+}

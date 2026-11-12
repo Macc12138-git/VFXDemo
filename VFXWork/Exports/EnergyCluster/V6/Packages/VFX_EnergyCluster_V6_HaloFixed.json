@@ -1,0 +1,85 @@
+{
+  "success": true,
+  "package": "/Users/user/Desktop/VFX_EnergyCluster_V6_HaloFixed.unitypackage",
+  "bytes": 846894,
+  "sha256": "1ab8ca5ee0072a3b01ed12a68f669176e2c17ff488a92574a2ef4a314aeaf833",
+  "unity": "6000.3.19f1",
+  "pipeline": "URP 17.3.0",
+  "scope": "Current HaloFixed EnergyCluster only; no explosion, demo, scene, scripts, or project settings",
+  "assets": [
+    {
+      "path": "Assets/PixelFX/EnergyCluster/Docs/README.md",
+      "guid": "ca5e5b920757b4671b82560352a70e2d",
+      "sha256": "2f14056f69e76b833f074280f982e8f03ea192696771100102ba5f740d839e6d",
+      "metaSha256": "9cc97a838741badcde88d980d0c4ccaa5553b39da84c56e228a92632e12e26f2"
+    },
+    {
+      "path": "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_Core.mat",
+      "guid": "878c320a4a8064d7fb24b102a5d33d32",
+      "sha256": "daa647716cc5b83e68592e1a1f5fd4c705f5ed94b38cdb5e4c65e3a032553ebd",
+      "metaSha256": "fa0ba890b7a0fd04df1b965eb7d90404360d6d50ed1acf4e3921f61350cb5ad6"
+    },
+    {
+      "path": "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_Halo.mat",
+      "guid": "fc9572779ddfb4bebb9c83d6abdf182e",
+      "sha256": "1ab5d99d5b2c84a87ccdeecc341695081e7b2aaf0ae0383aab727d490ebcc727",
+      "metaSha256": "5e28184ace11eab6f3b90d7b4d008daa839a916451f4b4f3481510d3b9c0b3ad"
+    },
+    {
+      "path": "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_Shell.mat",
+      "guid": "081e1acb4e334491b894fb5a4125d0e8",
+      "sha256": "38e41e218ec465daf15cb03695be5e5d420345bd551993f6b8bf311994bb7d8b",
+      "metaSha256": "72fdcb4c47b920d43da436860c54b3a4551f3acfc2137b0364cbdc71c4a8a65a"
+    },
+    {
+      "path": "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_ShellGlow.mat",
+      "guid": "64682d11f8ba94247b5832d5e60c6bc9",
+      "sha256": "994cc39bd845790e24721753b922063f0f13771fa133f2769513626fea39ba19",
+      "metaSha256": "dafeccb3ca8dd3c3e8f4c263b51746e12096af52914421f76ef44602eeb3ce54"
+    },
+    {
+      "path": "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_Volume.mat",
+      "guid": "fba8f7059475447ae8eabae04e87e664",
+      "sha256": "8a5802790d815a4248b05fb080b8b8df6a12bb2fe54805f2a927cab6f223ce43",
+      "metaSha256": "e2c38663a5e846a4c6e865bcc1cc3f6c28229a672910b91855fcf8cb30fd7c8d"
+    },
+    {
+      "path": "Assets/PixelFX/EnergyCluster/Prefabs/VFX_EnergyCluster_Loop.prefab",
+      "guid": "f66d9bf880e5b437aa0c84abbb8e676d",
+      "sha256": "1c5b6e4c21de3b3d47230fe9cf653f70013925557235b1af238f37e92f09508d",
+      "metaSha256": "fc40da0a80ef9e5794f7ee5b05babf89001183b2508cc107e487d5ba1853524e"
+    },
+    {
+      "path": "Assets/PixelFX/EnergyCluster/Shaders/EnergyClusterHybrid.shader",
+      "guid": "4f913c5f6c70a45e89ee53a78a1bdc87",
+      "sha256": "f66f7457b7a4a769d91066678778aa841a8a607c7fde1c57bcd1ee6f6bd13531",
+      "metaSha256": "105bf23cc75fb065d64f60e2bfd55b8c468a8fe1133fa87e9d69602d4d485d78"
+    },
+    {
+      "path": "Assets/PixelFX/EnergyCluster/Textures/EnergyCluster_Profiles.asset",
+      "guid": "98b798f16375a42e9b352ca3319b9fff",
+      "sha256": "0d147746222e778302ec5e309e756c4afaf2b6f2c4b4e5e7026366a3fc2c2eb4",
+      "metaSha256": "fdcf94ae83b14a527071901d8507c727bd117ba12d4ada17251d7d0b65929a12"
+    },
+    {
+      "path": "Assets/PixelFX/EnergyCluster/Textures/EnergyCluster_ShellGrayAlpha.asset",
+      "guid": "2f06c16c4a2e34cf6867c179d54b7550",
+      "sha256": "06fb91516ace6f1ee6f8986558224d30e512f213f4c7c3d83a3cf9e172659d60",
+      "metaSha256": "1dca167ef29d02c5ec2ff9433d5f4fc069b302359644f1235ce893d4802bc4ec"
+    }
+  ],
+  "dependencies": [
+    "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_Core.mat",
+    "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_Halo.mat",
+    "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_Volume.mat",
+    "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_ShellGlow.mat",
+    "Assets/PixelFX/EnergyCluster/Prefabs/VFX_EnergyCluster_Loop.prefab",
+    "Assets/PixelFX/EnergyCluster/Textures/EnergyCluster_ShellGrayAlpha.asset",
+    "Assets/PixelFX/EnergyCluster/Textures/EnergyCluster_Profiles.asset",
+    "Assets/PixelFX/EnergyCluster/Shaders/EnergyClusterHybrid.shader",
+    "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_Shell.mat"
+  ],
+  "scenePreserved": true,
+  "sourceAssetsPreserved": true,
+  "sceneDirty": false
+}

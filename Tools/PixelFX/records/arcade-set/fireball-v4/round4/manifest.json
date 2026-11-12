@@ -1,0 +1,123 @@
+{
+  "version": "V4",
+  "round": "round4",
+  "id": "fire/arcade-fireball",
+  "source": "/Users/user/Desktop/VFXDemo/VFXDemo/Tools/PixelFX/src/fx/fire/arcade-fireball.js",
+  "sha256": "7191f1cd391f4183eda2dae3f60b21f0797be14223937bb1e21869b18e1a879a",
+  "meta": {
+    "fps": 50,
+    "bg": "dark",
+    "loop": true,
+    "duration": 0.12,
+    "tags": [
+      "fire",
+      "projectile",
+      "arcade",
+      "pixel",
+      "single",
+      "loop"
+    ],
+    "options": {
+      "palette": [
+        "#75383c",
+        "#a84e3b",
+        "#bb624b",
+        "#ce7d65",
+        "#df987a"
+      ],
+      "tailPalette": [
+        "#231331",
+        "#5d0e5e",
+        "#671b70",
+        "#79358a"
+      ],
+      "heatPalette": [
+        "#be9149",
+        "#cfaa50",
+        "#bdca5d",
+        "#e5e598",
+        "#fff6c6"
+      ],
+      "pulse": 1,
+      "seed": 17
+    },
+    "name": "Arcade fireball · copper body / violet wrap",
+    "desc": "One plump copper fireball, layered violet flame wrapping its lower body, and six changing yellow-green heat shapes. A quiet blunt tail, not a circle attached to a needle.",
+    "size": [
+      36,
+      48
+    ],
+    "origin": [
+      18,
+      19
+    ]
+  },
+  "metrics": [
+    {
+      "pose": 1,
+      "corePixels": 82,
+      "hotPixels": 28,
+      "coreIntegratedLuma": 15962.288000000022,
+      "coreMeanLuma": 194.66204878048808,
+      "coreChangedPixels": 42,
+      "tailChangedPixels": 0
+    },
+    {
+      "pose": 2,
+      "corePixels": 66,
+      "hotPixels": 0,
+      "coreIntegratedLuma": 12270.214800000012,
+      "coreMeanLuma": 185.91234545454563,
+      "coreChangedPixels": 68,
+      "tailChangedPixels": 0
+    },
+    {
+      "pose": 3,
+      "corePixels": 71,
+      "hotPixels": 0,
+      "coreIntegratedLuma": 13207.048600000016,
+      "coreMeanLuma": 186.01476901408475,
+      "coreChangedPixels": 17,
+      "tailChangedPixels": 0
+    },
+    {
+      "pose": 4,
+      "corePixels": 67,
+      "hotPixels": 0,
+      "coreIntegratedLuma": 12461.581200000013,
+      "coreMeanLuma": 185.99374925373155,
+      "coreChangedPixels": 29,
+      "tailChangedPixels": 2
+    },
+    {
+      "pose": 5,
+      "corePixels": 87,
+      "hotPixels": 34,
+      "coreIntegratedLuma": 17211.556200000025,
+      "coreMeanLuma": 197.83397931034511,
+      "coreChangedPixels": 74,
+      "tailChangedPixels": 0
+    },
+    {
+      "pose": 6,
+      "corePixels": 85,
+      "hotPixels": 39,
+      "coreIntegratedLuma": 17049.189000000024,
+      "coreMeanLuma": 200.57869411764733,
+      "coreChangedPixels": 35,
+      "tailChangedPixels": 2
+    }
+  ],
+  "checks": {
+    "deterministic": true,
+    "singleConnectedSprite": true,
+    "sixDistinctPoses": true,
+    "coreAreaChanges": true,
+    "corePause": true,
+    "loopEndpoint": true,
+    "unclipped": true,
+    "explosionUnchanged": true
+  },
+  "unityImported": false,
+  "scope": "Repaint the single fireball only; explosion retained as historical draft, not newly accepted"
+}

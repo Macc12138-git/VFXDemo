@@ -1,0 +1,40 @@
+{
+  "version": "3.0.0",
+  "round": "round1",
+  "options": {
+    "radius": 132,
+    "glow": 0.28,
+    "edge": "#0e54cb",
+    "blue": "#1096ff",
+    "cyan": "#10eeff",
+    "pale": "#b5ffff",
+    "core": "#ffffff",
+    "layers": {
+      "body": true,
+      "blue": true,
+      "pale": true,
+      "core": true,
+      "chips": true,
+      "glow": true
+    }
+  },
+  "checks": "PASS",
+  "durationMs": 280,
+  "poseHoldMs": 70,
+  "fourDistinctPoses": true,
+  "noInterpolation": true,
+  "noGlobalPulse": true,
+  "exactLoop": true,
+  "edgeAlpha": 0,
+  "resources": {
+    "flipbookTextures": 0,
+    "referencePixelsInPlayback": 0
+  },
+  "sourceSha256": "fd3cb8ca556aceb15332a21dc23e45df298a79bbd084953937f201c06d7cc005",
+  "notTested": [
+    "Unity rendering/native assembly",
+    "batching",
+    "target CPU/GPU/memory budget"
+  ],
+  "visual": "Reference comparison is a QA image, not a runtime atlas. Similarity still requires author review."
+}

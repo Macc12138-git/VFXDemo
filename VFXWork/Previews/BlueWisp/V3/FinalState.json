@@ -1,0 +1,164 @@
+{
+  "success": true,
+  "dataPath": "/Users/user/Desktop/VFXDemo/VFXDemo/Assets",
+  "product": "VFXDemo",
+  "scene": "Assets/Scenes/VFXWorkbench.unity",
+  "dirty": false,
+  "playing": false,
+  "paused": false,
+  "background": false,
+  "roots": [
+    {
+      "name": "Main Camera",
+      "active": true,
+      "position": "(0.00, 1.68, -12.00)",
+      "scale": "(1.00, 1.00, 1.00)"
+    },
+    {
+      "name": "CyberOrb_Demo",
+      "active": true,
+      "position": "(0.00, 0.00, 0.00)",
+      "scale": "(1.00, 1.00, 1.00)"
+    },
+    {
+      "name": "VFX_EnergyCluster_Loop",
+      "active": true,
+      "position": "(0.00, -1.40, 0.00)",
+      "scale": "(1.00, 1.00, 1.00)"
+    },
+    {
+      "name": "BrazierNoiseFlameRealtime",
+      "active": true,
+      "position": "(4.78, 2.06, 0.00)",
+      "scale": "(1.00, 1.00, 1.00)"
+    },
+    {
+      "name": "VFX_BlueWisp_V3_Loop",
+      "active": true,
+      "position": "(-6.00, 2.10, 0.00)",
+      "scale": "(1.00, 1.00, 1.00)"
+    }
+  ],
+  "prefab": {
+    "components": [
+      "Transform",
+      "ParticleSystem",
+      "ParticleSystemRenderer"
+    ],
+    "systems": [
+      {
+        "name": "VFX_BlueWisp_V3_Loop",
+        "duration": 0.28,
+        "lifetime": 0.28,
+        "loop": true,
+        "playOnAwake": true,
+        "maxParticles": 1,
+        "emission": true,
+        "bursts": 1,
+        "speed": 0.0,
+        "size": 1.0,
+        "autoSeed": false,
+        "sheet": false,
+        "lights": false,
+        "alignment": "Local",
+        "mesh": "Assets/PixelFX/BlueWisp/V3/Meshes/BlueWisp_AuthoredPoses.asset",
+        "material": "Assets/PixelFX/BlueWisp/V3/Materials/BlueWisp_Colors.mat",
+        "streams": [
+          "Position",
+          "Color",
+          "UV",
+          "UV2",
+          "AgePercent"
+        ]
+      },
+      {
+        "name": "MicroGlow",
+        "duration": 0.28,
+        "lifetime": 0.28,
+        "loop": true,
+        "playOnAwake": true,
+        "maxParticles": 1,
+        "emission": true,
+        "bursts": 1,
+        "speed": 0.0,
+        "size": 1.0,
+        "autoSeed": false,
+        "sheet": false,
+        "lights": false,
+        "alignment": "Local",
+        "mesh": "Assets/PixelFX/BlueWisp/V3/Meshes/BlueWisp_StaticGlow.asset",
+        "material": "Assets/PixelFX/BlueWisp/V3/Materials/BlueWisp_Glow.mat",
+        "streams": [
+          "Position",
+          "Color",
+          "UV",
+          "UV2",
+          "AgePercent"
+        ]
+      }
+    ]
+  },
+  "instance": {
+    "components": [
+      "Transform",
+      "ParticleSystem",
+      "ParticleSystemRenderer"
+    ],
+    "systems": [
+      {
+        "name": "VFX_BlueWisp_V3_Loop",
+        "duration": 0.28,
+        "lifetime": 0.28,
+        "loop": true,
+        "playOnAwake": true,
+        "maxParticles": 1,
+        "emission": true,
+        "bursts": 1,
+        "speed": 0.0,
+        "size": 1.0,
+        "autoSeed": false,
+        "sheet": false,
+        "lights": false,
+        "alignment": "Local",
+        "mesh": "Assets/PixelFX/BlueWisp/V3/Meshes/BlueWisp_AuthoredPoses.asset",
+        "material": "Assets/PixelFX/BlueWisp/V3/Materials/BlueWisp_Colors.mat",
+        "streams": [
+          "Position",
+          "Color",
+          "UV",
+          "UV2",
+          "AgePercent"
+        ]
+      },
+      {
+        "name": "MicroGlow",
+        "duration": 0.28,
+        "lifetime": 0.28,
+        "loop": true,
+        "playOnAwake": true,
+        "maxParticles": 1,
+        "emission": true,
+        "bursts": 1,
+        "speed": 0.0,
+        "size": 1.0,
+        "autoSeed": false,
+        "sheet": false,
+        "lights": false,
+        "alignment": "Local",
+        "mesh": "Assets/PixelFX/BlueWisp/V3/Meshes/BlueWisp_StaticGlow.asset",
+        "material": "Assets/PixelFX/BlueWisp/V3/Materials/BlueWisp_Glow.mat",
+        "streams": [
+          "Position",
+          "Color",
+          "UV",
+          "UV2",
+          "AgePercent"
+        ]
+      }
+    ]
+  },
+  "shaderSupported": true,
+  "shaderErrors": [],
+  "componentsOk": true,
+  "nativeOk": true
+}

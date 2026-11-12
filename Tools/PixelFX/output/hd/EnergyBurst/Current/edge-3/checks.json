@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "name": "赛博能量爆炸 · 平面电浆",
+    "duration": 0.94,
+    "loop": false,
+    "size": [
+      640,
+      640
+    ],
+    "origin": [
+      320,
+      320
+    ],
+    "options": {
+      "seed": 37,
+      "radius": 230,
+      "duration": 0.94,
+      "pulse": 0.55,
+      "intensity": 1,
+      "electric": 1,
+      "bodyColor": "#2458ff",
+      "flowColor": "#85b5ff",
+      "hotColor": "#ffffff"
+    }
+  },
+  "options": {
+    "seed": 37,
+    "radius": 230,
+    "duration": 0.94,
+    "pulse": 0.55,
+    "intensity": 1,
+    "electric": 1,
+    "bodyColor": "#2458ff",
+    "flowColor": "#85b5ff",
+    "hotColor": "#ffffff",
+    "layers": {
+      "flash": true,
+      "flow": true,
+      "front": true,
+      "electric": true
+    }
+  },
+  "renderer": "Canvas2D procedural geometry authoring preview",
+  "deterministic": true,
+  "differentSeed": true,
+  "emptyStart": true,
+  "emptyEnd": true,
+  "endsEmptyForDurations": true,
+  "invisibleBeforeStart": true,
+  "arbitrarySeek": true,
+  "noClipping": true,
+  "maxCoverage": 0.343466796875,
+  "rangeNoClipping": true,
+  "parameters": {
+    "radiusChanges": true,
+    "noPerspective": true,
+    "circularEnvelope": true,
+    "durationPreservesPhase": true,
+    "allLayersOffEmpty": true
+  },
+  "layers": {
+    "flash": true,
+    "flow": true,
+    "front": true,
+    "electric": true
+  },
+  "samples": [
+    {
+      "time": 0.035,
+      "t": 0.037234042553191495,
+      "u": 0,
+      "radius": 39.1,
+      "hole": 3.91,
+      "envelope": 0,
+      "active": true
+    },
+    {
+      "time": 0.09,
+      "t": 0.09574468085106383,
+      "u": 0.05313579146708255,
+      "radius": 101.20136748099287,
+      "hole": 10.120136748099288,
+      "envelope": 1,
+      "active": true
+    },
+    {
+      "time": 0.17,
+      "t": 0.18085106382978725,
+      "u": 0.14225242285841597,
+      "radius": 163.45088196022562,
+      "hole": 18.401231596205474,
+      "envelope": 1,
+      "active": true
+    },
+    {
+      "time": 0.27,
+      "t": 0.2872340425531915,
+      "u": 0.25364821209758276,
+      "radius": 200.88182444569526,
+      "hole": 37.98804238801546,
+      "envelope": 1,
+      "active": true
+    },
+    {
+      "time": 0.4,
+      "t": 0.4255319148936171,
+      "u": 0.3984627381084996,
+      "radius": 220.10523473186848,
+      "hole": 79.53223549046002,
+      "envelope": 1,
+      "active": true
+    },
+    {
+      "time": 0.54,
+      "t": 0.574468085106383,
+      "u": 0.554416843043333,
+      "radius": 226.9595880215601,
+      "hole": 133.51708057672155,
+      "envelope": 0.8738508353082195,
+      "active": true
+    },
+    {
+      "time": 0.7,
+      "t": 0.7446808510638298,
+      "u": 0.7326501058259998,
+      "radius": 229.27246139215816,
+      "hole": 189.33133913096665,
+      "envelope": 0.4394624092591105,
+      "active": true
+    },
+    {
+      "time": 0.84,
+      "t": 0.8936170212765958,
+      "u": 0.8886042107608333,
+      "radius": 229.8505069729328,
+      "hole": 217.8421535065441,
+      "envelope": 0.08648036897086808,
+      "active": true
+    },
+    {
+      "time": 0.94,
+      "t": 1,
+      "u": 1,
+      "radius": 230,
+      "hole": 220.79999999999998,
+      "envelope": 0,
+      "active": false
+    }
+  ],
+  "resources": {
+    "newTextures": 0,
+    "newFlipbooks": 0
+  },
+  "validation": "Geometry/PNG checks only. Dynamic browser review separate. No Unity, PC Player or GPU/CPU budget certification.",
+  "sourceHash": "19396242ec7074139bc2caff9930a53481ed143f316c257df93e4f4bb0e74c00"
+}

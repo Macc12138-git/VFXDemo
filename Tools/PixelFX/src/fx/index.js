@@ -12,6 +12,7 @@ import * as moves_meteor_call from "./moves/meteor-call.js";
 import * as moves_pistol_shots from "./moves/pistol-shots.js";
 import * as moves_rocket_launcher from "./moves/rocket-launcher.js";
 import * as moves_sword_combo from "./moves/sword-combo.js";
+import * as fire_arcade_fireball from "./fire/arcade-fireball.js";
 import * as fire_brazier from "./fire/brazier.js";
 import * as fire_campfire from "./fire/campfire.js";
 import * as fire_candle from "./fire/candle.js";
@@ -24,6 +25,7 @@ import * as fire_flamethrower from "./fire/flamethrower.js";
 import * as fire_meteor from "./fire/meteor.js";
 import * as fire_spirit_flame from "./fire/spirit-flame.js";
 import * as fire_torch from "./fire/torch.js";
+import * as explosions_arcade_fireball_impact from "./explosions/arcade-fireball-impact.js";
 import * as explosions_barrel_explosion from "./explosions/barrel-explosion.js";
 import * as explosions_big_explosion from "./explosions/big-explosion.js";
 import * as explosions_cartoon_pow from "./explosions/cartoon-pow.js";
@@ -69,6 +71,7 @@ import * as lightning_storm_cloud from "./lightning/storm-cloud.js";
 import * as lightning_tesla_coil from "./lightning/tesla-coil.js";
 import * as lightning_thunderclap from "./lightning/thunderclap.js";
 import * as lightning_zap_hit from "./lightning/zap-hit.js";
+import * as scifi_arcade_engine_exhaust from "./scifi/arcade-engine-exhaust.js";
 import * as scifi_emp_blast from "./scifi/emp-blast.js";
 import * as scifi_energy_core from "./scifi/energy-core.js";
 import * as scifi_force_field from "./scifi/force-field.js";
@@ -104,6 +107,7 @@ import * as impacts_impact_frame from "./impacts/impact-frame.js";
 import * as impacts_parry from "./impacts/parry.js";
 import * as impacts_ricochet from "./impacts/ricochet.js";
 import * as impacts_shield_block from "./impacts/shield-block.js";
+import * as projectiles_arcade_round from "./projectiles/arcade-round.js";
 import * as projectiles_arrow from "./projectiles/arrow.js";
 import * as projectiles_bullet_tracer from "./projectiles/bullet-tracer.js";
 import * as projectiles_cannonball from "./projectiles/cannonball.js";
@@ -260,6 +264,7 @@ export const effects = {
   "moves/pistol-shots": moves_pistol_shots,
   "moves/rocket-launcher": moves_rocket_launcher,
   "moves/sword-combo": moves_sword_combo,
+  "fire/arcade-fireball": fire_arcade_fireball,
   "fire/brazier": fire_brazier,
   "fire/campfire": fire_campfire,
   "fire/candle": fire_candle,
@@ -272,6 +277,7 @@ export const effects = {
   "fire/meteor": fire_meteor,
   "fire/spirit-flame": fire_spirit_flame,
   "fire/torch": fire_torch,
+  "explosions/arcade-fireball-impact": explosions_arcade_fireball_impact,
   "explosions/barrel-explosion": explosions_barrel_explosion,
   "explosions/big-explosion": explosions_big_explosion,
   "explosions/cartoon-pow": explosions_cartoon_pow,
@@ -317,6 +323,7 @@ export const effects = {
   "lightning/tesla-coil": lightning_tesla_coil,
   "lightning/thunderclap": lightning_thunderclap,
   "lightning/zap-hit": lightning_zap_hit,
+  "scifi/arcade-engine-exhaust": scifi_arcade_engine_exhaust,
   "scifi/emp-blast": scifi_emp_blast,
   "scifi/energy-core": scifi_energy_core,
   "scifi/force-field": scifi_force_field,
@@ -352,6 +359,7 @@ export const effects = {
   "impacts/parry": impacts_parry,
   "impacts/ricochet": impacts_ricochet,
   "impacts/shield-block": impacts_shield_block,
+  "projectiles/arcade-round": projectiles_arcade_round,
   "projectiles/arrow": projectiles_arrow,
   "projectiles/bullet-tracer": projectiles_bullet_tracer,
   "projectiles/cannonball": projectiles_cannonball,

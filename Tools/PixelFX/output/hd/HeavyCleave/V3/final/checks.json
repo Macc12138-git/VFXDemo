@@ -1,0 +1,141 @@
+{
+  "effect": "hd/heavy-cleave-v3",
+  "version": "3.0.2",
+  "round": "final",
+  "checks": "PASS",
+  "options": {
+    "bladeLength": 176,
+    "tear": 1,
+    "glow": 0.12,
+    "body": "#f47732",
+    "shadow": "#9d302b",
+    "edge": "#fff3d1",
+    "layers": {
+      "echo": true,
+      "body": true,
+      "shadow": true,
+      "tail": true,
+      "edge": true,
+      "glow": true
+    }
+  },
+  "leadingPixels": 174,
+  "majorColorCoverage": 0.9756982156710629,
+  "principalColors": [
+    [
+      "244,119,50",
+      38863
+    ],
+    [
+      "157,48,43",
+      9558
+    ],
+    [
+      "255,243,209",
+      1886
+    ]
+  ],
+  "boundaryAlpha": 0,
+  "firstAndLastEmpty": true,
+  "deterministic": true,
+  "trajectory": {
+    "direction": "clockwise, overhead-left to lower-right",
+    "maxErrorHDUnits": 5.695433295429594e-14,
+    "span": 2.7999999999999625,
+    "sourceScale": 8.64864864864865,
+    "sourceTimeOffset": 0.2,
+    "path": [
+      {
+        "time": 0.025,
+        "sourceTime": 0.225,
+        "head": 0.034293552812071325,
+        "tail": 0,
+        "leadingPoint": [
+          -125.5893503661999,
+          -450.72205319425825
+        ]
+      },
+      {
+        "time": 0.06,
+        "sourceTime": 0.26,
+        "head": 0.19753086419753085,
+        "tail": 0,
+        "leadingPoint": [
+          12.545743070223281,
+          -475.73483271665066
+        ]
+      },
+      {
+        "time": 0.1,
+        "sourceTime": 0.30000000000000004,
+        "head": 0.5486968449931412,
+        "tail": 0,
+        "leadingPoint": [
+          281.6318881881963,
+          -340.41548444716386
+        ]
+      },
+      {
+        "time": 0.135,
+        "sourceTime": 0.335,
+        "head": 1,
+        "tail": 0,
+        "leadingPoint": [
+          280.91086369089305,
+          -4.053598973569194
+        ]
+      },
+      {
+        "time": 0.175,
+        "sourceTime": 0.375,
+        "head": 1,
+        "tail": 0,
+        "leadingPoint": [
+          280.91086369089305,
+          -4.053598973569194
+        ]
+      },
+      {
+        "time": 0.23,
+        "sourceTime": 0.43000000000000005,
+        "head": 1,
+        "tail": 0.1084006386175808,
+        "leadingPoint": [
+          280.91086369089305,
+          -4.053598973569194
+        ]
+      },
+      {
+        "time": 0.29,
+        "sourceTime": 0.49,
+        "head": 1,
+        "tail": 0.4659325694966189,
+        "leadingPoint": [
+          280.91086369089305,
+          -4.053598973569194
+        ]
+      },
+      {
+        "time": 0.35,
+        "sourceTime": 0.55,
+        "head": 1,
+        "tail": 0.8437499999999998,
+        "leadingPoint": [
+          280.91086369089305,
+          -4.053598973569194
+        ]
+      }
+    ]
+  },
+  "sourceSha256": "22b570a391685f4ee292b8b6cb8b1e0ad4bd9180827d24336731dc735b8c23bd",
+  "originalSha256": "86b8cba64882f09e6ce6a993d0b470e2588015d066a13bb72743557dc3919b27",
+  "preservedV1Sha256": "92f84f48c09c6d67998d05bee07c7e1e5e13e62457e32b7a133f8f26a1cf3e5d",
+  "preservedV2Sha256": "5447c4d9610b8bfb24d0dc17f686bfcb67f2055598ce30aee7ff032475e8ddcc",
+  "scope": "Original Heavy cleave motion. Style sample only informs brush, color blocks and edges. Blade light only.",
+  "newFlipbooks": 0,
+  "newGifs": 0,
+  "notTested": [
+    "Unity assembly and playback",
+    "target device CPU/GPU/memory and batching"
+  ]
+}

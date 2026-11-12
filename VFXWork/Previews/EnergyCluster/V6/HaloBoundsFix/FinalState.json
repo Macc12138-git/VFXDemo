@@ -1,0 +1,54 @@
+{
+  "success": true,
+  "state": {
+    "dataPath": "/Users/user/Desktop/VFXDemo/VFXDemo/Assets",
+    "product": "VFXDemo",
+    "scene": "Assets/Scenes/VFXWorkbench.unity",
+    "dirty": false,
+    "playing": false,
+    "paused": false,
+    "background": false,
+    "camerasUnchanged": true,
+    "sceneFileUnchanged": true,
+    "prefabCount": 1,
+    "components": [
+      "Transform",
+      "ParticleSystem",
+      "ParticleSystemRenderer"
+    ],
+    "dependencies": [
+      "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_Core.mat",
+      "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_Halo.mat",
+      "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_Volume.mat",
+      "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_ShellGlow.mat",
+      "Assets/PixelFX/EnergyCluster/Prefabs/VFX_EnergyCluster_Loop.prefab",
+      "Assets/PixelFX/EnergyCluster/Textures/EnergyCluster_ShellGrayAlpha.asset",
+      "Assets/PixelFX/EnergyCluster/Textures/EnergyCluster_Profiles.asset",
+      "Assets/PixelFX/EnergyCluster/Shaders/EnergyClusterHybrid.shader",
+      "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_Shell.mat"
+    ],
+    "scripts": 0,
+    "shaderSupported": true,
+    "messages": [],
+    "sceneHaloSize": 3.84,
+    "textures": [
+      {
+        "name": "EnergyCluster_Profiles",
+        "width": 256,
+        "height": 3,
+        "format": "RGBA32",
+        "isReadable": false,
+        "bytes": 7040
+      },
+      {
+        "name": "EnergyCluster_ShellGrayAlpha",
+        "width": 1280,
+        "height": 1024,
+        "format": "RG16",
+        "isReadable": false,
+        "bytes": 5243776
+      }
+    ],
+    "temporaryObjects": []
+  }
+}

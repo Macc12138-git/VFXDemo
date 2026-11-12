@@ -1,0 +1,66 @@
+{
+  "version": "3.0.0",
+  "round": "round1b",
+  "options": {
+    "radius": 132,
+    "glow": 0.28,
+    "edge": "#0e54cb",
+    "blue": "#1096ff",
+    "cyan": "#10eeff",
+    "pale": "#b5ffff",
+    "core": "#ffffff",
+    "layers": {
+      "body": true,
+      "blue": true,
+      "pale": true,
+      "core": true,
+      "chips": true,
+      "glow": true
+    }
+  },
+  "checks": "PASS",
+  "durationMs": 280,
+  "poseHoldMs": 70,
+  "fourDistinctPoses": true,
+  "noInterpolation": true,
+  "noGlobalPulse": true,
+  "exactLoop": true,
+  "edgeAlpha": 0,
+  "resources": {
+    "flipbookTextures": 0,
+    "referencePixelsInPlayback": 0
+  },
+  "composition": [
+    {
+      "pose": 0,
+      "bodyArea": 44069.93725490188,
+      "whiteArea": 3714.4274509803895,
+      "whiteRatio": 0.08428483638395096
+    },
+    {
+      "pose": 1,
+      "bodyArea": 44765.7333333333,
+      "whiteArea": 3036.2274509803906,
+      "whiteRatio": 0.06782481208052869
+    },
+    {
+      "pose": 2,
+      "bodyArea": 45568.17647058827,
+      "whiteArea": 1684.2078431372543,
+      "whiteRatio": 0.03696017645613529
+    },
+    {
+      "pose": 3,
+      "bodyArea": 46981.58431372543,
+      "whiteArea": 3437.1568627451,
+      "whiteRatio": 0.07315966272642178
+    }
+  ],
+  "sourceSha256": "fd3cb8ca556aceb15332a21dc23e45df298a79bbd084953937f201c06d7cc005",
+  "notTested": [
+    "Unity rendering/native assembly",
+    "batching",
+    "target CPU/GPU/memory budget"
+  ],
+  "visual": "Reference comparison is a QA image, not a runtime atlas. Similarity still requires author review."
+}

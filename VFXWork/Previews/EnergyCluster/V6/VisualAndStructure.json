@@ -1,0 +1,1154 @@
+{
+  "method": "Edit-mode native Simulate / isolated static review, not real playback",
+  "shaderSupported": true,
+  "shaderMessages": [],
+  "components": [
+    "Transform",
+    "ParticleSystem",
+    "ParticleSystemRenderer"
+  ],
+  "scripts": 0,
+  "loopDiff": 0,
+  "tests": [
+    {
+      "prop": "_ShellHot",
+      "mutedPixels": 17066,
+      "recoloredPixels": 16160
+    },
+    {
+      "prop": "_ShellCool",
+      "mutedPixels": 15985,
+      "recoloredPixels": 17103
+    },
+    {
+      "prop": "_CoreColor",
+      "mutedPixels": 891,
+      "recoloredPixels": 738
+    },
+    {
+      "prop": "_BodyColor",
+      "mutedPixels": 17153,
+      "recoloredPixels": 18100
+    },
+    {
+      "prop": "_InnerColor",
+      "mutedPixels": 9535,
+      "recoloredPixels": 8135
+    },
+    {
+      "prop": "_GlowColor",
+      "mutedPixels": 38000,
+      "recoloredPixels": 38875
+    }
+  ],
+  "samples": [
+    {
+      "name": "Unity_Default",
+      "time": 0.144,
+      "only": null,
+      "property": null,
+      "visible": 56412,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(161, 189, 229, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Halo",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Core",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Shell",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        }
+      ]
+    },
+    {
+      "name": "Unity_Time24",
+      "time": 0.024,
+      "only": null,
+      "property": null,
+      "visible": 56412,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(251, 252, 255, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.024,
+          "particleCount": 1,
+          "age": 0.023999989
+        },
+        {
+          "name": "Halo",
+          "time": 0.024,
+          "particleCount": 1,
+          "age": 0.023999989
+        },
+        {
+          "name": "Core",
+          "time": 0.024,
+          "particleCount": 1,
+          "age": 0.023999989
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.024,
+          "particleCount": 1,
+          "age": 0.023999989
+        },
+        {
+          "name": "Shell",
+          "time": 0.024,
+          "particleCount": 1,
+          "age": 0.023999989
+        }
+      ]
+    },
+    {
+      "name": "Unity_Time288",
+      "time": 0.288,
+      "only": null,
+      "property": null,
+      "visible": 56412,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(59, 147, 254, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.288,
+          "particleCount": 1,
+          "age": 0.2880001
+        },
+        {
+          "name": "Halo",
+          "time": 0.288,
+          "particleCount": 1,
+          "age": 0.2880001
+        },
+        {
+          "name": "Core",
+          "time": 0.288,
+          "particleCount": 1,
+          "age": 0.2880001
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.288,
+          "particleCount": 1,
+          "age": 0.2880001
+        },
+        {
+          "name": "Shell",
+          "time": 0.288,
+          "particleCount": 1,
+          "age": 0.2880001
+        }
+      ]
+    },
+    {
+      "name": "Unity_Time456",
+      "time": 0.456,
+      "only": null,
+      "property": null,
+      "visible": 56412,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(251, 252, 255, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.456,
+          "particleCount": 1,
+          "age": 0.456000417
+        },
+        {
+          "name": "Halo",
+          "time": 0.456,
+          "particleCount": 1,
+          "age": 0.456000417
+        },
+        {
+          "name": "Core",
+          "time": 0.456,
+          "particleCount": 1,
+          "age": 0.456000417
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.456,
+          "particleCount": 1,
+          "age": 0.456000417
+        },
+        {
+          "name": "Shell",
+          "time": 0.456,
+          "particleCount": 1,
+          "age": 0.456000417
+        }
+      ]
+    },
+    {
+      "name": "Unity_Light",
+      "time": 0.144,
+      "only": null,
+      "property": null,
+      "visible": 25795,
+      "background": "RGBA(220, 224, 228, 255)",
+      "center": "RGBA(161, 189, 229, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Halo",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Core",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Shell",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        }
+      ]
+    },
+    {
+      "name": "Unity_GameSize",
+      "time": 0.144,
+      "only": null,
+      "property": null,
+      "visible": 6316,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(165, 191, 228, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Halo",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Core",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Shell",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        }
+      ]
+    },
+    {
+      "name": "Layer_Volume",
+      "time": 0.144,
+      "only": "Volume",
+      "property": null,
+      "visible": 22682,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(69, 179, 255, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Halo",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Core",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Shell",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        }
+      ]
+    },
+    {
+      "name": "Layer_Halo",
+      "time": 0.144,
+      "only": "Halo",
+      "property": null,
+      "visible": 40054,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(5, 7, 22, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Halo",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Core",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Shell",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        }
+      ]
+    },
+    {
+      "name": "Layer_Core",
+      "time": 0.144,
+      "only": "Core",
+      "property": null,
+      "visible": 978,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(251, 252, 255, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Halo",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Core",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Shell",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        }
+      ]
+    },
+    {
+      "name": "Layer_ShellGlow",
+      "time": 0.144,
+      "only": "ShellGlow",
+      "property": null,
+      "visible": 13127,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(7, 14, 39, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Halo",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Core",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Shell",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        }
+      ]
+    },
+    {
+      "name": "Layer_Shell",
+      "time": 0.144,
+      "only": "Shell",
+      "property": null,
+      "visible": 20673,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(104, 146, 197, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Halo",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Core",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Shell",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        }
+      ]
+    },
+    {
+      "name": "Mute_ShellHot",
+      "time": 0.144,
+      "only": null,
+      "property": "_ShellHot",
+      "visible": 56412,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(210, 208, 215, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Halo",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Core",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Shell",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        }
+      ]
+    },
+    {
+      "name": "Color_ShellHot",
+      "time": 0.144,
+      "only": null,
+      "property": "_ShellHot",
+      "visible": 56412,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(161, 137, 175, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Halo",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Core",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Shell",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        }
+      ]
+    },
+    {
+      "name": "Mute_ShellCool",
+      "time": 0.144,
+      "only": null,
+      "property": "_ShellCool",
+      "visible": 56412,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(219, 206, 211, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Halo",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Core",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Shell",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        }
+      ]
+    },
+    {
+      "name": "Color_ShellCool",
+      "time": 0.144,
+      "only": null,
+      "property": "_ShellCool",
+      "visible": 56412,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(228, 165, 180, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Halo",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Core",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Shell",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        }
+      ]
+    },
+    {
+      "name": "Mute_CoreColor",
+      "time": 0.144,
+      "only": null,
+      "property": "_CoreColor",
+      "visible": 56412,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(109, 168, 229, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Halo",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Core",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Shell",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        }
+      ]
+    },
+    {
+      "name": "Color_CoreColor",
+      "time": 0.144,
+      "only": null,
+      "property": "_CoreColor",
+      "visible": 56412,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(163, 146, 200, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Halo",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Core",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Shell",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        }
+      ]
+    },
+    {
+      "name": "Mute_BodyColor",
+      "time": 0.144,
+      "only": null,
+      "property": "_BodyColor",
+      "visible": 56168,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(161, 189, 229, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Halo",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Core",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Shell",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        }
+      ]
+    },
+    {
+      "name": "Color_BodyColor",
+      "time": 0.144,
+      "only": null,
+      "property": "_BodyColor",
+      "visible": 56412,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(161, 189, 229, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Halo",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Core",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Shell",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        }
+      ]
+    },
+    {
+      "name": "Mute_InnerColor",
+      "time": 0.144,
+      "only": null,
+      "property": "_InnerColor",
+      "visible": 56412,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(161, 189, 229, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Halo",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Core",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Shell",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        }
+      ]
+    },
+    {
+      "name": "Color_InnerColor",
+      "time": 0.144,
+      "only": null,
+      "property": "_InnerColor",
+      "visible": 56412,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(161, 189, 229, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Halo",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Core",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Shell",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        }
+      ]
+    },
+    {
+      "name": "Mute_GlowColor",
+      "time": 0.144,
+      "only": null,
+      "property": "_GlowColor",
+      "visible": 26120,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(161, 189, 229, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Halo",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Core",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Shell",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        }
+      ]
+    },
+    {
+      "name": "Color_GlowColor",
+      "time": 0.144,
+      "only": null,
+      "property": "_GlowColor",
+      "visible": 44136,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(162, 189, 229, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Halo",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Core",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        },
+        {
+          "name": "Shell",
+          "time": 0.143999934,
+          "particleCount": 1,
+          "age": 0.1439999
+        }
+      ]
+    },
+    {
+      "name": "Loop_Start",
+      "time": 0.12,
+      "only": null,
+      "property": null,
+      "visible": 56412,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(141, 182, 239, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.119999908,
+          "particleCount": 1,
+          "age": 0.119999945
+        },
+        {
+          "name": "Halo",
+          "time": 0.119999908,
+          "particleCount": 1,
+          "age": 0.119999945
+        },
+        {
+          "name": "Core",
+          "time": 0.119999908,
+          "particleCount": 1,
+          "age": 0.119999945
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.119999908,
+          "particleCount": 1,
+          "age": 0.119999945
+        },
+        {
+          "name": "Shell",
+          "time": 0.119999908,
+          "particleCount": 1,
+          "age": 0.119999945
+        }
+      ]
+    },
+    {
+      "name": "Loop_Repeat",
+      "time": 0.6,
+      "only": null,
+      "property": null,
+      "visible": 56412,
+      "background": "RGBA(5, 7, 22, 255)",
+      "center": "RGBA(141, 182, 239, 255)",
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.120000534,
+          "particleCount": 1,
+          "age": 0.121999919
+        },
+        {
+          "name": "Halo",
+          "time": 0.120000534,
+          "particleCount": 1,
+          "age": 0.121999919
+        },
+        {
+          "name": "Core",
+          "time": 0.120000534,
+          "particleCount": 1,
+          "age": 0.121999919
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.120000534,
+          "particleCount": 1,
+          "age": 0.121999919
+        },
+        {
+          "name": "Shell",
+          "time": 0.120000534,
+          "particleCount": 1,
+          "age": 0.121999919
+        }
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "name": "Volume",
+      "duration": 0.48,
+      "loop": true,
+      "lifetime": 0.5,
+      "maxParticles": 2,
+      "simulationSpace": 0,
+      "sheet": false,
+      "lights": false,
+      "streams": 6,
+      "material": "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_Volume.mat"
+    },
+    {
+      "name": "Halo",
+      "duration": 0.48,
+      "loop": true,
+      "lifetime": 0.5,
+      "maxParticles": 2,
+      "simulationSpace": 0,
+      "sheet": false,
+      "lights": false,
+      "streams": 6,
+      "material": "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_Halo.mat"
+    },
+    {
+      "name": "Core",
+      "duration": 0.48,
+      "loop": true,
+      "lifetime": 0.5,
+      "maxParticles": 2,
+      "simulationSpace": 0,
+      "sheet": false,
+      "lights": false,
+      "streams": 6,
+      "material": "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_Core.mat"
+    },
+    {
+      "name": "ShellGlow",
+      "duration": 0.48,
+      "loop": true,
+      "lifetime": 0.5,
+      "maxParticles": 2,
+      "simulationSpace": 0,
+      "sheet": false,
+      "lights": false,
+      "streams": 6,
+      "material": "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_ShellGlow.mat"
+    },
+    {
+      "name": "Shell",
+      "duration": 0.48,
+      "loop": true,
+      "lifetime": 0.5,
+      "maxParticles": 2,
+      "simulationSpace": 0,
+      "sheet": false,
+      "lights": false,
+      "streams": 6,
+      "material": "Assets/PixelFX/EnergyCluster/Materials/EnergyCluster_Shell.mat"
+    }
+  ],
+  "textures": [
+    {
+      "name": "EnergyCluster_Profiles",
+      "width": 256,
+      "height": 3,
+      "format": "RGBA32",
+      "isReadable": false,
+      "mipCount": 1,
+      "bytes": 7040
+    },
+    {
+      "name": "EnergyCluster_ShellGrayAlpha",
+      "width": 1280,
+      "height": 1024,
+      "format": "RG16",
+      "isReadable": false,
+      "mipCount": 1,
+      "bytes": 5243776
+    }
+  ],
+  "dirty": false
+}

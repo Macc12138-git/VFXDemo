@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0",
+  "round": "round1",
+  "seed": 13,
+  "options": {
+    "seed": 13,
+    "radius": 112,
+    "flow": 1,
+    "turbulence": 1,
+    "tail": 1,
+    "glow": 0.55,
+    "shadow": "#0866ed",
+    "body": "#00c6ff",
+    "flame": "#4ff9ff",
+    "core": "#e8ffff",
+    "layers": {
+      "body": true,
+      "brush": true,
+      "core": true,
+      "flecks": true,
+      "glow": true
+    }
+  },
+  "sourceSha256": "c9e2ee53d50937b768f9fc0a9f565e5df6f31a78c8471d0f20e9820233f70846",
+  "samples": 384,
+  "checks": "PASS",
+  "deterministic": true,
+  "loop": {
+    "endpointExact": true,
+    "seamDelta": 0.07400431315104167,
+    "ordinaryDelta": 0.07610758463541667
+  },
+  "edgePixels": 0,
+  "newFlipbooks": 0,
+  "referenceFramesUsedInPlayback": 0,
+  "canvasDrawCPU": {
+    "medianMs": 0.7874579999997877,
+    "p95Ms": 1.0738750000000437,
+    "excludesPNG": true
+  },
+  "conditions": "local Node + @napi-rs/canvas, 960x640. Not browser FPS or Unity performance.",
+  "notTested": [
+    "Unity compilation/rendering/native assembly",
+    "Unity batches/batching",
+    "target platform CPU/GPU/memory budgets"
+  ]
+}

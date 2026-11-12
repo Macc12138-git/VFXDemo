@@ -1,0 +1,347 @@
+{
+  "success": true,
+  "error": null,
+  "method": "Actual Play Mode / native engine frames and particle ages. No Simulate, Emit, SetParticles or runtime component. Native Emission drain/restore, Stop/Play, disable/enable and offscreen return.",
+  "drained": 0,
+  "restored": 5,
+  "reused": 5,
+  "samples": [
+    {
+      "label": "live_early",
+      "frame": 144,
+      "time": 19.019883708900228,
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.333333343,
+          "count": 1,
+          "age": 0.3333334,
+          "emission": true
+        },
+        {
+          "name": "Halo",
+          "time": 0.333333343,
+          "count": 1,
+          "age": 0.3333334,
+          "emission": true
+        },
+        {
+          "name": "Core",
+          "time": 0.333333343,
+          "count": 1,
+          "age": 0.3333334,
+          "emission": true
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.333333343,
+          "count": 1,
+          "age": 0.3333334,
+          "emission": true
+        },
+        {
+          "name": "Shell",
+          "time": 0.333333343,
+          "count": 1,
+          "age": 0.3333334,
+          "emission": true
+        }
+      ]
+    },
+    {
+      "label": "live_late",
+      "frame": 145,
+      "time": 19.0870879180839,
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.400537521,
+          "count": 1,
+          "age": 0.40053755,
+          "emission": true
+        },
+        {
+          "name": "Halo",
+          "time": 0.400537521,
+          "count": 1,
+          "age": 0.40053755,
+          "emission": true
+        },
+        {
+          "name": "Core",
+          "time": 0.400537521,
+          "count": 1,
+          "age": 0.40053755,
+          "emission": true
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.400537521,
+          "count": 1,
+          "age": 0.40053755,
+          "emission": true
+        },
+        {
+          "name": "Shell",
+          "time": 0.400537521,
+          "count": 1,
+          "age": 0.40053755,
+          "emission": true
+        }
+      ]
+    },
+    {
+      "label": "looping",
+      "frame": 149,
+      "time": 19.451589335317461,
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.285038978,
+          "count": 1,
+          "age": 0.3109728,
+          "emission": true
+        },
+        {
+          "name": "Halo",
+          "time": 0.285038978,
+          "count": 1,
+          "age": 0.3109728,
+          "emission": true
+        },
+        {
+          "name": "Core",
+          "time": 0.285038978,
+          "count": 1,
+          "age": 0.3109728,
+          "emission": true
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.285038978,
+          "count": 1,
+          "age": 0.3109728,
+          "emission": true
+        },
+        {
+          "name": "Shell",
+          "time": 0.285038978,
+          "count": 1,
+          "age": 0.3109728,
+          "emission": true
+        }
+      ]
+    },
+    {
+      "label": "emission_drained",
+      "frame": 156,
+      "time": 20.151338414115646,
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.0247880518,
+          "count": 0,
+          "age": -1.0,
+          "emission": false
+        },
+        {
+          "name": "Halo",
+          "time": 0.0247880518,
+          "count": 0,
+          "age": -1.0,
+          "emission": false
+        },
+        {
+          "name": "Core",
+          "time": 0.0247880518,
+          "count": 0,
+          "age": -1.0,
+          "emission": false
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.0247880518,
+          "count": 0,
+          "age": -1.0,
+          "emission": false
+        },
+        {
+          "name": "Shell",
+          "time": 0.0247880518,
+          "count": 0,
+          "age": -1.0,
+          "emission": false
+        }
+      ]
+    },
+    {
+      "label": "emission_restored",
+      "frame": 163,
+      "time": 20.851262585034014,
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.244712114,
+          "count": 1,
+          "age": 0.2499815,
+          "emission": true
+        },
+        {
+          "name": "Halo",
+          "time": 0.244712114,
+          "count": 1,
+          "age": 0.2499815,
+          "emission": true
+        },
+        {
+          "name": "Core",
+          "time": 0.244712114,
+          "count": 1,
+          "age": 0.2499815,
+          "emission": true
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.244712114,
+          "count": 1,
+          "age": 0.2499815,
+          "emission": true
+        },
+        {
+          "name": "Shell",
+          "time": 0.244712114,
+          "count": 1,
+          "age": 0.2499815,
+          "emission": true
+        }
+      ]
+    },
+    {
+      "label": "native_restart",
+      "frame": 165,
+      "time": 21.052062662981857,
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.200800076,
+          "count": 1,
+          "age": 0.200800061,
+          "emission": true
+        },
+        {
+          "name": "Halo",
+          "time": 0.200800076,
+          "count": 1,
+          "age": 0.200800061,
+          "emission": true
+        },
+        {
+          "name": "Core",
+          "time": 0.200800076,
+          "count": 1,
+          "age": 0.200800061,
+          "emission": true
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.200800076,
+          "count": 1,
+          "age": 0.200800061,
+          "emission": true
+        },
+        {
+          "name": "Shell",
+          "time": 0.200800076,
+          "count": 1,
+          "age": 0.200800061,
+          "emission": true
+        }
+      ]
+    },
+    {
+      "label": "root_reuse",
+      "frame": 169,
+      "time": 21.452951211734693,
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.19910349,
+          "count": 1,
+          "age": 0.1991035,
+          "emission": true
+        },
+        {
+          "name": "Halo",
+          "time": 0.19910349,
+          "count": 1,
+          "age": 0.1991035,
+          "emission": true
+        },
+        {
+          "name": "Core",
+          "time": 0.19910349,
+          "count": 1,
+          "age": 0.1991035,
+          "emission": true
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.19910349,
+          "count": 1,
+          "age": 0.1991035,
+          "emission": true
+        },
+        {
+          "name": "Shell",
+          "time": 0.19910349,
+          "count": 1,
+          "age": 0.1991035,
+          "emission": true
+        }
+      ]
+    },
+    {
+      "label": "offscreen_return",
+      "frame": 172,
+      "time": 21.750935083616778,
+      "systems": [
+        {
+          "name": "Volume",
+          "time": 0.01708737,
+          "count": 1,
+          "age": 0.4970875,
+          "emission": true
+        },
+        {
+          "name": "Halo",
+          "time": 0.01708737,
+          "count": 1,
+          "age": 0.4970875,
+          "emission": true
+        },
+        {
+          "name": "Core",
+          "time": 0.01708737,
+          "count": 1,
+          "age": 0.4970875,
+          "emission": true
+        },
+        {
+          "name": "ShellGlow",
+          "time": 0.01708737,
+          "count": 1,
+          "age": 0.4970875,
+          "emission": true
+        },
+        {
+          "name": "Shell",
+          "time": 0.01708737,
+          "count": 1,
+          "age": 0.4970875,
+          "emission": true
+        }
+      ]
+    }
+  ],
+  "settingsRestored": true
+}

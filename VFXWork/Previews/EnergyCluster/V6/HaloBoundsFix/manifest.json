@@ -1,0 +1,52 @@
+{
+  "effect": "EnergyCluster",
+  "revision": "V6 HaloBoundsFix",
+  "authorization": "User: 修复该问题 (square halo cutoff)",
+  "supersedesRuntimeAssetsOf": "VFXWork/Exports/EnergyCluster/V6/manifest.json",
+  "logicalCoordinates": {
+    "mainQuadWidth": 2.56,
+    "haloQuadWidth": 3.84,
+    "haloPadding": 1.5,
+    "haloMaxParticleSize": 1.5,
+    "othersMaxParticleSize": 1
+  },
+  "changedAssets": [
+    {
+      "path": "Assets/PixelFX/EnergyCluster/Shaders/EnergyClusterHybrid.shader",
+      "before": "048b08c44185c2eaa083d00e0155714e5585534260f4ac0780b8893c42293221",
+      "after": "f66f7457b7a4a769d91066678778aa841a8a607c7fde1c57bcd1ee6f6bd13531"
+    },
+    {
+      "path": "Assets/PixelFX/EnergyCluster/Prefabs/VFX_EnergyCluster_Loop.prefab",
+      "before": "b52ed3c737fe8d0412b145a2144c085930f4bc5129ad5336072317b50fd56477",
+      "after": "1c5b6e4c21de3b3d47230fe9cf653f70013925557235b1af238f37e92f09508d"
+    }
+  ],
+  "unchangedSourceInputs": [
+    {
+      "path": "Tools/PixelFX/src/hd/energy-cluster-v6.js",
+      "hash": "3fae51f92d2f11a9cfa446325f7ab87af37e56723500a057dc30e427b1b0b8f7",
+      "matches": true
+    },
+    {
+      "path": "Tools/PixelFX/output/hd/EnergyCluster/V6/final/manifest.json",
+      "hash": "f23097a4153bfe89ff38242631f529b6d8df915f1119afbc5fd8b1bc5e4e4afe",
+      "matches": true
+    },
+    {
+      "path": "Tools/PixelFX/output/hd/EnergyCluster/V6/final/Textures/EnergyCluster_ShellGrayAlpha.rg",
+      "hash": "7d953a1f7ade42c693bcae07fb745830a0861c6eeebb2f29f390c9c43def3670",
+      "matches": true
+    },
+    {
+      "path": "Tools/PixelFX/output/hd/EnergyCluster/V6/final/Textures/EnergyCluster_Profiles.rgba",
+      "hash": "77ceccaabe05b40d28a85a993b4dca5183818974d4c05a9f2bdc817c877d877a",
+      "matches": true
+    }
+  ],
+  "evidence": "VFXWork/Previews/EnergyCluster/V6/HaloBoundsFix",
+  "noNewTextures": true,
+  "noNewParticles": true,
+  "noRuntimeScripts": true,
+  "explosionImported": false
+}

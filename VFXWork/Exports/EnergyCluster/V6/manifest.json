@@ -1,0 +1,124 @@
+{
+  "effect": "EnergyCluster",
+  "version": "V6 Hybrid Native",
+  "authorization": "User: 将能量球导入到unity，爆炸效果不要",
+  "targetProject": "VFXDemo",
+  "prefab": "Assets/PixelFX/EnergyCluster/Prefabs/VFX_EnergyCluster_Loop.prefab",
+  "author": {
+    "name": "能量团 · 灰阶壳层混合版",
+    "version": "6.0",
+    "duration": 0.48,
+    "fps": 41.66666666666667,
+    "frameCount": 20,
+    "loop": true,
+    "options": {
+      "seed": 37,
+      "interpolation": "short",
+      "glow": 1,
+      "volume": 1,
+      "shellOpacity": 1,
+      "shellHot": "#ffffff",
+      "shellCool": "#0073ff",
+      "coreColor": "#fbfcff",
+      "bodyColor": "#2458ff",
+      "innerColor": "#45b5ff",
+      "glowColor": "#1440ff"
+    }
+  },
+  "hashes": {
+    "Tools/PixelFX/src/hd/energy-cluster-v6.js": "3fae51f92d2f11a9cfa446325f7ab87af37e56723500a057dc30e427b1b0b8f7",
+    "Tools/PixelFX/output/hd/EnergyCluster/V6/final/manifest.json": "f23097a4153bfe89ff38242631f529b6d8df915f1119afbc5fd8b1bc5e4e4afe",
+    "Tools/PixelFX/output/hd/EnergyCluster/V6/final/Textures/EnergyCluster_ShellGrayAlpha.rg": "7d953a1f7ade42c693bcae07fb745830a0861c6eeebb2f29f390c9c43def3670",
+    "Tools/PixelFX/output/hd/EnergyCluster/V6/final/Textures/EnergyCluster_Profiles.rgba": "77ceccaabe05b40d28a85a993b4dca5183818974d4c05a9f2bdc817c877d877a",
+    "Assets/PixelFX/EnergyCluster/Shaders/EnergyClusterHybrid.shader": "048b08c44185c2eaa083d00e0155714e5585534260f4ac0780b8893c42293221",
+    "Assets/PixelFX/EnergyCluster/Prefabs/VFX_EnergyCluster_Loop.prefab": "b52ed3c737fe8d0412b145a2144c085930f4bc5129ad5336072317b50fd56477"
+  },
+  "layers": [
+    {
+      "name": "Volume",
+      "source": "static radial profile row 0",
+      "blend": "premultiplied alpha"
+    },
+    {
+      "name": "Halo",
+      "source": "static radial profile row 1",
+      "blend": "additive"
+    },
+    {
+      "name": "Core",
+      "source": "static radial profile row 2",
+      "blend": "premultiplied alpha"
+    },
+    {
+      "name": "ShellGlow",
+      "source": "four diagonal local shell energy taps",
+      "blend": "additive"
+    },
+    {
+      "name": "Shell",
+      "source": "previously approved 20-frame gray/alpha shell only",
+      "blend": "premultiplied alpha, short frame interpolation"
+    }
+  ],
+  "resources": {
+    "shell": {
+      "format": "RG16 (linear RG8)",
+      "size": [
+        1280,
+        1024
+      ],
+      "cellSize": [
+        256,
+        256
+      ],
+      "frames": 20,
+      "grid": [
+        5,
+        4
+      ],
+      "colorSpace": "linear data",
+      "readWrite": false,
+      "wrap": "Clamp",
+      "filter": "Bilinear",
+      "mipmaps": false,
+      "rawRowOrder": "source top row loaded into Unity bottom row; shader samples source-down coordinates"
+    },
+    "profiles": {
+      "size": [
+        256,
+        3
+      ],
+      "format": "RGBA32 linear data",
+      "temporalFrames": 1,
+      "readWrite": false
+    }
+  },
+  "unit": {
+    "pixelsPerUnit": 100,
+    "particleQuadWidth": 2.56,
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "coreOffsetSource": [
+      0,
+      -2.5454545
+    ]
+  },
+  "clock": "Native AgePercent / InvStartLifetime (seconds), modulo .48; no global _Time",
+  "seed": 37,
+  "nativeTiming": {
+    "duration": 0.48,
+    "lifetime": 0.5,
+    "maxParticlesPerLayer": 2,
+    "alphaHandoffSeconds": 0.02,
+    "prewarm": false
+  },
+  "noRuntimeScripts": true,
+  "explosionImported": false,
+  "limitations": [
+    "Reference-derived shell separation; commercial source permission not verified",
+    "Display-space composition vs Unity linear blending has documented visual differences",
+    "Target PC Player/device budget not certified; see local evidence separately"
+  ]
+}

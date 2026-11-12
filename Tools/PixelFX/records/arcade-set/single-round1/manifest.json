@@ -1,0 +1,155 @@
+{
+  "version": "single-round1",
+  "authoring": "pixelfx pure geometry / no texture / no animation sheets",
+  "unityImported": false,
+  "effects": [
+    {
+      "id": "scifi/arcade-fighter",
+      "source": "/Users/user/Desktop/VFXDemo/VFXDemo/Tools/PixelFX/src/fx/scifi/arcade-fighter.js",
+      "sha256": "da88ced6d913c67716f0efc96c8d9c89b537dd7467278341df9f757a3bd03bcc",
+      "meta": {
+        "fps": 24,
+        "bg": "dark",
+        "loop": true,
+        "duration": 1,
+        "tags": [
+          "scifi",
+          "ship",
+          "fighter",
+          "pixel",
+          "loop"
+        ],
+        "options": {
+          "palette": [
+            "#241e32",
+            "#42394e",
+            "#655c71",
+            "#92909e",
+            "#c4c0c9",
+            "#efebde"
+          ],
+          "stripe": [
+            "#82434b",
+            "#ba6250",
+            "#e29b75"
+          ],
+          "canopy": [
+            "#25323e",
+            "#40555d",
+            "#739594",
+            "#c4d7cf"
+          ],
+          "exhaust": [
+            "#a65b56",
+            "#e8b75f",
+            "#fff2a5",
+            "#ffffe4"
+          ],
+          "thrust": 1,
+          "seed": 11
+        },
+        "name": "Arcade fighter · stationary",
+        "desc": "A stationary top-down silver fighter with orange wing stripes, a teal canopy and tiny flickering exhausts. No firing or lateral movement.",
+        "size": [
+          80,
+          80
+        ],
+        "origin": [
+          40,
+          39
+        ]
+      }
+    },
+    {
+      "id": "fire/arcade-fireball",
+      "source": "/Users/user/Desktop/VFXDemo/VFXDemo/Tools/PixelFX/src/fx/fire/arcade-fireball.js",
+      "sha256": "715bf13cb00e75001e5bc8d3b441d313bcaa8869f6c604ceea51734cb1decb40",
+      "meta": {
+        "fps": 24,
+        "bg": "dark",
+        "loop": true,
+        "duration": 1,
+        "tags": [
+          "fire",
+          "projectile",
+          "arcade",
+          "pixel",
+          "single",
+          "loop"
+        ],
+        "options": {
+          "palette": [
+            "#35163e",
+            "#642356",
+            "#8b2f5b",
+            "#b94d50",
+            "#dc784e",
+            "#efa45c",
+            "#f3d36d",
+            "#fff2a0"
+          ],
+          "turbulence": 1,
+          "seed": 17
+        },
+        "name": "Arcade fireball · single",
+        "desc": "Exactly one upward-facing fireball: a yellow hot head wrapped in orange, with a short violet-red streaming tail. No side fireballs or explosion.",
+        "size": [
+          40,
+          56
+        ],
+        "origin": [
+          20,
+          26
+        ]
+      }
+    },
+    {
+      "id": "projectiles/arcade-round",
+      "source": "/Users/user/Desktop/VFXDemo/VFXDemo/Tools/PixelFX/src/fx/projectiles/arcade-round.js",
+      "sha256": "ce8ee287f9928a656b9286d0bb82d9fd439b3931d7d4038576b12f9ca443182f",
+      "meta": {
+        "fps": 24,
+        "bg": "dark",
+        "loop": true,
+        "duration": 1,
+        "tags": [
+          "projectile",
+          "bullet",
+          "arcade",
+          "pixel",
+          "single",
+          "loop"
+        ],
+        "options": {
+          "palette": [
+            "#4a2356",
+            "#79416c",
+            "#b56975",
+            "#df937e",
+            "#f6b99a",
+            "#fff0cb"
+          ],
+          "seed": 23
+        },
+        "name": "Arcade round · single",
+        "desc": "Exactly one compact upward-facing round with an ivory-pink cap, warm orange body and short violet tail. Not the five-round volley in the reference.",
+        "size": [
+          24,
+          32
+        ],
+        "origin": [
+          12,
+          14
+        ]
+      }
+    }
+  ],
+  "checks": {
+    "exactLoopEndpoints": true,
+    "stationaryAirframe": true,
+    "singleFireballAllFrames": true,
+    "singleRoundAllFrames": true,
+    "optionsRespond": true,
+    "deterministic": true
+  }
+}

@@ -1,0 +1,373 @@
+{
+  "results": [
+    {
+      "name": "Dark",
+      "unchanged": 237414,
+      "total": 262144,
+      "maxOriginalQuadDelta": 0,
+      "expandedQuadEdgeDeltaFromBackground": null,
+      "beforeOldSide": [
+        [
+          22,
+          24,
+          32
+        ],
+        [
+          22,
+          26,
+          39
+        ]
+      ],
+      "afterOldSide": [
+        [
+          22,
+          26,
+          39
+        ],
+        [
+          22,
+          26,
+          39
+        ]
+      ],
+      "newSide": [
+        [
+          22,
+          24,
+          32
+        ],
+        [
+          22,
+          24,
+          32
+        ]
+      ]
+    },
+    {
+      "name": "Black",
+      "unchanged": 230948,
+      "total": 262144,
+      "maxOriginalQuadDelta": 0,
+      "expandedQuadEdgeDeltaFromBackground": null,
+      "beforeOldSide": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          17
+        ]
+      ],
+      "afterOldSide": [
+        [
+          0,
+          5,
+          17
+        ],
+        [
+          0,
+          5,
+          17
+        ]
+      ],
+      "newSide": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "Light",
+      "unchanged": 259804,
+      "total": 262144,
+      "maxOriginalQuadDelta": 0,
+      "expandedQuadEdgeDeltaFromBackground": null,
+      "beforeOldSide": [
+        [
+          219,
+          224,
+          229
+        ],
+        [
+          219,
+          224,
+          230
+        ]
+      ],
+      "afterOldSide": [
+        [
+          219,
+          224,
+          230
+        ],
+        [
+          219,
+          224,
+          230
+        ]
+      ],
+      "newSide": [
+        [
+          219,
+          224,
+          229
+        ],
+        [
+          219,
+          224,
+          229
+        ]
+      ]
+    },
+    {
+      "name": "Halo",
+      "unchanged": 237414,
+      "total": 262144,
+      "maxOriginalQuadDelta": 0,
+      "expandedQuadEdgeDeltaFromBackground": 0,
+      "beforeOldSide": [
+        [
+          22,
+          24,
+          32
+        ],
+        [
+          22,
+          26,
+          39
+        ]
+      ],
+      "afterOldSide": [
+        [
+          22,
+          26,
+          39
+        ],
+        [
+          22,
+          26,
+          39
+        ]
+      ],
+      "newSide": [
+        [
+          22,
+          24,
+          32
+        ],
+        [
+          22,
+          24,
+          32
+        ]
+      ]
+    },
+    {
+      "name": "Shell",
+      "unchanged": 262144,
+      "total": 262144,
+      "maxOriginalQuadDelta": 0,
+      "expandedQuadEdgeDeltaFromBackground": null,
+      "beforeOldSide": [
+        [
+          22,
+          24,
+          32
+        ],
+        [
+          22,
+          24,
+          32
+        ]
+      ],
+      "afterOldSide": [
+        [
+          22,
+          24,
+          32
+        ],
+        [
+          22,
+          24,
+          32
+        ]
+      ],
+      "newSide": [
+        [
+          22,
+          24,
+          32
+        ],
+        [
+          22,
+          24,
+          32
+        ]
+      ]
+    },
+    {
+      "name": "GameSize",
+      "unchanged": 255421,
+      "total": 262144,
+      "maxOriginalQuadDelta": 1,
+      "expandedQuadEdgeDeltaFromBackground": null,
+      "beforeOldSide": [
+        [
+          22,
+          24,
+          32
+        ],
+        [
+          22,
+          24,
+          32
+        ]
+      ],
+      "afterOldSide": [
+        [
+          22,
+          24,
+          32
+        ],
+        [
+          22,
+          24,
+          32
+        ]
+      ],
+      "newSide": [
+        [
+          22,
+          24,
+          32
+        ],
+        [
+          22,
+          24,
+          32
+        ]
+      ]
+    },
+    {
+      "name": "Close",
+      "unchanged": 262144,
+      "total": 262144,
+      "maxOriginalQuadDelta": 0,
+      "expandedQuadEdgeDeltaFromBackground": null,
+      "beforeOldSide": [
+        [
+          45,
+          102,
+          204
+        ],
+        [
+          47,
+          104,
+          209
+        ]
+      ],
+      "afterOldSide": [
+        [
+          45,
+          102,
+          204
+        ],
+        [
+          47,
+          104,
+          209
+        ]
+      ],
+      "newSide": [
+        [
+          23,
+          29,
+          48
+        ],
+        [
+          23,
+          30,
+          48
+        ]
+      ]
+    },
+    {
+      "name": "SizeClamp",
+      "unchanged": 262144,
+      "total": 262144,
+      "maxOriginalQuadDelta": 0,
+      "expandedQuadEdgeDeltaFromBackground": null,
+      "beforeOldSide": [
+        [
+          45,
+          102,
+          204
+        ],
+        [
+          47,
+          104,
+          209
+        ]
+      ],
+      "afterOldSide": [
+        [
+          45,
+          102,
+          204
+        ],
+        [
+          47,
+          104,
+          209
+        ]
+      ],
+      "newSide": [
+        [
+          23,
+          29,
+          48
+        ],
+        [
+          23,
+          30,
+          48
+        ]
+      ]
+    }
+  ],
+  "serializedDiff": [
+    {
+      "path": "Halo.json.ParticleSystem.InitialModule.startSize.scalar",
+      "before": 2.559999942779541,
+      "after": 3.8399999141693115
+    },
+    {
+      "path": "Halo.renderer.ParticleSystemRenderer.m_MaxParticleSize",
+      "before": 1,
+      "after": 1.5
+    }
+  ],
+  "camerasUnchanged": true,
+  "sceneOverridesUnchanged": true,
+  "sceneFileUnchanged": true,
+  "textures": [
+    {
+      "name": "EnergyCluster_ShellGrayAlpha.asset",
+      "hash": "06fb91516ace6f1ee6f8986558224d30e512f213f4c7c3d83a3cf9e172659d60"
+    },
+    {
+      "name": "EnergyCluster_Profiles.asset",
+      "hash": "0d147746222e778302ec5e309e756c4afaf2b6f2c4b4e5e7026366a3fc2c2eb4"
+    }
+  ]
+}

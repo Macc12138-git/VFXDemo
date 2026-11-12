@@ -1,6 +1,6 @@
 # Catalog
 
-244 effects in 21 categories. Every one is a file in
+248 effects in 21 categories. Every one is a file in
 `src/fx/<category>/<name>.js`; render any of them with `node tools/render.mjs <id> --gif`.
 
 ## moves
@@ -28,6 +28,7 @@ torches, breath, pillars, walls of flame.
 
 | effect | id | | size | what it does |
 |---|---|---|---|---|
+| Arcade fireball · copper body / violet wrap | `fire/arcade-fireball` | loop 0.12s | 36×48 | One plump copper fireball, layered violet flame wrapping its lower body, and six changing yellow-green heat shapes. A quiet blunt tail, not a circle attached to a needle. |
 | Brazier | `fire/brazier` | loop 3s | 112×148 | An iron bowl on a tripod heaped with glowing coals and a big roaring fire, sparks and embers streaming up off it, light on the iron and the floor. |
 | Campfire | `fire/campfire` | loop 3s | 128×128 | Crossed logs on a bed of coals and a lively fire: tongues that lick and leap, popping sparks, embers drifting up, smoke curling off, a warm pool of light. |
 | Candle | `fire/candle` | loop 4s | 56×76 | A wax candle in a brass dish: a calm flame with a blue root that sways and stretches, a halo of light, motes drifting in it, a bead of wax running down a drip. |
@@ -47,6 +48,7 @@ blasts, smoke, fireworks, mushroom clouds.
 
 | effect | id | | size | what it does |
 |---|---|---|---|---|
+| Arcade fireball · eight impact poses | `explosions/arcade-fireball-impact` | one-shot 0.16s | 60×60 | A single cream impact flash swells into an orange rolled cloud, splits into cooling fragments and clears. Eight geometric poses; no beam, ring chains or enemy sprite. |
 | Barrel explosion | `explosions/barrel-explosion` | one-shot 5.2s | 300×240 | An explosive barrel shudders, its lid bulging and spitting flame, then blows: a fireball column, staves and the lid flying, burning fuel splashed over the floor. |
 | Big explosion | `explosions/big-explosion` | one-shot 7.2s | 360×300 | A huge ground blast in three beats: a white dome, a rolling fireball that climbs into a mushrooming smoke column, heavy rocks, and fires left burning. |
 | Cartoon POW | `explosions/cartoon-pow` | one-shot 1.05s | 184×144 | A comic-book hit: a jagged two-tone burst star slams in with a shake and boiling edges, POW! drops in letter by letter, action lines fly, then it all snaps away. |
@@ -120,6 +122,7 @@ holograms, shields, scanners, warps.
 
 | effect | id | | size | what it does |
 |---|---|---|---|---|
+| Arcade engine exhaust · flame only | `scifi/arcade-engine-exhaust` | loop 1s | 32×32 | An independent tiny downward jet: an ivory hot nozzle, a pale-yellow taper and a short orange edge. The airframe is not part of the effect. |
 | EMP blast | `scifi/emp-blast` | one-shot 3.2s | 152×116 | A disc charge ticks, pops white, and a bubble of rolling scanlines swells out with arcs crawling its skin; it strobes, tears and shorts out into falling dead pixels. |
 | Energy core | `scifi/energy-core` | loop 2.4s | 112×100 | A plasma core beating in a steel cage: it swells and throws a shock ring on each beat, two tilted rings orbit it, and arcs jump to the bars and spark. |
 | Force field | `scifi/force-field` | loop 2.4s | 184×104 | A glassy dome of hex plates over the hero: plates glint, tracers from the right slam into it, a ripple and cracks of light race across, sparks glance off. |
@@ -176,6 +179,7 @@ bullets, rockets, lasers, arrows.
 
 | effect | id | | size | what it does |
 |---|---|---|---|---|
+| Arcade round · single | `projectiles/arcade-round` | loop 1s | 24×32 | Exactly one compact upward-facing round with an ivory-pink cap, warm orange body and short violet tail. Not the five-round volley in the reference. |
 | Arrow | `projectiles/arrow` | loop 0.6s | 112×32 | An arrow in flight: a steel broadhead catching the light, a wooden shaft, fletching fluttering in the wind, streaks of air peeling off its head and swirling off its feathers. |
 | Bullet tracer | `projectiles/bullet-tracer` | loop 0.6s | 200×40 | A white-hot slug tearing along, its tracer burning behind it in a long streak that sputters and cools from white through gold to red, shedding sparks and a thread of smoke. |
 | Cannon shot | `projectiles/cannonball` | one-shot 3.8s | 208×116 | A cannon fires from a muzzle `height` px above the floor (the origin): a white flash, a tongue of flame, the ball arcing off trailing smoke, a big gunsmoke cloud rolling out. |
